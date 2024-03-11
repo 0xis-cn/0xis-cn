@@ -1,0 +1,21 @@
+$header-height: 9em !default;
+$link-change-time: .3s !default;
+$middle-width: 960px !default;
+// TIPS: 若调整 $middle-width 请同步修改 drawer.scss 中 .ml-drawer 之宽度 
+
+main {
+	display: flex;
+	justify-content: center;
+	padding: $header-height 0 4em;
+}
+
+@media (max-width: 959px) {
+	main {
+		margin: 0 1em;
+	}
+}
+
+.ml-article, .ml-footer {
+	max-width: $middle-width
+}
+

@@ -1,0 +1,173 @@
+@-moz-document url-prefix() {
+	body {
+		text-align: justify;
+		text-justify: inter-word;
+	}
+}
+
+.ml-article ul, .ml-article ol {
+	padding-inline-start: 3em;
+}
+
+
+.ml-pinyin {
+	line-height: 2.2em;
+}
+
+.ml-ipa {
+	font-family: CharisSILW, serif, serif;
+}
+
+.ruby-wrapper {
+	margin: 0 .2em;
+}
+
+rt {
+	font-size: 82.5%;
+	line-height: 1.5;
+	speak: none
+}
+
+.ml-article {
+	min-height: 30%;
+}
+
+.ml-title {
+	margin-bottom: 8px;
+}
+
+pre.highlight {
+	margin: 0;
+	padding: 1em;
+}
+
+blockquote {
+	margin: 0;
+	margin-left: 1em;
+	padding-left: .75em;
+}
+
+pre, code, samp, kbd {
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+kbd {
+	padding: 0 2px;
+	margin: -1px -2px;
+	border-radius: 4px;
+	border: 1px solid var(--color-levity);
+}
+
+p, table {
+	margin: .75em 0;
+}
+
+.ml-article blockquote p, .footnote p, .ml-article ul p, .ml-article ol p {
+	text-indent: 0 !important;
+}
+
+summary {
+	cursor: pointer
+}
+
+.highlight, .highlight .w {
+	background: none
+}
+
+u {
+	text-decoration: none
+}
+
+body, .ml-drawer-inside {
+	&::-webkit-scrollbar {
+		width: 5px;
+	}
+	&::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+	}
+}
+
+math * {
+	text-align: center
+}
+
+.ml-card-list ul {
+	padding: 0;
+}
+
+
+a.ml-card-anchor, a.ml-block-anchor {
+	border: none;
+	display: block;
+}
+
+.ml-block-anchor {
+	padding: 4px;
+}
+
+.ml-page-list {
+	text-align: center;
+	
+	li {
+		display: inline-block;
+		list-style: none;
+	}
+	
+	a, .ml-placeholder {
+		display: block;
+		width: 2.5em;
+		line-height: 2em;
+		border-bottom: none;
+	}
+}
+
+ul.ml-page-list {
+	padding: 0;
+}
+
+// Respectively 2, 3, 4 hao
+// measured from some old-school books
+$occupied-line: 1.5rem;
+
+h2, h3, h4 {
+	line-height: $occupied-line;
+}
+
+.ml-title {
+	font-size: 2em;	
+	margin-bottom: (2 * $occupied-line);
+}
+
+.ml-article h2 {
+	font-size: 1.5em;
+	margin-top: $occupied-line; 
+}
+
+.ml-article h3 {
+	font-size: 1.25em;
+	margin-top: $occupied-line; 
+}
+
+.ml-article h4 {
+	font-size: 1.125em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+.ml-article ul {
+	list-style-type: 'ㆍ'
+}
+
+// Footnotes
+.footnotes ol {
+	padding-left: 2rem;
+}
+
+.ml-smaller, .footnotes {
+	margin: 0;
+	font-size: .875em;
+	color: var(--color-levity);
+}
+

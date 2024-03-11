@@ -1,0 +1,56 @@
+---
+layout: page
+---
+
+<article>
+	{{ content }}
+</article>
+{%- if page.comments -%}
+	<script async src="{{ '/assets/js/mastodon-comments.js' | relative_path }}"></script>
+	<section class=comments data-url="{{ page.comments }}">
+		<template><article class="comment"><div class="avatar"><img class="avatar"></div><div class="header"><a class="user"><span class="displayname"></span><span class="handle"></span></a><span class="timestamp"></span><a class="link"><svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>External link</title><path d="m15 3c-0.5523 0-1 0.4477-1 1s0.4477 1 1 1h2.586l-7.293 7.293c-0.3905 0.3905-0.3905 1.024 0 1.414 0.3905 0.3905 1.024 0.3905 1.414 0l7.293-7.293v2.586c0 0.5523 0.4477 1 1 1s1-0.4477 1-1v-5c0-0.5523-0.4477-1-1-1h-5zm-10.12 2c-1.588 0-2.875 1.287-2.875 2.875v11.25c0 1.588 1.287 2.875 2.875 2.875h11.25c1.588 0 2.875-1.287 2.875-2.875v-5.625c0-0.5523-0.4477-1-1-1s-1 0.4477-1 1v5.625c0 0.4832-0.3918 0.875-0.875 0.875h-11.25c-0.4832 0-0.875-0.3918-0.875-0.875v-11.25c0-0.4832 0.3918-0.875 0.875-0.875h6.094c0.5523 0 1-0.4477 1-1 0-0.5523-0.4477-1-1-1h-6.094z"></path></svg></a></div><div class="content"></div><div class="tidbits"></div></article></template>
+	</section>
+{%- endif -%}
+<div class=ml-smaller>
+	{%- assign t2038 = site.theme-2038 -%}
+	{%- assign clink = t2038.category-links -%}
+	{%- if page.categories.size != 0 -%}
+	<p>
+		⌸
+		{%- for category in page.categories -%}
+		{%- assign cescape = category | uri_escape -%}
+		{%- assign now-array = clink | map: category -%}
+		{%- if now-array.size == 0 -%}
+		<a rel="index" href="
+			{{ t2038.category-dir | default: '/category/' | append: cescape | relative_path }}
+			">{{ category }}</a>
+		{%- else -%}
+		<a rel="index" href="{{ now-array | first }}">{{ category }}</a>
+		{%- endif -%}
+		{%- endfor -%}
+	</p>
+	{%- endif -%}
+	{%- assign tlink = t2038.tag-links -%}
+	{%- if page.tags.size != 0 -%}
+	<p>
+		⌸
+		{%- for tag in page.tags -%}
+		{%- assign tescape = tag | uri_escape -%}
+		{%- assign now-array = tlink | map: tag -%}
+		{%- if now-array.size == 0 -%}
+		<a rel="index" href="
+			{{ t2038.tag-dir | default: '/tag/' | append: tescape | relative_path }}
+			">{{ tag }}</a>
+		{%- else -%}
+		<a rel="index" href="{{ now-array | first }}">{{ tag }}</a>
+		{%- endif -%}
+		{%- endfor -%}
+	</p>
+	{%- endif -%}
+</div>
+
+<nav class=ml-chokolate>
+	<span>〈{%- if page.previous -%} <a href="{{ page.previous.url }}">{{ page.previous.title }}</a> {%- endif -%}</span>
+	<span>{%- if page.next -%} <a href="{{ page.next.url }}">{{ page.next.title }}</a> {%- endif -%}〉</span>
+</nav>
+

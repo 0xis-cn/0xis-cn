@@ -1,0 +1,30 @@
+url: https://matling.fit
+baseurl: "/"
+title: 物灵
+
+show_excerpts: true
+permalink: /blog/:title:output_ext
+
+theme-2038:
+        drawer-links:
+                -
+                        name:
+                                cmn: 博文
+                                cmn-Latn: Bówén
+                                en: Blog
+                                tok: lipu ali
+                                art-x-xdi8: wi8
+                        url: /blog
+                -
+                        name: about
+                        url: /about
+                -
+                        name:
+                                cmn: 他山
+                                cmn-Latn: Tāshān
+                                en: Friends
+                                tok: jan pona
+                                art-x-xdi8: bia
+                        url: /friends
+                
+

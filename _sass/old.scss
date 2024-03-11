@@ -1,0 +1,202 @@
+/* PLEASE MOVE ALL THESE STUFFS ELSEWHERE */
+
+$line-color: var(--color-levity);
+$link-change-time: .3s !default;
+
+h1, h2, h3, h4, h5, h6, strong, .ml-footer-desc {
+	color: var(--color-heavy);
+}
+
+.ml-bookmark a, .ml-social-list .svg-icon, .ml-article a {
+	color: var(--color-levity);
+
+	&:hover {
+		color: var(--color-heavy);
+	}
+}
+
+.ml-article a, .ml-front a, .ml-footer a {
+	color: var(--color-heavy);
+	&:hover {
+		color: var(--color-normal)
+	}
+}
+
+blockquote {
+	border-left: .25em solid var(--color-indication);
+}
+
+table tr, table td, table caption, pre {
+	border: 1px solid var(--color-atlarge);
+}
+
+mark {
+	border: 1px dashed var(--color-heavy);
+	background: none
+}
+
+ins, .ml-article a, .ml-front a, .ml-footer a {
+	border-bottom: 1px solid $line-color;
+}
+
+.ml-article a:hover, .ml-front a, .ml-footer a {
+	border-bottom-color: var(--color-atlarge);
+}
+
+u {
+	border-bottom: 1.2px dashed $line-color;
+}
+
+em:after {
+	color: $line-color;
+}
+
+figcaption {
+	color: var(--color-levity);
+}
+
+strong, b, mark {
+	color: var(--color-heavy);
+}
+
+body, .ml-drawer-inside {
+	&::-webkit-scrollbar-thumb {
+		background: var(--color-atlarge);
+	}
+	&::-webkit-scrollbar-thumb:hover {
+		background: var(--color-levity);
+	}
+	&::-webkit-scrollbar-track-piece {
+		background: transparent;
+	}
+	&::-webkit-scrollbar-track-piece:hover {
+		background: var(--color-indication);
+	}
+}
+
+
+
+@mixin draw-bottom {
+	padding-bottom: .4em;
+	font-style: normal;
+	background-repeat: repeat-x;
+	background-size: 1em 1.4em;
+}
+
+/*
+TODO: make it another way
+em {
+	&:lang(*-Hans), &:lang(*-Hant) {
+		@include draw-bottom;
+		background-image: $em-image;
+	}
+
+	&:lang(cmn-Hans), &:lang(cmn-Hant),
+	&:lang(wuu-Hans), &:lang(wuu-Hant),
+	&:lang(czh-Hans), &:lang(czh-Hant),
+	&:lang(hak-Hans), &:lang(hak-Hant),
+	&:lang(yue-Hans), &:lang(yue-Hant),
+	&:lang(nan-Hans), &:lang(nan-Hant),
+	&:lang(cpx-Hans), &:lang(cpx-Hant),
+	&:lang(cdo-Hans), &:lang(cdo-Hant),
+	&:lang(mnp-Hans), &:lang(mnp-Hant),
+	&:lang(zco-Hans), &:lang(zco-Hant),
+	&:lang(gan-Hans), &:lang(gan-Hant),
+	&:lang(hsn-Hans), &:lang(hsn-Hant),
+	&:lang(cjy-Hans), &:lang(cjy-Hant),
+	&:lang(lzh-Hans), &:lang(lzh-Hant) {
+		@include draw-bottom;
+		background-image: $em-image;
+	}
+}
+
+cite {
+	&:lang(*-Hans), &:lang(*-Hant) {
+		@include draw-bottom;
+		background-image: $cite-image;
+	}
+
+	&:lang(cmn-Hans), &:lang(cmn-Hant),
+	&:lang(wuu-Hans), &:lang(wuu-Hant),
+	&:lang(czh-Hans), &:lang(czh-Hant),
+	&:lang(hak-Hans), &:lang(hak-Hant),
+	&:lang(yue-Hans), &:lang(yue-Hant),
+	&:lang(nan-Hans), &:lang(nan-Hant),
+	&:lang(cpx-Hans), &:lang(cpx-Hant),
+	&:lang(cdo-Hans), &:lang(cdo-Hant),
+	&:lang(mnp-Hans), &:lang(mnp-Hant),
+	&:lang(zco-Hans), &:lang(zco-Hant),
+	&:lang(gan-Hans), &:lang(gan-Hant),
+	&:lang(hsn-Hans), &:lang(hsn-Hant),
+	&:lang(cjy-Hans), &:lang(cjy-Hant),
+	&:lang(lzh-Hans), &:lang(lzh-Hant) {
+		@include draw-bottom;
+		background-image: $cite-image;
+	}
+}
+
+*/
+
+.ml-card-anchor {
+	background: var(--color-card);
+	color: var(--color-levity);
+
+	h2 {
+		color: var(--color-normal);
+	}
+
+	&:hover {
+		background-color: var(--color-indication);
+		// XXX: Fade-out removed, seemingly for images inside
+		color: var(--color-heavy);
+	}
+}
+
+// A timeline with circle (O--O---O-)
+.ml-card-list {
+	border-left: 2px solid var(--color-normal);
+}
+
+// The circle for items
+.ml-card-list dt::before {
+	border: 2px solid var(--color-normal);
+	background: var(--color-background);
+	border-radius: 1em;
+}
+
+.ml-chokolate, .ml-footer {
+	display: flex;
+	justify-content: space-between
+}
+
+// To be moved
+footer {
+	padding: 2em;
+	margin: 0 auto;
+	max-width: 960px;
+	
+	.ml-menu-button {
+		color: inherit;
+		background: inherit;
+		font-size: 2em;
+	}
+}
+
+.dropdown-wrapper {
+	position: relative;
+}
+
+.dropdown-menu {
+	position: absolute;
+	display: none;
+	background: var(--color-background);
+}
+
+.dropdown-menu.open {
+	display: inline-block;
+}
+
+#advanced .open {
+	right: 0;
+	top: -2em;
+}

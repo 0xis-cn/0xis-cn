@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<main>
+	{% include drawer.html %}
+	<div class=ml-article>
+		{% if page.title %}
+			<h1 class=ml-title>{{ page.title }}</h1>
+		{% endif %}
+		{{ content }}
+	</div>
+</main>
+{% include footer.html %}
+

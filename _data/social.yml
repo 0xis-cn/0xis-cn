@@ -1,0 +1,73 @@
+social_list:
+  -
+    cmn-Hans: 邮箱
+    cmn-lanzhou: 邮箱
+    en: E-mail
+    name: mat-ling@139.com
+    link: mailto:NAME
+  -
+    cmn-Hans: AllPoetry
+    cmn-lanzhou: AllPoetry
+    en: AllPoetry
+    name: Mat-ling
+    link: https://allpoetry.com/NAME/
+  -
+    uid: "177223281"
+    cmn-Hans: Bilibili 
+    cmn-lanzhou: Bilibili
+    en: Bilibili
+    name: 物灵Official
+    link: https://space.bilibili.com/UID
+  -
+    cmn-Hans: Gitee
+    cmn-lanzhou: Gitee
+    en: Gitee
+    name: cn-0xis
+    link: https://gitee.com/NAME
+  -
+    cmn-Hans: GitHub
+    cmn-lanzhou: GitHub
+    en: GitHub
+    name: 0xis-cn
+    link: https://github.com/NAME
+  -
+    cmn-Hans: 乐乎
+    cmn-lanzhou: 乐乎
+    en: LOFTER
+    uid: matling
+    name: 物灵
+    link: https://UID.lofter.com
+  -
+    cmn-Hans: QQ
+    cmn-lanzhou: QQ
+    en: QQ
+    name: "1362432220"
+    uid: "1362432220"
+    link: tencent://message/?uin=UID&Site=&Menu=yes
+  -
+    cmn-Hans: 电报
+    cmn-lanzhou: 电报
+    en: Telegram
+    link: https://t.me/NAME
+    name: cn_0xis
+  -
+    cmn-Hans: 微博
+    cmn-lanzhou: 微博
+    en: Weibo
+    uid: "7498866999"
+    name: 物灵Official
+    link: https://weibo.com/u/UID
+  -
+    cmn-Hans: 维基百科
+    cmn-lanzhou: 维基百科
+    en: Wikipedia
+    name: Enct
+    link: https://zh.wikipedia.org/wiki/User:NAME
+  -
+    cmn-Hans: 知乎
+    cmn-lanzhou: 知乎
+    en: Zhihu
+    uid: SyeJeng
+    name: 0xis
+    link: https://zhihu.com/people/UID
+

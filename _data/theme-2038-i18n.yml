@@ -1,0 +1,119 @@
+cmn: &chinese
+        main-page: 首页
+        toc: 目录
+        license: 除非另有声明，以上内容以 LICENSE 协议提供。
+        copyright: 版权所有 ©
+        date-format: '%Y 年 %m 月 %e 日'
+        time-format: '%Y 年 %m 月 %e 日 %H:%M:%S'
+        publish-name: 刊名
+        publish-date: 著于
+        length: 字数
+        tag: 标签
+        category: 类别
+        rss-subscribe: RSS 订阅
+        default-slogan: 冲动与你同在。
+        archive: 文章 
+        about: 关于
+        source-code: 源码
+
+cmn-Hans:
+        <<: *chinese
+
+en: &english
+        main-page: Main page
+        toc: Contents
+        license: The content is available under LICENSE license unless otherwise specified.
+        copyright: Copyright ©
+        date-format: '%b %e, %Y'
+        time-format: '%b %e, %Y %H:%M:%S'
+        publish-name: Publish name
+        publish-date: Date
+        length: Length
+        tag: Tags
+        category: Categories
+        rss-subscribe: RSS subscription
+        default-slogan: May the Impulse be with you.
+        archive: Articles 
+        about: About
+        source-code: Source code
+
+art-x-xdi8:
+        <<: *english
+
+cmn-Hant:
+        main-page: 首頁
+        toc: 目錄
+        license: 除非另有聲明，以上内容以 LICENSE 協議提供。
+        copyright: 版權所有 ©
+        date-format: '%Y 年 %m 月 %e 日'
+        time-format: '%Y 年 %m 月 %e 日 %H:%M:%S'
+        publish-name: 刊名
+        publish-date: 著於
+        length: 字數
+        tag: 標簽
+        category: 類別
+        rss-subscribe: RSS 訂閲
+        default-slogan: 衝動與你同在。
+        archive: 文章 
+        about: 關於
+        source-code: 源碼
+
+zxx:
+        about: ℹ️
+        main-page: 🚪
+        rss-subscribe: rss
+        archive: 📖
+
+lzh-Hans:
+        main-page: 卷首 
+        toc: 引得
+        license: 是文之无别注也，行 LICENSE 以赋尔。
+        copyright: 版权所有 ©
+        date-format: '%Y 年 %m 月 %e 日'
+        time-format: '%Y 年 %m 月 %e 日 %H:%M:%S'
+        publish-name: 刊名
+        publish-date: 撰于
+        length: 字
+        tag: 义属
+        category: 部
+        rss-subscribe: 闻以 RSS
+        default-slogan: 冲动偕尔。
+        archive: 诸文
+        about: 自叙
+        source-code: 源码
+
+tok:
+        main-page: lipu open
+        toc: poki lawa
+        license: mi toki ante ala la, mi kepeken e nasin LICENSE li pana e lipu ni.
+        copyright: ken lipu ©
+        date-format: 'tenpo suno %e/%m/%Y'
+        time-format: 'tenpo lili %H:%M:%S pi tenpo suno %e/%m/%Y'
+        publish-name: nimi lawa
+        publish-date: tenpo
+        length: sitelen
+        tag: nimi
+        category: kulupu
+        rss-subscribe: o kute tan ilo RSS
+        default-slogan: wawa tawa li poka e sina.
+        archive: lipu ali
+        about: mi seme
+        source-code: toki ilo
+
+cmn-Latn:
+        main-page: Shǒuyè
+        toc: Mùlù
+        license: Chúfēi lìngyǒu shēngmíng, yǐshàng nèiróng yǐ LICENSE xiéyì tígōng.
+        copyright: Bǎnquán suǒyǒu ©
+        date-format: '%Y nián %m yuè %e rì'
+        time-format: '%Y nián %m yuè %e rì %H:%M:%S'
+        publish-name: Kānmíng
+        publish-date: Chuàngjiàn
+        length: Zì
+        tag: Biāoqiān
+        category: Lèibié
+        rss-subscribe: RSS dìngyuè
+        default-slogan: Chōngdòng yǔ nǐ tóng zài.
+        archive: Wénzhāng
+        about: Guānyú
+        source-code: Yuánmǎ

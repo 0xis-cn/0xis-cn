@@ -1,0 +1,43 @@
+$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+body {
+	background: var(--color-background);
+	color: var(--color-normal);
+	font: 300 1em / 1.5 $bodyFont; 
+	scroll-behavior: smooth;
+}
+
+body.dark-mode {
+	--color-background:		black;
+	--color-base:			white;
+	--color-card:			#1A1A1A;
+	--color-indication:		#2A2A2A;
+	--color-normal:			#AAA;
+	--color-levity:			#999;
+	--color-heavy:			#E6E6DC;
+	--color-atlarge:		#666;
+	--color-meso:			#CCC;
+
+	.ml-wordmark {
+		filter: invert(1) hue-rotate(180deg);
+	}
+}
+
+body {
+	--color-background:		#F6F5F0;
+	--color-base:			black;
+	--color-card:			white;
+	--color-indication:		#E6E5E0;
+	--color-normal:			#555;
+	--color-levity:			#777;
+	--color-heavy:			#1A1A1A;
+	--color-atlarge:		#999;
+	--color-meso:			#333;
+}
+
+@import './reset.scss';
+@import './typo.scss';
+@import './old.scss';
+@import './drawer.scss';
+@import './resize.scss';
+

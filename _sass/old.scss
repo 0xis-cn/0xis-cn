@@ -155,6 +155,13 @@ cite {
 // A timeline with circle (O--O---O-)
 .ml-card-list {
 	border-left: 2px solid var(--color-normal);
+	margin-left: 0.5em;
+	padding-left: 0.5em;
+}
+
+.ml-card-list dt {
+	position: relative;
+	left: -1em
 }
 
 // The circle for items
@@ -162,6 +169,11 @@ cite {
 	border: 2px solid var(--color-normal);
 	background: var(--color-background);
 	border-radius: 1em;
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin-right: 1em;
+	content: ''
 }
 
 .ml-chokolate, .ml-footer {

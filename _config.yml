@@ -5,6 +5,12 @@ title: 物灵
 show_excerpts: true
 permalink: /blog/:title:output_ext
 
+plugins:
+        - jekyll-paginate
+
+paginate: 10
+paginate_path: "/blog/:num"
+
 theme-2038:
         drawer-links:
                 -
@@ -17,14 +23,15 @@ theme-2038:
                         url: /blog
                 -
                         name: about
-                        url: /about
+                        url: /blog/about
                 -
                         name:
                                 cmn: 他山
                                 cmn-Latn: Tāshān
                                 en: Friends
                                 tok: jan pona
-                                art-x-xdi8: bia
                         url: /friends
                 
+
+
 

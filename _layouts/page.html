@@ -10,6 +10,12 @@ layout: default
 		{% endif %}
 		{{ content }}
 	</div>
+{%- if page.comments -%}
+	<script async src="{{ '/assets/js/mastodon-comments.js' | relative_path }}"></script>
+	<section class=comments data-url="{{ page.comments }}">
+		<template><article class="comment"><div class="avatar"><img class="avatar"></div><div class="header"><a class="user"><span class="displayname"></span><span class="handle"></span></a><span class="timestamp"></span><a class="link">IAMALINK</a></div><div class="content"></div><div class="tidbits"></div></article></template>
+	</section>
+{%- endif -%}
 </main>
 {% include footer.html %}
 

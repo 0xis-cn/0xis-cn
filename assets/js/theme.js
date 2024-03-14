@@ -1,4 +1,4 @@
-function work() {
+(() => {
 	document.querySelector('.ml-menu-button').addEventListener('click', () => {
 		document.querySelector('main').classList.toggle('with-drawer')
 	})
@@ -13,7 +13,5 @@ function work() {
 	btn.addEventListener('click', () => {
 		document.querySelector('body').classList.toggle('dark-mode')
 	})
-}
-
-work()
+})()
 

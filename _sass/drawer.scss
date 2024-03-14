@@ -70,10 +70,11 @@ $drawer-offset: $drawer-width + 16px;
 	}
 }
 
-@media screen and (min-width: (960px + $drawer-offset)) {
+$drawer-makeup: (960px + $drawer-offset);
+@media screen and (min-width: $drawer-makeup) {
 	.ml-drawer {
-		left: calc(50% - (960px + $drawer-offset) / 2);
-		inset-inline-start: calc(50% - (960px + $drawer-offset) / 2);
+		left: calc(50% - $drawer-makeup / 2);
+		inset-inline-start: calc(50% - $drawer-makeup / 2);
 	}
 }
 
@@ -93,6 +94,10 @@ $drawer-offset: $drawer-width + 16px;
 
 .ml-menu-button:hover, .ml-bookmark a:hover, .ml-block-anchor:hover, .ml-page-list a:hover {
 	background: var(--color-indication);
+}
+
+.ml-drawer a {
+	color: var(--color-normal);
 }
 
 .ml-toc-1 > a, .ml-toc-2 > a {

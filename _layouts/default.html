@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -10,11 +10,12 @@
 			{{ site.title }}
 		</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-		<script defer src="{{ "/assets/js/theme.js" | relative_url }}"></script>
 		<meta name="theme-color" content="#c09a97">
+		<script defer src="{{ "/assets/js/theme.js" | relative_url }}"></script>
 		{{ page.custom_head }}
   </head>
   <body>
+		<script src="{{ "assets/js/immediate.js" | relative_url }}"></script>
     {{ content }}
   </body>
 </html>

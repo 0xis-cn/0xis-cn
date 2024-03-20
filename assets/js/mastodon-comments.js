@@ -19,28 +19,26 @@ function formatIsoDate(isoDate) {
     parseInt(isoDate.slice(11, 13), 10),
     parseInt(isoDate.slice(14, 16), 10),
     parseInt(isoDate.slice(17,19), 10)
-  )).toLocaleDateString('en', {
+  )).toLocaleDateString(undefined, {
     month: 'short',
     day: 'numeric',
     year: 'numeric',
     hour: 'numeric',
     minute: 'numeric',
-    hour12: true,
   });
 }
 
 function renderComment(comment, firstMentionFilter) {
   let result = document.querySelector('section.comments template').content.cloneNode(true);
   result.querySelector('img.avatar').src = comment['account']['avatar_static'];
-  result.querySelector('img.avatar').alt = comment['account']['display_name'] + '\'s avatar';
   result.querySelector('a.user').href = comment['account']['url'];
-  let displayName = result.querySelector('.displayname');
+  let displayName = result.querySelector('.user');
   displayName.innerText = comment['account']['display_name'];
   comment['account']['emojis'].forEach((emoji) => {
     displayName.innerHTML = displayName.innerHTML.replace(':' + emoji['shortcode'] + ':', '<picture class="emoji"><source srcset="' + emoji['url'] + '" media="(prefers-reduced-motion: no-preference)"><img src="' + emoji['static_url'] + '" alt=":' + emoji['shortcode'] + ':" title=":' + emoji['shortcode'] + ':"></picture>');
   });
-  if(result.querySelector('.displayname').innerText.length == 0) {
-    result.querySelector('.displayname').innerText = comment['account']['username'];
+  if (displayName.innerText.length == 0) {
+    displayName.innerText = comment['account']['username'];
   }
   let account = comment['account']['acct'];
   if(account.indexOf('@') == -1) {
@@ -54,7 +52,6 @@ function renderComment(comment, firstMentionFilter) {
     result.querySelector('.timestamp').innerText += ' ';
     result.querySelector('.timestamp').appendChild(edited);
   }
-  result.querySelector('.handle').innerText = '@' + account;
   let contentElem = result.querySelector('.content');
   contentElem.innerHTML = comment['content'];
   let firstMention = result.querySelector('.content .mention');
@@ -76,9 +73,9 @@ function renderComment(comment, firstMentionFilter) {
       tidbit.classList.add(number);
       let symbol = document.createElement('span');
       if(number == 'favourites') {
-        symbol.innerText = '鈾ワ笍';
+        symbol.innerText = '\u2766';
       } else {
-        symbol.innerText = '馃攣';
+        symbol.innerText = '\u2346';
       }
       tidbit.appendChild(symbol);
       let count = document.createElement('span');
@@ -92,10 +89,10 @@ function renderComment(comment, firstMentionFilter) {
 
 function renderComments(comments, firstMentionFilter) {
   comments.sort((a, b) => a['created_at'] > b['created_at']);
-  let result = document.createElement('ol');
-  result.classList.add('comments');
-  for(let i = 0; i < comments.length; i++) {
-    let container = document.createElement('li');
+  let result = document.createElement('div');
+  for (let i = 0; i < comments.length; i++) {
+    let container = document.createElement('div');
+    container.classList.add('item');
     container.appendChild(renderComment(comments[i], firstMentionFilter));
     if(comments[i]['children'].length > 0) {
       container.appendChild(renderComments(comments[i]['children'], [comments[i]['account']['url']]));
@@ -152,8 +149,11 @@ function initComments() {
   if(!commentsElem) return;
   let placeholder = document.createElement('p');
   placeholder.classList.add('placeholder');
-  placeholder.innerText = 'Comments are being loaded鈥�';
+  placeholder.innerText = 'Fetching comments…';
   commentsElem.appendChild(placeholder);
   let urlParts = commentsElem.dataset.url.split('/');
   loadComments('https://' + urlParts[2] + '/api/v1/statuses/' + urlParts[4] + '/context');
 }
+
+initComments()
+

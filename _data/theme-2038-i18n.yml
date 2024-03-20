@@ -36,6 +36,9 @@ en: &english
         archive: Articles 
         about: About
         source-code: Source code
+        comment-invitation: >-
+          Comments are welcomed by publicly replying to
+          <a href="TOOT">this Mastodon post</a> in Mastodon or interoperable social networks.
 
 art-x-xdi8:
         <<: *english
@@ -99,6 +102,10 @@ tok:
         archive: lipu ali
         about: mi seme
         source-code: toki ilo
+        comment-invitation: >-
+          sina wile toki lili la, o toki anpa
+          <a href="TOOT">lipu ni lon ilo Mastodon</a>
+          kepeken ilo Mastodon anu ilo ante pona.
 
 cmn-Latn:
         main-page: Shǒuyè

@@ -73,9 +73,9 @@ $drawer-offset: $drawer-width + 16px;
 $drawer-makeup: (960px + $drawer-offset);
 @media screen and (min-width: $drawer-makeup) {
 	.ml-drawer {
-		left: calc(50% - $drawer-makeup / 2);
-		inset-inline-start: calc(50% - $drawer-makeup / 2);
-	}
+		left: calc(50% - 600px);
+		inset-inline-start: calc(50% - 600px);
+	} // XXX: GitHub hack
 }
 
 .ml-toc, .ml-toc-sub, .ml-bookmark {
@@ -96,11 +96,11 @@ $drawer-makeup: (960px + $drawer-offset);
 	background: var(--color-indication);
 }
 
-.ml-drawer a {
+.ml-drawer, .ml-toc a {
 	color: var(--color-normal);
 }
 
-.ml-toc-1 > a, .ml-toc-2 > a {
+.ml-toc-1 > a, .ml-toc-2 > a, .comments a {
 	color: var(--color-meso);
 }
 

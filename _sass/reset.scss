@@ -51,7 +51,7 @@ fieldset, img, button {
 }
 
 /* Firefox 以外，元素没有下划线，需添加 */
-acronym, abbr, time {
+acronym, abbr {
   border-bottom: 1px dotted;
   font-variant: normal;
   text-decoration: none;
@@ -88,7 +88,7 @@ sub {
 }
 
 /* 默认不显示下划线，保持页面简洁 */
-ins, a {
+ins, a, time {
   text-decoration: none;
 }
 
@@ -116,10 +116,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 同 ul/ol，在文章中应用 table 基本格式 */
 table th, table td, table caption {
-  padding: 0.5em 1em;
+  padding: 0.375em 1em;
 }
 
 table caption {
   border-bottom: none;
 }
 
+img {
+	max-width: 100%
+}

@@ -4,9 +4,11 @@ title: 物灵
 
 show_excerpts: true
 permalink: /blog/:title:output_ext
+excerpt_separator: <!--more-->
 
 plugins:
         - jekyll-paginate
+        - jekyll-feed
 
 paginate: 10
 paginate_path: "/blog/:num"

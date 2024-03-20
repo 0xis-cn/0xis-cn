@@ -2,7 +2,7 @@
 layout: post
 lang: tok
 title: linluwi lili li pona a!
-excerpt_separator: <!--more-->
+comments: https://botsin.space/@matlingblog/112128967972867064
 ---
 
 mi enujo a! enujo lili li tan ni: tenpo pini lili la, mi tawa e wile sona suli
@@ -21,7 +21,7 @@ leko walo insa leko pimeja lon lipu linluwi ali li weka.
 poki suli pi toki ilo CSS anu JavaScript li weka.
 lipu pi sitelen ABC li taso lon.
 
-<!-- more -->
+<!--more-->
 
 a. mi o toki e sona lili.
 nasin Gemini li lon sewi pi nasin TCP.

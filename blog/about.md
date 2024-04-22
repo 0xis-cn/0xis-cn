@@ -17,7 +17,7 @@ Mat-ling, from *mat* as in *material* and *-ling*, suffix for a follower.
 Sky Darmos’ constructed script adapting Chinese characters to the Germanic
   languages, which I called Sky Script and where Mat-ling goes into 物伶.</p>
 <p>In non-natural languages:
-<table><thead><tr><th>Language</th><th>Name</th><th>Transcription</th></tr></thead><tbody><tr><td>Dan’a’yo</td><td>묻링</td><td>Mutling</td></tr><tr><td>Esperanto</td><td>Matlino</td><td> </td></tr><tr><td>Lojban</td><td>la mytlin</td><td> </td></tr><tr><td>Shidinn</td><td>gwƨ viƨ</td><td>Geuénnýn</td></tr><tr><td>Shōnagian</td><td><img class="ml-wordmark" src="https://s21.ax1x.com/2024/03/20/pFWOT8f.png" height="35"></td><td>Māute-nòhlì</td></tr><tr><td>Toki Pona</td><td>jan Malin</td><td><span style="font-family:'linja pona','linja sike'">jan[_mi_alasa_li_insa_nasin]</span></td></tr></tbody></table>
+<table><thead><tr><th>Language</th><th>Name</th><th>Transcription</th></tr></thead><tbody><tr><td>Dan’a’yo</td><td>묻링</td><td>Mutling</td></tr><tr><td>Esperanto</td><td>Matlino</td><td> </td></tr><tr><td>Lojban</td><td>la mytlin</td><td> </td></tr><tr><td>Shidinn</td><td>gwƨ viƨ</td><td>Geuénnýn</td></tr><tr><td>Shōnagian</td><td><img class="ml-wordmark" src="https://s21.ax1x.com/2024/03/20/pFWOT8f.png" height="35"></td><td>Māute-nòhlì</td></tr><tr><td>Toki Pona</td><td>jan Malin</td><td style="font-family:'linja pona','linja sike';max-width:6em">jan[_mi_alasa_li_insa_nasin]</td></tr></tbody></table>
 </details>
 {:/nomarkdown}
 

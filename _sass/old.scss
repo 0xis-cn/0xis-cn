@@ -177,7 +177,11 @@ cite {
 
 .ml-chokolate, .ml-footer {
 	display: flex;
-	justify-content: space-between
+	justify-content: space-between;
+}
+
+.ml-footer {
+	flex-wrap: nowrap;
 }
 
 // To be moved

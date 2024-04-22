@@ -32,7 +32,7 @@ layout: page
 	{%- if page.tags.size != 0 -%}
 	<p>
 		⌸
-		{%- for tag in page.tags -%}
+		{% for tag in page.tags -%}
 		{%- assign tescape = tag | uri_escape -%}
 		{%- assign now-array = tlink | map: tag -%}
 		{%- if now-array.size == 0 -%}

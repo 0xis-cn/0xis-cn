@@ -2,6 +2,8 @@
 layout: post
 title: 第 34 届山西科创记
 nimi: In 34th Shanxi ASIC
+lang: cmn
+comments: https://botsin.space/@matlingblog/112375832568205232
 ---
 
 我不是科创生。参加省级科技创新大赛用的是课堂项目，应该算普及性质。赛事级别不高，甚至十分潦草。但我能参与其中却绝非易事，个中历程反倒充满了意外。

@@ -112,7 +112,7 @@ function showComments(comments) {
   }
   // List of mentions that should be stripped if a top-level comment starts with one of them.
   // Insert your fedi ID here!
-  let defaultInitialMentionFilter = ['https://fietkau.social/@blog', 'https://fietkau.social/@julian'];
+  let defaultInitialMentionFilter = ['https://botsin.space/@matlingblog'];
   let result = renderComments(comments, defaultInitialMentionFilter);
   contentElem.remove();
   commentsElem.appendChild(result);

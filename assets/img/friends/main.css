@@ -1,0 +1,14 @@
+.ml-card-anchor img {
+	height: 100%;
+	opacity: 1;
+}
+.ml-card-anchor {
+	box-sizing: border-box;
+	display: inline-block !important;
+	padding: 4px;
+	padding-left: 7rem;
+	height: 6em;
+}
+dt {
+	margin: 1em 0 0.5em;
+}

@@ -1,9 +1,7 @@
-$bodyFont: Mulish, "Noto Sans CJK SC", system-ui, sans-serif;
-
 body {
 	background: var(--color-background);
 	color: var(--color-normal);
-	font: 300 1em / 1.5 $bodyFont; 
+	font: 300 1em / 1.5 var(--base-font); 
 	scroll-behavior: smooth;
 }
 
@@ -21,6 +19,7 @@ body.dark-mode {
 	.ml-wordmark {
 		filter: invert(1) hue-rotate(180deg);
 	}
+	@import 'jellybeans/dark.scss';
 }
 
 body {
@@ -33,6 +32,8 @@ body {
 	--color-heavy:			#1A1A1A;
 	--color-atlarge:		#999;
 	--color-meso:			#333;
+	--base-font: Mulish, "Noto Sans CJK SC", system-ui, sans-serif;
+	@import 'jellybeans/light.scss';
 }
 
 @import './reset.scss';

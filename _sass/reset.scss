@@ -76,7 +76,6 @@ caption, th {
 sub, sup {
   font-size: 75%;
   line-height: 0;
-  position: relative;
 }
 
 sup {
@@ -123,7 +122,7 @@ table caption {
   border-bottom: none;
 }
 
-img {
+img, table, pre {
 	max-width: 100%
 }
 

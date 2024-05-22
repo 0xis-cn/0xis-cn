@@ -4,15 +4,13 @@ layout: default
 
 <main>
 	{%- include drawer.html -%}
-	<div>
-		{% if page.title %}
-			<h1 class=ml-title>{{ page.title }}</h1>
-		{% endif %}
-		<article class=ml-article>
-			{{ content }}
-		</article>
+	{% if page.title %}
+		<h1 class=ml-title>{{ page.title }}</h1>
+	{% endif %}
+	<article class=ml-article>
+		{{ content }}
+	</article>
 	{%- include comments.html -%}
-	</div>
 </main>
 {%- include footer.html -%}
 

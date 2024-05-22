@@ -15,9 +15,9 @@ Mat-ling, from *mat* as in *material* and *-ling*, suffix for a follower.
 <blockquote>The verdant is unsentimental, fading into nothing now and then. Humans are animals, but the paragon of them.<br>草木无情，有时飘零。人为动物，惟物之灵。</blockquote>
 <p>‘<i>mat</i> as in <i>material</i>’ is an interpretation under
 Sky Darmos’ constructed script adapting Chinese characters to the Germanic
-  languages, which I called Sky Script and where Mat-ling goes into 物伶.</p>
+  languages, which I called Siaudzih.</p>
 <p>In non-natural languages:
-<table><thead><tr><th>Language</th><th>Name</th><th>Transcription</th></tr></thead><tbody><tr><td>Dan’a’yo</td><td>묻링</td><td>Mutling</td></tr><tr><td>Esperanto</td><td>Matlino</td><td> </td></tr><tr><td>Lojban</td><td>la mytlin</td><td> </td></tr><tr><td>Shidinn</td><td>gwƨ viƨ</td><td>Geuénnýn</td></tr><tr><td>Shōnagian</td><td><img class="ml-wordmark" src="https://s21.ax1x.com/2024/03/20/pFWOT8f.png" height="35"></td><td>Māute-nòhlì</td></tr><tr><td>Toki Pona</td><td>jan Malin</td><td style="font-family:'linja pona','linja sike';max-width:6em">jan[_mi_alasa_li_insa_nasin]</td></tr></tbody></table>
+<table><thead><tr><th>Language</th><th>Name</th><th>Transcription</th></tr></thead><tbody><tr><td>Dan’a’yo</td><td>묻링</td><td>Mutling</td></tr><tr><td>Esperanto</td><td>Matlino</td><td> </td></tr><tr><td>Lojban</td><td>la mytlin</td><td> </td></tr><tr><td>Shidinn</td><td>gwƨ viƨ</td><td>Geuénnýn</td></tr><tr><td>Shōnagian</td><td><img class="ml-wordmark" src="https://s21.ax1x.com/2024/03/20/pFWOT8f.png" height="35"></td><td>Māute-nòhlì</td></tr><tr><td>Toki Pona</td><td>jan Malin</td><td style="font-family:'linja pona','linja sike';max-width:6em">jan[_mi_alasa­_li_insa_nasin]</td></tr></tbody></table>
 </details>
 {:/nomarkdown}
 
@@ -47,7 +47,7 @@ the old code is controversial when I take both retrocomputing and free from Java
 ### A timeline for progenitors
 
 2011
-: The birth of a website of Mènglóng Gang in Microsoft FrontPage,
+: The birth of a website of Muqliong Gang in Microsoft FrontPage,
 with 'eye-protecting' orchid-coloured
 [table layout](http://www.tiernok.com/posts/history-of-html-table-layouts.html),
 reading 'it is our eternal pursuit to help more people realise their dreams'.
@@ -77,3 +77,9 @@ Theme switched to 2038 designed in a fortnight.
 : 'Many blogs are prone to desolation for lack management'... Well, some sort.
 Rearranged the repository.
 {: .ml-card-list}
+
+## About publication date
+
+DM ('in the year of Muqliong') denote days starting from May 1, 2011, when
+Muqliong Gang (also spelled Mènglóng or Munglung; the two syllables rhyme)
+was approximately formed.

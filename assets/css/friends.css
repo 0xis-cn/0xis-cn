@@ -1,0 +1,23 @@
+@media screen and (min-width: 540px) {
+	.ml-card-anchor {
+		width: calc(50% - 2em);
+	}
+	.ml-card-list > dd {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+.ml-card-anchor > img {
+	width: 3.5em;
+	display: inline-block;
+	float: left;
+	margin-right: 0.5em;
+}
+:root .ml-card-anchor {
+	border-bottom: none;
+	padding: 1em;
+	line-height: 1;
+}
+.ml-card-anchor h2 {
+	margin-top: 0;
+}

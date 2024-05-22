@@ -4,6 +4,7 @@ title: 他山
 lang: cmn
 no-toc: true
 custom-head: <link rel="stylesheet" href="/assets/css/friends.css" />
+comments: https://botsin.space/@matlingblog/112483080380237892
 ---
 > 乐彼之园，爰有树檀，其下维萚。  
 > 他山之石，可以为错。  

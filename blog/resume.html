@@ -1,0 +1,55 @@
+---
+permalink: resume
+title: Résumé
+layout: default
+no-toc: true
+custom-head: >-
+ <style>
+ @import url('https://cdn.jsdelivr.net/gh/nushu-script/NotoTraditionalNushu@woff-v1.0/index.css');
+ article { padding-left: 8em; }
+ .ml-title { font-family: sans-serif, 'Noto Traditional Nushu'; text-align: center; margin-bottom: 0; }
+ .w { position: relative; }
+ .w span:first-child { position: absolute; left: -8em; font-size: 0.75em;  }
+ @media screen and (max-width: 540px) { .w span:first-child { max-width: 4em; left: -4em; } article { padding-left: 4em; } }
+ </style>
+---
+
+<main>
+	{%- include drawer.html -%}
+	<h1 class=ml-title lang=zh-Nshu>𛊺𛉒𛉢</h1>
+	<article class=ml-article>
+		<p class=z>🌐 <a href=/>https://matling.fit</a><br>📮 <a href="mailto:thematling@outlook.com">thematling@outlook.com</a>
+		<h3>Education</h3>
+		<p class=w><span>2020<wbr>–2024</span><strong>Lanzhou University</strong>, B.A. in Computer Science & Technology
+		<ul>
+			<li><strong>GPA:</strong> 3.56 (ranked 25%)
+			<li><strong>Thesis:</strong> <cite>Intervention of the Classification of Convolutional Neural Networks with Training Samples: An Approach</cite></li>
+			<li>Awarded twice in the Lamgieu National software competition (best ranked 6%)
+			<li>Awarded the Second Prize Scholarship in 2021
+		</ul>
+		<h3>Projects</h3>
+		<i><p>See also <a href="https://github.com/0xis-cn">my GitHub repositories</a></i>
+		<p class=w><span>2023</span><strong>Kopuubhiengdhai</strong>, a general-purpose SNS to publish rich texts and videos
+		<ul>
+			<li>PHP + MySQL with configurable and extendable design
+			<li>Content editing and interaction with comments, anthology and danmaku
+			<li>Original lightweight UI reusing my previous Sass project
+		</ul>
+		<p class=w><span>2022</span><strong>A Webhook handler</strong> within the team
+		<ul>
+			<li>A fully multiprocessing Python Flask application
+			<li>Designing a self-containing and user-friendly tool daily used by team members
+			<li>Solved retrocomputing issues to deploy in Linux 2.x kernel
+			<li>Many features, including a sandbox environment with <code>schroot</code> where conventional containers are unavailable
+			<li>Long-term maintenance focusing on upstream changes and performance bottlenecks
+		</ul>
+		<p class=w><span>2021</span><strong>Student research</strong> on emotion recognition through convolutional feature optimisation
+		<ul>
+			<li>Classification of DEAP dataset
+			<li>Featuring a new design of temporal- and spatial-specific convolution structure to increase the dimention
+			<li>Proposed and implemented the final version under the pressure when obstacles are encountered
+		</ul>
+		<br>
+		<p class=ml-smaller>As said by Lii Xinbhin, everyone needs to update their résumé every year. Accordingly, this page will be updated by March 26, 2025.
+	</article>
+</main>

@@ -1,7 +1,9 @@
 (() => {
-	document.querySelector('.ml-menu-button').addEventListener('click', () => {
-		document.querySelector('main').classList.toggle('with-drawer')
-	})
+	const menuBtn = document.querySelector('.ml-menu-button')
+	if (menuBtn)
+		menuBtn.addEventListener('click', () => {
+			document.querySelector('main').classList.toggle('with-drawer')
+		})
 
 	const base = document.getElementById('advanced')
 	const btn = document.createElement('button')

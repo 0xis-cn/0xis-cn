@@ -1,36 +1,65 @@
 ---
 ---
-#top {
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	min-height: 50%;
-	font-size: 20px;
-}
-#top img {
-	width: 10rem;
+#top-wrapper, .ml-footer{
+	margin: 0 auto;
+	max-width: 960px;
 }
 #top-wrapper {
 	position: relative;
-	height: calc(100vh - 12em);
+	padding-right: 7.5rem;
+	min-height: 36rem;
 }
+
+#top-wrapper::before {
+	position: absolute;
+	background: url(/assets/hello-page.svg) no-repeat right 2em bottom;
+	content: '';
+	height: 100%;
+	width: 100%;
+
+	.dark-mode & {
+		filter: invert(1);
+	}
+}
+
+#top {
+	padding-top: 6rem;
+	margin-left: 2rem;
+}
+
+#top h1 {
+	max-width: 8em;
+	font-size: 4rem;
+	line-height: 1.125;
+	margin: 2rem 0;
+	@media screen and (max-width: 540px) {
+		& {
+			font-size: 3rem;
+		}
+	}
+}
+
+#tagline {
+	font-size: 1.5rem;
+	max-width: 30em;
+}
+
 #suli {
-	float: right;
-	margin-right: 4em;
-	z-index: 3;
-	position: relative;
+	padding: 1em;
+	align-items: center;
 }
-#suli ul {
-	width: auto;
+
+#suli img {
+	width: 4em; 
 }
+
 #suli li {
 	display: inline-block;
 }
 #suli a {
 	padding: 0 1em;
 	color: inherit;
+	border-bottom: none;
 }
 @media screen and (min-width: 540px) {
 	#top img {

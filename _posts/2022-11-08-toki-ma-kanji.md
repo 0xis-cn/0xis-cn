@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-title: Kokanu in lika Hansi
+title: Kokanu in lika Hanci
 permalink: toki-ma-kanji
 custom-head: >-
  <style>

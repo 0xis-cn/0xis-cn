@@ -1,17 +1,20 @@
 ---
 ---
+$pole-width: 8rem;
+
 #top-wrapper, .ml-footer{
 	margin: 0 auto;
 	max-width: 960px;
 }
 #top-wrapper {
 	position: relative;
-	padding-right: 7.5rem;
+	padding-right: $pole-width;
 	min-height: 36rem;
 }
 
 #top-wrapper::before {
 	position: absolute;
+	z-index: -1;
 	background: url(/assets/hello-page.svg) no-repeat right 2em bottom;
 	content: '';
 	height: 100%;
@@ -19,6 +22,18 @@
 
 	.dark-mode & {
 		filter: invert(1);
+	}
+}
+
+@media screen and (max-width: 540px) {
+	body #top h1 {
+		font-size: 3rem;
+	}
+	#top-wrapper {
+		padding-right: 3rem;
+		&:before {
+			background-position-x: calc(100vw - $pole-width);
+		}
 	}
 }
 
@@ -32,11 +47,6 @@
 	font-size: 4rem;
 	line-height: 1.125;
 	margin: 2rem 0;
-	@media screen and (max-width: 540px) {
-		& {
-			font-size: 3rem;
-		}
-	}
 }
 
 #tagline {

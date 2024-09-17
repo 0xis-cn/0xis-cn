@@ -23,6 +23,7 @@ $mobile-opacity: .7	!default;
 	}
 
 	.ml-menu-button {
+		background: var(--color-background);
 		position: fixed;
 		top: 10px;
 		left: 10px;
@@ -53,7 +54,7 @@ $drawer-offset: $drawer-width + 16px;
 	.ml-drawer-inside {
 		max-width: $mobile-width;
 		margin: 56px auto 0;
-		background: var(--color-background);
+		backdrop-filter: blur(6px);
 	}
 }
 

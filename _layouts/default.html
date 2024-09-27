@@ -14,6 +14,9 @@
 		<script defer src="{{ "/assets/js/theme.js" | relative_url }}"></script>
 		{{ page.custom-head }}
 		<style>@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');</style>
+		{%- if page.formula -%}
+  		<script defer src="https://cdn.jsdelivr.net/gh/asciimath/asciimathml@latest/ASCIIMathML.js"></script>
+		{%- endif -%}
   </head>
   <body>
 		<script src="{{ "assets/js/immediate.js" | relative_url }}"></script>

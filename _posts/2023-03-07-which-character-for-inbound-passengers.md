@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 贵处来返人员代表字是什么？
-permalink: which-character-for-inbound-passengers
+lang: cmn
 custom-head: >-
  <style>
   .ml-article span { display: inline-block; min-width: 3em; text-align: center; line-height: 1.25; }

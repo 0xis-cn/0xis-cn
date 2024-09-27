@@ -79,8 +79,8 @@ body, .ml-drawer-inside {
 	}
 }
 
-math * {
-	text-align: center
+math > mstyle {
+	color: inherit
 }
 
 .ml-card-list ul {

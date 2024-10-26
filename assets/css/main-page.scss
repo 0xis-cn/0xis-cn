@@ -71,6 +71,7 @@ $big-width: 60rem;
 	padding: 0 1em;
 	color: inherit;
 	border-bottom: none;
+	text-transform: uppercase;
 }
 @media screen and (min-width: 540px) {
 	#top img {
@@ -83,6 +84,7 @@ $big-width: 60rem;
 	text-indent: 12px;
 	padding-top: 32px;
 	font-size: 24px;
+	text-transform: uppercase;
 }
 #anzo {
 	position: relative;

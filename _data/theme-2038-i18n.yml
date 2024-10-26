@@ -22,7 +22,7 @@ cmn-Hans:
         <<: *chinese
 
 en: &english
-        main-page: Main page
+        main-page: Home
         toc: Contents
         license: The content is available under LICENSE license unless otherwise specified.
         copyright: Copyright ©

@@ -45,21 +45,22 @@ $mobile-opacity: .7	!default;
 $drawer-width: 224px;
 $drawer-offset: $drawer-width + 16px;
 
-@media screen and (max-width: 959px) {
-	.ml-drawer[open] {
-		width: 100%;
-		z-index: 10;
-	}
+.ml-drawer[open] {
+	width: 100%;
+	z-index: 10;
+}
 
-	.ml-drawer-inside {
-		max-width: $mobile-width;
-		margin: 56px auto 0;
-		backdrop-filter: blur(6px);
-	}
+.ml-drawer-inside {
+	max-width: calc(min($mobile-width, 100%));
+	backdrop-filter: blur(6px);
 }
 
 @media screen and (min-width: 960px) {
-	.ml-drawer {
+	body:not(.advanced-vertical) .ml-drawer-inside {
+		backdrop-filter: none;
+	}
+
+	.ml-drawer[open] {
 		width: $drawer-width;
 	}
 

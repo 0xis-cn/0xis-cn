@@ -3,6 +3,7 @@ layout: post
 title: Speech before final examination
 formula: true
 lang: en
+no-toc: true
 ---
 
 All of us will attend the Final Examination tomorrow. For some of you, this time might be distinct from the usual ones, determining more than them — for example, whether you will have the right to pay video games or basketball, and how well you will be expected to behave in June next year. Or you just worry that your diligence all over the term will abort.

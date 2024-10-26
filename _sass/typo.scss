@@ -52,10 +52,8 @@ kbd {
 
 p, table {
 	margin: .75em 0;
-}
-
-.ml-article blockquote p, .footnote p, .ml-article ul p, .ml-article ol p {
-	text-indent: 0 !important;
+	overflow: auto hidden;
+	max-width: 100%;
 }
 
 summary {
@@ -70,7 +68,7 @@ u {
 	text-decoration: none
 }
 
-body, .ml-drawer-inside {
+body, .ml-drawer-inside, main {
 	&::-webkit-scrollbar {
 		width: 5px;
 	}
@@ -127,7 +125,7 @@ h2, h3, h4 {
 
 .ml-title {
 	font-size: 2em;	
-	margin-bottom: (2 * $occupied-line);
+	margin: (6 * $occupied-line) auto (2 * $occupied-line);
 }
 
 .ml-article h2 {

@@ -4,7 +4,7 @@ $middle-width: 60rem !default;
 // TIPS: 若调整 $middle-width 请同步修改 drawer.scss 中 .ml-drawer 之宽度 
 
 main {
-	padding: $header-height 1em 4em;
+	padding: 4em 1em;
 }
 
 h1, .ml-article, footer, .comments {

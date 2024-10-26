@@ -24,6 +24,13 @@ theme-2038:
                                 art-x-xdi8: wi8
                         url: /blog
                 -
+                        name:
+                                cmn: 含章字典
+                                cmn-Latn: Hánzhāng Zìdiǎn
+                                en: Lexicon
+                                tok: nimi Malin
+                        url: https://lex.matling.fit
+                -
                         name: about
                         url: /blog/about
                 -
@@ -33,7 +40,3 @@ theme-2038:
                                 en: Friends
                                 tok: jan pona
                         url: /blog/friends
-                
-
-
-

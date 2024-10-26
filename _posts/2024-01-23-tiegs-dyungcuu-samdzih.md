@@ -4,6 +4,7 @@ title: 「挺」的中古三字
 lang: cmn
 comments: https://botsin.space/@matlingblog/112375821234322641 
 nimi: Tieg’s dyungcuu samdzih
+no-toc: true
 ---
 
 RIME 给 BYVoid 说是「神级输入法」，这话还在主页耍拉子哩。一看才知是 2012 年写的，发了老半天哩，奈会子黄雀飞做黄码用的都不是 RIME。贾的圈子看的是人人都做编码哩蛮，实际都听梆声哩，隔三间五赶群里「这个方案好，这个以外都不行」或「咨们不直接用那个」，轻飘得很。

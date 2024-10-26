@@ -33,7 +33,13 @@ body {
 	--color-atlarge:		#999;
 	--color-meso:			#333;
 	--base-font: Mulish, "Noto Sans CJK SC", system-ui, sans-serif;
+	--serif-font: "DejaVu Serif", Georgia, "Noto Serif CJK SC", serif;
 	@import 'jellybeans/light.scss';
+}
+
+body.serif {
+	font-variant-numeric: lining-nums;
+	font-family: var(--serif-font);
 }
 
 @import './reset.scss';
@@ -42,3 +48,6 @@ body {
 @import './drawer.scss';
 @import './resize.scss';
 
+body.advanced-vertical {
+	@import './vertical.scss';
+}

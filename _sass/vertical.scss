@@ -26,6 +26,10 @@ p, table {
 	max-width: unset;
 }
 
+.ml-article>p {
+	text-indent: 2em;
+}
+
 footer {
 	position: fixed;
 	bottom: -1.5em;

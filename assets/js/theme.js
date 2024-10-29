@@ -42,7 +42,13 @@ const preferences = [
 	]),
 	new Preference('lukinLinja', 0, [
 		{ text: '\u2b82', title: 'Horizontal', action: () => { document.querySelector('body').classList.remove('advanced-vertical') } },
-		{ text: '\u2b87', title: 'Vertical', disabled: !['cmn'].includes(document.documentElement.lang), action: () => { document.querySelector('body').classList.add('advanced-vertical') } },
+		{ text: '\u2b87', title: 'Vertical',
+			disabled: !['cmn'].includes(document.documentElement.lang), 
+			action: () => {
+				document.querySelector('body').classList.add('advanced-vertical') 
+				document.querySelector('.ml-title').scrollIntoView()
+			} 
+		},
 	]),
 ];
 

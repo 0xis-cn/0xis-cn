@@ -1,11 +1,11 @@
-&, main {
-	padding: 0;
-}
-
 main {
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	padding: 6em;
 	writing-mode: vertical-rl;
 	line-height: 2;
-	margin: 6em;
 }
 
 .ml-article {
@@ -26,11 +26,11 @@ p, table {
 	max-width: unset;
 }
 
-.ml-footer {
+footer {
 	position: fixed;
-	bottom: 0;
-	left: 2em;
-	right: 2em;
+	bottom: -1.5em;
+	left: 0;
+	right: 0;
 }
 
 footer img {

@@ -1,14 +1,15 @@
 ---
 layout: page
-title: 他山 
-lang: cmn
+title: Lhày shàn
 no-toc: true
 custom-head: <link rel="stylesheet" href="/assets/css/friends.css" />
 comments: https://botsin.space/@matlingblog/112483080380237892
 ---
-> 乐彼之园，爰有树檀，其下维萚。  
-> 他山之石，可以为错。  
-> ——<cite>鹤鸣</cite>
+
+> Ngràwks payc tu wan, wan wuc doc dàn, gu gràc wi lhàk.  
+> Lhày shàn tu dak, khàyc luc way tsàk.  
+> 乐彼之园，爰有树檀，其下维萚。他山之石，可以为错。
+
 
 ```toml
 [owner]
@@ -16,6 +17,24 @@ name = "物灵"
 url = "https://matling.fit"
 description = "歌未竟，东方白"
 icon = "https://avatars.githubusercontent.com/u/42795424"
+```
+
+```toml
+[good-read]
+```
+
+[Donald Simanek's pages](https://dsimanek.vialattea.net/) include a large collection on skepticism, pseudoscience, and society. Special mention should be made of his (though facile) observation of education as an emeritus professor of physics.
+
+[Our Long Walk](https://www.ourlongwalk.com/) by Johan Fourie exhibits history and agony of South Africa in an economist's view.
+
+[Panta Rhei](https://www.andrewsun.net/panta-rhei) by Weixiang Sun may be too personal to list here, but I admire Sun's maturity as far back as enrollment in graduate school, through which progressive and 'non-woo' recommendations are given to college students. As a researcher of material science, Sun also whispered the history and mathematical foundation of rheology or generally chemistry.
+
+[Stephen Wolfram Writings](https://writings.stephenwolfram.com/) is a harbinger of proper computer science.
+
+[Tales of Time Forgotten](https://talesoftimesforgotten.com/) by Spencer McDaniel is an active blog on classical studies.
+
+```toml
+[friends]
 ```
 
 <dl class="ml-card-list">

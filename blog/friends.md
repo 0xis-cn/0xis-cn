@@ -104,6 +104,12 @@ The list is sort by Tungdzih fang'onn, the General Chinese. --></dt>
   	<h2>SignKirigami</h2>
 	寻找世界的伊甸园
   </a>
+  <a class="ml-card-anchor" href="https://blog.qaiu.top">
+  	<img src="https://blog.qaiu.top/logo" />
+  	<h2>千百度</h2>
+	提供 c4droid 下载，以及手机编程相关资料
+  </a>
+  </a>
   <a class="ml-card-anchor" href="https://phesoca.com">
 	<img src="https://phesoca.com/wp-content/uploads/avatar-theorie.png" />
 	<h2>unt</h2>

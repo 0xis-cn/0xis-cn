@@ -36,7 +36,7 @@ const preferences = [
 		{ text: '\u2b59', title: 'System', action: themeWaloSystem },
 		{ text: '\u23fb', title: 'Lights on', action: () => { document.querySelector('body').classList.remove('dark-mode') }},
 	]),
-	new Preference('lukinLinja', 1, [
+	new Preference('lukinLinja', 0, [
 		{ text: 'Serif', action: () => { document.querySelector('body').classList.add('serif') } },
 		{ text: 'Sans',  action: () => { document.querySelector('body').classList.remove('serif') } },
 	]),

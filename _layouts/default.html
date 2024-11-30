@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}" class=serif>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -13,7 +13,6 @@
 		<meta name="theme-color" content="#c09a97">
 		<script defer src="{{ "/assets/js/theme.js" | relative_url }}"></script>
 		{{ page.custom-head }}
-		<style>@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');</style>
 		{%- if page.formula -%}
   		<script defer src="https://cdn.jsdelivr.net/gh/asciimath/asciimathml@latest/ASCIIMathML.js"></script>
 		{%- endif -%}

@@ -23,7 +23,9 @@ icon = "https://avatars.githubusercontent.com/u/42795424"
 [good-read]
 ```
 
-[Donald Simanek's pages](https://dsimanek.vialattea.net/) include a large collection on skepticism, pseudoscience, and society. Special mention should be made of his (though facile) observation of education as an emeritus professor of physics.
+[Backlit](https://backlit.neocities.org/) and older [Popzazzle](https://popzazzle.blogspot.com/) by Bob Leggitt amplified the grievance against present-day Internet, commonly distorted as against specific entities or political issues.
+
+[Donald Simanek](https://dsimanek.vialattea.net/)'s observation of declining education as an emeritus professor of physics really got me. But the remainder is not intellectually interesting enough.
 
 [Our Long Walk](https://www.ourlongwalk.com/) by Johan Fourie exhibits history and agony of South Africa in an economist's view.
 

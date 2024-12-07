@@ -1,5 +1,5 @@
-{%- assign lang = page.lang | default: site.lang | default: 'en' -%}
-{%- assign info = site.data.theme-2038-i18n | map: lang | first -%}
+{%- assign lang = page.lang | default: 'en' -%}
+{%- assign info = site.data.legacy.i18n | map: lang | first -%}
 {%- assign speech = include.text -%}
 {%- assign preset = info | map: speech | first -%}
 {{- speech | map: lang | first | default: preset | default: speech.en | default: speech -}}

@@ -23,15 +23,19 @@ icon = "https://avatars.githubusercontent.com/u/42795424"
 [good-read]
 ```
 
+By 'read' I intended to mean the 'calm reading in a library' genre, which may be an anachronistic demand for modern Web. However the practical standard is only turgid look, with topics from abstruse to frivolous.
+
 [Backlit](https://backlit.neocities.org/) and older [Popzazzle](https://popzazzle.blogspot.com/) by Bob Leggitt amplified the grievance against present-day Internet, commonly distorted as against specific entities or political issues.
 
 [Donald Simanek](https://dsimanek.vialattea.net/)'s observation of declining education as an emeritus professor of physics really got me. But the remainder is not intellectually interesting enough.
+
+[Justin B Rye](http://jbr.me.uk) is my ideal kind of guy who talks about science fiction in a tavern all afternoon regardless of who is sitting opposite.
 
 [Our Long Walk](https://www.ourlongwalk.com/) by Johan Fourie exhibits history and agony of South Africa in an economist's view.
 
 [Panta Rhei](https://www.andrewsun.net/panta-rhei) by Weixiang Sun may be too personal to list here, but I admire Sun's maturity as far back as enrollment in graduate school, through which progressive and 'non-woo' recommendations are given to college students. As a researcher of material science, Sun also whispered the history and mathematical foundation of rheology or generally chemistry.
 
-[Stephen Wolfram Writings](https://writings.stephenwolfram.com/) is a harbinger of proper computer science.
+[Stephen Wolfram](https://writings.stephenwolfram.com/)'s writings and books serve as harbingers of proper computer science.
 
 [Tales of Time Forgotten](https://talesoftimesforgotten.com/) by Spencer McDaniel is an active blog on classical studies.
 
@@ -110,7 +114,6 @@ The list is sort by Tungdzih fang'onn, the General Chinese. --></dt>
   	<img src="https://blog.qaiu.top/logo" />
   	<h2>千百度</h2>
 	提供 c4droid 下载，以及手机编程相关资料
-  </a>
   </a>
   <a class="ml-card-anchor" href="https://phesoca.com">
 	<img src="https://phesoca.com/wp-content/uploads/avatar-theorie.png" />

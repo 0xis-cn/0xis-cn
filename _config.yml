@@ -7,36 +7,49 @@ permalink: /blog/:title:output_ext
 excerpt_separator: <!--more-->
 
 plugins:
-        - jekyll-paginate
-        - jekyll-feed
+  - jekyll-paginate
+  - jekyll-feed
 
 paginate: 10
 paginate_path: "/blog/:num"
 
 theme-2038:
-        drawer-links:
-                -
-                        name:
-                                cmn: 博文
-                                cmn-Latn: Bówén
-                                en: Blog
-                                tok: lipu ali
-                                art-x-xdi8: wi8
-                        url: /blog
-                -
-                        name:
-                                cmn: 含章字典
-                                cmn-Latn: Hánzhāng Zìdiǎn
-                                en: Lexicon
-                                tok: nimi Malin
-                        url: https://lex.matling.fit
-                -
-                        name: about
-                        url: /blog/about
-                -
-                        name:
-                                cmn: 他山
-                                cmn-Latn: Tāshān
-                                en: Friends
-                                tok: jan pona
-                        url: /blog/friends
+  drawer-links:
+    -
+      name:
+        cmn: 主站
+        lzh: 初服
+        en: Home
+        tok: lipu open
+      url: /
+    -
+      name:
+        cmn: 博文
+        lzh: 全覧
+        cmn-Latn: Bówén
+        en: Blog
+        tok: lipu ali
+      url: /blog
+    -
+      name:
+        cmn: 含章字典
+        lzh: 含章
+        cmn-Latn: Hánzhāng Zìdiǎn
+        en: Lexicon
+        tok: nimi Malin
+      url: https://lex.matling.fit
+    -
+      name:
+        cmn: 关于
+        lzh: 述身
+        en: About
+        tok: mi seme
+      url: /blog/about
+    -
+      name:
+        cmn: 他山
+        lzh: 他山
+        cmn-Latn: Tāshān
+        en: Friends
+        tok: jan pona
+      url: /blog/friends

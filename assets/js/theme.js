@@ -34,7 +34,7 @@ const preferences = [
 	new Preference('lukinWalo', 1, [
 		{ text: '\u23fe', title: 'Lights off', action: () => { document.querySelector('body').classList.add('dark-mode') }},
 		{ text: '\u2b59', title: 'System', action: themeWaloSystem },
-		{ text: '\u23fb', title: 'Lights on', action: () => { document.querySelector('body').classList.remove('dark-mode') }},
+		{ text: '\u23fd', title: 'Lights on', action: () => { document.querySelector('body').classList.remove('dark-mode') }},
 	]),
 	new Preference('lukinLinja', 0, [
 		{ text: 'Serif', action: () => { document.querySelector('body').classList.add('serif') } },
@@ -43,7 +43,7 @@ const preferences = [
 	new Preference('lukinLinja', 0, [
 		{ text: '\u2b82', title: 'Horizontal', action: () => { document.querySelector('body').classList.remove('advanced-vertical') } },
 		{ text: '\u2b87', title: 'Vertical',
-			disabled: !['cmn'].includes(document.documentElement.lang), 
+			disabled: !['cmn', 'lzh', 'wuu', 'ko', 'ja'].includes(document.documentElement.lang), 
 			action: () => {
 				document.querySelector('body').classList.add('advanced-vertical') 
 				document.querySelector('.ml-title').scrollIntoView()

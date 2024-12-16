@@ -8,13 +8,12 @@ body {
 body.dark-mode {
 	--color-background:		black;
 	--color-base:			white;
-	--color-card:			#1A1A1A;
-	--color-indication:		#2A2A2A;
-	--color-normal:			#AAA;
+	--color-card:			#161413;
+	--color-indication:		#2a2523;
+	--color-normal:			#c7c2be;
 	--color-levity:			#999;
 	--color-heavy:			#E6E6DC;
 	--color-atlarge:		#666;
-	--color-meso:			#CCC;
 
 	.ml-wordmark {
 		filter: invert(1) hue-rotate(180deg);
@@ -27,11 +26,10 @@ body {
 	--color-base:			black;
 	--color-card:			white;
 	--color-indication:		#E6E5E0;
-	--color-normal:			#555;
-	--color-levity:			#777;
-	--color-heavy:			#1A1A1A;
+	--color-normal:			#59453f;
+	--color-levity:			#79655f;
+	--color-heavy:			#161413;
 	--color-atlarge:		#999;
-	--color-meso:			#333;
 	--base-font: Mulish, "Noto Sans CJK SC", system-ui, sans-serif;
 	--serif-font: "DejaVu Serif", Georgia, "Noto Serif CJK SC", serif;
 	@import 'jellybeans/light.scss';
@@ -50,4 +48,9 @@ body.serif {
 
 body.advanced-vertical {
 	@import './vertical.scss';
+}
+
+@font-face {
+	font-family: Matding;
+	src: url(/assets/matding.ttf);
 }

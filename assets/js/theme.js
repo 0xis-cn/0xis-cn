@@ -40,7 +40,7 @@ const preferences = [
 		{ text: 'Serif', action: () => { document.querySelector('body').classList.add('serif') } },
 		{ text: 'Sans',  action: () => { document.querySelector('body').classList.remove('serif') } },
 	]),
-	new Preference('lukinLinja', 0, [
+	new Preference('lukinSupaSinpin', 0, [
 		{ text: '\u2b82', title: 'Horizontal', action: () => { document.querySelector('body').classList.remove('advanced-vertical') } },
 		{ text: '\u2b87', title: 'Vertical',
 			disabled: !['cmn', 'lzh', 'wuu', 'ko', 'ja'].includes(document.documentElement.lang), 

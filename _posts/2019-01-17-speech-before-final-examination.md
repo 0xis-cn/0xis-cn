@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Speech before final examination
-formula: true
 lang: en
 no-toc: true
 ---

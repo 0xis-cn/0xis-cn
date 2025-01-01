@@ -8,7 +8,7 @@ comments: https://botsin.space/@matlingblog/112128914027215668
 
 {::nomarkdown}
 <details>
-<summary>Mat-ling, from <i>mat</i> as in <i>material</i> and <i>-ling</i>, suffix for a follower.</summary>
+<summary>Matling, from <i>mat</i> as in <i>material</i> and <i>-ling</i>, suffix for a follower.</summary>
 <p>Ahem.
 <p>This content is solely for though pedantic enough. <cite>Tsieushaeng Fuh</cite> by Euyang Sieu:</p>
 <blockquote>The verdant is unsentimental, fading into nothing now and then. Humans are animals, but the paragon of them.<br>草木无情，有时飘零。人为动物，惟物之灵。</blockquote>

@@ -48,7 +48,7 @@ lipu pini pi lipu mi la, mi sitelen e ni:
 
 继而后者，吾人教员，冷看群飞之世，不没宿莽之间，四载于斯，纵指无涯，舍此则总线之攘扰与数据之渊深曷以闻？
 
-殊相致意者，不过兰山风物。无论逝川叠浪，幽壑雪街，烟岚缥帙，夜陌清辉，虽石隙之承我，栏楹之可栖，亦欲语而恨莫能言。且瘴疠之下，物议之秋，萤蜚枯灯，更阑巷语，拂我掬我，纾我对我，俾不知市语喧嘈为何物。彼夫威仪丰姿以慕悦，[长索固楔](https://skepticsannotatedbible.com/is/54.html#2)以自愉，敖敖谈笑于航厦牖间者，固不可谖矣；然委身人境，[干城](https://nlrp.chinesethought.cn/shuyu_show.aspx?shuyu_id=2243)文字，操楗竹而舞，诵行远失侣之句，展缁衣而受契于山川，斯特予编程师之所向也。
+殊相致意者，不过兰山风物。无论逝川叠浪，幽壑雪街，烟岚缥帙，[夜陌清辉](https://news.lzu.edu.cn/c/202203/87996.html)，虽石隙之承我，栏楹之可栖，亦欲语而恨莫能言。且瘴疠之下，物议之秋，萤蜚枯灯，更阑巷语，拂我掬我，纾我对我，俾不知市语喧嘈为何物。彼夫威仪丰姿以慕悦，[长索固楔](https://skepticsannotatedbible.com/is/54.html#2)以自愉，敖敖谈笑于航厦牖间者，固[不可谖矣](https://meirishici.com/poetry/zX7)；然委身人境，[干城](https://nlrp.chinesethought.cn/shuyu_show.aspx?shuyu_id=2243)文字，操楗竹而舞，诵行远失侣之句，展缁衣而受契于山川，斯特予编程师之所向也。
 
 今辞兰州，师生之上选者，所倾无数，谨致谢忱。
 

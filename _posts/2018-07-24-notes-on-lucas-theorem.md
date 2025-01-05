@@ -4,6 +4,7 @@ title: Lucas 定理补记
 lang: cmn
 formula: true
 no-toc: true
+ciemmwue: 于北京
 ---
 
 前日记于 QQ 空间，Lucas 定理竟就是原系数写为 p 进制，各位计算后相乘。百代莘疑，涣尔冰释，当然这是一个推论。[ProofWiki](https://proofwiki.org/wiki/Lucas's_Theorem) 一证明羚羊挂角，或有请为优质证明者十年，十年一日，斯站犹然。

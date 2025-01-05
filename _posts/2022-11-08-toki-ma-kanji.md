@@ -12,6 +12,7 @@ custom-head: >-
   #h ruby:hover{transform:scale(2);background:var(--color-card);border-radius:4px}
  </style>
 no-toc: true
+ciemmwue: in Gansu
 ---
 It is [Kokanu](https://www.kokanu.com) anyhow.
 *nin je Kokanu*'s zeal being undermined by the one-size-fits-all attempts to not distinguish word formation and syntax, there is still great need to renovate the Hanzi/Kanji transliteration. And here it goes.

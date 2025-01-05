@@ -4,6 +4,7 @@ layout: post
 lang: cmn
 no-toc: true
 tag: retrospect
+ciemmwue: 于甘肃
 ---
 
 此系列名唤夏晨纪事，不必说，是从卢昌海的[往昔追忆](https://www.changhai.org/indices/retrospection.php)抄来的。后经同学提醒，才知卢昌海叙写的自己及那个年代天之骄子的特殊经历不是偶然。我倒没有所谓感喟，他们至少「是」天之骄子，而如今走在潮头的人不是我。再如何困厄坎坷甚至不满，都不比无数村夫野老一般的人，坐视精彩，不得与焉。

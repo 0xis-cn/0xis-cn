@@ -7,10 +7,10 @@ layout: page
 	{%- assign t2038 = site.theme-2038 -%}
 	{%- assign clink = t2038.category-links -%}
 	<p>
-		◷
 		<time datetime="{{ page.date | date: '%Y-%m-%d' }}">
 			{{ page.date | date: '%s' | minus: 1304092800 | divided_by: 86400 }} DM
 		</time>
+		({{ page.date | date: '%-d %b %Y' }}), {{ page.ciemmwue | default: 'civitate terrena' }}
 	</p>
 	{%- if page.categories.size != 0 -%}
 	<p>

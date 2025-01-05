@@ -2,13 +2,15 @@
 layout: post
 title: I very love Practical Digest
 lang: en
+ciemmwue: in Shanxi
+no-toc: true
 ---
 <!--more-->
 All *Practical Digest* editor:
 
 Hello everyone!
 
-I am a school boy, live in Limfven city. I have a wonderful name: Xi Han.
+I am a school boy. I have a wonderful name: Xi Han.
 
 The history of my buy and read the book, require say things of Marth 2011.
 

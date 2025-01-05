@@ -5,6 +5,7 @@ lang: tok
 category: 夏晨
 tags: ['toki pona']
 no-toc: true
+ciemmwue: lon ma Kansu
 ---
 
 tenpo pini lili la, mi tawa weka tan tomo sona lon ma tomo Lánzhōu.

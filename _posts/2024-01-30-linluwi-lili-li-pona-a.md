@@ -6,6 +6,7 @@ comments: https://botsin.space/@matlingblog/112128967972867064
 tag:
 - toki pona
 no-toc: true
+ciemmwue: lon ma Sansi
 ---
 
 mi enujo a! enujo lili li tan ni: tenpo pini lili la, mi tawa e wile sona suli

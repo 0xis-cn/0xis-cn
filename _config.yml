@@ -41,7 +41,7 @@ theme-2038:
     -
       name:
         cmn: 关于
-        lzh: 述身
+        lzh: 自敘
         en: About
         tok: mi seme
       url: /blog/about

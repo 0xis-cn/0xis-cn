@@ -16,10 +16,12 @@ $big-width: 60rem;
 #top-wrapper::before {
 	position: absolute;
 	z-index: -1;
-	background: url(/assets/hello-page.svg) no-repeat right 2em bottom;
+	background: url(/assets/hello-page.svg);
 	content: '';
-	height: 100%;
-	width: 100%;
+	height: 408px;
+	width: 192px;
+	right: 2rem;
+	bottom: 0;
 
 	.dark-mode & {
 		filter: invert(1);
@@ -33,7 +35,7 @@ $big-width: 60rem;
 	#top-wrapper {
 		padding-right: 3rem;
 		&:before {
-			background-position-x: calc(100vw - $pole-width);
+			right: -2rem;
 		}
 	}
 }

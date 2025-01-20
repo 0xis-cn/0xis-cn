@@ -52,7 +52,6 @@ const preferences = [
 	]),
 ];
 
-
 (() => {
 	const menuBtn = document.querySelector('.ml-menu-button')
 	if (menuBtn)
@@ -71,4 +70,8 @@ const preferences = [
 		menu.appendChild(i.line())
 	btn.addEventListener('click', () => menu.classList.toggle('open'))
 	base.appendChild(menu)
+	const line = document.createElement('hr')
+	menu.appendChild(line)
+	const notbyai = '<a href="https://notbyai.fyi"><img class=ml-wordmark src="/assets/notbyai.svg" alt="Written by Human, Not by AI"></a>'
+	line.insertAdjacentHTML('afterend', notbyai)
 })()

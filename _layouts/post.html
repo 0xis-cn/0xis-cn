@@ -2,20 +2,13 @@
 layout: page
 ---
 
-	{{ content }}
+{{ content }}
 <div class=ml-smaller>
-	{%- assign t2038 = site.theme-2038 -%}
-	{%- assign clink = t2038.category-links -%}
-	<p>
-		<time datetime="{{ page.date | date: '%Y-%m-%d' }}">
-			{{ page.date | date: '%s' | minus: 1304092800 | divided_by: 86400 }} DM
-		</time>
-		({{ page.date | date: '%-d %b %Y' }}), {{ page.ciemmwue | default: 'civitate terrena' }}
-	</p>
-	{%- if page.categories.size != 0 -%}
+	{%- include datetime.html -%}
+	{%- if item.categories.size != 0 -%}
 	<p>
 		⌸
-		{% for category in page.categories -%}
+		{% for category in item.categories -%}
 		{% assign cescape = category | uri_escape -%}
 		{%- assign now-array = clink | map: category -%}
 		{%- if now-array.size == 0 -%}
@@ -29,10 +22,10 @@ layout: page
 	</p>
 	{%- endif -%}
 	{%- assign tlink = t2038.tag-links -%}
-	{%- if page.tags.size != 0 -%}
+	{%- if item.tags.size != 0 -%}
 	<p>
 		⌸
-		{% for tag in page.tags -%}
+		{% for tag in item.tags -%}
 		{% assign tescape = tag | uri_escape -%}
 		{%- assign now-array = tlink | map: tag -%}
 		{%- if now-array.size == 0 -%}

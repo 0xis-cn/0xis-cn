@@ -1,0 +1,11 @@
+{%- if page.collection != "posts" -%}
+{%- assign item = post -%}
+{%- else -%}
+{%- assign item = page -%}
+{%- endif -%}
+{%- assign t2038 = site.theme-2038 -%}
+{%- assign clink = t2038.category-links -%}
+<time datetime="{{ item.date | date: '%Y-%m-%d' }}">
+	{{ item.date | date: '%s' | minus: 1304092800 | divided_by: 86400 }} DM
+</time>
+({{ item.date | date: '%-d %b %Y' }}), {{ item.ciemmwue | default: 'civitate terrena' }}

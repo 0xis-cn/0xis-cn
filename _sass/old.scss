@@ -33,7 +33,7 @@ mark {
 	background: none
 }
 
-.ml-article a, .ml-footer a {
+.ml-article a, .ml-smaller a {
 	border-bottom: 1px solid $line-color;
 	color: var(--color-heavy);
 	&:hover {

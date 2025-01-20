@@ -1,0 +1,25 @@
+---
+layout: page
+no-toc: true
+lang: en
+---
+
+{%- comment -%}
+The folder 'blog' is misleading as seen in the repository due to Jekyll reasons.
+{%- endcomment -%}
+{%- for post in paginator.posts -%}
+<div {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
+	<h3>
+		<a href="{{ post.id }}">{{ post.title }}</a>
+	</h3>
+	{{ post.excerpt }}
+	<p class=ml-smaller>{% include datetime.html %}</p>
+</div>
+{%- endfor -%}
+<nav class=ml-chokolate>
+	{%- if paginator.next_page -%}<a href="{{ paginator.next_page_path }}">〈Older</a>
+	{%- else -%}<span>Ø</span>{%- endif -%}
+  {%- if paginator.previous_page -%}<a href="{{ paginator.previous_page_path }}">Newer〉</a>
+	{%- else -%}<span>Ø</span>{%- endif -%}
+</nav>
+

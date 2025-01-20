@@ -18,7 +18,7 @@ theme-2038:
     -
       name:
         cmn: 主站
-        lzh: 初服
+        lzh: 卷首
         en: Home
         tok: lipu open
       url: /
@@ -33,7 +33,7 @@ theme-2038:
     -
       name:
         cmn: 含章字典
-        lzh: 含章
+        lzh: 含章字典
         cmn-Latn: Hánzhāng Zìdiǎn
         en: Lexicon
         tok: nimi Malin
@@ -53,3 +53,10 @@ theme-2038:
         en: Friends
         tok: jan pona
       url: /blog/friends
+    -
+      name:
+        cmn: 异次元之旅 ☈
+        en: Go Wild ☈
+        tok: tawa suli ☈
+        lzh: 雲闥 ☈
+      url: https://travel.moe/go.html

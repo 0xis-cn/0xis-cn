@@ -3,21 +3,20 @@ layout: page
 title: Lhày shàn
 no-toc: true
 custom-head: <link rel="stylesheet" href="/assets/css/friends.css" />
-comments: https://botsin.space/@matlingblog/112483080380237892
 ---
 
 > Ngràwks payc tu wan, wan wuc doc dàn, gu gràc wi lhàk.  
 > Lhày shàn tu dak, khàyc luc way tsàk.  
-> 乐彼之园，爰有树檀，其下维萚。他山之石，可以为错。
-
 
 ```toml
 [owner]
-name = "物灵"
+name = ["Matling", "متلينغ", "ᒪᑦᓕᖕ", "物灵"]
 url = "https://matling.fit"
-description = "歌未竟，东方白"
+description = ["Remould, to Heart’s desire", "歌未竟，东方白"]
 icon = "https://avatars.githubusercontent.com/u/42795424"
 ```
+
+Have a wonderful webpage? Please feel free to email me and [be my friend](m&#97;ilto:hi&#64;matling.fit)!
 
 ```toml
 [good-read]
@@ -27,17 +26,17 @@ By 'read' I intended to mean the 'calm reading in a library' genre, which may be
 
 [Backlit](https://backlit.neocities.org/) and older [Popzazzle](https://popzazzle.blogspot.com/) by Bob Leggitt amplified the grievance against present-day Internet, commonly distorted as against specific entities or political issues.
 
-[Donald Simanek](https://dsimanek.vialattea.net/)'s observation of declining education as an emeritus professor of physics really got me. But the remainder is not intellectually interesting enough.
+[Donald Simanek](https://dsimanek.vialattea.net/)'s observation of declining education as an emeritus professor of physics really got me, but the remainder is not intellectually interesting enough. (Yes, average geeks enjoy the materials on pseudoscience, which however reminded me of my childhood rendering the devices horrific.)
 
 [Justin B Rye](http://jbr.me.uk) is my ideal kind of guy who talks about science fiction in a tavern all afternoon regardless of who is sitting opposite.
 
 [Our Long Walk](https://www.ourlongwalk.com/) by Johan Fourie exhibits history and agony of South Africa in an economist's view.
 
-[Panta Rhei](https://www.andrewsun.net/panta-rhei) by Weixiang Sun may be too personal to list here, but I admire Sun's maturity as far back as enrollment in graduate school, through which progressive and 'non-woo' recommendations are given to college students. As a researcher of material science, Sun also whispered the history and mathematical foundation of rheology or generally chemistry.
+[Panta Rhei](https://www.andrewsun.net/panta-rhei) by Weixiang Sun may be too personal to list here, but I admire Sun's maturity as far back as enrollment in graduate school, through which progressive and 'non-woo' recommendations are given to college students. A researcher of material science, Sun also whispered the history and mathematical foundation of rheology or generally chemistry.
 
 [Stephen Wolfram](https://writings.stephenwolfram.com/)'s writings and books serve as harbingers of proper computer science.
 
-[Tales of Time Forgotten](https://talesoftimesforgotten.com/) by Spencer McDaniel is an active blog on classical studies.
+[Tales of Time Forgotten](https://talesoftimesforgotten.com/) by Spencer McDaniel is an active blog on classical studies, partly listed for second-degree links there.
 
 ```toml
 [friends]
@@ -88,7 +87,7 @@ The list is sort by Tungdzih fang'onn, the General Chinese. --></dt>
     愿你今天被世界温柔相待
   </a>
   <a class="ml-card-anchor" href="https://www.cnblogs.com/Mr-WolframsMgcBox">
-	<h2>Mr_Wolfram</h2>
+	<h2>Mr. Wolfram</h2>
     十年饮冰，难凉热血
   </a>
   <a class="ml-card-anchor" href="https://yutong.site/">
@@ -105,6 +104,11 @@ The list is sort by Tungdzih fang'onn, the General Chinese. --></dt>
 	<img src="https://pushinl.github.io/assets/blogava.jpg" />
 	<h2>pushinl</h2>
     别名 Row Srank
+  </a>
+  <a class="ml-card-anchor" href="https://remrin.dev/">
+  	<img src="https://cravatar.cn/avatar/a81030808a134b6d67b5aa9a835a6aa5?s=112" />
+	<h2>Rem</h2>
+	欢迎
   </a>
   <a class="ml-card-anchor" href="https://krgm.moe">
   	<h2>SignKirigami</h2>

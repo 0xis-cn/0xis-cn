@@ -21,14 +21,16 @@ theme-2038:
         lzh: 卷首
         en: Home
         tok: lipu open
+        dng: Дамын
       url: /
     -
       name:
         cmn: 博文
-        lzh: 全覧
+        lzh: 吟草
         cmn-Latn: Bówén
         en: Blog
         tok: lipu ali
+        dng: Зуəвын
       url: /blog
     -
       name:
@@ -37,6 +39,7 @@ theme-2038:
         cmn-Latn: Hánzhāng Zìdiǎn
         en: Lexicon
         tok: nimi Malin
+        dng: Ханҗон хуадян
       url: https://lex.matling.fit
     -
       name:
@@ -44,6 +47,7 @@ theme-2038:
         lzh: 自敘
         en: About
         tok: mi seme
+        dng: Сыйҗяди
       url: /blog/about
     -
       name:
@@ -52,6 +56,7 @@ theme-2038:
         cmn-Latn: Tāshān
         en: Friends
         tok: jan pona
+        dng: Тамыр
       url: /blog/friends
     -
       name:
@@ -59,4 +64,5 @@ theme-2038:
         en: Go Wild ☈
         tok: tawa suli ☈
         lzh: 雲闥 ☈
+        dng: Йицыйүан җылү ☈
       url: https://travel.moe/go.html

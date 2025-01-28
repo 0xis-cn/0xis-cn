@@ -11,6 +11,7 @@ $big-width: 60rem;
 	position: relative;
 	padding-right: $pole-width;
 	min-height: 36rem;
+	overflow-x: hidden;
 }
 
 #top-wrapper::before {
@@ -35,7 +36,7 @@ $big-width: 60rem;
 	#top-wrapper {
 		padding-right: 3rem;
 		&:before {
-			right: -2rem;
+			transform: translateX(5rem);
 		}
 	}
 }

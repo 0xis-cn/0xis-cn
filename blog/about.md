@@ -35,8 +35,8 @@ Traits for design include
 
 - Vertical rhythm for lead typesetting
 - No border design (Cards are muddy!)
-- ~~Largely JavaScript-free~~ (Withdrawn)
-- Adjustable as in [Citizen](https://www.mediawiki.org/wiki/Skin:Citizen) (To be implemented)
+- ~~Largely JavaScript-free~~ (Withdrawn, [even not this](http://www.anybrowser.org/campaign/))
+- Adjustable as in [Citizen](https://www.mediawiki.org/wiki/Skin:Citizen)
 
 Unfortunately, the code in GitHub repository is outdated, particularly
 redundant and not complying with modern CSS.
@@ -68,17 +68,16 @@ as long as the format is ready.
 2020
 : Revived my blog after gāokǎo. Migrated to Jekyll.
 
-21 May, 2021
+21 May 2021
 : Registered the domain name later changed (for spelling reezon) to matling.fit.
 Theme switched to 2038 designed in a fortnight.
 
-11 Mar, 2024
+11 Mar 2024
 : 'Many blogs are prone to desolation for lack management'... Well, some sort.
 Rearranged the repository.
 {: .ml-card-list}
 
-## About publication date
+## Publication date
 
-DM ('in the year of Muqliong') denote days starting from May 1, 2011, when
-Muqliong Gang (also spelled Mènglóng or Munglung; the two syllables rhyme)
-was approximately formed.
+DM ('in the days of Muqliong') denote days starting from 1 May 2011, when
+Muqliong Gang was approximately formed. For more details, refer to [Lexicon Matlini](https://lex.matling.fit/days-of-muqliong.html). 

@@ -54,10 +54,13 @@ const preferences = [
 
 (() => {
 	const menuBtn = document.querySelector('.ml-menu-button')
-	if (menuBtn)
+	if (menuBtn) {
 		menuBtn.addEventListener('click', () => {
 			document.querySelector('main').classList.toggle('with-drawer')
 		})
+		if (1199 < window.innerWidth)
+			menuBtn.click()
+	}
 
 	const base = document.getElementById('advanced')
 	const btn = document.createElement('button')
@@ -72,6 +75,6 @@ const preferences = [
 	base.appendChild(menu)
 	const line = document.createElement('hr')
 	menu.appendChild(line)
-	const notbyai = '<a href="https://notbyai.fyi"><img class=ml-wordmark src="/assets/notbyai.svg" alt="Written by Human, Not by AI"></a>'
+	const notbyai = '<a href="https://notbyai.fyi" style="margin-left:4px"><img class=ml-wordmark src="/assets/notbyai.svg" alt="Written by Human, Not by AI"></a>'
 	line.insertAdjacentHTML('afterend', notbyai)
 })()

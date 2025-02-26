@@ -117,3 +117,15 @@ $drawer-makeup: (960px + $drawer-offset);
 		line-height: 2.5em;
 	}
 }
+
+.ml-author-image {
+	display: block;
+
+	img {
+		display: block;
+		margin: 0 auto;
+		border: 1px solid var(--color-normal);
+		padding: 2px;
+		max-width: 128px;
+	}
+}

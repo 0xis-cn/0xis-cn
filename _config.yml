@@ -17,14 +17,6 @@ theme-2038:
   drawer-links:
     -
       name:
-        cmn: 主站
-        lzh: 卷首
-        en: Home
-        tok: lipu open
-        dng: Дамын
-      url: /
-    -
-      name:
         cmn: 博文
         lzh: 吟草
         cmn-Latn: Bówén

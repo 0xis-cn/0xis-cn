@@ -12,7 +12,7 @@ custom-head: <link rel="stylesheet" href="/assets/css/friends.css" />
 [owner]
 name = ["Matling", "متلينغ", "ᒪᑦᓕᖕ", "物灵"]
 url = "https://matling.fit"
-description = ["Remould, to Heart’s desire", "歌未竟，东方白"]
+description = "Remould, to Heart’s desire",
 icon = "https://avatars.githubusercontent.com/u/42795424"
 ```
 
@@ -22,19 +22,17 @@ Have a wonderful webpage? Please feel free to email me and [be my friend](m&#97;
 [good-read]
 ```
 
-By 'read' I intended to mean the 'calm reading in a library' genre, which may be an anachronistic demand for modern Web. However the practical standard is only turgid look, with topics from abstruse to frivolous.
+By 'read' I mean the 'calm reading in a library' genre, which may be an anachronistic demand for modern Web. However the practical standard is only turgid look, with topics from abstruse to frivolous.
 
-[Backlit](https://backlit.neocities.org/) and older [Popzazzle](https://popzazzle.blogspot.com/) by Bob Leggitt amplified the grievance against present-day Internet, commonly distorted as against specific entities or political issues.
-
-[Donald Simanek](https://dsimanek.vialattea.net/)'s observation of declining education as an emeritus professor of physics really got me, but the remainder is not intellectually interesting enough. (Yes, average geeks enjoy the materials on pseudoscience, which however reminded me of my childhood rendering the devices horrific.)
+[Backlit](https://backlit.neocities.org/) and older [Popzazzle](https://popzazzle.blogspot.com/) by Bob Leggitt grieves against present-day Internet.
 
 [Justin B Rye](http://jbr.me.uk) is my ideal kind of guy who talks about science fiction in a tavern all afternoon regardless of who is sitting opposite.
 
 [Our Long Walk](https://www.ourlongwalk.com/) by Johan Fourie exhibits history and agony of South Africa in an economist's view.
 
-[Panta Rhei](https://www.andrewsun.net/panta-rhei) by Weixiang Sun may be too personal to list here, but I admire Sun's maturity as far back as enrollment in graduate school, through which progressive and 'non-woo' recommendations are given to college students. A researcher of material science, Sun also whispered the history and mathematical foundation of rheology or generally chemistry.
+[Panta Rhei](https://www.andrewsun.net/panta-rhei) by Weixiang Sun may be too personal to list here, but I admire Sun's maturity as far back as enrollment in graduate school, a must-have quality to give progressive advice to college students. A researcher of material science, Sun also recalls the history and mathematical foundation of rheology or general chemistry.
 
-[Stephen Wolfram](https://writings.stephenwolfram.com/)'s writings and books serve as harbingers of proper computer science.
+[Stephen Wolfram](https://writings.stephenwolfram.com/)'s writings and books are harbingers of proper computer science.
 
 [Tales of Time Forgotten](https://talesoftimesforgotten.com/) by Spencer McDaniel is an active blog on classical studies, partly listed for second-degree links there.
 
@@ -60,6 +58,11 @@ The list is sort by Tungdzih fang'onn, the General Chinese. --></dt>
 	<img src="/assets/img/friends/greenlcat.png" />
 	<h2>Greenlcat</h2>
     我心仰尔，示我当行之路兮
+  </a>
+  <a class="ml-card-anchor" href="https://hetong-re4per.com">
+	<img src="https://gravatar.com/avatar/483e3b3470d53aa874a893395140b05f" />
+	<h2>瞳のblog</h2>
+    驕る鳥は墜ち　頭垂れて乞い
   </a>
   <a class="ml-card-anchor" href="https://holgerbest.top">
 	<img src="/assets/img/friends/holger.png" />
@@ -89,6 +92,11 @@ The list is sort by Tungdzih fang'onn, the General Chinese. --></dt>
   <a class="ml-card-anchor" href="https://www.cnblogs.com/Mr-WolframsMgcBox">
 	<h2>Mr. Wolfram</h2>
     十年饮冰，难凉热血
+  </a>
+  <a class="ml-card-anchor" href="https://www.cnblogs.com/Mr-WolframsMgcBox">
+	<img src="https://avatars.githubusercontent.com/u/2486008?v=4" />
+	<h2>نور الدين</h2>
+    Programmer and technical Arabic translator
   </a>
   <a class="ml-card-anchor" href="https://yutong.site/">
 	<img src="https://avatars.githubusercontent.com/u/9004058?v=4" />

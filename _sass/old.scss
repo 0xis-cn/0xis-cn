@@ -231,26 +231,3 @@ button[disabled]:hover {
 	background: unset;
 }
 
-$comments-left: 4em;
-.comments {
-	margin-top: $comments-left;
-	.item {
-		margin-left: $comments-left;
-		position: relative;
-	}
-	.item .item {
-		margin-left: $comments-left * 0.5;
-	}
-
-	.ml-smaller {
-		margin-bottom: -9px
-	}
-
-	.avatar {
-		width: 40px;
-		position: absolute;
-		left: -3em;
-		border-radius: 50%
-	}
-}
-

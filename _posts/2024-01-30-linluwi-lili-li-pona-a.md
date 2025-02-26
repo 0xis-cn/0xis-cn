@@ -43,14 +43,14 @@ ken pi lipu Gemini (gemtext) li lili tawa lipu Markdown a!
 lipu Gemini li jo ala e ~~**sitelen wawa**~~ e ~~*sitelen lape*~~.
 sitelen natu li ken ala lon insa sitelen.
 <br>≫ [sitelen natu li jo e linja wan sama mi.][sinapowe]<br>
-sitelen en kalama musi li ken ala insa e lipu li lon sitelen natu taso.
+sitelen en kalama musi li lon lipu ala li lon monsi sitelen natu taso.
 pona la, mi toki e 'sitelen ABC li taso lon' la kon li ni:
 sitelen <span lang=ar>إختبار</span> en <span lang=yid>טעסט</span>
-en <span lang=cmn>测试</span> en <span lang=mis>😀</span>.
+en <span lang=cmn>字</span> en <span lang=mis>😀</span>.
 toki ilo CSS li weka la, jan sitelen li ante ala e lukin.
 ni li pona tan ni: jan lukin taso li sona e ni: lukin seme li pona tawa oko ona lon ilo ona.
 o pilin ala e ni: lipu ni li majuna lukin sama <abbr>tenpo sike ale</abbr> (*centuria*) pini.
-ilo lukin li pani e ni: lipu li pona lukin.
+ilo lukin li pali e ni: lipu li pona lukin.
 
 ken la sina pilin e ni: 'nasin Gemini li lili mute. mi ken sitelen e ilo lukin anu ilo pana lon tenpo pimeja wan.'
 pona a! sina sona e tan pi nasin Gemini anu 'linluwi lili'.
@@ -78,5 +78,5 @@ jan li pali e lipu linluwi la, jan li jo e ni lon tenpo suno nanpa wan.
 ona li wile ala kin e ni: ona li linluwi suli sin.
 ona li wile e jan pona taso, li wile **pona**.
 
-[sinapowe]: https://youtu.be/dQw4w9WgXcQ)
+[sinapowe]: https://youtu.be/dQw4w9WgXcQ
 

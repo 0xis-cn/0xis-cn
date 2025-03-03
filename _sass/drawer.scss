@@ -2,8 +2,12 @@ $mobile-width: 24em	!default;
 $mobile-opacity: .7	!default;
 
 .ml-drawer-inside {
-	padding: 3em 8px;
+	padding: 1em;
+	margin: 2em auto;
+	border-radius: 1em;
 	overflow: auto;
+	width: calc(min(224px, 100%));
+	backdrop-filter: blur(6px);
 }
 
 .ml-drawer {
@@ -48,11 +52,6 @@ $drawer-offset: $drawer-width + 16px;
 .ml-drawer[open] {
 	width: 100%;
 	z-index: 10;
-}
-
-.ml-drawer-inside {
-	max-width: calc(min($mobile-width, 100%));
-	backdrop-filter: blur(6px);
 }
 
 @media screen and (min-width: 960px) {

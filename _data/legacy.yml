@@ -5,11 +5,11 @@ i18n:
 
   cmn:
     toc: 目录
-    btn_read: 续读 (LEN 字)
+    btn_read: 续读
 
   lzh:
     toc: 題籤
-    btn_read: 啟卷 (LEN 字)
+    btn_read: 啟卷
 
   tok:
     toc: jo

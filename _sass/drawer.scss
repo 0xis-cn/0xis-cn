@@ -6,7 +6,7 @@ $mobile-opacity: .7	!default;
 	margin: 2em auto;
 	border-radius: 1em;
 	overflow: auto;
-	width: calc(min(224px, 100%));
+	max-width: calc(min(224px, 100%));
 	backdrop-filter: blur(6px);
 }
 

@@ -1,12 +1,16 @@
 i18n:
   en:
     toc: Contents
+    btn_read: Read more (LEN words)
 
   cmn:
     toc: 目录
+    btn_read: 续读 (LEN 字)
 
   lzh:
     toc: 題籤
+    btn_read: 啟卷 (LEN 字)
 
   tok:
     toc: jo
+    btn_read: lipu ni (nimi LEN)

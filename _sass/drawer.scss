@@ -109,12 +109,17 @@ $drawer-makeup: (960px + $drawer-offset);
 	margin-bottom: 1em;
 	text-align: center;
 	padding: 1em;
+}
 
-	a {
-		display: block;
-		width: 100%;
-		line-height: 2.5em;
-	}
+.ml-bookmark a, .ml-temp-btn {
+	display: block;
+	width: 100%;
+	line-height: 2.5em;
+	max-width: calc(min(224px, 100%));
+}
+
+:root .ml-temp-btn {
+	border-bottom: none;
 }
 
 .ml-author-image {

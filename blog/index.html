@@ -11,13 +11,9 @@ lang: en
 	{{ post.excerpt }}
 	<p class=ml-smaller>{% include datetime.html %}</p>
 	{%- assign content = post.content | strip_html -%}
-	{%- assign len = content | number_of_words -%}
+	{%- assign len = content | number_of_words: "auto" -%}
 	{%- assign lang = post.lang | default: site.lang | default: 'en' -%}
 	{%- assign info = site.data.legacy.i18n | map: lang | first -%}
-	{%- assign padding_languages= "cmn lzh" | split: " " -%}
-	{%- if padding_languages contains lang -%}
-		{%- assign len = content | split: "" | where_exp: "i", "i >= '一' and 'ꀀ' > i " | size | plus: len -%}
-	{%- endif -%}
 	<a class=ml-temp-btn href="{{ post.id }}">{{ info.btn_read | replace: 'LEN', len }} ⋙</a>
 </div>
 {%- endfor -%}

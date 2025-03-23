@@ -5,7 +5,7 @@ i18n:
 
   cmn:
     toc: 目录
-    btn_read: 续读
+    btn_read: 续读 (LEN 字)
 
   lzh:
     toc: 題籤

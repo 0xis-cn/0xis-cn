@@ -1,3 +1,5 @@
+const verticalEnabledLanguages = ['cmn', 'lzh', 'wuu', 'ko', 'ja']
+
 class Preference {
 	constructor(localStorageKey, defaultValue, options) {
 		this.localStorageKey = localStorageKey
@@ -43,7 +45,7 @@ const preferences = [
 	new Preference('lukinSupaSinpin', 0, [
 		{ text: '\u2b82', title: 'Horizontal', action: () => { document.querySelector('body').classList.remove('advanced-vertical') } },
 		{ text: '\u2b87', title: 'Vertical',
-			disabled: !['cmn', 'lzh', 'wuu', 'ko', 'ja'].includes(document.documentElement.lang), 
+			disabled: !verticalEnabledLanguages.includes(document.documentElement.lang), 
 			action: () => {
 				document.querySelector('body').classList.add('advanced-vertical') 
 				document.querySelector('.ml-title').scrollIntoView()
@@ -78,8 +80,33 @@ const preferences = [
 	const notbyai = '<a href="https://notbyai.fyi" style="margin-left:4px"><img class=ml-wordmark src="/assets/notbyai.svg" alt="Written by Human, Not by AI"></a>'
 	line.insertAdjacentHTML('afterend', notbyai)
 
-	document.querySelector(".ml-drawer").addEventListener('click', (e) => {
+	document.querySelector(".ml-drawer")?.addEventListener('click', (e) => {
 		if (menuBtn && e.target === e.currentTarget)
 			menuBtn.click()
 	})
+
+	const article = document.querySelector(".ml-article")
+	if (article
+		&& document.documentElement.lang == "cmn"
+		&& localStorage.getItem("lukinSupaSinpin") === null) {
+		function link(text, val) {
+			const result = document.createElement('a')
+			const btnLine = menu.children[2].children
+			result.innerText = text
+			result.addEventListener('click', () => {
+				btnLine[val].click()
+				result.parentNode.remove()
+			})
+			return result
+		}
+		const sinpinBanner = document.createElement("blockquote")
+		sinpinBanner.append(
+			"🙋🏻嘿！",
+			"羞于干扰视线，但您可知道本站支持纵版？",
+			link("立即切换", 1),
+			"或在右下角菜单调节。",
+			link("关闭且不再提示", 0),
+		)
+		article.prepend(sinpinBanner)
+	}
 })()

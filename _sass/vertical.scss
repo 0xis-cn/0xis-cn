@@ -3,7 +3,7 @@ main {
 	height: 100%;
 	width: 100%;
 	overflow: auto;
-	padding: 6em;
+	padding: 5em;
 	writing-mode: vertical-rl;
 	line-height: 2;
 }
@@ -37,12 +37,27 @@ footer {
 	right: 0;
 }
 
-footer img {
+footer>img {
 	position: fixed;
 	left: calc(50vw - 120px);
 	top: 2em;
 }
 
-.ml-title {
+.ml-title, blockquote {
 	margin: 0;
+}
+
+blockquote {
+	border-left: 0; 
+	padding-left: 0;
+	padding-top: 2em;
+}
+
+.ml-article h2, .ml-article h3, .ml-article h4 {
+	margin-top: 0;
+	line-height: 2rem;
+}
+
+.ml-article h2 {
+	margin-right: 2rem;
 }

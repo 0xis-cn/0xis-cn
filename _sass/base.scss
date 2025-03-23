@@ -19,6 +19,7 @@ body.dark-mode {
 		filter: invert(1) hue-rotate(180deg);
 	}
 	@import 'jellybeans/dark.scss';
+	color-scheme: dark;
 }
 
 body {

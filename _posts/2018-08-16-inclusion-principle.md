@@ -4,6 +4,7 @@ title: 从容斥到反演
 permalink: /inclusion-principle
 formula: true
 ciemmwue: 于山西
+lang: cmn
 ---
 
 迩来做题接触了些 Möbius 反演、最值反演、二项反演等，总觉其「飘在天上」。在查阅相关离散数学概念后，我决定亲自作一推导，冀能厘清部分缘由。

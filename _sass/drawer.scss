@@ -55,10 +55,6 @@ $drawer-offset: $drawer-width + 16px;
 }
 
 @media screen and (min-width: 960px) {
-	body:not(.advanced-vertical) .ml-drawer-inside {
-		backdrop-filter: none;
-	}
-
 	.ml-drawer[open] {
 		width: $drawer-width;
 	}
@@ -75,8 +71,10 @@ $drawer-makeup: (960px + $drawer-offset);
 @media screen and (min-width: $drawer-makeup) {
 	.ml-drawer {
 		left: calc(50% - 600px);
-		inset-inline-start: calc(50% - 600px);
 	} // XXX: GitHub hack
+	body.advanced-vertical .ml-drawer {
+		left: 2em;
+	}
 }
 
 .ml-toc, .ml-toc-sub, .ml-bookmark {

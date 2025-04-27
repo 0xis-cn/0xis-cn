@@ -19,13 +19,7 @@ function formatIsoDate(isoDate) {
     parseInt(isoDate.slice(11, 13), 10),
     parseInt(isoDate.slice(14, 16), 10),
     parseInt(isoDate.slice(17,19), 10)
-  )).toLocaleDateString(undefined, {
-    month: 'short',
-    day: 'numeric',
-    year: 'numeric',
-    hour: 'numeric',
-    minute: 'numeric',
-  });
+  )).toLocaleDateString();
 }
 
 function renderComment(comment, firstMentionFilter) {
@@ -156,4 +150,3 @@ function initComments() {
 }
 
 initComments()
-

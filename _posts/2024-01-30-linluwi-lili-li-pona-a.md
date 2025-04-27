@@ -4,9 +4,10 @@ lang: tok
 title: linluwi lili li pona a!
 comments: https://botsin.space/@matlingblog/112128967972867064
 tag:
-- toki pona
+- toki-pona
 no-toc: true
 ciemmwue: lon ma Sansi
+comments: https://i.ci3.top/@matlingblog/statuses/01HNBTMR009SN5E2Q7CA6GX3C6
 ---
 
 mi enujo a! enujo lili li tan ni: tenpo pini lili la, mi tawa e wile sona suli

@@ -8,6 +8,7 @@ custom-head: >-
   .ml-article abbr { display: block; border-bottom: none; font-size: 2em; font-family: KaiTi; }
  </style>
 ciemmwue: in Gansu
+comments: https://i.ci3.top/@matlingblog/statuses/01GTWNW900K4WB291EJ5SESFMA
 ---
 出行防疫公告的一大套语是「来某返某人员」，这是我第一次密集接触此类简称。事实上一篇老报纸的文章就批评过大量用简称使人不解，甚至还要迭床架屋括出全称如「历经平（北平）、津（天津）…」，但我找不到这篇文章了。当然目前这一表述已经限定在包括「来某返某人员」「驻某单位」的极小范围，几乎不见。
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: ‘If need be, I will leave w/o looking back…’
+no-toc: true
+comments: https://i.ci3.top/@matlingblog/statuses/01JGD068006HMSQYCGBS563KV6
 ---
 
 You may have perceived the title as another clickbait, and the post as a mere '2024 review'. The title is the exact word I repeatedly told myself, however, ever since the outcome of my incorrigible decisions this year. I will remember the train returning to Lanzhou, where I stared at the dim wooden bulkhead, sitting huddled and feeling as if fevered. Following the should-have-been-memorable graduation, I viewed no exhibition, applied for no internship, and pushed further no personal projects that is even less viable in the new circumstances.

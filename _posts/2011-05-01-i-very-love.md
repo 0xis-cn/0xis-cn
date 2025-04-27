@@ -4,6 +4,7 @@ title: I very love Zhityoq Vendyaec 並序
 no-toc: true
 excerpt: <p lang=cpi>My fuzzy letter to editors, supplemented with early history of this blog.</p>
 lang: cmn
+comments: https://i.ci3.top/@matlingblog/statuses/015YMDNH0084JWC0QEXR57RWV8
 ---
 
 <section lang=cpi markdown=1>

@@ -3,6 +3,7 @@ layout: post
 lang: cmn
 title: 去姑姑家
 ciemmwue: 于杏园堡
+comments: https://i.ci3.top/@matlingblog/statuses/016848JB00YV705SR16PW8RVXD
 ---
 
 早上，我刚起床，爷爷奶奶就告诉我今天我们要乘汽车，一起去姑姑家。这时，我真高兴，因为我又能见到那个平时对我非常亲的姑姑了。我匆匆吃了几口饭，就对爷爷奶奶说：「咱们走吧！」

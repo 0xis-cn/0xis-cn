@@ -11,7 +11,7 @@ lang: en
 	{{ post.excerpt }}
 	<p class=ml-smaller>{% include datetime.html %}</p>
 	{%- assign content = post.content | strip_html -%}
-	{%- assign len = content | number_of_words: "auto" -%}
+	{%- assign len = content | number_of_words -%}
 	{%- assign lang = post.lang | default: site.lang | default: 'en' -%}
 	{%- assign info = site.data.legacy.i18n | map: lang | first -%}
 	<a class=ml-temp-btn href="{{ post.id }}">{{ info.btn_read | replace: 'LEN', len }} ⋙</a>

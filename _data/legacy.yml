@@ -2,15 +2,19 @@ i18n:
   en:
     toc: Contents
     btn_read: Read more (LEN words)
+    comment_tips: <a href="LINK" target="_blank">Read the comments</a>, where your words will be shown when forwarding with Mastodon or compatible protocols.
 
   cmn:
     toc: 目录
     btn_read: 续读 (LEN 字)
+    comment_tips: 在<a href="LINK" target="_blank">此 GoToSocial 帖文</a>阅写评论，可迳 Mastodon 或相容协议转发。
 
   lzh:
     toc: 題籤
     btn_read: 啟卷
+    comment_tips: 使意未盡，<a href="LINK" target="_blank">惠註焉</a>。
 
   tok:
     toc: jo
     btn_read: lipu ni (nimi LEN)
+    comment_tips: <a href="LINK" target="_blank">lipu ni lon kulupu Fediverse</a> la, sina ken lukin anu sitelen e toki lili.

@@ -75,9 +75,9 @@ For tones, options include
 
 | 癸巳歳晩書懐 | `<left as an exercise>` |
 |-|-|
-| 無能短見愍操觚 標榜文明紫亂朱  |Vunȣq toɵnkenh miin tsåugou, piopåaq vunmeq tzi loɵn jou. |
-| 限字暴於始皇暴 制言愚駕厲王愚  |Gann dzıh båw ô Shıigoåq båw, jeh qôn qu kah Lehwåq qu.   |
-| 不知書契垂千載 何止寒暄便匹夫  |Pou tji shôkhey zjui tsentzɵe, gâji gɵnhôn bien phitfu.   |
+| 無能短見愍操觚 標榜文明紫亂朱  | Vunȣq toɵnkenh miin tsåugou, piopåaq vunmeq tzz loɵn ju. |
+| 限字暴於始皇暴 制言愚駕厲王愚  | Gann dzh båw ô Shıigoåq båw, jeh qôn qu kah Lehwåq qu.   |
+| 不知書契垂千載 何止寒暄便匹夫  | Pou tji shôkhey zjui tsentzɵe, gâji gɵnhôn bien phitfu.  |
 | 根本不同休妄斷 蟹行記號但音符  | Kınpoon pouhdoq hiu vånqtuɵnh, gaygang kihgaw dɵnn ımfvu.|
 {:lang="ja"}
 
@@ -88,4 +88,4 @@ Biblography:
 - [The coolest conlang ever](https://www.youtube.com/watch?v=WFGA8AicyBs)
 - [Even cooler language adaptation](https://lamiz.fandom.com/zh/wiki/)
 
-The letter ɵ features [Wu pronunciation](https://zhuyuhao.com/) as /ø/. Cantonese /o/ (occasionally; along with ‘Classical Mandarin’ [if existed](https://zhuanlan.zhihu.com/p/694540340)) is barely acceptable [according to my friend](https://lanlanfiction.fandom.com/zh/wiki/%E5%85%B1%E9%80%9A%E5%8C%97%E4%BA%9A%E5%AD%97%E6%AF%8D).   
+The letter ɵ features [Wu pronunciation](https://zhuyuhao.com/) as /ø/. Cantonese /ɔ/ (occasionally; along with ‘Classical Mandarin’ [if existed](https://zhuanlan.zhihu.com/p/694540340)) is barely acceptable [according to my friend](https://lanlanfiction.fandom.com/zh/wiki/%E5%85%B1%E9%80%9A%E5%8C%97%E4%BA%9A%E5%AD%97%E6%AF%8D).   

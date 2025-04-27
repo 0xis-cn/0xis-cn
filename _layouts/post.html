@@ -1,10 +1,18 @@
 ---
 layout: page
 ---
-
 {{ content }}
+{%- assign content = page.content | strip_html -%}
+{%- assign len = content | number_of_words -%}
+{%- assign lang = page.lang | default: site.lang | default: 'en' -%}
+{%- assign info = site.data.legacy.i18n | map: lang | first -%}
+
+
 <div class=ml-smaller>
 	{%- include datetime.html -%}
+	{%- if item.comments -%}
+	<p>{{ info.comment_tips | replace: "LINK", item.comments }}</p>
+	{%- endif -%}
 	{%- if item.categories.size != 0 -%}
 	<p>
 		⌸
@@ -23,8 +31,7 @@ layout: page
 	{%- endif -%}
 	{%- assign tlink = t2038.tag-links -%}
 	{%- if item.tags.size != 0 -%}
-	<p>
-		⌸
+	<p>⌗
 		{% for tag in item.tags -%}
 		{% assign tescape = tag | uri_escape -%}
 		{%- assign now-array = tlink | map: tag -%}
@@ -39,11 +46,9 @@ layout: page
 	</p>
 	{%- endif -%}
 </div>
-
 <nav class=ml-chokolate>
-	{%- if page.previous -%} <a href="{{ page.previous.url }}">〈{{ page.previous.title }}</a>
-	{%- else -%}<span>Ø</span>{%- endif -%}
-	{%- if page.next -%} <a href="{{ page.next.url }}">{{ page.next.title }}〉</a>
-	{%- else -%}<span>Ø</span>{%- endif -%}
+	{%- if page.previous -%}<p>〈 <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
+	{%- else -%}<p>Ø</p>{%- endif -%}
+	{%- if page.next -%}<p><a href="{{ page.next.url }}">{{ page.next.title }}</a> 〉</p>
+	{%- else -%}<p>Ø</p>{%- endif -%}
 </nav>
-

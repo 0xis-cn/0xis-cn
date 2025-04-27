@@ -1,13 +1,13 @@
 ![](./assets/wordmark.svg)
 
-## Salute, io es Mat-ling.
+## Salute, io es Matling.
 
 My blog <https://matling.fit> — Those applied to `fit()` is not certainly a model.
 
 * 🕍 Adoring C/C++ modular programming
-* 🏭 Golang & Node.js for MVC
+* 🏭 Golang & Node.js while cramming MVC tactics
 * 🤖 Hosting for long but still cannot recite usage of `lsof`
-* 🖥️ Using frail computer vulnerable for ResNet
+* 🖥️ Struggling to accept that they call algorithms
 * 🍱 Vue.js and trying WebGL for UI & frontend
 * 🎨 Relying on stroke prediction to paint
 * 📜 May write excessively about sociology for tech nerds

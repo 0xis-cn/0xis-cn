@@ -2,10 +2,10 @@
 layout: post
 title: omekapo, Lánzhōu
 lang: tok
-category: 夏晨
-tags: ['toki pona']
+tags: ['toki-pona']
 no-toc: true
 ciemmwue: lon ma Kansu
+comments: https://i.ci3.top/@matlingblog/statuses/01HZB3XW00WD7P1YH7754WXYFM
 ---
 
 tenpo pini lili la, mi tawa weka tan tomo sona lon ma tomo Lánzhōu.

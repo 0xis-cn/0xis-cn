@@ -4,6 +4,7 @@ title: 博客自省问卷十五题
 lang: cmn
 ciemmwue: 于北京
 no-toc: true
+comments: https://i.ci3.top/@matlingblog/statuses/01JMNF8B00VWS3HJHXYMZMJKG3
 ---
 
 题有数种：或[不寄望解答](https://www.bilibili.com/video/BV1J34y1p71Z)，或[本无其事](https://xkcd.in/comic?lg=cn&id=2966)。

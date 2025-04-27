@@ -4,6 +4,7 @@ title: Speech before final examination
 lang: en
 no-toc: true
 ciemmwue: in Shanxi
+comments: https://i.ci3.top/@matlingblog/statuses/01D1CHPZ00C23FAP3MF3BH4JFM
 ---
 
 All of us will attend the Final Examination tomorrow. For some of you, this time might be distinct from the usual ones, determining more than them — for example, whether you will have the right to pay video games or basketball, and how well you will be expected to behave in June next year. Or you just worry that your diligence all over the term will abort.

@@ -3,6 +3,7 @@ layout: post
 title: 永别了，历史
 lang: cmn
 ciemmwue: 于杏园堡
+comments: https://i.ci3.top/@matlingblog/statuses/016K7KDH00H3AXM3Y1GRXDX449
 ---
 
 我曾依稀记得  

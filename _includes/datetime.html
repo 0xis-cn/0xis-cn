@@ -8,4 +8,4 @@
 <time datetime="{{ item.date | date: '%Y-%m-%d' }}" pubdate>
 	{{ item.date | date: '%s' | minus: 1304092800 | divided_by: 86400 }} DM
 </time>
-({{ item.date | date: '%-d %b %Y' }}), {{ item.ciemmwue | default: 'civitate terrena' }}
+({{ item.date | date: '%-d %b %Y' }}) {{ item.ciemmwue | default: 'civitate terrena' }}

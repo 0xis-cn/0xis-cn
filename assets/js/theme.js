@@ -60,7 +60,7 @@ const preferences = [
 		menuBtn.addEventListener('click', () => {
 			document.querySelector('main').classList.toggle('with-drawer')
 		})
-		if (1199 < window.innerWidth)
+		if (1279 < window.innerWidth)
 			menuBtn.click()
 	}
 

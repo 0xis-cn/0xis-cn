@@ -19,7 +19,6 @@ theme-2038:
       name:
         cmn: 博文
         lzh: 吟草
-        cmn-Latn: Bówén
         en: Blog
         tok: lipu ali
         dng: Зуəвын
@@ -28,7 +27,6 @@ theme-2038:
       name:
         cmn: 含章字典
         lzh: 含章字典
-        cmn-Latn: Hánzhāng Zìdiǎn
         en: Lexicon
         tok: nimi Malin
         dng: Ханҗон хуадян
@@ -44,8 +42,8 @@ theme-2038:
     -
       name:
         cmn: 他山
-        lzh: 他山
-        cmn-Latn: Tāshān
+        lzh: 訪舊
+        wuu: 朋友家
         en: Friends
         tok: jan pona
         dng: Тамыр

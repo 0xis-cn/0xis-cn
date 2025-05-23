@@ -10,7 +10,9 @@
 		</a>
 		<ul class="ml-bookmark">
 		{%- for item in t2038.drawer-links -%}
-			<li><a href="{{ item.url }}">{%- include pick-language.html text=item.name -%}</a></li>
+			<li><a href="{{ item.url }}" {% if item.url contains "https://" %}target="_blank"{% endif %}>
+				{%- include pick-language.html text=item.name -%}
+			</a></li>
 		{%- endfor -%}
 		</ul>
 		{%- unless page.no-toc -%}

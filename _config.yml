@@ -22,6 +22,7 @@ theme-2038:
         en: Blog
         tok: lipu ali
         dng: Зуəвын
+        art-x-mini: Note
       url: /blog
     -
       name:
@@ -30,6 +31,7 @@ theme-2038:
         en: Lexicon
         tok: nimi Malin
         dng: Ханҗон хуадян
+        art-x-mini: Buku-name
       url: https://lex.matling.fit
     -
       name:
@@ -38,6 +40,7 @@ theme-2038:
         en: About
         tok: mi seme
         dng: Сыйҗяди
+        art-x-mini: Ego
       url: /blog/about
     -
       name:
@@ -47,6 +50,7 @@ theme-2038:
         en: Friends
         tok: jan pona
         dng: Тамыр
+        art-x-mini: Amigo
       url: /blog/friends
     -
       name:
@@ -55,4 +59,5 @@ theme-2038:
         tok: tawa suli ☈
         lzh: 雲闥 ☈
         dng: Йицыйүан җылү ☈
+        art-x-mini: Savaje go ☈
       url: https://travel.moe/go.html

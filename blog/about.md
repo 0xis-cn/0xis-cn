@@ -54,10 +54,9 @@ Not knowing how to publish it online, I requested fellows of the Gang to
 manually create the same directory.
 
 2012
-: Some earliest posts here, basically writing tasks for elementary school students,
-can be found in [zww.cn](https://www.zww.cn/).
-Others were published on QZone, a private SNS
-then crammed with 'not a doomsday but a cherishing year!'.
+: Some earliest posts are published in Facebook-influenced websites, including
+[zww.cn](https://www.zww.cn/), xxt ([weathered blog](http://blog.xxt.cn/459358784)), and QQ,
+where I remembered were crammed with 'not [apocalypse](http://cosmophobia.wikidot.com/) but cherishing year!'.
 
 2018
 : A blog with Hexo, with a 'futuristic' collection of practice questions on physics,

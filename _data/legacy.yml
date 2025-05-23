@@ -11,10 +11,15 @@ i18n:
 
   lzh:
     toc: 題籤
-    btn_read: 啟卷
-    comment_tips: 使意未盡，<a href="LINK" target="_blank">惠註焉</a>。
+    btn_read: 啟卷 (LEN 字)
+    comment_tips: 使意未盡，<a href="LINK" target="_blank">惠註焉</a>，繫於 Fediverse。
 
   tok:
     toc: jo
     btn_read: lipu ni (nimi LEN)
     comment_tips: <a href="LINK" target="_blank">lipu ni lon kulupu Fediverse</a> la, sina ken lukin anu sitelen e toki lili.
+
+  art-x-mini:
+    toc: Peso
+    btn_read: Leje e mui (LEN name)
+    comment_tips: <a href="LINK" target="_blank">Leje e pale</a> en GoToSocial, ke a pale via de fore-sende de Mastodon u inta-metodo-kan metodo.

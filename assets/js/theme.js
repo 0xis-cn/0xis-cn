@@ -75,10 +75,10 @@ const preferences = [
 		menu.appendChild(i.line())
 	btn.addEventListener('click', () => menu.classList.toggle('open'))
 	base.appendChild(menu)
-	const line = document.createElement('hr')
-	menu.appendChild(line)
-	const notbyai = '<a href="https://notbyai.fyi" style="margin-left:4px"><img class=ml-wordmark src="/assets/notbyai.svg" alt="Written by Human, Not by AI"></a>'
-	line.insertAdjacentHTML('afterend', notbyai)
+	// const line = document.createElement('hr')
+	// menu.appendChild(line)
+	// const notbyai = '<a href="https://notbyai.fyi" style="margin-left:4px"><img class=ml-wordmark src="/assets/notbyai.svg" alt="Written by Human, Not by AI"></a>'
+	// line.insertAdjacentHTML('afterend', notbyai)
 
 	document.querySelector(".ml-drawer")?.addEventListener('click', (e) => {
 		if (menuBtn && e.target === e.currentTarget)

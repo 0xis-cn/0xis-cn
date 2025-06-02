@@ -2,6 +2,7 @@
 layout: post
 title: ‘My Path’ after twenty years
 ciemmwue: in Beijing, AI-assisted
+category: [society]
 tags: [gaokao]
 ---
 
@@ -37,7 +38,7 @@ Still, Ciang, and remained our reference point — a figure less real than remem
 
 Ciang was the stoic heroine of the early 2000s. Her path was narrow, her goals were — at least believed — legible. Students were persuing success in percentages and placement, drilled into the beauty in truth, even at personal cost. Modern Ciang-ites, still stoic figures though, embraced the same struggle dressed in softer fabrics and bathed in better lighting.
 
-On [REDnote or TikTok](https://stephenleng.com/en/tiktok-is-bad-but-rednote-is-even-worse/), you see not only students, but also working professionals in their twenties or early thirties — alumni of Ciang's legacy. 'Succeed' in the old sense: accepted to top universities, hired into stable jobs, often in competitive cities or industries, they continue to post silhouettes from their 'commute-study-journal-sleep' routines, intercut with moments of skincare, tea brewing, or elegant furniture rearrangements. These are not resession from productivity. They are polymaths, carrying out professional work while holding fast to the rituals of their adolescent selves.
+On [REDnote or TikTok](https://stephenleng.com/en/tiktok-is-bad-but-rednote-is-even-worse/), you see not only students, but also working professionals in their twenties or early thirties — alumni of Ciang's legacy. Having 'succeeded' in the old sense: accepted to top universities, hired into stable jobs, often in competitive cities or industries, they continue to post silhouettes from their 'commute-study-journal-sleep' routines, intercut with moments of skincare, tea brewing, or ukulele. These are not resession from productivity. They are polymaths, carrying out professional work while holding fast to the rituals of their adolescent selves.
 
 They no longer declare a love of biology or literature as in *My Path*. They speak of discipline, resilience, or simply 'because it's there'. Excellence remains, only decentralized. No longer measured in rankings or test scores, but in aesthetics, posture, glow [^aespell].
 
@@ -49,7 +50,7 @@ This cultural pivot can be traced in both personal and systemic changes. As adul
 
 It is not a simple change from campus to workplace. Most of these influencers never claim to be influencers. They insist on being *normal*. They emphasize their jobs, their exhaustion, their profession. Yet they still frame their lives through petty tricks. An unexpected perfect portrait, a sunlight-shed balcony, a dim corner in a recent concert. And theoretically (only unfriendly for observation), a startup to become the next Amazon.
 
-So what has changed? The stakes are no longer exams, but identity maintenance. Each post is an echo: I am still going. I am still worthy of the path. Even if I never became Ciang, I'm not lost. Excellence is not gone. Simply migrated into aesthetic balance, emotional fluency, and curated normalcy.
+So what has changed? The stakes are no longer exams, but identity maintenance. Each post is an echo: I am still going. I am still worthy of the path. Even if I never became Ciang, I am not lost. Excellence is not gone. Simply migrated into aesthetic balance, emotional fluency, and curated normalcy.
 
 The mutation of the culture is not a decline in willpower, nor a rebellion against study, but rather a sideways drift. The generation that once idolized Ciang has not abandoned their ideals. They instead translated them — into makeup, lo-fi beats, carefully placed camera, and fragile but persistent rituals of self.
 
@@ -65,7 +66,7 @@ It is not a disarmament of merit. It is an intelligent adaptation to an increasi
 
 Yet something is lost. Not purity, not discipline — those are intact — but a certain coherence. The older culture, for all its rigidity, gave its devotees a structure in which they could believe *too much*. Now, many believe *just enough to keep going*, but not enough to be transformed. Ciang's alumni sitting by Weiming Lake, instead of composing another *My Path*, are moaning their ephemeral careers like anyone else.
 
-It is the deepest irony: the very cultural mechanisms that once facilitated intellectual progress are now perpetuating self-doubt and fragmented ambition. There is no true self-cultivation in a system-overwhelming world. Students who dreamt to become Ciang now find themselves still in the frame, but without the sense of arrival. They persist in the rituals without any kind of conviction.
+It is the deepest irony: the very cultural mechanism that once facilitated intellectual progress is now perpetuating self-doubt and fragmented ambition. There is no true self-cultivation in a system-overwhelming world. Students who dreamt to become Ciang now find themselves staying on the path, but without a destination. They persist in the rituals without any kind of conviction.
 
 Even the mythic heroes, like Ciang herself, have abandoned the old temple. Her rumoured move away from biology [^rumor] suggested a broad yet dangerous drift: the dream of integrity replaced by adaptability, linguistic fluency, and social intelligence. But still, it does not make the idea of learning a failure. The subculture has mutated from a meritocratic ladder to a mosaic of survival strategies. Some still aim at excellence. Others aim at visibility. Most aim, tacitly, at dignity.
 
@@ -73,7 +74,7 @@ Even the mythic heroes, like Ciang herself, have abandoned the old temple. Her r
 
 The ultimate question is not 'where is the right path?' But rather, 'what kind of story can we still convince ourselves of?'
 
-That story has become quieter. More reflexive. Less triumphant. But it still exists. In every person who wakes up to an alarm they set the night before. In every carefully annotated Kindle passage. In every mundane step taken not out of clarity, but out of hope that clarity might someday return.
+That story has become quieter. More reflexive. Less triumphant. But it still exists. In every person who wakes up to an alarm they set the night before. In every carefully annotated Kindle passage. In every mundane step taken not out of clarity, but hoping that clarity might someday return.
 
 ## Interlude: A girl with flashcards
 
@@ -87,7 +88,7 @@ She still uses the same vocabulary app from high school. The interface has chang
 
 Somewhere in another apartment — maybe three subway stops away — a younger girl is posting a video: Study With Me, 10 p.m. to 2 a.m., Pomodoro Timer. The same markers. The same tilt of the lamp. The same desperate tenderness toward structure.
 
-The woman at the table thinks she sees herself in that girl. She wants to warn her, or maybe just apologize. But more honestly, she envies her: the clarity, the flame, the unbroken line between effort and meaning. That line is now gone from her life — not erased, but faded. She still does the things. She still counts the minutes, highlights the sentences, chooses the right filter. But the sense of destiny is gone.
+The woman at the table thinks she sees herself in that girl. She wants to warn her, or maybe just apologise. But more honestly, she envies her: the clarity, the flame, the unbroken line between effort and meaning. That line is now gone from her life — not erased, but faded. She still does the things. She still counts the minutes, highlights the sentences, chooses the right filter. But the sense of destiny is gone.
 
 Once, she believed that hard work led somewhere. That if you threw enough stones, Goliath would fall.
 
@@ -97,13 +98,13 @@ Now she throws them for the sound they make.
 
 He was never good at exams. Not bad, just… not good.
 
-While others colour-coded their notebooks, he drew maps of imaginary cities in the margins. He preferred long walks to past-paper drills, and often fell asleep in the library with a book that had nothing to do with the curriculum. He never hated school — he just couldn't find the urgency that others seemed to carry like oxygen tanks.
+While others colour-coded their notebooks, he drew maps of imaginary cities in the margins. He preferred long walks to past-paper drills, and often fell asleep in the library with a book that had nothing to do with the curriculum. He never hated school — only not found the urgency that others seemed to carry like oxygen tanks.
 
 He remembers watching the top scorers walk past, neat uniforms and faster footsteps, laughter that sounded rehearsed. They were always reviewing something, always prepared for a eureca moment. He respected them. Resented them, sometimes. But mostly, he felt like he was out of the story.
 
 Now, years later, he works as a technician for a small company that fixes air conditioning systems. An honest work. In summer, his shirt clings to his back by 10 a.m.; in winter, his hands are always slightly chapped. There is a calmness to it, a dignity in being useful. No one asks for grades. No one discusses paramecia.
 
-But some nights, when he finishes late, he climbs onto the roof of a client's building. Bathed in the wind, he watches lattices of glowing windows. Some flicker with PowerPoint slides. Some with livestreamed lectures. Some, probably, with videos of young people mouthing motivational slogans into ring lights.
+But some nights, when he finishes late, he climbs onto the roof of a client's building. Bathing in the wind, he watches lattices of glowing windows. Some flicker with PowerPoint slides. Some with livestreamed lectures. Some, probably, with videos of young people mouthing motivational slogans into ring lights.
 
 He wonders what would have happened if he had chased Ciang's path. Would it have broken him? Or saved him? He doesn't know. But he suspects that some of those windows belong to people who feel the same — unsure if they are ahead or behind, unsure what was supposed to happen.
 

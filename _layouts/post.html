@@ -10,28 +10,14 @@ layout: page
 
 <div class=ml-smaller>
 	{%- include datetime.html -%}
+	{%- assign tlink = t2038.tag-links -%}
 	{%- if item.comments -%}
 	<p>{{ info.comment_tips | replace: "LINK", item.comments }}</p>
 	{%- endif -%}
-	{%- if item.categories.size != 0 -%}
+	{%- if item.categories.size != 0 or item.tags.size != 0 -%}
 	<p>
-		⌸
-		{% for category in item.categories -%}
-		{% assign cescape = category | uri_escape -%}
-		{%- assign now-array = clink | map: category -%}
-		{%- if now-array.size == 0 -%}
-		<a rel="index" href="
-			{{ t2038.category-dir | default: '/category/' | append: cescape | relative_path }}
-			">{{ category }}</a>
-		{%- else -%}
-		<a rel="index" href="{{ now-array | first }}">{{ category }}</a>
-		{%- endif -%}
-		{%- endfor -%}
-	</p>
-	{%- endif -%}
-	{%- assign tlink = t2038.tag-links -%}
-	{%- if item.tags.size != 0 -%}
-	<p>⌗
+		{%- if item.categories.size != 0 -%} &#9585; {{ item.categories | array_to_sentence_string }} &ensp; {% endif -%}
+		&#8983;
 		{% for tag in item.tags -%}
 		{% assign tescape = tag | uri_escape -%}
 		{%- assign now-array = tlink | map: tag -%}

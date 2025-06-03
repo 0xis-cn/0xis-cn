@@ -23,7 +23,7 @@ layout: page
 		{%- assign now-array = tlink | map: tag -%}
 		{%- if now-array.size == 0 -%}
 		<a rel="index" href="
-			{{ t2038.tag-dir | default: '/tag/' | append: tescape | relative_path }}
+			{{ t2038.tag-dir | default: '/tags/' | append: tescape | relative_path }}
 			">{{ tag }}</a>
 		{%- else -%}
 		<a rel="index" href="{{ now-array | first }}">{{ tag }}</a>

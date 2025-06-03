@@ -5,7 +5,7 @@ i18n:
     comment_tips: <a href="LINK" target="_blank">Read the comments</a>, where your words will be shown when forwarding with Mastodon or compatible protocols.
 
   cmn:
-    toc: 目录
+    toc: 目次
     btn_read: 续读 (LEN 字)
     comment_tips: 在<a href="LINK" target="_blank">此 GoToSocial 帖文</a>阅写评论，可迳 Mastodon 或相容协议转发。
 

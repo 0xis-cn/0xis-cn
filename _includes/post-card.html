@@ -1,0 +1,29 @@
+<div {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
+	<h3>
+		<a href="{{ post.id }}">{{ post.title }}</a>
+	</h3>
+	{{ post.excerpt }}
+	<p class=ml-smaller>{% include datetime.html %}</p>
+	{%- assign content = post.content | strip_html -%}
+	{%- assign lang = post.lang | default: site.lang | default: 'en' -%}
+	{%- assign info = site.data.legacy.i18n | map: lang | first -%}
+	{%- assign cjk_languages = "cmn" | split: " " -%}
+	{%- if cjk_languages contains lang -%}
+		{%- assign len = content.size -%}
+		{%- assign flag = true -%}
+		{%- assign content_explode = content | split: "" -%}
+		{%- for char in content_explode -%}
+			{%- assign char_space = char | lstrip -%}
+			{%- if char_space.size == 0 -%}
+				{%- assign len = len | minus: flag -%}
+				{%- assign flag = true -%}
+			{%- elsif "、" > char or char >= "ꀀ" -%}
+				{%- assign len = len | minus: 1 -%}
+				{%- assign flag = false -%}
+			{%- endif -%}
+		{%- endfor -%}
+	{%- else -%}
+		{%- assign len = content | number_of_words -%}
+	{%- endif -%}
+	<a class=ml-temp-btn href="{{ post.id }}">{{ info.btn_read | replace: 'LEN', len }} ⋙</a>
+</div>

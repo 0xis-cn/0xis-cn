@@ -3,28 +3,34 @@ layout: default
 title: 致远　至远
 permalink: zhiyuan-zhiyuan
 no-toc: true
+lang: cmn
 custom-head: >-
  <style>
  #sheet-wrapper { display: flex; flex-wrap: wrap; }
- #sheet-wrapper > div { display: flex; width: calc(25% - 2px); } /* TODO: Responsive width */
+ #sheet-wrapper > div { display: flex; width: calc(25% - 2px); }
+ @media (max-width: 746px) { #sheet-wrapper > div { width: calc(33% - 2px); }}
+ @media (max-width: 539px) { #sheet-wrapper > div { width: calc(50% - 2px); }}
+ @media (max-width: 388px) { #sheet-wrapper > div { width: 100%; }}
  .k { margin: 8px; flex-grow: 1; position: relative; }
  .k05 { flex-grow: 0.5; }
  .k15 { flex-grow: 1.5; }
  .k2 { flex-grow: 2; }
- .df { display: flex; justify-content: space-between; }
- .d8f { background: linear-gradient(to top, transparent 2.5px, var(--color-heavy) 2.5px, var(--color-heavy) 3px, transparent 3px); flex-grow: 0.5; }
- .d16f { background: linear-gradient(to top, transparent 0, var(--color-heavy) 0, var(--color-heavy) 0.5px, transparent 0.5px, transparent 2.5px, var(--color-heavy) 2.5px, var(--color-heavy) 3px, transparent 3px); flex-grow: 0.25; }
+ .df, .d8f, .d16f { display: flex; justify-content: space-between; }
+ .d8f { background: linear-gradient(to top, transparent 3px, var(--color-heavy) 3px, var(--color-heavy) 4px, transparent 4px); flex-grow: 0.5; }
+ .d16f { background: linear-gradient(to top, transparent 0, var(--color-heavy) 0, var(--color-heavy) 1px, transparent 1px, transparent 3px, var(--color-heavy) 3px, var(--color-heavy) 4px, transparent 4px); flex-grow: 0.25; }
  .n { position: relative; display: inline-block; }
  .mm { flex-basis: fit-content; }
  .l { display: inline-block; white-space: nowrap; position: absolute; top: 2em; left: -2px; }
  .kalt1 { display: inline-block; position: absolute; top: 3.5em; left: 0; right: 0; }
  .l2 { top: 3.25em; }
  .up { text-emphasis: dot; }
- .b { border-right: 1px solid white; margin-bottom: 4em; }
+ .b { border-right: 1px solid white; margin-bottom: 4em; height: 2.5em; }
  .bsuper { margin-bottom: 6em; }
  .n + .n { margin-left: 2px; }
  .l0bra { position: absolute; left: -1em; }
  .r0bra { position: absolute; right: -1em; }
+ .ah::after, .aj::after { top: -12px; left: 2px; position: absolute; content: "·"; }
+ .ah::after { left: 3px; top: 14px; }
  </style>
 ---
 
@@ -46,7 +52,7 @@ custom-head: >-
 				<div class="k k05">
 					<div class="df d16f">
 						<span class=n>5<span class=l>离</span><span class="l l2">流</span></span>
-						<span class=n>1<span class=l>别</span><span class="l l2">光</span></span>
+						<span class="n aj">1<span class=l>别</span><span class="l l2">光</span></span>
 					</div>
 				</div>
 				<div class="k">
@@ -62,6 +68,13 @@ custom-head: >-
 					<div class="df d8f">
 						<span class=n>5</span>
 						<span class=n>1<span class=l>致</span></span>
+					</div>
+					<div class="kalt1">
+						<div class="df">
+							<div class=l0bra>（</div>
+							<div class=n>5</div>
+							<div class=r0bra>）</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -134,7 +147,7 @@ custom-head: >-
 							<div class=l0bra>（</div>
 							<div class="d16f n">1<span class=l>把</span></div>
 							<div class="n">1<span class=l>青</span></div>
-							<div class="d16f n">6<span class=l>涩</span></div>
+							<div class="d16f n ah">6<span class=l>涩</span></div>
 						</div>
 					</div>
 				</div>
@@ -169,20 +182,28 @@ custom-head: >-
 				<div class="k k05">
 					<div class="df d16f">
 						<span class=n>5<span class=l>结</span><span class="l l2">消</span></span>
-						<span class=n>1<span class=l>束</span><span class="l l2">散</span></span>
+						<span class="n aj">1<span class=l>束</span><span class="l l2">散</span></span>
 					</div>
 				</div>
 				<div class="k">
 					<div class="df d8f">
 						<span class=n>7<span class=l>的</span><span class="l l2">的</span></span>
 						<div class="mm d16f">
-							<span class=n>5<span class=l>典</span></span>
-							<span class=n>5<span class=l>礼</span></span>
+							<span class=n>5<span class=l>典</span><span class="l l2">人</span></span>
+							<span class=n>5<span class=l>礼</span><span class="l l2">群</span></span>
 						</div>
 					</div>
 				</div>
 				<div class="k">
 					<span class=n>5</span>
+					<div class="kalt1">
+						<div class="df d8f">
+							<div class=l0bra>（</div>
+							<div class=n>5·</div>
+							<div class="d16f n">1<span class=l>西</span></div>
+							<div class=r0bra>）</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class=b>
@@ -209,7 +230,7 @@ custom-head: >-
 				</div>
 				<div class=k>
 					<div class="df d16f">
-						<span class=n>6<span class=l>秦</span><span class="l l2">从</span></span>
+						<span class="n ah">6<span class=l>秦</span><span class="l l2">从</span></span>
 						<span class=n>1<span class=l>岭</span><span class="l l2">电</span></span>
 					</div>
 				</div>
@@ -223,13 +244,33 @@ custom-head: >-
 							<span class=n>1<span class=l>的</span></span>
 						</div>
 					</div>
+					<div class="kalt1">
+						<div class="df d8f">
+							<span class="l0bra">（</span>
+							<span class=n>3<span class=l>信</span></span>
+							<div class="d16f">
+								<span class=n>4<span class=l>到</span></span>
+								<span class=n>3<span class=l>计</span></span>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class=k>
 					<div class="df d8f">
 						<span class=n>1</span>
 						<div class="mm d16f">
-							<span class=n>6<span class=l>思</span><span class="l l2">算</span></span>
-							<span class=n>1<span class=l>绪，</span><span class="l l2">机，</span></span>
+							<span class="n ah">6<span class=l>思</span></span>
+							<span class=n>1<span class=l>绪，</span></span>
+						</div>
+					</div>
+					<div class="kalt1">
+						<div class="df d8f">
+							<span class=n>3</span>
+							<div class="d16f">
+								<span class="n ah">6<span class=l>算</span></span>
+								<span class=n>1<span class=l>机，</span></span>
+							</div>
+							<span class="r0bra">）</span>
 						</div>
 					</div>
 				</div>
@@ -238,7 +279,7 @@ custom-head: >-
 				</div>
 				<div class="k k05">
 					<div class="df d16f">
-						<span class=n>6<span class=l>怀</span><span class="l l2">用</span></span>
+						<span class="n ah">6<span class=l>怀</span><span class="l l2">用</span></span>
 						<span class=n>1<span class=l>念</span><span class="l l2">键</span></span>
 					</div>
 				</div>
@@ -327,7 +368,7 @@ custom-head: >-
 				</div>
 				<div class=k>
 					<div class="df d8f">
-						<span class=n>2</span>
+						<span class=n>3</span>
 						<div class="mm d16f">
 							<span class=n>6<span class=l>和</span><span class="l l2">和</span></span>
 							<span class=n>5<span class=l>雨，</span><span class="l l2">雨，</span></span>
@@ -355,7 +396,7 @@ custom-head: >-
 					<div class="df d8f">
 						<span class=n>3</span>
 						<div class="mm d16f">
-							<span class=n>1<span class=l>我</span><span class="l l2">我</span></span>
+							<span class="n aj">1<span class=l>我</span><span class="l l2">我</span></span>
 							<span class=n>7</span>
 						</div>
 					</div>
@@ -363,7 +404,7 @@ custom-head: >-
 				<div class=k>
 					<div class="df d8f">
 						<div class="d16f n">7<span class=l>的</span><span class="l l2">的</span></div>
-						<div class="n">1<span class=l>心</span><span class="l l2">心</span></div>
+						<div class="n aj">1<span class=l>心</span><span class="l l2">心</span></div>
 						<div class="d16f n">5<span class=l>底</span><span class="l l2">底</span></div>
 					</div>
 				</div>
@@ -401,20 +442,20 @@ custom-head: >-
 			</div>
 			<div class=b>
 				<div class="k k15">
-					<span class=n>1·<span class=l>想</span></span>
+					<span class="n aj">1·<span class=l>想</span></span>
 				</div>
 				<div class="k k05">
 					<div class="df d16f">
-						<span class=n>1</span>
-						<span class=n>3<span class=l>在</span></span>
+						<span class="n aj">1</span>
+						<span class="n aj">3<span class=l>在</span></span>
 					</div>
 				</div>
 				<div class="k">
 					<div class="df d16f">
-						<span class=n>3<span class=l>勇</span></span>
-						<span class=n>1</span>
-						<span class=n>1<span class=l>气</span></span>
-						<span class=n>1<span class=l>中</span></span>
+						<span class="n aj">3<span class=l>勇</span></span>
+						<span class="n aj">1</span>
+						<span class="n aj">1<span class=l>气</span></span>
+						<span class="n aj">1<span class=l>中</span></span>
 					</div>
 				</div>
 				<div class="k">
@@ -443,28 +484,28 @@ custom-head: >-
 			</div>
 			<div class=b>
 				<div class="k k15">
-					<span class=n>1·<span class=l>藏</span></span>
+					<span class="n aj">1·<span class=l>藏</span></span>
 				</div>
 				<div class="k k05">
 					<div class="df d16f">
-						<span class=n>1</span>
-						<span class=n>3<span class=l>属</span></span>
+						<span class="n aj">1</span>
+						<span class="n aj">3<span class=l>属</span></span>
 					</div>
 				</div>
 				<div class="k">
 					<div class="df d8f">
-						<span class=n>3<span class=l>于</span></span>
+						<span class="n aj">3<span class=l>于</span></span>
 						<div class="df d16f">
-							<span class=n>4<span class=l>我</span></span>
-							<span class=n>3<span class=l>的</span></span>
+							<span class="n aj">4<span class=l>我</span></span>
+							<span class="n aj">3<span class=l>的</span></span>
 						</div>
 					</div>
 				</div>
 				<div class="k">
 					<div class="df d16f">
-						<span class=n>3</span>
-						<span class=n>1</span>
-						<span class=n>1<span class=l>倔</span></span>
+						<span class="n aj">3</span>
+						<span class="n aj">1</span>
+						<span class="n aj">1<span class=l>倔</span></span>
 						<span class=n><sup>♭</sup>7</span>
 					</div>
 				</div>
@@ -488,15 +529,15 @@ custom-head: >-
 					<div class="df d8f">
 						<div class="n">2<span class=l>延</span></div>
 						<div class="d16f">
-							<div class=n>1<span class=l>到</span></div>
-							<div class=n>7<span class=l>远</span></div>
+							<div class="n aj">1<span class=l>到</span></div>
+							<div class="n aj">7<span class=l>远</span></div>
 						</div>
 					</div>
 				</div>
 				<div class=k>
 					<div class="df d8f">
 						<div class=n>7</div>
-						<div class=n>2<span class=l>方，</span></div>
+						<div class="n aj">2<span class=l>方，</span></div>
 					</div>
 				</div>
 			</div>
@@ -505,39 +546,39 @@ custom-head: >-
 				<div class=k>
 					<div class="df d8f">
 						<div class="d16f n">7<span class=l>升</span></div>
-						<div class="n">1<span class=l>起</span></div>
-						<div class="d16f n">2<span class=l>明</span></div>
+						<div class="n aj">1<span class=l>起</span></div>
+						<div class="d16f n aj">2<span class=l>明</span></div>
 					</div>
 				</div>
 				<div class=k>
 					<div class="df d8f">
-						<div class="n">4<span class=l>耀</span></div>
+						<div class="n aj">4<span class=l>耀</span></div>
 						<div class="d16f">
-							<div class=n>3<span class=l>的</span></div>
-							<div class=n>2<span class=l>太</span></div>
+							<div class="n aj">3<span class=l>的</span></div>
+							<div class="n aj">2<span class=l>太</span></div>
 						</div>
 					</div>
 				</div>
 				<div class=k>
 					<div class="df d8f">
-						<div class=n>2</div>
-						<div class=n>1<span class=l>阳，</span></div>
+						<div class="n aj">2</div>
+						<div class="n aj">1<span class=l>阳，</span></div>
 					</div>
 				</div>
 			</div>
 			<div class=b>
 				<div class=k>
 					<div class="df d8f">
-						<div class=n>4<span class=l>青</span></div>
-						<div class=n>3<span class=l>涩</span></div>
+						<div class="n aj">4<span class=l>青</span></div>
+						<div class="n aj">3<span class=l>涩</span></div>
 					</div>
 				</div>
 				<div class=k>
 					<div class="df d8f">
-						<div class="n">1<span class=l>的</span></div>
+						<div class="n aj">1<span class=l>的</span></div>
 						<div class="d16f">
 							<div class=n>6<span class=l>脸</span></div>
-							<div class=n>1<span class=l>庞</span></div>
+							<div class="n aj">1<span class=l>庞</span></div>
 						</div>
 					</div>
 				</div>
@@ -545,33 +586,33 @@ custom-head: >-
 				<div class="k k05">
 					<div class="d16f">
 						<div class=n>6<span class=l>记</span></div>
-						<div class=n>1<span class=l>下</span></div>
+						<div class="n aj">1<span class=l>下</span></div>
 					</div>
 				</div>
 			</div>
 			<div class=b>
 				<div class=k>
 					<div class="df d8f">
-						<div class=n>3<span class=l>最</span></div>
-						<div class=n>4<span class=l>珍</span></div>
+						<div class="n aj">3<span class=l>最</span></div>
+						<div class="n aj">4<span class=l>珍</span></div>
 					</div>
 				</div>
 				<div class=k>
 					<div class="df d8f">
-						<div class=n>3<span class=l>贵</span></div>
-						<div class=n>1</div>
+						<div class="n aj">3<span class=l>贵</span></div>
+						<div class="n aj">1</div>
 					</div>
 				</div>
 				<div class="k n">7<span class=l>的</span></div>
 				<div class=k>
 					<div class="df d8f">
 						<div class=n>7<span class=l>篇</span></div>
-						<div class=n>1</div>
+						<div class="n aj">1</div>
 					</div>
 				</div>
 			</div>
 			<div class=b>
-				<div class="k n">1<span class=l>章。</span></div>
+				<div class="k n aj">1<span class=l>章。</span></div>
 				<div class="k n">—</div>
 				<div class="k k2 n">（间奏略）</div>
 			</div>

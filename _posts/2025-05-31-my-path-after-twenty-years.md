@@ -32,7 +32,7 @@ I discovered Qu's book later, during the climax of *Qoo Iaw Dang Heocbah*, a stu
 
 We believed in effort. We believed in strategy. Now and then, we believed that if we just worked hard enough, our love would magically pay off. But even then, there was a crack between the reality and the theory/ideal. I was distracted, not by games or gadgets frequently accused by Qu, Heocbah, and anonymous parents. I was distracted by my own mind — by books that were not assigned, by thoughts that did not fix into the upcoming exam. I was seen as learning excessively, a beautiful misunderstanding.
 
-Still, Ciang, and remained our reference point — a figure less real than remembered, shining not just because she climbed high, but that she was thought to *love* the climb. So did her succeessors writing by Weiming Lake. Ciang is overly correct: 'We learn for cultivation and sublimation of our own. Speak not about universities, jobs, or material security. Everything learnt will act on your body and mind, in the subtle change in your state of being.'
+Still, Ciang, and remained our reference point — a figure less real than remembered, shining not just because she climbed high, but that she was thought to *love* the climb. So did her succeessors writing by Wèimíng Lake. Ciang is overly correct: 'We learn for cultivation and sublimation of our own. Speak not about universities, jobs, or material security. Everything learnt will act on your body and mind, in the subtle change in your state of being.'
 
 ## Now: Fragmented goals and aesthetics
 
@@ -64,7 +64,7 @@ The rituals have survived: early rising, colour-coded schedules, even the meticu
 
 It is not a disarmament of merit. It is an intelligent adaptation to an increasingly precarious world. When Ciang's path promised, at least nominally, a trade of suffering for stability, the modern scene has internalized the fact that the reward is not guaranteed. Thus, the reward becomes the act itself — stylized, shareable, looped.
 
-Yet something is lost. Not purity, not discipline — those are intact — but a certain coherence. The older culture, for all its rigidity, gave its devotees a structure in which they could believe *too much*. Now, many believe *just enough to keep going*, but not enough to be transformed. Ciang's alumni sitting by Weiming Lake, instead of composing another *My Path*, are moaning their ephemeral careers like anyone else.
+Yet something is lost. Not purity, not discipline — those are intact — but a certain coherence. The older culture, for all its rigidity, gave its devotees a structure in which they could believe *too much*. Now, many believe *just enough to keep going*, but not enough to be transformed. Ciang's alumni sitting by Wèimíng Lake, instead of composing another *My Path*, are moaning their ephemeral careers like anyone else.
 
 It is the deepest irony: the very cultural mechanism that once facilitated intellectual progress is now perpetuating self-doubt and fragmented ambition. There is no true self-cultivation in a system-overwhelming world. Students who dreamt to become Ciang now find themselves staying on the path, but without a destination. They persist in the rituals without any kind of conviction.
 
@@ -96,7 +96,7 @@ Now she throws them for the sound they make.
 
 ## Interlude II: A boy on the rooftop
 
-He was never good at exams. Not bad, just… not good.
+He was never good at exams. Not bad, just... not good.
 
 While others colour-coded their notebooks, he drew maps of imaginary cities in the margins. He preferred long walks to past-paper drills, and often fell asleep in the library with a book that had nothing to do with the curriculum. He never hated school — only not found the urgency that others seemed to carry like oxygen tanks.
 
@@ -125,3 +125,31 @@ But maybe that is enough.
 Maybe the quiet determination of the woman with the flashcards, or the roof-bound technician who still wonders 'what if', are not stories of failure, but of **cultural memory**. They carry forward something we cannot quite define. Not ambition. Not hope. Or no more than a way of being with effort.
 
 So this is not a eulogy for Ciang, or for the age of textbooks and flashcards. It is an acknowledgment that the path never really existed the way we thought. In the end of the day, across the scattered stones and mismatched stories, something still tries to walk.
+
+## The end
+
+<details markdown=1>
+<summary>Above is the full text. Click to unfold further discussions.</summary>
+
+It is a long overdue idea ultimately written prior to the Higher Education Entrance Examination in 2025. I am unable to handle so long content, so I must confess that it is AI-assisted. Particularly, I should attribute two interlude stories to ChatGPT.
+
+I do feel the style of writing expulsively internetty... But I can do nothing. I just go through some opinions for the rest of the page.
+
+**'Don't you know all the traumata?'**
+
+I wish I have not erroneously implied that current education culture is always softened or aestheticised. From time to time, it remains oppresive — and this is commonly what you expect to read on the internet, for bad news travels fast. But there is no reason to polarise either way.
+
+Gorgeous faces also travel fast. Ciang is herself an influencer, sharing most of the factors intended for today's counterparts. Someone may ask, 'did the transition in this post happen only between twenty years? Did it applied as well between Ciang, writing *My Path*, and her readers? Or Ciang and her classmates failed to admit to Peking University?' The answer is yes. It takes time however, if not twenty years, to verify that the phenomenon appearing to be personal gee-whiz is a trauma of generation.
+
+After all, I am not criticising the system. I am overwhelmed with the grief, however, that our whole generation still carries stones in hand, polishing into symbolism in the disastrous years, because of a miracle that never happened.
+
+**'Relationship always matters.'**
+
+Thanks to William Goodspeed for this argument. The great talker may be surprised that flashcard girl and rooftop boy are thinking alone. Emotional connection is key to wellness, of course. But the insertion of survivalist perspective is exactly what followers of Ciang have done — and done consummately.
+
+By highlighting a reductionist 'value to people around', Goodspeed implies that publishment of academic papers or participation in a gamechanging product is itself not valuable. This is brilliant. The grand narrative have collapsed to a level that on REDnote there are comments reading 'I believed [the employer] have forged the photos of such a handsome programmer to promote their automatic driving business'.
+
+What I differ from Goodspeed is that I presume that people will be more lonely under this collapse. 
+</details>
+
+**Finally, in a few days, some of my friends will attend the tough exam. Good luck.**

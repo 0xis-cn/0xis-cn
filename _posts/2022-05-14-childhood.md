@@ -1,9 +1,9 @@
 ---
 title: 怀旧
 layout: post
+category: retrospection
 lang: cmn
 no-toc: true
-tag: retrospect
 ciemmwue: 于甘肃
 comments: https://i.ci3.top/@matlingblog/statuses/01G2ZXTT00D3HPT4Q2KCJ2YVDJ
 ---

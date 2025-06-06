@@ -5,6 +5,7 @@ lang: tok
 tags: ['toki-pona']
 no-toc: true
 ciemmwue: lon ma Kansu
+category: retrospection
 comments: https://i.ci3.top/@matlingblog/statuses/01HZB3XW00WD7P1YH7754WXYFM
 ---
 

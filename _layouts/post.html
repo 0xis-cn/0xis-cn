@@ -17,7 +17,9 @@ layout: page
 	{%- if item.categories.size != 0 or item.tags.size != 0 -%}
 	<p>
 		{%- if item.categories.size != 0 -%} &#9585; {{ item.categories | array_to_sentence_string }} &ensp; {% endif -%}
+		{%- if item.tags.size != 0 -%}
 		&#8983;
+		{%- endif -%}
 		{% for tag in item.tags -%}
 		{% assign tescape = tag | uri_escape -%}
 		{%- assign now-array = tlink | map: tag -%}

@@ -112,14 +112,6 @@ $big-width: 60rem;
 	top: 0;
 }
 
-/*
-.ml-card-list {
-	margin: 0 2em 0 3em;
-}
-.ml-card-list dd {
-	display: flex;
-	flex-wrap: wrap;
-}
 .ml-card-anchor {
 	box-sizing: border-box;
 	padding: 1rem;
@@ -138,4 +130,8 @@ $big-width: 60rem;
 	height: 100%;
 	object-fit: cover;
 }
-*/
+
+.ml-card-list-inside {
+	max-width: 1200px;
+	margin: auto;
+}

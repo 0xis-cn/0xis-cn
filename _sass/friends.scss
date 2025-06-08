@@ -1,8 +1,9 @@
+// from originally independent css
 @media screen and (min-width: 540px) {
 	.ml-card-anchor {
 		width: calc(50% - 2em);
 	}
-	.ml-card-list > dd {
+	.ml-card-list-inside {
 		display: flex;
 		flex-wrap: wrap;
 	}

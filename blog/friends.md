@@ -2,7 +2,6 @@
 layout: page
 title: Lhày shàn
 no-toc: true
-custom-head: <link rel="stylesheet" href="/assets/css/friends.css" />
 ---
 
 > Ngràwks payc tu wan, wan wuc doc dàn, gu gràc wi lhàk.  

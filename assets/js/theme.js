@@ -1,4 +1,4 @@
-const verticalEnabledLanguages = ['cmn', 'lzh', 'wuu', 'ko', 'ja']
+const verticalEnabledLanguages = ['cmn', 'lzh', 'wuu', 'ko', 'ja', 'art-x-danayo']
 
 class Preference {
 	constructor(localStorageKey, defaultValue, options) {

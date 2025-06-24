@@ -23,3 +23,8 @@ i18n:
     toc: Peso
     btn_read: Leje e mui (LEN name)
     comment_tips: <a href="LINK" target="_blank">Leje e pale</a> en GoToSocial, ke a pale via de fore-sende de Mastodon u inta-metodo-kan metodo.
+
+  art-x-danayo:
+    toc: 目次
+    btn_read: 全文 (LEN個 字)
+    comment_tips: <a href="LINK" target="_blank">此文</a> GoToSocial於 連発, 議論 可能.

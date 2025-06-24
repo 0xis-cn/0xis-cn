@@ -29,6 +29,15 @@ $big-width: 60rem;
 	}
 }
 
+#tagline, .sub-tagline {
+	font-size: 1.5rem;
+	max-width: 30em;
+}
+
+.sub-tagline {
+	font-size: 1.25rem;
+}
+
 @media screen and (max-width: 540px) {
 	body #top h1 {
 		font-size: 3rem;
@@ -38,6 +47,15 @@ $big-width: 60rem;
 		&:before {
 			transform: translateX(5rem);
 		}
+	}
+	.sub-tagline {
+		font-size: 1rem;
+	}
+	#word-to {
+		display: none;
+	}
+	.ml-bookmark {
+		padding: 0;
 	}
 }
 
@@ -51,11 +69,6 @@ $big-width: 60rem;
 	font-size: 4rem;
 	line-height: 1.125;
 	margin: 2rem 0;
-}
-
-#tagline {
-	font-size: 1.5rem;
-	max-width: 30em;
 }
 
 #suli {

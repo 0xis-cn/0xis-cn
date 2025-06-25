@@ -30,6 +30,7 @@ a song by Yi An Musical released in 2018.
 It is a song that whispered the possibility of a future of oblivion
 and the demise of their musician dreams.
 Alas, the song, according to some, turned out to be a crystal ball.
+([Read more in the Dan'a'yo language](/blog/ianjunghak-siuhu-2038nen))
 
 Traits for design include
 
@@ -61,8 +62,8 @@ where I remembered were crammed with 'not [apocalypse](http://cosmophobia.wikido
 2018
 : A blog with Hexo, with a 'futuristic' collection of practice questions on physics,
 was first time deployed online with [CODING](https://coding.net/).
-Writing elsewhere on algorithm at the same time; I will include them
-as long as the format is ready.
+After the service adjustment I moved to Gitee.
+Writing elsewhere on algorithm at the same time; I may or may not include them later.
 
 2020
 : Revived my blog after gāokǎo. Migrated to Jekyll.
@@ -74,6 +75,10 @@ Theme switched to 2038 designed in a fortnight.
 11 Mar 2024
 : 'Many blogs are prone to desolation for lack management'... Well, some sort.
 Rearranged the repository.
+
+25 Jun 2025
+: Removed links to [AlphaGem](https://alphagem.github.io), [Emotion.](https://www.cnblogs.com/Emotion-Blog), [insilent](https://insilent.github.io), [lris](https://lvris.com), [Mr. Wolfram](https://www.cnblogs.com/Mr-WolframsMgcBox), [Rem](https://remrin.dev), [Tsienbaecdhuh](https://blog.qaiu.top), and [unt](https://phesoca.com).
+You have seen my hypocrisy, but this is partially driven by my former appointment.
 {: .ml-card-list}
 
 ## Publication date

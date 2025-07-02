@@ -81,6 +81,11 @@ Rearranged the repository.
 You have seen my hypocrisy, but this is partially driven by my former appointment.
 {: .ml-card-list}
 
+### Languages
+
+A post may have not been translated or written in obscure language because it pertains language-specific background knowledge or is intended to stress test that language, which will be less frequent as this blog aims to provide worldwide perspectives.
+Or because it was written at a young age and only archived.
+
 ## Publication date
 
 DM ('in the days of Muqliong') denote days starting from 1 May 2011, when

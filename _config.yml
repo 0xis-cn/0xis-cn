@@ -66,3 +66,7 @@ theme-2038:
         art-x-mini: Savaje go ☈
         art-x-danayo: 異次元之旅 ☈
       url: https://travel.moe/go.html
+
+collections:
+  alts:
+    output: true

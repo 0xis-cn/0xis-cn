@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 从容斥到反演
-permalink: /inclusion-principle
 formula: true
 ciemmwue: 于山西
 lang: cmn

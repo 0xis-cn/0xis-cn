@@ -2,7 +2,6 @@
 layout: post
 lang: en
 title: Kokanu in lika Hanci
-permalink: toki-ma-kanji
 custom-head: >-
  <style>
   #t{font-size:1.5em;text-align:center}

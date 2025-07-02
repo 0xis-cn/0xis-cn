@@ -26,4 +26,9 @@
 		{%- assign len = content | number_of_words -%}
 	{%- endif -%}
 	<a class=ml-temp-btn href="{{ post.id }}">{{ info.btn_read | replace: 'LEN', len }} ⋙</a>
+	{%- for alt_lang in post.alts -%}
+		{%- assign its_info = site.data.legacy.i18n | map: alt_lang | first -%}
+		{%- assign its_link = post.id | replace: '/blog/', '/alts/' | append: '-' | append: alt_lang -%}
+		<a href="{{ its_link }}" lang="{{ alt_lang }}">{{ its_info.language_name }}</a>
+	{%- endfor -%}
 </div>

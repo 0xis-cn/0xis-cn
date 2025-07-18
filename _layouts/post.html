@@ -8,31 +8,11 @@ layout: page
 {%- assign info = site.data.legacy.i18n | map: lang | first -%}
 
 
-<div class=ml-smaller>
-	{%- include datetime.html -%}
-	{%- assign tlink = t2038.tag-links -%}
-	{%- if item.comments -%}
-	<p>{{ info.comment_tips | replace: "LINK", item.comments }}</p>
-	{%- endif -%}
-	{%- if item.categories.size != 0 or item.tags.size != 0 -%}
-	<p>
-		{%- if item.categories.size != 0 -%} &#9585; {{ item.categories | array_to_sentence_string }} &ensp; {% endif -%}
-		{%- if item.tags.size != 0 -%}
-		&#8983; {% endif -%}
-		{% for tag in item.tags -%}
-		{% assign tescape = tag | uri_escape -%}
-		{%- assign now-array = tlink | map: tag -%}
-		{%- if now-array.size == 0 -%}
-		<a rel="index" href="
-			{{ t2038.tag-dir | default: '/tags/' | append: tescape | relative_path }}
-			">{{ tag }}</a>
-		{%- else -%}
-		<a rel="index" href="{{ now-array | first }}">{{ tag }}</a>
-		{%- endif -%}
-		{%- endfor -%}
-	</p>
-	{%- endif -%}
-</div>
+{%- include datetime.html -%}
+{%- if item.comments and page.collection == "posts" and false -%}
+<p class="ml-smaller">{{ info.comment_tips | replace: "LINK", item.comments }}</p>
+{%- endif -%}
+
 <nav class=ml-chokolate>
 	{%- if page.previous -%}<p>〈 <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
 	{%- else -%}<p>Ø</p>{%- endif -%}

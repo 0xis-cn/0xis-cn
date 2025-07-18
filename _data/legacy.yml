@@ -3,34 +3,33 @@ i18n:
     language_name: English
     toc: Contents
     btn_read: Read more (LEN words)
-    comment_tips: <a href="LINK" target="_blank">Read the comments</a>, where your words will be shown when forwarding with Mastodon or compatible protocols.
 
   cmn:
     language_name: 华语
     toc: 目次
     btn_read: 续读 (LEN 字)
-    comment_tips: 在<a href="LINK" target="_blank">此 GoToSocial 帖文</a>阅写评论，可迳 Mastodon 或相容协议转发。
+
+  cmn-Arab:
+    language_name: جࣨىُوً خُوَ
+    toc: مُلُ
+    btn_read: کْ ىُو LEN ز
 
   lzh:
     language_name: 文言
     toc: 題籤
     btn_read: 啟卷 (LEN 字)
-    comment_tips: 使意未盡，<a href="LINK" target="_blank">惠註焉</a>，繫於 Fediverse。
 
   tok:
     language_name: toki pona
     toc: jo
     btn_read: lipu ni (nimi LEN)
-    comment_tips: <a href="LINK" target="_blank">lipu ni lon kulupu Fediverse</a> la, sina ken lukin anu sitelen e toki lili.
 
   art-x-mini:
     language_name: Mini
     toc: Peso
     btn_read: Leje e mui (LEN name)
-    comment_tips: <a href="LINK" target="_blank">Leje e pale</a> en GoToSocial, ke a pale via de fore-sende de Mastodon u inta-metodo-kan metodo.
 
   art-x-danayo:
     language_name: 単亜語
     toc: 目次
     btn_read: 全文 (LEN個 字)
-    comment_tips: <a href="LINK" target="_blank">此文</a> GoToSocial於 連発, 議論 可能.

@@ -71,6 +71,7 @@ $drawer-makeup: (960px + $drawer-offset);
 @media screen and (min-width: $drawer-makeup) {
 	.ml-drawer {
 		left: calc(50% - 600px);
+		inset-inline-start: calc(50% - 600px);
 	} // XXX: GitHub hack
 	body.advanced-vertical .ml-drawer {
 		left: 2em;

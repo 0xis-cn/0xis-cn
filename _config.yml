@@ -24,6 +24,7 @@ theme-2038:
         dng: Зуəвын
         art-x-mini: Note
         art-x-danayo: 文
+        cmn-Arab: ڤٌ
       url: /blog
     -
       name:
@@ -34,6 +35,7 @@ theme-2038:
         dng: Ханҗон хуадян
         art-x-mini: Buku-name
         art-x-danayo: 含章字典
+        cmn-Arab: خً جًنْ
       url: https://lex.matling.fit
     -
       name:
@@ -44,6 +46,7 @@ theme-2038:
         dng: Сыйҗяди
         art-x-mini: Ego
         art-x-danayo: 自己紹介
+        cmn-Arab: أنا
       url: /blog/about
     -
       name:
@@ -55,6 +58,7 @@ theme-2038:
         dng: Тамыр
         art-x-mini: Amigo
         art-x-danayo: 外部
+        cmn-Arab: خوَباً
       url: /blog/friends
     -
       name:
@@ -65,6 +69,7 @@ theme-2038:
         dng: Йицыйүан җылү ☈
         art-x-mini: Savaje go ☈
         art-x-danayo: 異次元之旅 ☈
+        cmn-Arab: عمه ☈
       url: https://travel.moe/go.html
 
 collections:

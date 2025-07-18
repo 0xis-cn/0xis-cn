@@ -1,9 +1,9 @@
-<div {% if post.lang %}lang="{{ post.lang }}"{% endif %}>
+<div {% if post.lang %}lang="{{ post.lang }}"{% endif -%} {% include post-direction-rtl.html %}>
 	<h3>
 		<a href="{{ post.id }}">{{ post.title }}</a>
 	</h3>
 	{{ post.excerpt }}
-	<p class=ml-smaller>{% include datetime.html %}</p>
+	{% include datetime.html %}
 	{%- assign content = post.content | strip_html -%}
 	{%- assign lang = post.lang | default: site.lang | default: 'en' -%}
 	{%- assign info = site.data.legacy.i18n | map: lang | first -%}
@@ -27,8 +27,9 @@
 	{%- endif -%}
 	<a class=ml-temp-btn href="{{ post.id }}">{{ info.btn_read | replace: 'LEN', len }} ⋙</a>
 	{%- for alt_lang in post.alts -%}
+		{%- assign its_lang = alt_lang | downcase | prepend: "-" -%}
 		{%- assign its_info = site.data.legacy.i18n | map: alt_lang | first -%}
-		{%- assign its_link = post.id | replace: '/blog/', '/alts/' | append: '-' | append: alt_lang -%}
+		{%- assign its_link = post.id | replace: '/blog/', '/alts/' | append: its_lang -%}
 		<a href="{{ its_link }}" lang="{{ alt_lang }}">{{ its_info.language_name }}</a>
 	{%- endfor -%}
 </div>

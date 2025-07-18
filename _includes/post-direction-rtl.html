@@ -1,0 +1,5 @@
+{% assign rtl_lang = "ar cmn-Arab" | split: " " -%}
+{% assign post_lang = post.lang | default: page.lang | default: site.lang | default: "en"  -%}
+{% if rtl_lang contains post_lang -%}
+  dir="rtl"
+{%- endif %}

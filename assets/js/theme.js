@@ -8,7 +8,7 @@ function calculateShadow() {
 	const text = document.getElementById("ml").innerText
 	let ptr = 0, leko = []
 	for (let x = 1 - width; x < width; x += 2)
-		for (let y = 0; y < 13; y += 2) {
+		for (let y = 1; y < 14; y += 2) {
 			if (text.charCodeAt(ptr) % 2)
 				leko.push(`${x}em ${y}em`)
 			if ((ptr += 10) > text.length)

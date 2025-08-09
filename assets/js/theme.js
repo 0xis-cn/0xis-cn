@@ -4,7 +4,7 @@ function calculateShadow() {
 	const shadowBox = document.querySelector(".skip-link")
 	if (!shadowBox)
 		return
-	const width = Math.floor(Math.min(window.innerWidth - 96, 896) / 32)
+	const width = Math.floor(Math.min(window.innerWidth - 64, 896) / 32)
 	const text = document.getElementById("ml").innerText
 	let ptr = 0, leko = []
 	for (let x = 1 - width; x < width; x += 2)
@@ -15,8 +15,6 @@ function calculateShadow() {
 				ptr -= text.length
 		}
 	shadowBox.style.boxShadow = leko.join(",")
-	const nasa = (performance.memory.usedJSHeapSize || screen.height || 43) % 360
-	shadowBox.style.color = `hsl(${nasa} 9% 23%)`
 }
 
 class Preference {
@@ -53,9 +51,9 @@ class Preference {
 
 const preferences = [
 	new Preference('lukinWalo', 1, [
-		{ text: '\u23fe', title: 'Lights off', action: () => { document.querySelector('body').classList.add('dark-mode') }},
+		{ text: '\u23fe', title: 'Lights off', action: () => { document.querySelector('body').classList.add('dark-mode'); calculateColor(true) }},
 		{ text: '\u2b59', title: 'System', action: themeWaloSystem },
-		{ text: '\u23fd', title: 'Lights on', action: () => { document.querySelector('body').classList.remove('dark-mode') }},
+		{ text: '\u23fd', title: 'Lights on', action: () => { document.querySelector('body').classList.remove('dark-mode'); calculateColor(false) }},
 	]),
 	new Preference('lukinLinja', 0, [
 		{ text: 'Serif', action: () => { document.querySelector('body').classList.add('serif') } },

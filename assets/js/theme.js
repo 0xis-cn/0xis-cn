@@ -1,5 +1,24 @@
 const verticalEnabledLanguages = ['cmn', 'lzh', 'wuu', 'ko', 'ja', 'art-x-danayo']
 
+function calculateShadow() {
+	const shadowBox = document.querySelector(".skip-link")
+	if (!shadowBox)
+		return
+	const width = Math.floor(Math.min(window.innerWidth - 96, 896) / 32)
+	const text = document.getElementById("ml").innerText
+	let ptr = 0, leko = []
+	for (let x = 1 - width; x < width; x += 2)
+		for (let y = 0; y < 13; y += 2) {
+			if (text.charCodeAt(ptr) % 2)
+				leko.push(`${x}em ${y}em`)
+			if ((ptr += 10) > text.length)
+				ptr -= text.length
+		}
+	shadowBox.style.boxShadow = leko.join(",")
+	const nasa = (performance.memory.usedJSHeapSize || screen.height || 43) % 360
+	shadowBox.style.color = `hsl(${nasa} 9% 23%)`
+}
+
 class Preference {
 	constructor(localStorageKey, defaultValue, options) {
 		this.localStorageKey = localStorageKey
@@ -109,4 +128,6 @@ const preferences = [
 		)
 		article.prepend(sinpinBanner)
 	}
+	
+	calculateShadow()
 })()

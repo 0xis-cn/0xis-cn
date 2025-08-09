@@ -176,10 +176,15 @@ cite {
 	content: ''
 }
 
+.ml-chokolate :last-child {
+       text-align: end;	
+}
+
 // XXX: here goes everything on two sides
 .ml-chokolate, .ml-footer {
 	display: flex;
 	justify-content: space-between;
+	gap: 1em;
 }
 
 .ml-footer {
@@ -188,9 +193,6 @@ cite {
 
 // To be moved
 footer {
-	padding: 2em;
-	margin: 0 auto;
-	
 	.ml-menu-button {
 		color: inherit;
 		background: inherit;
@@ -232,3 +234,16 @@ button[disabled]:hover {
 	background: unset;
 }
 
+.skip-link {
+	color: var(--color-atlarge);
+	width: 1.875em;
+	height: 1.875em;
+	display: block;
+	:root & {
+		padding: 0;
+		margin-bottom: 8em;
+	}
+	span {
+		color: transparent;
+	}
+}

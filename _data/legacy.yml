@@ -3,33 +3,54 @@ i18n:
     language_name: English
     toc: Contents
     btn_read: Read more (LEN words)
+    prev: Previous
+    next: Next
+    skip-link: Skip to Content
 
   cmn:
     language_name: 华语
     toc: 目次
     btn_read: 续读 (LEN 字)
+    prev: 歬
+    next: 后
+    skip-link: 跳至正文
 
   cmn-Arab:
     language_name: جࣨىُوً خُوَ
     toc: مُلُ
     btn_read: کْ ىُو LEN ز
+    prev: چِىً
+    next: خوْ
+    skip-link: تِىَوْ کَىْش
 
   lzh:
     language_name: 文言
     toc: 題籤
     btn_read: 啟卷 (LEN 字)
+    prev: 歬
+    next: 次
+    skip-link: 抵文額
 
   tok:
     language_name: toki pona
     toc: jo
     btn_read: lipu ni (nimi LEN)
+    prev: sinpin
+    next: monsi
+    skip-link: tawa open lipu
 
   art-x-mini:
     language_name: Mini
     toc: Peso
     btn_read: Leje e mui (LEN name)
+    prev: ante
+    next: afa
+    skip-link: go note-kapo
 
   art-x-danayo:
     language_name: 単亜語
     toc: 目次
     btn_read: 全文 (LEN個 字)
+    prev: 前
+    next: 後
+    skip-link: 文章之開始于

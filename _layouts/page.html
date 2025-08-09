@@ -1,13 +1,11 @@
 ---
 layout: default
 ---
-
 <main>
+	<a class=skip-link href=#ml><span>{%- include pick-language.html text="skip-link" -%}</span></a>
 	{%- include drawer.html -%}
-	{% if page.title %}
-		<h1 class=ml-title>{{ page.title }}</h1>
-	{% endif %}
-	<article class=ml-article>
+	{%- if page.title %}<h1>{{ page.title }}</h1>{% endif -%}
+	<article class=ml-article id=ml>
 		{{ content }}
 	</article>
 </main>

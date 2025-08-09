@@ -14,8 +14,11 @@ layout: page
 {%- endif -%}
 
 <nav class=ml-chokolate>
-	{%- if page.previous -%}<p>〈 <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
-	{%- else -%}<p>Ø</p>{%- endif -%}
-	{%- if page.next -%}<p><a href="{{ page.next.url }}">{{ page.next.title }}</a> 〉</p>
-	{%- else -%}<p>Ø</p>{%- endif -%}
+<div><p class=ml-smaller>{{ info.prev }}</p>
+	{%- if page.previous -%}<a class="ml-temp-btn" href="{{ page.previous.url }}" lang="{{ page.previous.lang | default: 'en' }}">{{ page.previous.title }}</a>
+	{%- else -%}Ø{%- endif -%}
+</div><div><p class=ml-smaller>{{ info.next }}</p>
+	{%- if page.next -%}<a class="ml-temp-btn" href="{{ page.next.url }}" lang="{{ page.next.lang | default: 'en' }}">{{ page.next.title }}</a>
+	{%- else -%}Ø{%- endif -%}
+</div>
 </nav>

@@ -22,13 +22,10 @@ Feel free to email me and [be my friend](m&#97;ilto:hi&#64;matling.fit)!
 [good-read]
 ```
 
-By 'read' I mean the 'calm reading in a library' genre, which may be an anachronistic demand for modern Web. However the practical standard is only turgid look, with topics from abstruse to frivolous.
-
-[Backlit](https://backlit.neocities.org/) and older [Popzazzle](https://popzazzle.blogspot.com/) by Bob Leggitt grieves against present-day Internet.
+By 'read' I mean the 'calm reading in a library' genre, which may be an anachronistic demand for modern Web.
+Considering the maintainability, the list will be superceded by my comments in Lexicon Matlini.
 
 [Justin B Rye](http://jbr.me.uk) is my ideal kind of guy who talks about science fiction in a tavern all afternoon regardless of who is sitting opposite.
-
-[Our Long Walk](https://www.ourlongwalk.com/) by Johan Fourie exhibits history and agony of South Africa in an economist's view.
 
 [Panta Rhei](https://www.andrewsun.net/panta-rhei) by Weixiang Sun may be too personal to list here, but I admire Sun's maturity as far back as enrollment in graduate school, a must-have quality to give progressive advice to college students. A researcher of material science, Sun also recalls the history and mathematical foundation of rheology or general chemistry.
 

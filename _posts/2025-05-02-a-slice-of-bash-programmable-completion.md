@@ -2,6 +2,7 @@
 layout: post
 title: A slice of Bash programmable completion
 ciemmwue: from Beijing
+iiia: 1
 ---
 
 During the process of migrating a Conda environment and mitigating confliction, I noticed Bash programmable completion was experiencing an issue when the environment was not yet incomplete. I seemingly showed no curiousity, proceeding to enter the command despite STDERR for the rest of migration. This post was created after that since there are no Marginalia search engine-style sources on Bash programmable completion.<!--more-->

@@ -25,6 +25,13 @@
 		{%- else -%}
 		<a rel="index" href="{{ now-array | first }}">{{ tag }}</a>
 		{%- endif -%}
-		{%- endfor -%}
+		{%- endfor %} &ensp; 
+	{%- endif -%}
+	{% if item.iiia %}<a href="https://github.com/ErSanSan233/IIIA" class="ml-temp-btn">{% case item.iiia -%}
+		{%- when 0 %}<img src="https://img.shields.io/badge/IIIA-0-FAB689" alt="IIIA-0">
+		{%- when 1 %}<img src="https://img.shields.io/badge/IIIA-1-D9A295" alt="IIIA-1">
+		{%- when 2 %}<img src="https://img.shields.io/badge/IIIA-2-B97CAC" alt="IIIA-2">
+		{%- when 3 %}<img src="https://img.shields.io/badge/IIIA-3-A865B3" alt="IIIA-3">
+		{%- endcase %}</a>
 	{%- endif -%}
 </p>

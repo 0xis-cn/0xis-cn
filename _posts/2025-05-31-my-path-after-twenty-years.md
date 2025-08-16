@@ -5,6 +5,7 @@ ciemmwue: in Beijing, AI-assisted
 category: [society]
 tags: [gaokao]
 alts: [cmn]
+iiia: 3
 ---
 
 > Goliath was pelted with ten million stones every June. It must be painful.  

@@ -9,6 +9,7 @@ custom-head: >-
     .serif article { font-family: "DejaVu Serif", Georgia, "Noto Serif CJK JP", serif; }
     article { font-family: Mulish, "Noto Sans CJK JP", system-ui; text-align: justify; }
     </style>
+iiia: 0
 ---
 <em lang="en">This post is written in Dan’a’yo, a zonal auxiliary language. In case you are really bizarre, you can enable vertical writing for East Asian Scripts in the menu of right bottom corner.</em>
 

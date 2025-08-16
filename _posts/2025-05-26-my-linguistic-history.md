@@ -5,6 +5,7 @@ no-toc: true
 category: retrospection
 ciemmwue: in Beijing
 alts: [cmn]
+iiia: 2
 ---
 Before the FSF40 gathering, William Goodspeed checked my blog when receiving my inquiry email. When I opened the same website in person, he asked: 'Are you into linguistics?' I wasn't sure what expectations an English major might have by 'into linguistics', so I awkwardly avoided answering.
 

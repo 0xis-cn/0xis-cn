@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 假期作业辑录
+lang: cmn
 ciemmwue: 于杏园堡
 ---
 

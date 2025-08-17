@@ -6,7 +6,7 @@
 {%- assign t2038 = site.theme-2038 -%}
 {%- assign clink = t2038.category-links -%}
 {%- assign tlink = t2038.tag-links -%}
-<p class="ml-smaller">
+<p class="ml-smaller" style="margin-bottom:revert">
 	<time datetime="{{ item.date | date: '%Y-%m-%d' }}" pubdate>
 		{{ item.date | date: '%s' | minus: 1304092800 | divided_by: 86400 }} DM
 	</time>

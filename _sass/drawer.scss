@@ -121,13 +121,18 @@ $drawer-makeup: (960px + $drawer-offset);
 }
 
 .ml-author-image {
-	display: block;
+	display: flex;
+	justify-content: space-around;
 
 	img {
 		display: block;
-		margin: 0 auto;
 		border: 1px solid var(--color-normal);
 		padding: 2px;
 		max-width: 128px;
+		opacity: 0.6;
+
+		&:hover {
+			opacity: 1;
+		}
 	}
 }

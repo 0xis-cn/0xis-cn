@@ -20,17 +20,16 @@ Sky Darmos’ constructed script adapting Chinese characters to the Germanic
 </details>
 {:/nomarkdown}
 
-## About matling.fit
+## Designing matling.fit
 
-### Why 2038?
+### The theme 2038
 
 The name of [2038](https://github.com/0xis-cn/2038),
 a Jekyll theme by my own, is a reference to — not that you already know —
 a song by Yi An Musical released in 2018.
 It is a song that whispered the possibility of a future of oblivion
 and the demise of their musician dreams.
-Alas, the song, according to some, turned out to be a crystal ball.
-([Read more in the Dan'a'yo language](/blog/ianjunghak-siuhu-2038nen))
+Alas, the song, according to some, [turned out to be a crystal ball](/blog/ianjunghak-siuhu-2038nen).
 
 Traits for design include
 
@@ -81,12 +80,18 @@ Rearranged the repository.
 You have seen my hypocrisy, but this is partially driven by my former appointment.
 {: .ml-card-list}
 
-### Languages
+## Languages
 
 A post may have not been translated or written in obscure language because it pertains language-specific background knowledge or is intended to stress test that language, which will be less frequent as this blog aims to provide worldwide perspectives.
 Or because it was written at a young age and only archived.
 
-## Publication date
+## Metadata
+
+### Publication date
 
 DM ('in the days of Muqliong') denote days starting from 1 May 2011, when
 Muqliong Gang was approximately formed. For more details, refer to [Lexicon Matlini](https://lex.matling.fit/days-of-muqliong.html). 
+
+### IIIA
+
+[IIIA](https://github.com/ErSanSan233/IIIA) (<span lang=fr>Indice d'implication de l'intelligence artificielle</span>) is an index proposed by Liangqoociawzhem.

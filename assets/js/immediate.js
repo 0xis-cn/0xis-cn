@@ -1,7 +1,7 @@
 const nasa = (performance.memory.usedJSHeapSize || screen.height || 43) % 360
 
 function calculateColor(suno) {
-	document.querySelector("body").style.setProperty("--color-atlarge", `hsl(${nasa} 9% ${suno ? 23 : 77}%)`)
+	document.querySelector("body").style.setProperty("--color-atlarge", `hsl(${nasa} 9% ${suno ? 11 : 89}%)`)
 }
 
 function themeWaloSystem() {

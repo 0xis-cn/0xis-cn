@@ -2,6 +2,15 @@
 {%- assign info = site.data.legacy.i18n | map: lang | first -%}
 {%- assign t2038 = site.theme-2038 -%}
 
+{%- assign suffix = '.md' -%}
+{%- if page.collection == 'alts' -%}
+	{%- assign suffix = page.lang | prepend: '-' | append: suffix -%}
+{%- endif -%}
+{%- assign nimi_pona = page.name | remove_first: suffix -%}
+{%- if page.collection == 'posts' -%}
+	{%- assign nimi_pona = nimi_pona | slice: 11, nimi_pona.size -%}
+{%- endif -%}
+
 <details class="ml-drawer">
 	<summary class="ml-menu-button">≡</summary>
 	<div class="ml-drawer-inside">
@@ -18,9 +27,24 @@
 		{%- unless page.no-toc -%}
 		<details open>
 			<summary>{{ info.toc }}</summary>
-			{% include toc.html html=content class='ml-toc'
-			submenu_class='ml-toc-sub' item_class='ml-toc-%level%' %}
+			{%- include toc.html html=content class='ml-toc' submenu_class='ml-toc-sub' item_class='ml-toc-%level%' -%}
 		</details>
 		{%- endunless -%}
+		{%- if page.alts or page.collection == 'alts' -%}
+		<details open>
+			<summary>{{ info.other_languages }}</summary>
+			<ul class="ml-toc">
+				{%- if page.collection == 'alts' -%}
+				{%- assign nimi_pona_kasi = nimi_pona | prepend: '/blog/' -%}
+				<li><a href="{{ page.canonical_link | default: nimi_pona_kasi }}" lang="en" rel="alternate">English</a></li>
+				{%- endif -%}
+				{%- for lang in page.alts -%}
+				<li><a href="/alts/{{ nimi_pona }}-{{ lang }}" lang="{{ lang }}" rel="alternate">
+					{%- include pick-language.html lang=lang text='language_name' -%}
+				</a></li>
+				{%- endfor -%}
+			</ul>
+		</details>
+		{%- endif -%}
 	</div>
 </details>

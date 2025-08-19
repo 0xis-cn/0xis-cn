@@ -2,14 +2,13 @@
 layout: page
 no-toc: true
 lang: en
-custom-head: "<style>.ml-temp-btn{display:inline-block;margin:4px 1em 0 0;}.ml-temp-btn img{margin-bottom:-5px;}</style>"
 ---
 {%- for post in paginator.posts -%}
 {% include post-card.html %}
 {%- endfor -%}
-<nav class=ml-chokolate>
-	{%- if paginator.next_page -%}<span>〈 <a href="{{ paginator.next_page_path }}">Older</a></span>
-	{%- else -%}<span>Ø</span>{%- endif -%}
-	{%- if paginator.previous_page -%}<span><a href="{{ paginator.previous_page_path }}">Newer</a> 〉</span>
-	{%- else -%}<span>Ø</span>{%- endif -%}
-</nav>
+<footer><nav class=ml-chokolate>
+	{%- if paginator.next_page -%}<span>〈 <a rel=prev href="{{ paginator.next_page_path }}">Older</a></span>
+	{%- else -%}<abbr title="Oldest posts shown">Ø</abbr>{%- endif -%}
+	{%- if paginator.previous_page -%}<span><a rel=next href="{{ paginator.previous_page_path }}">Newer</a> 〉</span>
+	{%- else -%}<abbr title="Newest posts shown">Ø</abbr>{%- endif -%}
+</nav></footer>

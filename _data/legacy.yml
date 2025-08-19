@@ -6,6 +6,7 @@ i18n:
     prev: Previous
     next: Next
     skip-link: Skip to Content
+    other_languages: Other languages
 
   cmn:
     language_name: 华语
@@ -14,6 +15,7 @@ i18n:
     prev: 歬
     next: 后
     skip-link: 跳至正文
+    other_languages: 外文
 
   cmn-Arab:
     language_name: جࣨىُوً خُوَ
@@ -22,6 +24,7 @@ i18n:
     prev: چِىً
     next: خوْ
     skip-link: تِىَوْ کَىْش
+    other_languages: وَىلُ هُوَ
 
   lzh:
     language_name: 文言
@@ -30,6 +33,7 @@ i18n:
     prev: 歬
     next: 次
     skip-link: 抵文額
+    other_languages: 外文
 
   tok:
     language_name: toki pona
@@ -38,6 +42,7 @@ i18n:
     prev: sinpin
     next: monsi
     skip-link: tawa open lipu
+    other_languages: ante toki
 
   art-x-mini:
     language_name: Mini
@@ -46,6 +51,7 @@ i18n:
     prev: ante
     next: afa
     skip-link: go note-kapo
+    other_languages: Ota linga
 
   art-x-danayo:
     language_name: 単亜語
@@ -54,3 +60,4 @@ i18n:
     prev: 前
     next: 後
     skip-link: 文章之開始于
+    other_languages: 外文

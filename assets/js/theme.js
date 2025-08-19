@@ -8,7 +8,7 @@ function calculateShadow() {
 	const text = document.getElementById("ml").innerText
 	let ptr = 0, leko = []
 	for (let x = 1 - width; x < width; x += 2)
-		for (let y = 1; y < 14; y += 2) {
+		for (let y = 1; y < 13; y += 2) {
 			if (text.charCodeAt(ptr) % 2)
 				leko.push(`${x}em ${y}em`)
 			if ((ptr += 10) > text.length)
@@ -92,10 +92,6 @@ const preferences = [
 		menu.appendChild(i.line())
 	btn.addEventListener('click', () => menu.classList.toggle('open'))
 	base.appendChild(menu)
-	// const line = document.createElement('hr')
-	// menu.appendChild(line)
-	// const notbyai = '<a href="https://notbyai.fyi" style="margin-left:4px"><img class=ml-wordmark src="/assets/notbyai.svg" alt="Written by Human, Not by AI"></a>'
-	// line.insertAdjacentHTML('afterend', notbyai)
 
 	document.querySelector(".ml-drawer")?.addEventListener('click', (e) => {
 		if (menuBtn && e.target === e.currentTarget)

@@ -1,4 +1,4 @@
-{%- assign lang = page.lang | default: 'en' -%}
+{%- assign lang = include.lang | default: page.lang | default: 'en' -%}
 {%- assign info = site.data.legacy.i18n | map: lang | first -%}
 {%- assign speech = include.text -%}
 {%- assign preset = info | map: speech | first -%}

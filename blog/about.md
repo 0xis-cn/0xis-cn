@@ -6,19 +6,21 @@ comments: https://botsin.space/@matlingblog/112128914027215668
 
 ## About my name
 
+Call me **Matling**, متلينغ, ᒪᑦᓕᖕ, or 物灵.
+
 {::nomarkdown}
 <details>
-<summary>Matling, from <i>mat</i> as in <i>material</i> and <i>-ling</i>, suffix for a follower.</summary>
+<summary><b>Etymology&emsp;</b>From <i>mat</i> as in <i>material</i> and <i>-ling</i>, suffix for a follower.</summary>
 <p>Ahem.
-<p>This content is solely for though pedantic enough. <cite>Tsieushaeng Fuh</cite> by Euyang Sieu:</p>
+<p>For though pedantic enough, I attribute the name to <cite>Tsieushaeng Fuh</cite> by Euyang Sieu.</p>
 <blockquote>The verdant is unsentimental, fading into nothing now and then. Humans are animals, but the paragon of them.<br>草木无情，有时飘零。人为动物，惟物之灵。</blockquote>
-<p>‘<i>mat</i> as in <i>material</i>’ is an interpretation under
-Sky Darmos’ constructed script adapting Chinese characters to the Germanic
-  languages, which I called Siaudzih.</p>
+<p>Surface analysis is influenced by Sky Darmos’ <cite>The German Language in Chinese Script</cite>. No, Darmos is not worth refuting, but the quackery is excessive enough for <a href="https://lex.matling.fit/divpolis.html">a foundation of recreational art</a>.
 <p>In non-natural languages:
-<table><thead><tr><th>Language</th><th>Name</th><th>Transcription</th></tr></thead><tbody><tr><td>Dan’a’yo</td><td>묻링</td><td>Mutling</td></tr><tr><td>Esperanto</td><td>Matlino</td><td> </td></tr><tr><td>Lojban</td><td>la mytlin</td><td> </td></tr><tr><td>Shidinn</td><td>gwƨ viƨ</td><td>Geuénnýn</td></tr><tr><td>Shōnagian</td><td><img class="ml-wordmark" src="https://s21.ax1x.com/2024/03/20/pFWOT8f.png" height="35"></td><td>Māute-nòhlì</td></tr><tr><td>Toki Pona</td><td>jan Malin</td><td style="font-family:'linja pona','linja sike';max-width:6em">jan[_mi_alasa­_li_insa_nasin]</td></tr></tbody></table>
+<table><thead><tr><th>Language</th><th>Name</th><th>Alternative</th></tr></thead><tbody><tr><td>Dan’a’yo</td><td>묻링</td><td>Mutling</td></tr><tr><td>Esperanto</td><td>Matlino</td><td> </td></tr><tr><td>Lojban</td><td>la mytlin</td><td> </td></tr><tr><td>Shidinn</td><td>gwƨ viƨ</td><td>Geuénnýn</td></tr><tr><td>Shōnago language</td><td><img class="ml-wordmark" src="https://s21.ax1x.com/2024/03/20/pFWOT8f.png" height="35"></td><td>Māute-nòhlì</td></tr><tr><td>Toki Pona</td><td>jan Malin</td><td style="font-family:'linja pona','linja sike';max-width:6em">jan[_mi_alasa­_li_insa_nasin]</td></tr></tbody></table>
 </details>
 {:/nomarkdown}
+
+Pronouns are [any except ambiguous](https://en.pronouns.page/any). Other than 'I/me', I exceedingly [call myself](https://mzh.moegirl.org.cn/特殊第一人称) 'Liengtz' (always in Wu: lin˨ tsz̩) these days, influenced by a Wuhan-based beauty influencer with motivational experiences.
 
 ## Designing matling.fit
 
@@ -79,6 +81,12 @@ Rearranged the repository.
 : Removed links to [AlphaGem](https://alphagem.github.io), [Emotion.](https://www.cnblogs.com/Emotion-Blog), [insilent](https://insilent.github.io), [lris](https://lvris.com), [Mr. Wolfram](https://www.cnblogs.com/Mr-WolframsMgcBox), [Rem](https://remrin.dev), [Tsienbaecdhuh](https://blog.qaiu.top), and [unt](https://phesoca.com).
 You have seen my hypocrisy, but this is partially driven by my former appointment.
 {: .ml-card-list}
+
+### Might stop now
+
+This will never become another [Gwern](https://gwern.net/design)-like self-reveal. Nevertheless, 2038 stemmed when I believed I had been more design-minded.
+
+The traits Gwern and I shared were developed independently. Though Gwern's innovation is elegant and flawless, I have found myself accustomed to it, for example, leaving the cursor on hyperlinks as short as possible to avoid loading a pop-up. The active work-around clearly denotes an antipattern.
 
 ## Languages
 

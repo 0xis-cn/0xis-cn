@@ -1,0 +1,130 @@
+<!DOCTYPE html><html lang="cmn"><head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>离散傅里叶变换 « 物灵</title>
+	<link rel="stylesheet" href="/base.css">
+	<meta name="theme-color" content="#c09a97">
+	<script defer src="/theme.js"></script>
+	<script data-goatcounter="https://0xis.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/gh/asciimath/asciimathml@latest/ASCIIMathML.js"></script>
+  <link rel=canonical href="/blog&#x2F;mike-discrete-fourier-sampling" />
+</head><body>
+
+<a class=skip-link href=#ml><span>跳至正文</span></a>
+
+<details class=ml-drawer>
+	<summary class=ml-menu-button>≡</summary>
+	<div class=ml-drawer-inside>
+	<a href=/ class=ml-author-image><img src=/img/cloak.png alt="'m Matling~"></a>
+	<ul class=ml-bookmark role=navigation><a href="&#x2F;blog">博文</a><a href="https:&#x2F;&#x2F;lex.matling.fit">含章字典</a><a href="&#x2F;about&#x2F;site">关于</a><a href="&#x2F;about&#x2F;friends">他山</a></ul>
+    </div></details>
+
+<center><h1>离散傅里叶变换</h1><main class=ml-article id=ml>
+<article><p>考虑傅里叶级数</p>
+<span id="continue-reading"></span>
+<p>`
+f(x)=sum _ (n=-oo)^(+oo) a_n exp("j"nx) = sum _ (n=-oo)^(+oo) a_n (cos nx+"j"sin nx)
+`</p>
+<p>其中</p>
+<p>`
+int _ -pi ^ pi f(x) exp(-"j"mx) "d"x = int _ -pi ^ pi sum _ (n=-oo)^(+oo) a_n exp("j"(n-m)x)
+= sum _ (n=-oo)^(+oo) a_n int _ -pi ^ pi exp("j"(n-m)x) = 2pi sum _ (n=-oo)^(+oo) a_n [n=m] = 2pi a_m
+`</p>
+<p>即</p>
+<p>`
+a_m=1/2pi int _ -pi ^ pi f(x) exp(-"j"mx) "d"x
+`</p>
+<p>在任意周期下可得</p>
+<p>`
+f(x)=sum _ (n=-oo)^(+oo) a_n exp((2pi)/l "j"nx)
+`<br>
+`
+a_m=1/l int _ -l ^ l f(x) exp(-(2pi)/l "j"mx) "d"x
+`</p>
+<p>这不只是假设的权宜。由傅里叶级数我们得到一列离散的强度 `a_n`。为使提取的强度不依赖周期，在 `l-&gt;oo` 时，有以 `k=n/l` 为参数的函数。在上式作这个代换，可以写出</p>
+<p>`
+f(x)=sum _ (n=-oo)^(+oo) int _ -oo ^ (+oo) F(k) exp(2pi "j"kx) "d"x
+`<br>
+`
+F(k)= int _ -oo ^ (+oo) f(x) exp(-2pi "j"kx) "d"x
+`</p>
+<div class="footnote-definition" id="wdd"><sup class="footnote-definition-label">1</sup>
+<p>或 `F(w)= int _ -oo ^ (+oo) f(x) exp(-"j"wx) "d"x`。以无穷为界只是习惯写法，不代表变换的敛散值得考虑。</p>
+</div>
+<p>`F(x)`<sup class="footnote-reference"><a href="#wdd">1</a></sup> 称为 `f(x)` 的傅里叶变换，与之相对的是傅里叶逆变换。</p>
+<p>傅里叶变换刻画了连续函数 <code>f</code>。对离散信号 `x_N`，表示为 `f(kT)`，则</p>
+<p>`
+X_n=F(n/N T) = int _ -oo ^ (+oo) f(x) exp(-2pi n"j"Tx) "d"x = sum _ (k=0) ^ (N-1) x_k exp(-2pi "j"kn/N)
+`</p>
+<p>即</p>
+<p>`
+X_n = sum _ (k=0) ^ (N-1) x_k exp(-2pi "j"kn/N)
+`</p>
+<p>与之相对的是逆变换</p>
+<p>`
+x_n = 1/N sum _ (k=0) ^ (N-1) X_k exp(2pi "j"kn/N)
+`</p>
+<p>因此，朴素实现在 O(N²) 变换全序列。</p>
+<p>快速傅里叶变换（FFT）在 O(N lg N) 变换全序列，其基于下述分解：当 N 是 2 的幂时</p>
+<p>`
+sum _ (k=0) ^ (N-1) x_k exp(-2pi "j"kn/N) = sum _ (k=0) ^ (N/2-1) x_(2k) exp(-2pi "j"kn/(N/2)) + exp(-2pi "j"k/N) sum _ (k=0) ^ (N/2-1) x_(1+2k) exp(-2pi "j"kn/(N/2))
+`</p>
+<p>够了么？不！注意还有一个参数 n！在 `n &gt; N/2` 时子问题的 k 超范围，我们增加下式保证分后范围，其中负号由于 `-1=exp(-pi "j")`：</p>
+<p>`
+sum _ (k=0) ^ (N-1) x_k exp(-2pi "j"k(n+N/2)/N) = sum _ (k=0) ^ (N/2-1) x_(2k) exp(-2pi "j"kn/(N/2)) - exp(-2pi "j"k/N) sum _ (k=0) ^ (N/2-1) x_(1+2k) exp(-2pi "j"kn/(N/2))
+`</p>
+<p>上两式记作 (†) 式。注意该式<strong>左侧关于前后，右侧关于奇偶</strong>。因此，二基数 FFT 可用以下递归过程表示：</p>
+<pre data-lang="cpp" style="background-color:#2b303b;color:#c0c5ce;" class="language-cpp "><code class="language-cpp" data-lang="cpp"><span style="color:#b48ead;">void </span><span style="color:#8fa1b3;">fft_recursive</span><span>(complex </span><span style="color:#bf616a;">a</span><span>[], complex </span><span style="color:#bf616a;">res</span><span>[], </span><span style="color:#b48ead;">int </span><span style="color:#bf616a;">al</span><span>, </span><span style="color:#b48ead;">int </span><span style="color:#bf616a;">ar</span><span>, </span><span style="color:#b48ead;">int </span><span style="color:#bf616a;">is</span><span>) {
+</span><span>  </span><span style="color:#b48ead;">int</span><span> mid = al + ar &gt;&gt; </span><span style="color:#d08770;">1</span><span>, len = ar - al &gt;&gt; </span><span style="color:#d08770;">1</span><span>;
+</span><span>  std::</span><span style="color:#bf616a;">copy</span><span>(a + al, a + ar, res + al); </span><span style="color:#b48ead;">if </span><span>(ar - al == </span><span style="color:#d08770;">1</span><span>) </span><span style="color:#b48ead;">return</span><span>;
+</span><span>  </span><span style="color:#b48ead;">for </span><span>(</span><span style="color:#b48ead;">int</span><span> i = </span><span style="color:#d08770;">0</span><span>; i &lt; len; ++i) a[al + i] = res[al + </span><span style="color:#bf616a;">lc</span><span>(i)], a[(al + ar) / </span><span style="color:#d08770;">2 </span><span>+ i] = res[al + </span><span style="color:#bf616a;">rc</span><span>(i)];
+</span><span>  </span><span style="color:#bf616a;">fft_recursive</span><span>(a, res, al, mid, is), </span><span style="color:#bf616a;">fft_recursive</span><span>(a, res, mid, ar, is);
+</span><span>  </span><span style="color:#b48ead;">for </span><span>(</span><span style="color:#b48ead;">int</span><span> i = </span><span style="color:#d08770;">0</span><span>; i &lt; ar - mid; ++i) res[mid + i] *= </span><span style="color:#96b5b4;">exp</span><span>(</span><span style="color:#d08770;">2 </span><span>* PI * I * is * i / len); </span><span style="color:#65737e;">// (*)
+</span><span>  </span><span style="color:#b48ead;">for </span><span>(</span><span style="color:#b48ead;">int</span><span> i = </span><span style="color:#d08770;">0</span><span>; i &lt; len; ++i) { complex b = res[al + i], c = res[mid + i]; res[al + i] += c, res[mid + i] = b - c; }}
+</span></code></pre>
+<p>其中 (*) 式表示项 `exp(-2pi "j"k/N)`，末行表示 (†) 式。</p>
+<p>递归过程计 lg N 层，各层差别在处理顺序，即奇偶到前后的重排。要之，(*) 以原奇偶选中，(†) 式则是相邻二者的配对。好在递归过后自 (*) 开始不必重排，递归中的重排发生于块内，未影响 <code>res[al + i]</code> 与 <code>res[mid + i]</code> 的先后。因此我们只需起头便移到上述 <code>a[]</code> 的末态。</p>
+<blockquote>
+<p>来段没营养的废话。我们这样考虑推移过程，对节长 l，<del>该步选取 l 所在位为 1 者</del>长为 l 的块依次为前、后、前、后……且序号低于（含）l 的部分（模 2l 馀数）循环移位，即抽出奇偶，放到 l 处。由于 l 从高到低，得到的是原序号的位翻转。恰好处在原序号位翻转的项亦交换至原序号。</p>
+</blockquote>
+<pre data-lang="cpp" style="background-color:#2b303b;color:#c0c5ce;" class="language-cpp "><code class="language-cpp" data-lang="cpp"><span style="color:#b48ead;">int </span><span style="color:#8fa1b3;">revbin_gen</span><span>(</span><span style="color:#b48ead;">int </span><span style="color:#bf616a;">r</span><span>, </span><span style="color:#b48ead;">int </span><span style="color:#bf616a;">n</span><span>) {
+</span><span>  </span><span style="color:#b48ead;">do if </span><span>(n &amp; (r ^= n)) </span><span style="color:#b48ead;">return</span><span> r; </span><span style="color:#b48ead;">while </span><span>(n &gt;&gt;= </span><span style="color:#d08770;">1</span><span>); }
+</span><span style="color:#b48ead;">void </span><span style="color:#8fa1b3;">revbin_permute</span><span>(complex </span><span style="color:#bf616a;">a</span><span>[], </span><span style="color:#b48ead;">int </span><span style="color:#bf616a;">n</span><span>) {
+</span><span>  </span><span style="color:#b48ead;">for </span><span>(</span><span style="color:#b48ead;">int</span><span> i = </span><span style="color:#d08770;">0</span><span>, r = </span><span style="color:#d08770;">0</span><span>; i &lt; n; ++i, r = </span><span style="color:#bf616a;">revbin_gen</span><span>(r, n / </span><span style="color:#d08770;">2</span><span>)) </span><span style="color:#b48ead;">if </span><span>(r &gt; i) </span><span style="color:#bf616a;">swap</span><span>(a[i], a[r]); }
+</span><span style="color:#b48ead;">void </span><span style="color:#8fa1b3;">fft</span><span>(complex </span><span style="color:#bf616a;">a</span><span>[], </span><span style="color:#b48ead;">int </span><span style="color:#bf616a;">n</span><span>, </span><span style="color:#b48ead;">int </span><span style="color:#bf616a;">ls</span><span>) {
+</span><span>  </span><span style="color:#bf616a;">revbin_permute</span><span>(a, n);
+</span><span>  </span><span style="color:#b48ead;">for </span><span>(</span><span style="color:#b48ead;">int</span><span> l = </span><span style="color:#d08770;">1</span><span>; l &lt; n; l &lt;&lt;= </span><span style="color:#d08770;">1</span><span>) </span><span style="color:#b48ead;">for </span><span>(</span><span style="color:#b48ead;">int</span><span> j = </span><span style="color:#d08770;">0</span><span>; j &lt; l; ++j)
+</span><span>    </span><span style="color:#b48ead;">for </span><span>(</span><span style="color:#b48ead;">int</span><span> i = </span><span style="color:#d08770;">0</span><span>, z = </span><span style="color:#96b5b4;">exp</span><span>(PI * I * is * j / l); i &lt; n; i += l) {
+</span><span>      complex b = a[i + j], c = z * a[i + j + l]; a[i + j] = b + c, a[i + j + l] = b - c; }}
+</span></code></pre>
+</article>
+
+
+<p class="ml-smaller">
+	<time datetime="2018-08-07" pubdate>
+		2656
+ DM
+	</time> (7 Aug 2018)
+	于山西
+</p>
+
+<nav class=ml-chokolate>
+<div><p class=ml-smaller>后</p><a class="ml-temp-btn" href="&#x2F;blog&#x2F;inclusion-principle&#x2F;" lang="en">从容斥到反演</a></div><div><p class=ml-smaller>歬</p><a class="ml-temp-btn" href="&#x2F;blog&#x2F;notes-on-lucas-theorem&#x2F;" lang="en">Lucas 定理补记</a></div>
+</nav>
+
+</main></center>
+<footer>
+	<img src="/img/wordmark.svg" alt="mat-ling.fit" />
+	<div class=ml-footer>
+		<p class=ml-smaller>
+			© 2011 物灵
+			<a rel=copyright href=https://creativecommons.org/licenses/by-nd/4.0>CC BY-ND 4.0</a>
+			<br><a href="https://icp.gov.moe/?keyword=20243727" target="_blank">萌ICP备20243727号</a>
+			(<a href="https://travel.moe/go.html" nofollow>Go Wild ☈</a>)
+			<br>Powered by <a href=//www.getzola.org>Zola</a> theme <a href=https://github.com/0xis-cn/2038>2038</a>
+		</p>
+		<i class=dropdown-wrapper id=advanced></i>
+	</div>
+</footer>
+
+

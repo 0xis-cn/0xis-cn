@@ -1,0 +1,91 @@
+<!DOCTYPE html><html lang="en"><head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>A slice of Bash programmable completion « 物灵</title>
+	<link rel="stylesheet" href="/base.css">
+	<meta name="theme-color" content="#c09a97">
+	<script defer src="/theme.js"></script>
+	<script data-goatcounter="https://0xis.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+	
+  <link rel=canonical href="/blog&#x2F;a-slice-of-bash-programmable-completion" />
+</head><body>
+
+<a class=skip-link href=#ml><span>Skip to Content</span></a>
+
+<details class=ml-drawer>
+	<summary class=ml-menu-button>≡</summary>
+	<div class=ml-drawer-inside>
+	<a href=/ class=ml-author-image><img src=/img/cloak.png alt="'m Matling~"></a>
+	<ul class=ml-bookmark role=navigation><a href="&#x2F;blog">Blog</a><a href="https:&#x2F;&#x2F;lex.matling.fit">Lexicon</a><a href="&#x2F;about&#x2F;site">About</a><a href="&#x2F;about&#x2F;friends">Friends</a></ul>
+    </div></details>
+
+<center><h1>A slice of Bash programmable completion</h1><main class=ml-article id=ml>
+<article><p>During the process of migrating a Conda environment and mitigating confliction, I noticed Bash programmable completion was experiencing an issue when the environment was not yet incomplete. I seemingly showed no curiousity, proceeding to enter the command despite STDERR for the rest of migration. This post was created after that since there are no Marginalia search engine-style sources on Bash programmable completion.<span id="continue-reading"></span></p>
+<p>Context-dependent completion is easy to spot. Git, the first instance coming to my mind, completes options and hash strings when you are hasty writing down an arbitrary hexadecimal ID. For <a href="https://stackoverflow.com/questions/20838284/how-can-i-provide-tab-completions-to-fish-shell-from-my-own-script">practical scripts</a>, completion functions serve as a valuable aid in recalling details of commands.</p>
+<p>The builtin command <code>complete</code> determines how arguments are to be completed by Readline. In the absence of arguments, it outputs available completion functions in a ready-to-load format. To relate a function to a command, use</p>
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">complete -F </span><span>&lt;completion_function&gt; &lt;command&gt;
+</span></code></pre>
+<p>Here is an example of completion function:</p>
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#8fa1b3;">_mycmd_completion</span><span>() {
+</span><span>    </span><span style="color:#65737e;"># retrieve words on the current line
+</span><span>    </span><span style="color:#b48ead;">local </span><span style="color:#bf616a;">cur prev
+</span><span>    </span><span style="color:#bf616a;">cur</span><span>=&quot;$</span><span style="color:#a3be8c;">{</span><span style="color:#bf616a;">COMP_WORDS[COMP_CWORD]</span><span style="color:#a3be8c;">}</span><span>&quot;
+</span><span>    </span><span style="color:#bf616a;">prev</span><span>=&quot;$</span><span style="color:#a3be8c;">{</span><span style="color:#bf616a;">COMP_WORDS[COMP_CWORD</span><span>-</span><span style="color:#d08770;">1</span><span style="color:#bf616a;">]</span><span style="color:#a3be8c;">}</span><span>&quot;
+</span><span>
+</span><span>    </span><span style="color:#65737e;"># complete according to the previous word
+</span><span>    </span><span style="color:#b48ead;">case </span><span>&quot;$</span><span style="color:#bf616a;">prev</span><span>&quot; </span><span style="color:#b48ead;">in
+</span><span>        mycmd</span><span style="color:#b48ead;">)
+</span><span>            </span><span style="color:#bf616a;">COMPREPLY</span><span>=( $(</span><span style="color:#bf616a;">compgen -W </span><span>&quot;</span><span style="color:#a3be8c;">start stop</span><span>&quot; -- &quot;$</span><span style="color:#bf616a;">cur</span><span>&quot;) )
+</span><span>            ;;
+</span><span>        *</span><span style="color:#b48ead;">)
+</span><span>            </span><span style="color:#bf616a;">COMPREPLY</span><span>=()
+</span><span>            ;;
+</span><span>    </span><span style="color:#b48ead;">esac
+</span><span>}
+</span><span style="color:#65737e;"># enable the completion function
+</span><span style="color:#bf616a;">complete -F</span><span> _mycmd_completion mycmd
+</span></code></pre>
+<p>The function retrieves precedent words from variables. The current line, <code>COMP_LINE</code> is split into words in <code>COMP_WORDS</code>. In the function, the target is the last word indexed as <code>COMP_CWORD</code>. Use <code>COMP_LINE</code> for the word being edited.</p>
+<p><code>compgen</code> is another builtin function that generates completions, intended to be used in a completion function. The options of <code>compgen</code> denote the type and lexical criteria of completion, as exemplified in the table:</p>
+<table><thead><tr><th>Example</th><th>Usage</th></tr></thead><tbody>
+<tr><td><code>compgen -f test</code></td><td>List all <strong>filenames</strong> starting with 'test'</td></tr>
+<tr><td><code>compgen -d test</code></td><td>List all <strong>directories</strong> starting with 'test'</td></tr>
+<tr><td><code>compgen -c git</code></td><td>List all <strong>commands</strong> starting with 'git'</td></tr>
+<tr><td><code>compgen -W</code><wbr> <code>"john jane joan jojo"</code><wbr> <code>-- jo</code></td><td>List <strong>words</strong> from the word list starting with 'jo'</td></tr>
+<tr><td><code>compgen -W</code><wbr> <code>"john jane"</code><wbr> <code>-P "cmd:" -S "!"</code></td><td>Adding uniform <strong>prefixes</strong> and <strong>suffixes</strong></td></tr>
+</tbody></table>
+<p>Therefore, the expression above completes 'start' and/or 'stop' according to the partially typed word. You can also pipe <code>compgen</code> output to <code>grep</code> to further filter the results.</p>
+<p>In the end, the completion function is attached to a command.</p>
+<p>For Python scripts, packages like <code>shtab</code>, <code>argcomplete</code>, and <code>prompt_toolkit</code> are responsible for completions. <code>click</code>, an alternative to builtin argument parsing library <code>argparse</code>, is a versatile tool supporting completion.</p>
+<p>Altogether, using <code>compgen</code> and <code>complete</code> in Bash, you can create completion rules for filenames, commands, options, and more. Custom completion allows you to enhance the usability of command-line tools and scripts. Fish offers <a href="https://fishshell.com/docs/current/completions.html#writing-your-own-completions">more nuanced completion generators</a> invoked in a similar procedure.</p>
+</article>
+
+
+<p class="ml-smaller">
+	<time datetime="2025-05-02" pubdate>
+		5116
+ DM
+	</time> (2 May 2025)
+	in Beijing
+</p>
+
+<nav class=ml-chokolate>
+<div><p class=ml-smaller>Next</p><a class="ml-temp-btn" href="&#x2F;blog&#x2F;my-linguistic-history&#x2F;" lang="en">My linguistic history</a></div><div><p class=ml-smaller>Previous</p><a class="ml-temp-btn" href="&#x2F;blog&#x2F;enhypen-alphabet&#x2F;" lang="en">Enhypen Alphabet</a></div>
+</nav>
+
+</main></center>
+<footer>
+	<img src="/img/wordmark.svg" alt="mat-ling.fit" />
+	<div class=ml-footer>
+		<p class=ml-smaller>
+			© 2011 物灵
+			<a rel=copyright href=https://creativecommons.org/licenses/by-nd/4.0>CC BY-ND 4.0</a>
+			<br><a href="https://icp.gov.moe/?keyword=20243727" target="_blank">萌ICP备20243727号</a>
+			(<a href="https://travel.moe/go.html" nofollow>Go Wild ☈</a>)
+			<br>Powered by <a href=//www.getzola.org>Zola</a> theme <a href=https://github.com/0xis-cn/2038>2038</a>
+		</p>
+		<i class=dropdown-wrapper id=advanced></i>
+	</div>
+</footer>
+
+

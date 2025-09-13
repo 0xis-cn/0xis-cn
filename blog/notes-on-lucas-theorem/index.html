@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="cmn"><head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>Lucas 定理补记 « 物灵</title>
+	<link rel="stylesheet" href="/base.css">
+	<meta name="theme-color" content="#c09a97">
+	<script defer src="/theme.js"></script>
+	<script data-goatcounter="https://0xis.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/gh/asciimath/asciimathml@latest/ASCIIMathML.js"></script>
+  <link rel=canonical href="/blog&#x2F;notes-on-lucas-theorem" />
+</head><body>
+
+<a class=skip-link href=#ml><span>跳至正文</span></a>
+
+<details class=ml-drawer>
+	<summary class=ml-menu-button>≡</summary>
+	<div class=ml-drawer-inside>
+	<a href=/ class=ml-author-image><img src=/img/cloak.png alt="'m Matling~"></a>
+	<ul class=ml-bookmark role=navigation><a href="&#x2F;blog">博文</a><a href="https:&#x2F;&#x2F;lex.matling.fit">含章字典</a><a href="&#x2F;about&#x2F;site">关于</a><a href="&#x2F;about&#x2F;friends">他山</a></ul>
+    </div></details>
+
+<center><h1>Lucas 定理补记</h1><main class=ml-article id=ml>
+<article><p>前日记于 QQ 空间，Lucas 定理竟就是原系数写为 p 进制，各位计算后相乘。百代莘疑，涣尔冰释，当然这是一个推论。<a href="https://proofwiki.org/wiki/Lucas&#x27;s_Theorem">ProofWiki</a> 一证明羚羊挂角，或有请为优质证明者十年。</p>
+<span id="continue-reading"></span>
+<p>因为作为证明其文字不免繁复，其实证明不过是模仿「逐步」处理组合数的过程，想到写此笔记。通过一个示例大致理解后，不难补出证明过程。在组织示例时，我也发现有误解但一笔带过之处，终于完全理解证明，并更加感觉此类超出一般设想证明的独特。写一个示例亦是 refresh 备用。</p>
+<p>如 `((23),(12)) mod 5`，展开作 `(23 * 22 * 21 * 20 * 19 * 18 * 17 * 16 * 15 * 14 * 13 * 12)/(12 * 11 * 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1)`。在模意义下，暂只改写非 5 的倍数，有 `(color(red)(3 * 2) * color(green)(1) * 20 * color(green)(4 * 3 * 2 * 1) * 15 * color(green)(4 * 3 * 2)) / (color(red)(2 * 1) * 10 * color(green)(4 * 3 * 2 * 1) * 5 * color(green)(4 * 3 * 2 * 1))`。</p>
+<p>展开后能直接自开头取出一个 `color(red)(3 * 2) / color(red)(2 * 1) = ((23 mod 5),(12 mod 5))`，这便解决了定理一项（红字）。</p>
+<p>除前项之外的部分 `(color(green)(1) * 20 * color(green)(4 * 3 * 2 * 1) * 15 * color(green)(4 * 3 * 2)) / (10 * color(green)(4 * 3 * 2 * 1) * 5 * color(green)(4 * 3 * 2 * 1))` 恰好是若干节，每节长度为 5。不被 5 整除的部分模意义下遍历各数，可约去（绿字）。</p>
+<p>现在还有 `(20 * 15) / (10 * 5)`，自然需要约去 5 后处理。但不是所有 5！而是每个数只约去一次，之后是否还有甚至多少不均衡都无关，因为现在意在凑成系数。不难理解这又是 `((lfloor 23 // 5 rfloor),(lfloor 12 // 5 rfloor))` 展开形式。</p>
+<p>看到这里能补出证明了……吗？如果是 `((21),(5))`，灰字只有 `(15) / (10 * 5)` 了。不过这里结果是 0，红字余数一项亦得 0，也就没问题了。</p>
+</article>
+
+
+<p class="ml-smaller">
+	<time datetime="2018-07-24" pubdate>
+		2642
+ DM
+	</time> (24 Jul 2018)
+	于北京
+</p>
+
+<nav class=ml-chokolate>
+<div><p class=ml-smaller>后</p><a class="ml-temp-btn" href="&#x2F;blog&#x2F;mike-discrete-fourier-sampling&#x2F;" lang="en">离散傅里叶变换</a></div><div><p class=ml-smaller>歬</p><a class="ml-temp-btn" href="&#x2F;blog&#x2F;hello-high&#x2F;" lang="en">高中数学笔记</a></div>
+</nav>
+
+</main></center>
+<footer>
+	<img src="/img/wordmark.svg" alt="mat-ling.fit" />
+	<div class=ml-footer>
+		<p class=ml-smaller>
+			© 2011 物灵
+			<a rel=copyright href=https://creativecommons.org/licenses/by-nd/4.0>CC BY-ND 4.0</a>
+			<br><a href="https://icp.gov.moe/?keyword=20243727" target="_blank">萌ICP备20243727号</a>
+			(<a href="https://travel.moe/go.html" nofollow>Go Wild ☈</a>)
+			<br>Powered by <a href=//www.getzola.org>Zola</a> theme <a href=https://github.com/0xis-cn/2038>2038</a>
+		</p>
+		<i class=dropdown-wrapper id=advanced></i>
+	</div>
+</footer>
+
+

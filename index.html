@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en"><head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>物灵</title>
+	<link rel="stylesheet" href="/base.css">
+	<meta name="theme-color" content="#c09a97">
+	<script defer src="/theme.js"></script>
+	<script data-goatcounter="https://0xis.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+	
+ <link rel=alternate type="application/atom+xml" href="/feed.xml">
+ <link rel=stylesheet href="/main-page.css">
+</head><body>
+
+<main class="ml-article">
+<section style="width: 21em; position: relative; padding: 1rem" id="top-wrapper">
+	<div id="top">
+	<img src="/avatar-black.svg" alt="Mat-ling" class=ml-wordmark />
+		<h1>物灵</h1>
+		<p id=tagline>Remould,<br>to Heart’s Desire</p>
+	</div>	
+	<footer><i id=advanced class=dropdown-wrapper></i></footer>
+</section>
+<section class=card-block>
+	<a class=ml-card-anchor style="grid-column: span 4" id=contrib 
+	href="https://github.com/0xis-cn" rel="me" target=_blank>
+		<h2>Contribution</h2>
+		<p>Software, AI, design</p>
+	</a>
+	<a class=ml-card-anchor href="/blog">
+		<h2>Blog</h2>
+		<p>36 posts</p>
+	</a>
+	<div class=ml-card-anchor style="grid-area: span 4/span 4; display: grid; grid-template-rows: subgrid; line-height: 1.25">
+		
+		<a style="grid-row: span 3; overflow-y: hidden; font-size: 1rem; color: inherit"
+		href="&#x2F;blog&#x2F;ctrl-z-do-not-go-gentle-into-your-cs-major&#x2F;" lang="en">
+			<div class=main-section>Updated on <time datetime="2025-08-16">5222
+ DM</time></div>
+			<h2>Do not get gentle into your CS major</h2>
+			I used to believe I was the one on earth who loved this field the most. Now I suspect I care the least. I cannot see the future, sprinting toward a horizon that keeps receding into darkness. Part of this text was written one year ago, originally meant to be the script for a video. I found it too clumsy and …
+		</a>
+		
+		<div style="grid-row: span 1">
+			<a class=ml-chokolate style="height: 2rem; border-bottom: none"
+				href="&#x2F;blog&#x2F;ianjunghak-siuhu-2038nen&#x2F;" lang="art-001">슈홋(守候) 2038넌(年)
+				<time datetime="2025-06-17" class=ml-smaller>5162
+</time>
+			</a>
+			<a class=ml-chokolate style="height: 2rem; border-bottom: none"
+				href="&#x2F;blog&#x2F;buku-name-de-mini-kon-sina-litera&#x2F;" lang="art-002">Buku-name de Mini kon Sina-litera
+				<time datetime="2025-06-08" class=ml-smaller>5153
+</time>
+			</a>
+			</div>
+	</div>
+	<a class=ml-card-anchor href="https://lex.matling.fit">
+		<h2>Lexicon Matlinae</h2>
+		<p>Digital garden & self-hosting</p>
+	</a>
+	<a class=ml-card-anchor id=hometown href="https://ma.pona.la">
+		<div class=btm><h2>Glang–Wys</h2><p>Where I spawned</p></div>
+	</a>
+	<div style="grid-row: span 4" class=ml-card-anchor>
+		<h2>Clarion</h2>
+	</div>
+</section>
+</main>
+<script>
+(() => {
+	const contribDays = 50 + new Date().getDay();
+	const url = "https://wakatime.com/share/@b24b10b3-9f1c-4323-9f99-e0b3888b3a6a/ae2b847c-d654-4f58-ab53-03bd64a7eda6.json";
+	const contrib = document.getElementById("contrib");
+	if (contrib)
+		fetch(url).then(resp => resp.json()).then(data => {
+			console.log(data);
+			const days = data.days.slice(-contribDays);
+			const result = document.createElement("div");
+			contrib.append(result);
+			for (let x of days) {
+				const level = [1, 3, 4, 8, 10].findIndex(y => y > x.total / 3600);
+				const res = document.createElement("span");
+				res.setAttribute("data-l", level);
+				result.append(res);
+			}
+		});
+})()
+</script>
+

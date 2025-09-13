@@ -1,0 +1,14 @@
+on: push
+name: Build and deploy GitHub Pages
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: Zola Deploy to Pages
+        uses: shalzz/zola-deploy-action@v0.21.0
+        env:
+          PAGES_BRANCH: gh-pages
+          TOKEN: ${{ secrets.GITHUB_TOKEN 

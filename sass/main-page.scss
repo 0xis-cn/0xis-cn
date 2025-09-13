@@ -53,7 +53,7 @@ h1 {
 		padding-inline: 0.75rem;
 	}
 	.card-block h2 {
-		margin-top: 0.75em;
+		margin-top: 0.625em;
 	}
 }
 
@@ -91,8 +91,8 @@ h1 {
 
 .ml-card-anchor {
 	box-sizing: border-box;
-	font-size: 18px;
-	line-height: 1;
+	font-size: 1rem;
+	line-height: 1.25;
 	grid-area: span 2/span 2;
 	padding-inline: 1em;
 	position: relative;
@@ -103,8 +103,7 @@ a.ml-card-anchor {
 	border-bottom: none;
 }
 .ml-card-anchor h2 {
-	font-size: 1.75rem;
-	line-height: 1;
+	//line-height: 1;
 }
 .ml-card-anchor img {
 	position: absolute;
@@ -131,8 +130,8 @@ a.ml-card-anchor {
 	display: grid;
 	grid: repeat(7, 12px) / auto-flow 12px;
 	gap: 6px;
-	right: 1em;
-	bottom: 1em;
+	right: 0.5rem;
+	bottom: 0.75rem;
 	position: absolute;
 }
 
@@ -160,7 +159,7 @@ body {
 
 .main-section {
 	color: var(--color-heavy);
-	margin: 1em 0 -0.5em;
+	margin-top: 0.75em;
 	font-size: 1rem;
 }
 

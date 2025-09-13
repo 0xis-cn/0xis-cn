@@ -1,0 +1,139 @@
+---
+extra:
+  legacy_lang: cmn-Arab
+  ciemmwue: قاًشࣲ خَ
+  custom_head: >-
+  <style>
+    canvas {
+      width: 100%;
+    }
+    .yanse {
+        list-style-type: none;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .yanse li {
+        display: inline-block;
+        width: 3em;
+        height: 3em;
+        margin-right: 1em;
+    }
+  </style>
+title: دࣱخُاْ ۋاًخُوَاتࣨ 
+---
+<p>ۋَ زَى دࣱخُاْ ڤࣱخُا ىُوِ ىِشۇ قِْکوَ جاًش، باَ iPad داَ ج خوتوْ. ۋَ  شٍکِ لِ، HTML خا موَ دِىُو. کِش زوْس خُۇَاباً دَى <strong>ىُوًبَو زدࣨقِ</strong>. نًکً س  نًکً، ىٍوِ ۋَ خۇلُوً ش  دِ. بۇجً لِ، لوْش شَه: نِمۇ بوخوِ بۇجً، مًدِخٍ.</p><!--more-->
+<canvas id="canvas" width="40" height="20"></canvas>
+<script>
+var 纸 = document.getElementById('canvas')
+var 倍率 = 40. / document.documentElement.clientWidth
+var 松弛 = true
+var 环 = canvas.getContext('2d')
+var 前x
+var 前y
+环.fillStyle = '#EEE8E0'
+环.fillRect(0, 0, 40, 20)
+环.fillStyle = 环.strokeStyle = '#445F46'
+纸.addEventListener('mousedown', function (e) {
+e.preventDefault()
+松弛 = false
+环.beginPath()
+前x = e.clientX * 倍率
+前y = e.clientY * 倍率
+})
+纸.addEventListener('touchstart', function (e) {
+e.preventDefault()
+松弛 = false
+环.beginPath()
+前x = e.touches[0].clientX * 倍率
+前y = e.touches[0].clientY * 倍率
+})
+var 计 = 0
+纸.addEventListener('mousemove', function (e) {
+e.preventDefault()
+if (松弛)
+return
+环.moveTo(前x, 前y)
+前x = e.clientX * 倍率
+前y = e.clientY * 倍率
+环.lineTo(前x, 前y)
+if (计 == 16) {
+计 = 0
+环.stroke()
+环.beginPath()
+} else {
+计++
+}
+})
+纸.addEventListener('touchmove', function (e) {
+e.preventDefault()
+if (松弛)
+return
+环.moveTo(前x, 前y)
+前x = e.touches[0].clientX * 倍率
+前y = e.touches[0].clientY * 倍率
+环.lineTo(前x, 前y)
+if (计 == 16) {
+计 = 0
+环.stroke()
+环.beginPath()
+} else {
+计++
+}
+})
+纸.addEventListener('mouseup', function (e) {
+e.preventDefault()
+环.stroke()
+松弛 = true
+})
+纸.addEventListener('touchend', function (e) {
+e.preventDefault()
+环.stroke()
+松弛 = true
+})
+var 内部 = 环.getImageData(0, 0, 40, 20)
+function 位置(x, y, 色) {
+return 4 * (x + y * 40) + 色
+}
+function 定时() {
+function 定时内运算() {
+function pf(x) {
+return 1 / x
+}
+var 哒 = 环.getImageData(0, 0, 40, 20)
+for (var x = 1; x < 39; ++x)
+for (var y = 1; y < 19; ++y) {
+	let kasi = []
+for (var 色 = 0; 色 < 3; ++色) {
+var 得 = 0
+得 += pf(哒.data[位置(x + 1, y + 1, 色)])
+得 += pf(哒.data[位置(x, y - 1, 色)])
+得 += pf(哒.data[位置(x + 1, y - 1, 色)])
+得 += pf(哒.data[位置(x + 1, y, 色)])
+var 啊 = Math.round(4 / 得)
+if (啊 > 145 && 啊 < 170)
+啊 -= 50
+kasi[色] = 内部.data[位置(x, y, 色)] = 啊
+}if (kasi[0] > 100 && Math.max(...kasi) - Math.min(...kasi) < 10)
+for (var 色 = 0; 色 < 3; ++色)
+内部.data[位置(x, y, 色)] = 236 - 6 * 色
+}
+环.putImageData(内部, 0, 0)
+}
+if (松弛)
+定时内运算()
+window.setTimeout(定时, 1000)
+}
+function 呀(色) {
+环.fillStyle = 环.strokeStyle = 色
+}
+window.onload = 定时
+</script>
+<ul class="yanse">
+<li style="background:#445F46" onclick="呀('#445F46')"></li>
+<li style="background:#6B5D44" onclick="呀('#6B5D44')"></li>
+<li style="background:#7A553A" onclick="呀('#7A553A')"></li>
+<li style="background:#315F75" onclick="呀('#315F75')"></li>
+<li style="background:black" onclick="呀('black')"></li>
+<li style="background:white" onclick="呀('white')"></li>
+</ul>

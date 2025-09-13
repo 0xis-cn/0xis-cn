@@ -1,0 +1,27 @@
+{% extends "fault.html" %}
+{% import "macros.html" as macros %}
+{% block head %}{{ super() }}
+  <link rel=canonical href="/{{ page.components | join(sep='/') }}" />
+{% endblock %}
+{% block body %}
+<a class=skip-link href=#ml><span>{{ trans(key="skip_link", lang=lang) }}</span></a>
+{{ macros::drawer(lang=lang) }}
+<center>
+{%- if page.title %}<h1>{{ page.title }}</h1>{% endif -%}
+<main class=ml-article id=ml>
+<article>{{ page.content | safe }}</article>{# use safe to display HTML #}
+{% if not "about" in page.components %}
+{{ macros::ciemmwue(page=page) }}
+<nav class=ml-chokolate>
+<div><p class=ml-smaller>{{ trans(key="lower", lang=lang) }}</p>
+	{%- if page.lower -%}<a class="ml-temp-btn" href="{{ page.lower.path }}" lang="{{ page.lower.lang }}">{{ page.lower.title }}</a>
+	{%- else -%}Ø{%- endif -%}
+</div><div><p class=ml-smaller>{{ trans(key="higher", lang=lang) }}</p>
+	{%- if page.higher -%}<a class="ml-temp-btn" href="{{ page.higher.path }}" lang="{{ page.higher.lang }}">{{ page.higher.title }}</a>
+	{%- else -%}Ø{%- endif -%}
+</div>
+</nav>
+{% endif %}
+</main></center>
+{% include "p/footer.html" %}
+{% endblock body %}

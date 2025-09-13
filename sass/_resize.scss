@@ -1,0 +1,15 @@
+$header-height: 9em !default;
+$link-change-time: .3s !default;
+$middle-width: 60rem !default;
+// TIPS: 若调整 $middle-width 请同步修改 drawer.scss 中 .ml-drawer 之宽度 
+
+.ml-article, footer, h1, .skip-link {
+	max-width: $middle-width;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+pre {
+	max-width: 100%;
+	overflow: auto;
+}

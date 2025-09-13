@@ -1,0 +1,49 @@
+{% macro dm(date) -%}
+{% set timestamp = date | date(format='%s') | int -%}
+{{ (timestamp - 1304092800) / 86400 | round }}
+{% endmacro dm -%}
+
+{% macro lang(page) -%}
+{% if page.extra.legacy_lang %}{{ page.extra.legacy_lang }}{% else %}{{ page.lang | default(value="en") }}{% endif -%}
+{% endmacro %}
+
+{% macro ciemmwue(page) %}
+<p class="ml-smaller">
+	<time datetime="{{ page.date }}" pubdate>
+		{{ macros::dm(date=page.date) }} DM
+	</time> ({{ page.date | date(format='%-d %b %Y') }})
+	{{ page.extra.ciemmwue | default(value='civitate terrena') }}
+</p>
+{% endmacro %}
+
+{% macro _ultoc(obj, level=2) %}
+    {% for h in obj -%}
+    <li class="ml-toc-{{ level }}">
+        <a href="{{ h.permalink | safe }}">{{ h.title }}</a>
+        {% if h.children -%}
+        <ul class=ml-toc-sub>
+            {{ self::_ultoc(obj=h.children, level=level + 1) }}
+        </ul>
+        {%- endif %}
+    </li>
+    {% endfor -%}
+{% endmacro %}
+
+{% macro drawer(lang) %}
+<details class=ml-drawer>
+	<summary class=ml-menu-button>≡</summary>
+	<div class=ml-drawer-inside>
+	<a href=/ class=ml-author-image><img src=/img/cloak.png alt="'m Matling~"></a>
+	<ul class=ml-bookmark role=navigation>
+        {%- for link in config.extra.t2038.drawer_links -%}
+        <a href="{{ link.url }}">{{ link.name[lang] }}</a>
+        {%- endfor -%}
+    </ul>
+    {% if page.toc -%}
+    <details open>
+        <summary>{{ trans(key="toc", lang=lang) }}</summary>
+        <ul class=ml-toc>{{ self::_ultoc(obj=page.toc) }}</ul>
+    </details>
+    {% endif -%}
+</div></details>
+{% endmacro %}

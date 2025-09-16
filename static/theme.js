@@ -23,15 +23,14 @@ function calculateColor(suno) {
 	document.querySelector("body").style.setProperty("--color-atlarge", `hsl(${nasa} 9% ${suno ? 11 : 89}%)`)
 }
 
-function calculateShadow() {
-	const shadowBox = document.querySelector(".skip-link")
+function calculateShadow(shadowBox) {
 	const text = document.getElementById("ml")
 	if (!shadowBox || !text)
 		return
-	const width = Math.floor(Math.min(window.innerWidth - 64, 896) / 32)
+	const width = Math.floor(Math.min(window.innerWidth - 64, 1099) / 32)
 	let ptr = 0, leko = []
 	for (let x = 1 - width; x < width; x += 2)
-		for (let y = 1; y < 13; y += 2) {
+		for (let y = 2; y < 13; y += 2) {
 			if (text.innerText.charCodeAt(ptr) % 2)
 				leko.push(`${x}em ${y}em`)
 			if ((ptr += 10) > text.innerText.length)
@@ -108,10 +107,12 @@ const preferences = [
 ];
 
 (() => {
+	const shadowBox = document.querySelector(".skip-link")
 	const menuBtn = document.querySelector('.ml-menu-button')
 	if (menuBtn) {
 		if (1279 < window.innerWidth)
 			menuBtn.click()
+		menuBtn.addEventListener('click', () => shadowBox.classList.toggle("mxilxi"))
 	}
 
 	const base = document.getElementById('advanced')
@@ -132,5 +133,5 @@ const preferences = [
 	})
 
 	if (!document.querySelector('body').classList.contains('advanced-vertical'))
-		calculateShadow()
+		calculateShadow(shadowBox)
 })()

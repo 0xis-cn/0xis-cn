@@ -7,12 +7,16 @@ h1, h2, h3, h4, h5, h6, strong, .ml-footer-desc {
 	color: var(--color-heavy);
 }
 
-.ml-bookmark a, .ml-social-list .svg-icon, .ml-article a {
+.ml-bookmark a, .ml-social-list .svg-icon {
 	color: var(--color-levity);
 
 	&:hover {
 		color: var(--color-heavy);
 	}
+}
+
+.ml-bookmark a {
+	color: var(--color-normal);
 }
 
 blockquote {
@@ -232,8 +236,8 @@ button[disabled]:hover {
 
 .skip-link {
 	color: var(--color-atlarge);
-	width: 1.875em;
-	height: 1.875em;
+	width: 0.75em;
+	height: 0.75em;
 	display: block;
 	:root & {
 		padding: 0;

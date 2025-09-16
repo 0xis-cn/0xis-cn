@@ -34,10 +34,11 @@
 			{{ newest_post.summary | striptags | truncate(length=308) }}
 		</a>
 		{% set other_posts = blog_section.pages | slice(start=1, end=3) %}
-		<div style="grid-row: span 1">
+		<div style="grid-row: span 1; min-width: 0">
 			{% for b in other_posts -%}
-			<a class=ml-chokolate style="height: 2rem; border-bottom: none"
-				href="{{ b.path }}" lang="{{ macros::lang(page=b) }}">{{ b.title }}
+			<a class=ml-chokolate style="height: 2rem; border-bottom: none; align-items: center"
+				href="{{ b.path }}" lang="{{ macros::lang(page=b) }}">
+				<p style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{ b.title }}</p>
 				<time datetime="{{ b.date }}" class=ml-smaller>{{ macros::dm(date=b.date) }}</time>
 			</a>
 			{% endfor -%}

@@ -59,12 +59,9 @@ $drawer-offset: $drawer-width + 16px;
 	.ml-drawer[open] {
 		width: $drawer-width;
 	}
-
-	.ml-drawer[open] + center {		// making up the space
-		padding-left: $drawer-width;
-		padding-right: 0;
+	
+	.ml-drawer[open] + center {
 		padding-inline-start: $drawer-width;
-		padding-inline-end: 0;
 	}
 }
 

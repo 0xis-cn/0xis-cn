@@ -141,14 +141,21 @@ h1, h2, h3, h4, h5, h6 {
 	list-style-type: 'ㆍ'
 }
 
-// Footnotes
-.footnotes ol {
-	padding-left: 2rem;
-}
+// FOOTNOTE INTERACTION
 
-.ml-smaller, .footnotes {
+.ml-smaller, .footnote-definition p {
 	margin: 0;
 	font-size: .875em;
 	color: var(--color-levity);
 }
 
+.footnote-definition {
+	display: none;
+	sup {
+		width: 1rem;
+	}
+}
+
+.footnote-definition:target {
+	display: flex;
+}

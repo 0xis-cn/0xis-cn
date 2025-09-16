@@ -45,5 +45,18 @@
         <ul class=ml-toc>{{ self::_ultoc(obj=page.toc) }}</ul>
     </details>
     {% endif -%}
+    {% set length_hack = page.translations | default(value="") | length %}
+    {% if length_hack > 1 -%}
+    <details open>
+        <summary>{{ trans(key="other_languages", lang=lang) }}</summary>
+        <ul class=ml-toc>
+            {% for i in page.translations -%}
+                {% if i.lang != lang %}
+                    <li lang="{{ i.lang }}"><a href="{{ i.permalink }}">{{ i.title }}</a></li>
+                {% endif %}
+            {% endfor -%}
+        </ul>
+    </details>
+    {% endif -%}
 </div></details>
 {% endmacro %}

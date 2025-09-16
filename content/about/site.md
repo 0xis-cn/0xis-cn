@@ -36,8 +36,8 @@ Alas, the song, according to some, [turned out to be a crystal ball]({% post_url
 Traits for design include
 
 - Vertical rhythm for lead typesetting
-- No border design (Cards are muddy!)
-- ~~Largely JavaScript-free~~ (Withdrawn, [even not this](http://www.anybrowser.org/campaign/))
+- Borderless (Cards are muddy! But to coordinate borderless texts is tricky and I am questioning my outcome)
+- JavaScript-free (Near-perfect sans JavaScript, but not for [any browser](http://www.anybrowser.org/campaign/))
 - Adjustable as in [Citizen](https://www.mediawiki.org/wiki/Skin:Citizen)
 
 Unfortunately, the code in GitHub repository is outdated, particularly
@@ -47,41 +47,40 @@ the old code is controversial when I take both retrocomputing and free from Java
 
 ### A timeline for progenitors
 
-2011
-: The birth of a website of Muqliong Gang in Microsoft FrontPage,
-with 'eye-protecting' orchid-coloured
-[table layout](http://www.tiernok.com/posts/history-of-html-table-layouts.html),
-reading 'it is our eternal pursuit to help more people realise their dreams'.
+<dl class=ml-card-list>
+<dt>2011
+<dd>The birth of a website of Muqliong Gang in Microsoft FrontPage,
+with ‘eye-protecting’ orchid-coloured table layout,
+reading ‘it is our eternal pursuit to help more people realise their dreams’.
 Not knowing how to publish it online, I requested fellows of the Gang to
 manually create the same directory.
 
-2012
-: Some earliest posts are published in Facebook-influenced websites, including
-zww.cn, xxt.cn ([weathered blog](http://blog.xxt.cn/459358784)), and QQ,
-where I remembered were crammed with 'not [apocalypse](http://cosmophobia.wikidot.com/) but cherishing year!'.
+<dt>2012
+<dd>Some earliest posts are published in Facebook-influenced websites, including
+zww.cn, xxt.cn (<a href="http://blog.xxt.cn/459358784">weathered blog</a>), and QQ,
+where I remembered were crammed with ‘not apocalypse but cherishing year!’.
 
-2018
-: A blog with Hexo, with a 'futuristic' collection of practice questions on physics,
-was first time deployed online with [CODING](https://coding.net/).
-It has been 2018 but I was still centering a div with `translate(-50%, -50%)`.
+<dt>2018
+<dd>A blog with Hexo, with a ‘futuristic’ collection of practice questions on physics,
+was first time deployed online with CODING.
+It has been 2018 but I was still centering a div with <code>translate(-50%, -50%)</code>.
 After the service adjustment I moved to Gitee.
 Writing elsewhere on algorithm at the same time; I may or may not include them later.
 
-2020
-: Revived my blog after gāokǎo. Migrated to Jekyll.
+<dt>2020
+<dd>Revived my blog after gāokǎo. Migrated to Jekyll.
 
-21 May 2021
-: Registered the domain name later changed (for spelling reezon) to matling.fit.
+<dt>21 May 2021
+<dd>Registered the domain name later changed (for spelling reezon) to matling.fit.
 Theme switched to 2038 designed in a fortnight.
 
-11 Mar 2024
-: 'Many blogs are prone to desolation for lack management'... Well, some sort.
+<dt>Mar 2024
+<dd>‘Many blogs are prone to desolation for lack management’ (<a href="https://vistudium.top/">hulenkius</a>). Well, some sort.
 Rearranged the repository.
 
-25 Jun 2025
-: Removed links to [AlphaGem](https://alphagem.github.io), [Emotion.](https://www.cnblogs.com/Emotion-Blog), [insilent](https://insilent.github.io), [lris](https://lvris.com), [Mr. Wolfram](https://www.cnblogs.com/Mr-WolframsMgcBox), [Rem](https://remrin.dev), [Tsienbaecdhuh](https://blog.qaiu.top), and [unt](https://phesoca.com).
-You have seen my hypocrisy, but this is partially driven by my former appointment.
-{: .ml-card-list}
+<dt>10 Sep 2025
+<dd>Migrated to Zola.
+</dl>
 
 ### Might stop now
 
@@ -94,7 +93,7 @@ The traits Gwern and I shared were developed independently. Though Gwern's innov
 A post may have not been translated or written in obscure language because it pertains language-specific background knowledge or is intended to stress test that language, which will be less frequent in the future as this blog aims to provide worldwide perspectives.
 Or because it was written at a young age and only archived.
 
-The customary romanization of Chinese names in this website and my creative works is [General Chinese](https://en.wikipedia.org/wiki/General_Chinese), a neutral orthography invented by Yuen Ren Chao. General Chinese, along with its successors such as Branner (1999), Norman (2006), and Gu & Simmons (2016), is helpful for grasping the subtlety of proper names, even homonymous, for non-native speakers, though not rather linguistically well-supported. See also [my mockery]({% post_url 2025-03-31-enhypen-alphabet %}).
+The customary romanization of Chinese names in this website and my creative works is [General Chinese](https://en.wikipedia.org/wiki/General_Chinese), a neutral orthography invented by Yuen Ren Chao. General Chinese, along with its successors such as Branner (1999), Norman (2006), and Gu & Simmons (2016), is helpful for grasping the subtlety of proper names, even homonymous, for non-native speakers, though not rather linguistically well-supported. See also [my mockery](@/blog/2025-03-31-enhypen-alphabet.md).
 
 ## Metadata
 

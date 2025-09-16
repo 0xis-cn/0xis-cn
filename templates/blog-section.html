@@ -3,8 +3,9 @@
 {% block body %}
 <a class=skip-link href=#ml><span>{{ trans(key="skip_link", lang=lang) }}</span></a>
 {{ macros::drawer(lang=lang) }}
-<center>
+<center>{% block title %}{% endblock title %}
 <main class="ml-article">
+{% block content %}{% endblock content %}
 {% for post in paginator.pages %}
 <section>
     {% if section.content %}<article>{{ section.content | safe }}</article>{% endif -%}

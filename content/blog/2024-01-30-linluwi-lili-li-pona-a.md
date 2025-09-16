@@ -3,8 +3,9 @@ extra:
   legacy_lang: tok
   ciemmwue: lon ma Sansi
 title: linluwi lili li pona a!
-tag:
-- toki-pona
+taxonomies:
+  tags:
+  - toki-pona
 ---
 
 mi enujo a! enujo lili li tan ni: tenpo pini lili la, mi tawa e wile sona suli

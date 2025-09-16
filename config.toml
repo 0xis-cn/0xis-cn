@@ -6,10 +6,11 @@ compile_sass = true
 build_search_index = false
 
 taxonomies = [
-    {name = "tags", rss = true, paginate_by = 10},
+    {name = "tags", feed = true, paginate_by = 10},
 ]
 
 [markdown]
+highlight_theme = "boron"
 highlight_code = true
 
 [translations]

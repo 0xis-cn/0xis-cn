@@ -3,7 +3,8 @@ extra:
   legacy_lang: tok
   ciemmwue: lon ma Kansu
 title: omekapo, Lánzhōu
-tags: ['toki-pona']
+taxonomies:
+  tags: ['toki-pona']
 category: retrospection
 ---
 

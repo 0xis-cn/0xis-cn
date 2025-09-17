@@ -1,6 +1,7 @@
 ---
 title: 高中数学笔记
-tag: ["arrogant-notes"]
+taxonomies:
+  tags: ["arrogant notes"]
 extra:
   legacy_lang: cmn
   ciemmwue: 于杏园堡

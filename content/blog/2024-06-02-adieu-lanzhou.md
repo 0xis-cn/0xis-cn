@@ -4,7 +4,7 @@ extra:
   ciemmwue: lon ma Kansu
 title: omekapo, Lánzhōu
 taxonomies:
-  tags: ['toki-pona']
+  tags: ['Toki Pona']
 category: retrospection
 ---
 

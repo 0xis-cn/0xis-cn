@@ -77,7 +77,7 @@ assert(c == 'a');
 一般而言，非领有 range 是一类不管理其元素内存的 range。`std::string_view` 便是如此，甚至达到了[借用 range](https://en.cppreference.com/w/cpp/ranges/borrowed_range.html) 的更严要求：该种 range 内只有迭代器，且迭代器不指向 range 本身。个中一个重要含义是当借用 range 自身超出作用域时其迭代器仍有效。这对 `std::string_view` 似乎当然，但稍后我们会遇到需要权衡的设计。
 
 <figure>
-<img src="https://1.888440.xyz/global-free/2025/09/15/32/68c8002d51707.webp" alt="容器在墙上投影（注意悬空的逗号！）" style="max-width: min(100%, 540px)">
+<img src="https://1.888440.xyz/global-free/2025/09/15/32/68c8002dddc05.webp" alt="容器在墙上投影（注意悬空的逗号！）" style="max-width: min(100%, 540px)">
 <figcaption>如果字串是容器，<code>string_view</code> 象是投下的影子。</figcaption>
 </figure>
 
@@ -148,7 +148,7 @@ auto v = vec | std::views::VIEW1 | std::views::VIEW2;
 
 range-v3 的视图定义为 O(1) 可複製的 range。这个「非领有」定义较借用 range 广泛，视图可以保留状态，只要是 O(1)。因此借用 range 是视图的子集[^7]。
 
-[^7]: 若严格遵循标准，借用 range 不要求无状态。然而，由于借用的前向迭代器可以 O(1) 複製，且与 range 完全独立，因此可以直接获取迭代器且以之构建新 range（该 range 同样可以 O(1) 複製）。 
+[^7]: 若严格遵循标沝，借用 range 不要求无状态。然而，由于借用的前向迭代器可以 O(1) 複製，且与 range 完全独立，因此可以直接获取迭代器且以之构建新 range（该 range 同样可以 O(1) 複製）。 
 
 我在下面讨论这一灵活性是否值得，但要注意，至今视图的定义依然清晰，主要围绕所有权：它意谓着「O(1) 可複製」！然而须知在这一点上视图已不等于 range adaptor。range-v3 与早期 C++20 已有一些自立的 range 亦称为视图，如 `std::ranges::iota_view` 和 `std::ranges::empty_view`（亦可在常量时间复制）。
 
@@ -173,7 +173,7 @@ auto v_owning = std::move(s) | std::views::transform(to_upper);
 
 这是一个有用特性，然而导致 `std::ranges::view` 概念发生变化，不再表示非领有 range。侭管该概念与其他概念联用时仍有些价值<sup>ꖻ</sup>，但我认为其在标沝库的视图机制外已然无用。尤其是它不能用于约束自己的算法，而这是概念的初衷。[^8]
 
-[^8]: C++ 范围之父 Eric Niebler 说过：<quote>泛型编程小技巧：侭管概念是类型的约束，你不能通过查看系统中的类型提炼概念，而是通过研究算法。</quote>不使用该概念的人认为其没有用处。值得注意的是该改动未反向施用于 range-v3。
+[^8]: C++ 范围之父 Eric Niebler 说过：「泛型编程小技巧：侭管概念是类型的约束，你不能通过查看系统中的类型提炼概念，而是通过研究算法。」不使用该概念的人认为其没有用处。值得注意的是该改动未反向施用于 range-v3。
 
 除了这些（不）实用的影响，还有严重的不明悫性（不可教性）。由于之前的定义广汎传播（且令人难忘），我曾遇到有经验的 C++ 程序员甚至委员会成员讶异于视图不一定是非领有 range。虑及「视图」是 C++ range 最大卖点之一，无法解释「视图」一词之含义是大问题。
 
@@ -184,7 +184,7 @@ auto v_owning = std::move(s) | std::views::transform(to_upper);
 - 用非领有 range 表示 O(1) 可複製的 range。
 - 用借用 range 表示 O(1) 可複製，且迭代器可超出 range 存期的 range。
 
-[^9]: Boost ranges 称为「range adaptor 生成器」，但现在「生成器」表示单趟 range。
+[^9]: Boost ranges 称为「range adaptor 生成器」，但现在「生成器」常表示单趟 range。
 
 ## RADR 库
 
@@ -265,7 +265,7 @@ auto rad1 = std::move(vec) | radr::take(2);
 </div>
 </div>
 
-对容器右值包装 radr 库与标准库可实现相同功能，语法完全一致。但 radr 视返回 range 为容器，可进行 O(n) 複製<sup>ꖻ</sup>。
+对容器右值包装 radr 库与标沝库可实现相同功能，语法完全一致。但 radr 视返回 range 为容器，可进行 O(n) 複製<sup>ꖻ</sup>。
 
 ## 总结
 
@@ -277,9 +277,9 @@ auto rad1 = std::move(vec) | radr::take(2);
   - 它们是否全部/部分/完全借用？
 - 是否需要领有 range adaptor？若需，如何建模？
 
-标准库类似 [range-v3](https://github.com/ericniebler/range-v3) 类似，选择部分非领有 range adaptor 采取借用，但多数并非如此。RADR 库类似 [Boost range-v2](https://www.boost.io/doc/libs/latest/libs/range/doc/html/index.html)，选择所有非领有 range adaptor 是借用范围。
+标沝库类似 [range-v3](https://github.com/ericniebler/range-v3) 类似，选择部分非领有 range adaptor 采取借用，但多数并非如此。RADR 库类似 [Boost range-v2](https://www.boost.io/doc/libs/latest/libs/range/doc/html/index.html)，选择所有非领有 range adaptor 是借用范围。
 
-标准库与 RADR 提供领有 range adaptor，Boost range-v2 与 range-v3 则无。标准库中领有 range adaptor 是一种视图，RADR 中则只是容器。
+标沝库与 RADR 提供领有 range adaptor，Boost range-v2 与 range-v3 则无。标沝库中领有 range adaptor 是一种视图，RADR 中则只是容器。
 
 我已尽力将这个复杂话题分解阐述，但我希望已经说明：「视图」难以解释正是问题所在。radr 库提供十分类似 `std::views` 的功能，同时试图规避部分复杂性。
 

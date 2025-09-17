@@ -3,7 +3,8 @@ extra:
   legacy_lang: cmn
   ciemmwue: 于杏园堡
 title: 初中政治答题方法
-tag: ["arrogant-notes"]
+taxonomies:
+  tags: ["arrogant notes"]
 ---
 
 + 某事的作用或好处：“有利于”放一句话开头，可以使用“培养”一词。

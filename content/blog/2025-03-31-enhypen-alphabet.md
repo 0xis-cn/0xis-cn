@@ -27,6 +27,7 @@ For tones, options include
 
 <details markdown=1>
 <summary lang=cmn>韵 a 麻韵车，韵 ai 皆夬的…</summary>
+
 - a 麻   
 - ai 皆开夬   
 - au 肴   
@@ -68,6 +69,7 @@ For tones, options include
 - ui 微   
 - un 文   
 - uq 冬   
+
 </details>
    
 ## Sample
@@ -78,7 +80,6 @@ For tones, options include
 | 限字暴於始皇暴 制言愚駕厲王愚  | Gann dzh båw ô Shıigoåq båw, jeh qôn qu kah Lehwåq qu.   |
 | 不知書契垂千載 何止寒暄便匹夫  | Pou tji shôkhey zjui tsentzɵe, gâji gɵnhôn bien phitfu.  |
 | 根本不同休妄斷 蟹行記號但音符  | Kınpoon pouhdoq hiu vånqtuɵnh, gaygang kihgaw dɵnn ımfvu.|
-{:lang="ja"}
 
 ## Notes
 

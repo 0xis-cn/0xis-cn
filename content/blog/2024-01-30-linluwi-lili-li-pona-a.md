@@ -5,7 +5,7 @@ extra:
 title: linluwi lili li pona a!
 taxonomies:
   tags:
-  - toki-pona
+  - Toki Pona
 ---
 
 mi enujo a! enujo lili li tan ni: tenpo pini lili la, mi tawa e wile sona suli

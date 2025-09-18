@@ -13,6 +13,12 @@
 		{{ macros::dm(date=page.date) }} DM
 	</time> ({{ page.date | date(format='%-d %b %Y') }})
 	{{ page.extra.ciemmwue | default(value='civitate terrena') }}
+	{% if page.taxonomies['tags'] -%}
+		{% for tag in page.taxonomies['tags'] -%}
+		{% set url = get_taxonomy_url(kind="tags", name=tag) -%}
+		#<a href="{{ url }}">{{ tag }}</a>
+		{% endfor -%}
+	{% endif -%}
 </p>
 {% endmacro %}
 

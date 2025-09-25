@@ -1,5 +1,5 @@
 ---
-title: 高中数学笔记
+title: 「一周精选」残稿
 taxonomies:
   tags: ["arrogant notes"]
 extra:
@@ -8,9 +8,9 @@ extra:
   formula: true
 ---
 
-包括 Apollonius 圆、法向量、简谐振动、圆锥曲线公式。部分自一位作者读到，此外尚有一些无聊的等价命题变形。我过去以为原载于 QQ 空间，实际应最早发布于草料二维码，故第一期有「补发于空间」字样。两期在 QQ 空间均发布于 2017-9-9。
+本文为「一周精选」周记㝻存的两期，原标题为《#1：过河凿分式，这是唯一的出路！》《一周精选 #2：一个比例一个圆》。这是我在沝（准）高一时计划的。最早或发布于草料二维码，故第一期有「补发于空间」字样。两期在 QQ 空间均发布于 2017 年 9 月 9 日，原发布时间不详。存档时区分数学版块与馀部，数学版块有 Apollonius 圆、法向量、简谐振动、圆锥曲线公式。部分自一位作者读到，此外尚有一些无聊的等价命题变形。
 
-原标题为《#1：过河凿分式，这是唯一的出路！》《一周精选 #2：一个比例一个圆》。除上述笔记外有其他版块，我意图做成推送形式。「一周精选」的后续发展未知，这两期是如今㝻存的发布稿件。
+周记与当时诸多宏伟计划一样因意外告吹。我未有不认为周记是好形式，也有喜爱的周记，但我希望「一周精选」在这里永远成为历史。
 
 <!--more-->
 
@@ -91,7 +91,7 @@ Answered Aug 26, 2016
 
 <p class="ml-smaller">编者按：同上。甚至未写出原作者。我记得我在面见亲戚时读过该译文。</p>
 
-Quora 对“我在切番茄，有没有可能切下去时，切开一个原子导致核爆炸？（If I'm cooking, and I cut a tomato, is there a chance that the knife would split an atom while it slices into the tomato to cause a nuclear explosion?）”的回答
+Quora 对“我在切番茄，有没有可能切下去时，切开一个原子导致核爆炸？（If I’m cooking, and I cut a tomato, is there a chance that the knife would split an atom while it slices into the tomato to cause a nuclear explosion?）”的回答
 
 不。因为：
 

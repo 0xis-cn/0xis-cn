@@ -42,16 +42,16 @@ The function retrieves precedent words from variables. The current line, `COMP_L
 
 | Example | Usage |
 |-|-|
-| `compgen -f test` | List all **filenames** starting with 'test'   |
-| `compgen -d test` | List all **directories** starting with 'test' |
-| `compgen -c git`  | List all **commands** starting with 'git'     |
+| `compgen -f test` | List all **filenames** starting with *test*   |
+| `compgen -d test` | List all **directories** starting with *test* |
+| `compgen -c git`  | List all **commands** starting with *git*     |
 | `compgen -W`<wbr> `"john jane joan jojo"`<wbr> `-- jo` | List **words** from the word list starting with 'jo' |
 | `compgen -W`<wbr> `"john jane"`<wbr> `-P "cmd:" -S "!"` | Adding uniform **prefixes** and **suffixes** |
 
-Therefore, the expression above completes 'start' and/or 'stop' according to the partially typed word. You can also pipe `compgen` output to `grep` to further filter the results.
+Therefore, the expression above completes *start* and/or *stop* according to the partially typed word. You can also pipe `compgen` output to `grep` to further filter the results.
 
 In the end, the completion function is attached to a command.
 
 For Python scripts, packages like `shtab`, `argcomplete`, and `prompt_toolkit` are responsible for completions. `click`, an alternative to builtin argument parsing library `argparse`, is a versatile tool supporting completion.
 
-Altogether, using `compgen` and `complete` in Bash, you can create completion rules for filenames, commands, options, and more. Custom completion allows you to enhance the usability of command-line tools and scripts. Fish offers [more nuanced completion generators](https://fishshell.com/docs/current/completions.html#writing-your-own-completions) invoked in a similar procedure.
+Using `compgen` and `complete` in Bash, you may create completion rules for filenames, commands, options, and more. Custom completion allows you to enhance the usability of command-line tools and scripts. Fish offers [more nuanced completion generators](https://fishshell.com/docs/current/completions.html#writing-your-own-completions) invoked in a similar procedure; you may read the super-friendly documentation.

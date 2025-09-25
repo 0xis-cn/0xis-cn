@@ -29,7 +29,7 @@ lipu pi sitelen ABC li taso lon.
 a. mi o toki e sona lili.
 nasin Gemini li lon sewi pi nasin TCP.
 nasin Gemini la, linja TCP wan li pana e lipu wan taso li pini.
-ken la, sina pilin e ni: 'ni li sama HTTP/1.0. tenpo pana li mute.'
+ken la, sina pilin e ni: ‹ni li sama HTTP/1.0. tenpo pana li mute.›
 taso, lipu wan li wile ala e lipu ante (`<img>`, `<script>`, `fetch()`...)
 la, nasin ni li pona.
 toki namako Cookie li lon ala la, jan li jo ala e sijelo linluwi.
@@ -43,7 +43,7 @@ lipu Gemini li jo ala e ~~**sitelen wawa**~~ e ~~*sitelen lape*~~.
 sitelen natu li ken ala lon insa sitelen.
 <br>≫ [sitelen natu li jo e linja wan sama mi.][sinapowe]<br>
 sitelen en kalama musi li lon lipu ala li lon monsi sitelen natu taso.
-pona la, mi toki e 'sitelen ABC li taso lon' la kon li ni:
+pona la, mi toki e ‹sitelen ABC taso› la kon li ni:
 sitelen <span lang=ar>إختبار</span> en <span lang=yid>טעסט</span>
 en <span lang=cmn>字</span> en <span lang=mis>😀</span>.
 toki ilo CSS li weka la, jan sitelen li ante ala e lukin.
@@ -51,18 +51,18 @@ ni li pona tan ni: jan lukin taso li sona e ni: lukin seme li pona tawa oko ona 
 o pilin ala e ni: lipu ni li majuna lukin sama <abbr>tenpo sike ale</abbr> (*centuria*) pini.
 ilo lukin li pali e ni: lipu li pona lukin.
 
-ken la sina pilin e ni: 'nasin Gemini li lili mute. mi ken sitelen e ilo lukin anu ilo pana lon tenpo pimeja wan.'
-pona a! sina sona e tan pi nasin Gemini anu 'linluwi lili'.
-'linluwi lili' li *smolnet* lon toki Inli.
+ken la sina pilin e ni: ‹nasin Gemini li lili mute. mi ken sitelen e ilo lukin anu ilo pana lon tenpo pimeja wan.›
+pona a! sina sona e tan pi nasin Gemini anu ‘linluwi lili’.
+linluwi lili li *smolnet* lon toki Inli.
 nasin Gemini li lili la, jan ali li ken pali kepeken jan wan.
 linluwi mute la, jan li wile e ni:
-'jan <abbr>owan luka</abbr> (100,000) anu <abbr>owan luka wan</abbr> (1,000,000) li wile e lipu linluwi mi lon tenpo sama.
-taso, lipu linluwi mi li awen wawa.'
+jan <abbr>owan luka</abbr> (100,000) anu <abbr>owan luka wan</abbr> (1,000,000) li wile e lipu linluwi mi lon tenpo sama.
+taso, lipu linluwi mi li awen wawa.
 linluwi lili la, sina wile ala e jan mute sama ni.
 sina wile ala esun e ilo wawa tawa ona mute.
 ala la jan ali li tawa lipu linluwi suli wan.
 jan li tawa lipu lili lon olin ona.
-ala la jan li lukin e nanpa monsi nena '👍 Like'.
+ala la jan li lukin e nanpa monsi nena ‹👍 Like›.
 olin e ijo tan jan ante la, jan li sitelen tawa ona li sitelen lon ijo ona.
 
 tenpo ni la, pilin jan tawa linluwi li ante mute.

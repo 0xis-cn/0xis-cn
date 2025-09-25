@@ -5,13 +5,11 @@ extra:
   iiia: 0
 ---
 
-Enhypen Alphabet is a language-neutral spelling system for Chinese characters, specifically for Chinese-derived proper names. It bears less prejudice from Mandarin, as compared to Yuen Ren Chao’s [General Chinese](https://en.wikipedia.org/wiki/General_Chinese) and Professor [Gu Qian](https://chin.nju.edu.cn/English/Faculty/AppliedLinguistics/20230516/i246356.html)’s *Common Sound Systems of Chinese Dialects*, where the bias is more or less dedicated.
+Enhypen Alphabet (‘**e**mpirical **n**ominal **hype**rlingual **n**otation’) is a language-neutral spelling system for Chinese characters, specifically for Chinese-derived proper names. It bears less prejudice from Mandarin, as compared to Yuen Ren Chao’s [General Chinese](https://en.wikipedia.org/wiki/General_Chinese) and Professor [Gu Qian](https://chin.nju.edu.cn/English/Faculty/AppliedLinguistics/20230516/i246356.html)’s *Common Sound Systems of Chinese Dialects*, where the bias is more or less dedicated.
 
 It serves as a startpoint to ‘Sinicize’ respective for tacit perceptions of characters, which is barely possible for natural languages, stubborn for previous works, and Shidinn leads to the other extreme.
 
 <!--more-->
-
-Named after the South Korean boy band in the early development, the scheme is redefined as the backronym ‘empirical nominal hyperlingual notation’. As an April Fool's Day post written under extreme pressure, the omissions are not planned to be corrected.
 
 ## Initials   
 
@@ -89,3 +87,5 @@ Biblography:
 - [Even cooler language adaptation](https://lamiz.fandom.com/zh/wiki/)
 
 The letter ɵ features [Wu pronunciation](https://zhuyuhao.com/) as /ø/. Cantonese /ɔ/ (occasionally; along with ‘Classical Mandarin’ [if existed](https://zhuanlan.zhihu.com/p/694540340)) is barely acceptable [according to my friend](https://lanlanfiction.fandom.com/zh/wiki/%E5%85%B1%E9%80%9A%E5%8C%97%E4%BA%9A%E5%AD%97%E6%AF%8D).   
+
+This is an April Fools’ Day post. I am not saying the methodology disclosed here is viable for, if I can say, phono-lexical transcription. I say that the ‘asthetics’ of orthography, boasted and even regarded as art by amateur linguists, is irrelevant and at best abuse of letters. They say *l* is not for Shidinn /n/; I say *c* is not for Italian /tʃ/!

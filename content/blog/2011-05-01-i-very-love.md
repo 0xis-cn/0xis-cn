@@ -7,7 +7,7 @@ title: I very love Zhityoq Vendyaec
 My fuzzy letter to editors, supplemented with early history of this blog.<!--more-->
 
 <section lang=cpi markdown=1>
-All *Zhityoq Vendyaec* editor:
+All <cite>Zhityoq Vendyaec</cite> editor:
 
 Hello everyone!
 
@@ -15,9 +15,9 @@ I am a school boy. I have a wonderful name: Xi Han.
 
 The history of my buy and read the book, require say things of Marth 2011.
 
-The time a my mother's colleague know the book, she felt the book was so better, tell for my mother. In the times after, my father buy one and read, felt the book was better too. And in the times after, my home buy the book in every month.
+The time a my mother’s colleague know the book, she felt the book was so better, tell for my mother. In the times after, my father buy one and read, felt the book was better too. And in the times after, my home buy the book in every month.
 
-I am very love the book in now. I am read the book in every day after complere homework. They tell me lots of knowledge and philosophy abote is people. My achievement's half is they achievement.
+I am very love the book in now. I am read the book in every day after complere homework. They tell me lots of knowledge and philosophy abote is people. My achievement’s half is they achievement.
 
 Wish  
 Works succeed!  
@@ -27,12 +27,10 @@ Xi Han
 
 ---
 
-<section markdown=1 lang=cmn>
-最早的博文发在小荷作文网。用户可在该网站投稿作文，不过网站预置的分类远超一般作文题目范畴，使网站更象博客群，虽然不知是否有人真正写过。依文末写错的日期应是 256 DM 写的，但这几篇相传日期均在此附近，如果为真，说明我在几日内快速投稿，然后忘记这个网站。当然旳悫是忘记了，后来没有新投稿，只有几篇原设有密码之日记。本文我设在梦龙元日，只为令 Jekyll 显示在最末。
+The earliest posts were published on zww.cn. Users could submit essays to the site, though its preset categories far exceeded typical essay topics. Based on the misspelled date at the end of the text, it should have been written in 256 DM, but all zww.cn posts are said to date around this time. It is unrealistic that I have written them rapidly over several days and then forgot about the site.
 
-我为收录这几篇找了个借口：既然当时发在公网，甚至被爬过几次，出于完整性该收。
+I made an excuse to include these posts, that they were originally published on the public web and even crawled several times.
 
-卢昌海 2022 年曾谈到「[稀有主页假设](https://www.changhai.org/articles/technology/misc/RarePage.php)」，类比稀有地球假设，认为像卢昌海主页这样个人设计、个人编程，且收录大量个人文字、存在时间长的主页在互联网中极为罕见。本站既非在我出生那刻就存在，也就无力参与稀有主页之竞争了。但论及主页的价值，寿命自然让位于另一个问题：我文字的价值取决于我的人生。我大概会一事无成，因此我在此授权各类网络服务提供者，在那一刻来临后，可以忽略用户协议清除我的信息。毕竟我或许产生过数以Ｔ计的数据，但不曾起到一个比特的作用。
+In 2022, Lu Changhai discussed the [Rare Homepage Hypothesis](https://www.changhai.org/articles/technology/misc/RarePage.php) analogous to the Rare Earth Hypothesis. He argued that personal websites like his, handcrafted, self-programmed, hosting extensive writings, and enduring, are scarce on the internet. What you are reading is too late as a contestant. However I know well that the worth of my writing depends on the worth of my life. Hereby I authorize all internet service providers to disregard user aggrements and delete my information when that moment arrives. I may have generated terabytes of data, but never contributed a single bit of value for humanity.
 
-稍加解释这封荒唐到我都难以置信的信：这种杂志（不是 'book'）可能见证了不少人的童年，就不写出本名了。只记得许多字大概是从一本泛黄的旧字典查的（甚至后来再没见过该字典），现在读来，总觉象故意打错的。
-</section>
+A brief explanation of this letter, absurd even to me: This magazine (not a ‘book’) likely witnessed many childhoods. I only recall that many words were looked up in a yellowed old dictionary (one I never saw again). I cannot explain the typos.

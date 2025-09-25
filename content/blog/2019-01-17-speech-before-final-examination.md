@@ -10,7 +10,7 @@ All of us will attend the Final Examination tomorrow. For some of you, this time
 
 However, this is merely a midway station rather than a destination. Yesterday is not ours to recover, but tomorrow is ours to win or lose. Even Heu Djen have despairing scores of our age. We should not concern ourselves about temporary success or failure. Just seize our time, with nothing to be afraid of.
 
-I seldom speak about my experience of a student or a contestant, for having a complete failure. However, it is just spirit in that land, called 'vigour' by Mr. Wolfram, impressed me most.
+I seldom speak about my experience of a student or a contestant, for having a complete failure. However, it is just spirit in that land, called vigour by Mr. Wolfram, impressed me most.
 
 Each of us have a dream of reaching the abbey. We keep doing, despite pages of drafts are brimful of strange graphes and formulae, hours of time are spent accompaning with a hard problem, screens of errors erodes our ever-growing passion. The so-called vigour is not to be in dread of challenges, and to be in belief that miracles are held by us.
 

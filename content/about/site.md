@@ -18,7 +18,7 @@ Call me **Matling**, <bdi lang="uk">Матлін</bdi>, <bdi>متلينغ</bdi>,
 <p>To Latinize, insert my legal name to <span style="filter:blur(2px)">***** ****</span> Matlina. In Chinese Sign Language, possibly nicknamed <span lang="csl" title="">𝠀𝪟𝪨𝠀𝪟𝤅𝣅𝪟𝣅𝪟𝪨𝡶𝪨</span>.
 </details>
 
-Pronouns are [any except ambiguous](https://en.pronouns.page/any). Other than 'I/me', I exceedingly [call myself](https://mzh.moegirl.org.cn/特殊第一人称) 'Liengtz' (always in Wu: lin˨ tsz̩) these days, influenced by a Wuhan-based beauty influencer with motivational experiences.
+Pronouns are [any except ambiguous](https://en.pronouns.page/any). Other than ‘I/me’, I exceedingly [call myself](https://mzh.moegirl.org.cn/特殊第一人称) ‘Liengtz’ (always in Wu: lin˨ tsz̩) these days, influenced by a Wuhan-based beauty influencer with motivational experiences.
 
 I do not mind being addressed by legal name. It is not included here for historical reason.
 
@@ -86,7 +86,7 @@ Rearranged the repository.
 
 This will never become another [Gwern](https://gwern.net/design)-like self-reveal. Nevertheless, 2038 stemmed when I believed I had been more design-minded.
 
-The traits Gwern and I shared were developed independently. Though Gwern's innovation is elegant and flawless, I have found myself accustomed to it, for example, leaving the cursor on hyperlinks as short as possible to avoid loading a pop-up. The active work-around clearly denotes an antipattern.
+The traits Gwern and I shared were developed independently. Though Gwern’s innovation is elegant and flawless, I have found myself accustomed to it, for example, leaving the cursor on hyperlinks as short as possible to avoid loading a pop-up. The active work-around clearly denotes an antipattern.
 
 ## Languages
 
@@ -99,12 +99,12 @@ The customary romanization of Chinese names in this website and my creative work
 
 ### Publication date
 
-DM ('in the days of Muqliong') denote days starting from 1 May 2011, when
+DM (in the days of Muqliong) denote days starting from 1 May 2011, when
 Muqliong Gang was approximately formed. For more details, refer to [Lexicon Matlini](https://lex.matling.fit/days-of-muqliong.html).
 
 ### IIIA
 
-[IIIA](https://github.com/ErSanSan233/IIIA) (<span lang=fr>Indice d'implication de l'intelligence artificielle</span>) is an index proposed by Liangqoociawzhem.
+[IIIA](https://github.com/ErSanSan233/IIIA) (<span lang=fr>Indice d’implication de l’intelligence artificielle</span>) is an index proposed by Liangqoociawzhem.
 
 ## Your data
 

@@ -19,7 +19,7 @@ function calculateColor(suno) {
 	}
 	if (suno)
 		document.querySelector('meta[name="theme-color"]').content = "#520819"
-	const nasa = (performance.memory.usedJSHeapSize || new Date().getMilliseconds()) % 360
+	const nasa = (performance?.memory?.usedJSHeapSize || new Date().getMilliseconds()) % 360
 	document.querySelector("body").style.setProperty("--color-atlarge", `hsl(${nasa} 9% ${suno ? 11 : 89}%)`)
 }
 

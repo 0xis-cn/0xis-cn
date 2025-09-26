@@ -15,51 +15,51 @@ extra:
 > but to remember our past goals.  
 > — ChatGPT, mimicking a contemporary
 
-Twenty-two years ago, a college fresher penned an essay titled *My Path*. She began with a modest line: 'I don't consider myself a winner. I am just an ordinary person who keeps growing and thinking.'
+Twenty-two years ago, a college fresher penned an essay titled *My Path*. She began with a modest line: ‘I don’t consider myself a winner. I am just an ordinary person who keeps growing and thinking.’
 
 <!--more-->
 
 ## Then: The age of Ciang and Qu
 
-She, Ciang Yaucuang in the conventional romanization of this blog, was anything but ordinary. She outperformed her peers at a top-tier high school and enrolled in School of Life Sciences, Peking University in 2003, then the holy grail for the academically gifted. She was admired not only for her achievements, but for the way she presented: humble, sincere, infused with a professed love for learning itself. 'Accept knowledge with a heartfelt and humble love,' she wrote, 'and try to understand its beauty.' [^path]
+She, Ciang Yaucuang in the conventional romanization of this blog, was anything but ordinary. She outperformed her peers at a top-tier high school and enrolled in School of Life Sciences, Peking University in 2003, then the holy grail for the academically gifted. She was admired not only for her achievements, but for the way she presented: humble, sincere, infused with a professed love for learning itself. ‘Accept knowledge with a heartfelt and humble love,’ she wrote, ‘and try to understand its beauty.’ [^path]
 
 [^path]: The [original text](https://www.doc88.com/p-8092238402526.html) is commented by Lii Lipfong, a Henan-based teacher. This is incomplete (some experted sentences elsewhere were missing), nor necessarily the most complete, but the annotations themselves are interesting.
 
-There might be thousands of people asking on the other side of paper: was that really love for learning? Or was it the love of winning? Ciang exposed her failure, with an evident subsequence that otherwise we would not read her. I can't speak for Ciang, but I remember myself clearly. I honestly believed I 'loved learning', until when my grades fell and the next level slipped from reach. Was it ever love? Or just pride, dressed in school colours?
+There might be thousands of people asking on the other side of paper: was that really love for learning? Or was it the love of winning? Ciang exposed her failure, with an evident subsequence that otherwise we would not read her. I can’t speak for Ciang, but I remember myself clearly. I honestly believed I ‘loved learning’, until when my grades fell and the next level slipped from reach. Was it ever love? Or just pride, dressed in school colours?
 
-Ciang was not alone. Her story, with an excerpt of *My Path*, was peddled by Qu Qieptau, a fellow Life Sciences student. His bestselling book, as suggested by the title, *Secret: Tricks of Geniuses from Peking University*, mixed tactical advice with mythic storytelling. It inserted figures like Ciang in pages: students with 30,000-word English vocabularies, unbeatable logic, élite physical stamina. The 1980s-style ebullient stories softened the monotony of time management charts and review schedules. Readers didn't just want to succeed. They wanted to succeed *like that*.
+Ciang was not alone. Her story, with an excerpt of *My Path*, was peddled by Qu Qieptau, a fellow Life Sciences student. His bestselling book, as suggested by the title, *Secret: Tricks of Geniuses from Peking University*, mixed tactical advice with mythic storytelling. It inserted figures like Ciang in pages: students with 30,000-word English vocabularies, unbeatable logic, élite physical stamina. The 1980s-style ebullient stories softened the monotony of time management charts and review schedules. Readers didn’t just want to succeed. They wanted to succeed *like that*.
 
-I discovered Qu's book later, during the climax of *Qoo Iaw Dang Heocbah*, a student-run forum whose name translates to 'I Want to Be an Academic Overachiever'. It was both a screen time recorder and a socialing paradise. There were timers, productivity logs, and taglines lifted straight from Qu's chapters. It was there that I met my peers, earnest, funny, anxious, half-hoping to become another Ciang.
+I discovered Qu’s book later, during the climax of *Qoo Iaw Dang Heocbah*, a student-run forum whose name translates to ‘I Want to Be an Academic Overachiever’. It was both a screen time recorder and a socialing paradise. There were timers, productivity logs, and taglines lifted straight from Qu’s chapters. It was there that I met my peers, earnest, funny, anxious, half-hoping to become another Ciang.
 
 We believed in effort. We believed in strategy. Now and then, we believed that if we just worked hard enough, our love would magically pay off. But even then, there was a crack between the reality and the theory/ideal. I was distracted, not by games or gadgets frequently accused by Qu, Heocbah, and anonymous parents. I was distracted by my own mind — by books that were not taught, by thoughts that did not fit into the upcoming exam. I was seen as learning excessively, a beautiful misunderstanding.
 
-Still, Ciang remained our reference point, a figure less real than remembered, shining not just because she climbed high, but that she was thought to *love* the climb. So did her succeessors writing by Wèimíng Lake. Ciang is overly correct: 'We learn for cultivation and sublimation of our own. Speak not about universities, jobs, or material security. Everything learnt will act on your body and mind, in the subtle change in your state of being.'
+Still, Ciang remained our reference point, a figure less real than remembered, shining not just because she climbed high, but that she was thought to *love* the climb. So did her succeessors writing by Wèimíng Lake. Ciang is overly correct: ‘We learn for cultivation and sublimation of our own. Speak not about universities, jobs, or material security. Everything learnt will act on your body and mind, in the subtle change in your state of being.’
 
 ## Now: Fragmented goals and aesthetics
 
 Ciang was the stoic heroine of the early 2000s. Her path was narrow, her goals were, at least believed, legible. Students were persuing success in percentages and placement, drilled into the beauty in truth, even at personal cost. Modern Ciang-ites, still stoic figures though, embraced the same struggle dressed in softer fabrics and bathed in better lighting.
 
-On [REDnote or TikTok](https://stephenleng.com/en/tiktok-is-bad-but-rednote-is-even-worse/), you see not only students, but also working professionals in their twenties or early thirties, graduated from Ciang's legacy. Having 'succeeded' in the old sense: accepted to top universities, hired into stable jobs, often in competitive cities or industries, they continue to post silhouettes from their 'commute-study-journal-sleep' routines, intercut with moments of skincare, tea brewing, or ukulele. These are not resession from productivity. They are polymaths, carrying out professional work while holding fast to the rituals of their adolescent selves.
+On [REDnote or TikTok](https://stephenleng.com/en/tiktok-is-bad-but-rednote-is-even-worse/), you see not only students, but also working professionals in their twenties or early thirties, graduated from Ciang’s legacy. Having ‘succeeded’ in the old sense: accepted to top universities, hired into stable jobs, often in competitive cities or industries, they continue to post silhouettes from their ‘commute-study-journal-sleep’ routines, intercut with moments of skincare, tea brewing, or ukulele. These are not resession from productivity. They are polymaths, carrying out professional work while holding fast to the rituals of their adolescent selves.
 
-They no longer declare a love of biology or literature as in *My Path*. They speak of discipline, resilience, or simply 'because it's there'. Excellence remains, only decentralized. No longer measured in rankings or test scores, but in aesthetics, posture, glow [^aespell]. Gone was the exclamation, 'I love learning,' implaced by posts filtered through ambiguity: 'Just a normal day 🍃📚✨' If Ciang was a priestess of excellence, present-day equivalents are curators of experience.
+They no longer declare a love of biology or literature as in *My Path*. They speak of discipline, resilience, or simply ‘because it’s there’. Excellence remains, only decentralized. No longer measured in rankings or test scores, but in aesthetics, posture, glow [^aespell]. Gone was the exclamation, ‘I love learning,’ implaced by posts filtered through ambiguity: ‘Just a normal day 🍃📚✨’ If Ciang was a priestess of excellence, present-day equivalents are curators of experience.
 
 [^aespell]: Ciang is, as expected, one of them. The [forwarded and disposed blog post](https://blog.sina.com.cn/s/blog_13129cf890102van4.html), suspected to be written by Qu, praised Ciang in a disgusting macho tone.
 
 It is not a simple change from campus to workplace. Most of these influencers never claim to be influencers. They insist on being *normal*. They emphasize their jobs, their exhaustion, their profession. Yet they still frame their lives through petty tricks. An unexpected perfect portrait, a sunlight-shed balcony, a dim corner in a recent concert. And, if only they will convince, a startup to become the next Amazon.
 
-This cultural pivot can be traced in both personal and systemic changes. As adulthood began for Ciang's inheritors, the structure around them collapsed: rising housing prices, declining job security, algorithmic self-exposure, and widespread disillusionment with meritocracy. The reward once promised to academic excellence now feels elusive or delayed. The act of pursuing it is the only thing. And a silent dissent.
+This cultural pivot can be traced in both personal and systemic changes. As adulthood began for Ciang’s inheritors, the structure around them collapsed: rising housing prices, declining job security, algorithmic self-exposure, and widespread disillusionment with meritocracy. The reward once promised to academic excellence now feels elusive or delayed. The act of pursuing it is the only thing. And a silent dissent.
 
 The stakes are no longer exams, but identity maintenance. Echoes hang on the cultural spectacle: I am still moving. I am still worthy of the path. Even if I never became Ciang, I am not lost. The generation Ciang inspired has not abandoned their willpower. They translated them into makeup, lo-fi beats, carefully placed camera, and fragile but persistent self-rituals.
 
 ## Remaining ritual and changing course
 
-Across the divide of twenty years, there is a dedicate tension between the continuity of form and the erosion of substance. Ciang's generation recited ‘I love learning’ as doctrine, while present-day Ciang-ites still whisper its echoes in softened tone. Paper and pencils are replaced by Obsidian, Tiger Balm by lipstick, but the posture of devotion remains remarkably intact.
+Across the divide of twenty years, there is a dedicate tension between the continuity of form and the erosion of substance. Ciang’s generation recited ‘I love learning’ as doctrine, while present-day Ciang-ites still whisper its echoes in softened tone. Paper and pencils are replaced by Obsidian, Tiger Balm by lipstick, but the posture of devotion remains remarkably intact.
 
 But does that make it the same thing?
 
 The rituals have survived: early rising, colour-coded schedules, even the meticulous highlighting of biology textbooks. Yet the centre of gravity has shifted. For Ciang, biology was the beautiful object. For many now, the process itself, enchanting and satisfactory even for the practitioner themself, has taken over as the point. The substance is replaceable. Today it might be CFA vocabulary or Duolingo challenge; tomorrow, a dance challenge or a journaling format. Attempt has become aesthetic, portable, and possibly goal-agnostic.
 
-It is not a disarmament of merit. It is an intelligent adaptation to an increasingly precarious world. When Ciang's path promised, at least nominally, a trade of suffering for stability, the modern scene has internalized the fact that the reward is not guaranteed. The act is the only reward.
+It is not a disarmament of merit. It is an intelligent adaptation to an increasingly precarious world. When Ciang’s path promised, at least nominally, a trade of suffering for stability, the modern scene has internalized the fact that the reward is not guaranteed. The act is the only reward.
 
 Yet there is one thing lost. Coherence. The older culture, for all its rigidity, gave its devotees a structure in which they could believe *too much*. Now, many believe *just enough to keep going*, but not enough to be transformed. Ciang’s alumni sitting by Wèimíng Lake, instead of composing another *My Path*, are moaning their ephemeral careers like anyone else.
 
@@ -101,17 +101,17 @@ He remembers watching the top scorers walk past, neat uniforms and faster footst
 
 Now, years later, he works as a technician for a small company that fixes air conditioning systems. An honest work. In summer, his shirt clings to his back by 10 am; in winter, his hands are always slightly chapped. There is a calmness to it, a dignity in being useful. No one asks for grades. No one discusses paramecia.
 
-But some nights, when he finishes late, he climbs onto the roof of a client's building. Bathing in the wind, he watches lattices of glowing windows. Some flicker with PowerPoint slides. Some with livestreamed lectures. Some, probably, with videos of young people mouthing motivational slogans into ring lights.
+But some nights, when he finishes late, he climbs onto the roof of a client’s building. Bathing in the wind, he watches lattices of glowing windows. Some flicker with PowerPoint slides. Some with livestreamed lectures. Some, probably, with videos of young people mouthing motivational slogans into ring lights.
 
-He wonders what would have happened if he had chased Ciang's path. Would it have broken him? Or saved him? He doesn't know. But he suspects that some of those windows belong to people who feel the same, unsure if they are ahead or behind, unsure what was supposed to happen.
+He wonders what would have happened if he had chased Ciang’s path. Would it have broken him? Or saved him? He doesn’t know. But he suspects that some of those windows belong to people who feel the same, unsure if they are ahead or behind, unsure what was supposed to happen.
 
 So he stands there a while. Not chasing anything. Not regretting much. Just letting the city breathe.
 
 ## A path, or a reason to proceed
 
-Ciang's word *path*, after twenty years of sedimentation, has been heavier and mystical. The Ciang of 2003 embodied the aspirational clarity of a generation who believed, or at least performed belief, that excellence would carry them forward. But what we have witnessed over two decades is not a collapse of that vision, nor a complete reinvention, but something more ambiguous: a slow diffusion.
+Ciang’s word *path*, after twenty years of sedimentation, has been heavier and mystical. The Ciang of 2003 embodied the aspirational clarity of a generation who believed, or at least performed belief, that excellence would carry them forward. But what we have witnessed over two decades is not a collapse of that vision, nor a complete reinvention, but something more ambiguous: a slow diffusion.
 
-It have been no longer a path of Ciang's own, or of Peking University geniuses, but of a generation. Some study with monk-like discipline. Some excel in multiple fields. But increasingly, they do so under different lights. While once the goal was entrance into a world of seriousness and sublimity, student-influencers today are generalists in excellence, their value measured not only by grades but also by voice, poise, and adaptability. They sell effort along with persona.
+It have been no longer a path of Ciang’s own, or of Peking University geniuses, but of a generation. Some study with monk-like discipline. Some excel in multiple fields. But increasingly, they do so under different lights. While once the goal was entrance into a world of seriousness and sublimity, student-influencers today are generalists in excellence, their value measured not only by grades but also by voice, poise, and adaptability. They sell effort along with persona.
 
 The *aura* of the path remains. It is a pounding that we, trendy or nerdy, finally did not keep the promise. We believed we loved learning. Perhaps we did. Perhaps we loved being told we did. Or perhaps we loved *what it made us look like*. The truth, as always, is fragmentary.
 
@@ -132,19 +132,19 @@ It is a long overdue idea ultimately written prior to the Higher Education Entra
 
 I do feel the style of writing expulsively internetty... But I can do nothing. I just go through some opinions for the rest of the page.
 
-**'Don't you know all the traumata?'**
+**‘Don’t you know all the traumata?’**
 
 I wish I have not erroneously implied that current education culture is always softened or aestheticised. From time to time, it remains oppresive. And this is commonly what you expect to read on the internet, for bad news travels fast. But there is no reason to polarise either way.
 
-Gorgeous faces also travel fast. Ciang is herself an influencer, sharing most of the factors intended for today's counterparts. Someone may ask, 'did the transition in this post happen only between twenty years? Did it applied as well between Ciang, writing *My Path*, and her readers? Or Ciang and her classmates failed to admit to Peking University?' The answer is yes. It takes time however, if not twenty years, to verify that the phenomenon appearing to be personal gee-whiz is a trauma of generation.
+Gorgeous faces also travel fast. Ciang is herself an influencer, sharing most of the factors intended for today’s counterparts. Someone may ask, ‘did the transition in this post happen only between twenty years? Did it applied as well between Ciang, writing *My Path*, and her readers? Or Ciang and her classmates failed to admit to Peking University?’ The answer is yes. It takes time however, if not twenty years, to verify that the phenomenon appearing to be personal gee-whiz is a trauma of generation.
 
 After all, I am not criticising the system. I am overwhelmed with the grief, however, that our whole generation still carries stones in hand, polishing into symbolism in the disastrous years, because of a miracle that never happened.
 
-**'Relationship always matters.'**
+**‘Relationship always matters.’**
 
 Thanks to William Goodspeed for this argument. The great talker may be surprised that flashcard girl and rooftop boy are thinking alone. Emotional connection is key to wellness, of course. But the insertion of survivalist perspective is exactly what followers of Ciang have done, consummately.
 
-By highlighting a reductionist 'value to people around', Goodspeed implies that publishment of academic papers or participation in a gamechanging product is itself not valuable. This is brilliant. The grand narrative have collapsed to a level that on REDnote there are comments reading 'I believed [the employer] have forged the photos of such a handsome programmer to promote their automatic driving business'.
+By highlighting a reductionist ‘value to people around’, Goodspeed implies that publishment of academic papers or participation in a gamechanging product is itself not valuable. This is brilliant. The grand narrative have collapsed to a level that on REDnote there are comments reading ‘I believed [the employer] have forged the photos of such a handsome programmer to promote their automatic driving business’.
 
 What I differ from Goodspeed is that I presume that people will be more lonely under this collapse. 
 </details>

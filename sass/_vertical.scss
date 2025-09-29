@@ -1,7 +1,5 @@
 center {
 	box-sizing: border-box;
-	height: 100%;
-	width: 100%;
 	overflow: auto;
 	writing-mode: vertical-rl;
 	line-height: 2;
@@ -13,7 +11,7 @@ center {
 
 center, .ml-drawer[open] + center {
 	padding: 1em;
-	padding-left: 224px;
+	padding-left: 15rem;
 }
 
 .ml-article {
@@ -22,12 +20,13 @@ center, .ml-drawer[open] + center {
 
 .ml-drawer {
 	writing-mode: horizontal-tb;
+	width: unset;
 }
 
 .ml-article a {
 	border-right: 1px solid var(--color-levity);
 	border-bottom: none;
-	padding-right: 4px;
+	padding-right: 2px;
 }
 
 p, table {

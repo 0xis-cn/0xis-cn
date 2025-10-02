@@ -57,7 +57,7 @@
         <summary>{{ trans(key="other_languages", lang=lang) }}</summary>
         <ul class=ml-toc>
             {% for i in page.translations -%}
-                {% if i.lang != lang %}
+                {% if i.lang != page.lang %}
                     <li lang="{{ i.lang }}"><a href="{{ i.permalink }}">{{ i.title }}</a></li>
                 {% endif %}
             {% endfor -%}

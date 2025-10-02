@@ -1,6 +1,6 @@
 {% extends "fault.html" %}
 {% import "macros.html" as macros %}
-{% block head %}{{ super() }}
+{% block head %}{% if section.path == "/" %}{{ super() }}
  <link rel=alternate type="application/atom+xml" href="/feed.xml">
  <style>
 body {
@@ -38,8 +38,12 @@ h1 span {
 	word-break: break-all;
 	overflow: hidden;
 	height: 56px;
+	width: 0;
 }
 
+h1 > :first-child {
+	width: 100%;
+}
 
 h1 span::after {
 	margin-inline-start: 2px;
@@ -56,21 +60,8 @@ h1 span::after {
 	filter: contrast(0.3);
 }
 
-#tagline, .sub-tagline {
-	font-size: 1.5rem;
-}
-
-.sub-tagline {
-	font-size: 1.25rem;
-}
 
 @media screen and (max-width: 540px) {
-	#tagline {
-		font-size: 1.25rem;
-	}
-	.sub-tagline {
-		font-size: 1rem;
-	}
 	.ml-bookmark {
 		padding: 0;
 	}
@@ -175,20 +166,33 @@ body {
 	 position: absolute;
 }
  </style>
+{% else %}
+<meta charset="utf-8">
+<title>Redirect</title>
+<script>
+  const target = window.location.origin;
+  const hash = window.location.hash || "";
+  window.location.replace(target + hash);
+</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; url=/">
+</noscript>
+<p><a href="/">Click me</a>; homepage is temporarily not translated.</p>
+{% endif %}
 {% endblock head %}
-{% block body %}
+{% block body %}{% if section.path == "/" %}
 <main class="ml-article">
 <section style="width: 21em; position: relative" id="top-wrapper">
 	<div id="top">
 	<img src="/img/cloak.png" alt="Matling" style="height:12rem;border-radius:50%;opacity:0.9;box-shadow:0.5rem 0.5rem 1rem var(--color-indication);margin:1em" />
 		<h1>
-			<span>物灵</span>
 			<span style="animation-delay:-16s">Matling</span>
 			<span style="animation-delay:-12s"><bdi>متلينغ</bdi></span>
 			<span style="animation-delay:-8s">ᎹᏟᏂ</span>
 			<span style="animation-delay:-4s">Матлін</span>
+			<span>物灵</span>
 		</h1>
-		<p id=tagline>Remould,<br>to Heart’s Desire</p>
+		<p style="font-size:1.375rem">Remould,<br>to Heart’s Desire</p>
 	</div>	
 	<footer class=ml-chokolate style="padding:0;align-items:center;inset:auto 0 0;position:absolute">
 		<p class=ml-smaller><a href="https://icp.gov.moe/?keyword=20243727" target="_blank">萌ICP备20243727号</a></p>
@@ -227,7 +231,7 @@ body {
 	</div>
 	<a class=ml-card-anchor href="https://lex.matling.fit">
 		<h2>Lexicon Matlinae</h2>
-		<p>Digital garden & secret garage</p>
+		<p>Digital garden & secret lab</p>
 	</a>
 	<a class=ml-card-anchor id=hometown href="https://ma.pona.la">
 		<div class=btm><h2>Glang–Wys</h2><p>Where I spawned</p></div>
@@ -257,4 +261,4 @@ body {
 		});
 })()
 </script>
-{% endblock body %}
+{% endif %}{% endblock body %}

@@ -29,14 +29,14 @@ Feel free to email me and [be my friend](m&#97;ilto:hi&#64;matling.fit)!
 
 ### <code>\[good-read\]</code>
 
-By 'read' I mean the 'calm reading in a library' genre, which may be an anachronistic demand for modern Web.
+By ‘read’ I mean the ‘calm reading in a library’ genre, which may be an anachronistic demand for modern Web.
 Considering the maintainability, the list will be superceded by my comments in Lexicon Matlini.
 
 [Justin B Rye](http://jbr.me.uk) is my ideal kind of guy who talks about science fiction in a tavern all afternoon regardless of who is sitting opposite.
 
-[Panta Rhei](https://www.andrewsun.net/panta-rhei) by Weixiang Sun may be too personal to list here, but I admire Sun's maturity as far back as enrollment in graduate school, a must-have quality to give progressive advice to college students. A researcher of material science, Sun also recalls the history and mathematical foundation of rheology or general chemistry.
+[Panta Rhei](https://www.andrewsun.net/panta-rhei) by Weixiang Sun may be too personal to list here, but I admire Sun’s maturity as far back as enrollment in graduate school, a must-have quality to give progressive advice to college students. A researcher of material science, Sun also recalls the history and mathematical foundation of rheology or general chemistry.
 
-[Stephen Wolfram](https://writings.stephenwolfram.com/)'s writings and books are harbingers of proper computer science.
+[Stephen Wolfram](https://writings.stephenwolfram.com/)’s writings and books are harbingers of proper computer science.
 
 [Tales of Time Forgotten](https://talesoftimesforgotten.com/) by Spencer McDaniel is an active blog on classical studies, partly listed for second-degree links there.
 

@@ -191,6 +191,19 @@ cite {
 	flex-wrap: nowrap;
 }
 
+.ml-pager {
+	display: flex;
+	justify-content: center;
+	gap: 0.75em;
+	text-align: center;
+	line-height: 2.5em;
+}
+
+.ml-pager > a {
+	max-width: 2.25em;
+	border-bottom: none;
+}
+
 // To be moved
 footer {
 	.ml-menu-button {
@@ -245,5 +258,12 @@ button[disabled]:hover {
 	}
 	span {
 		color: transparent;
+		font-size: 0;
+	}
+}
+
+@media print {
+	.skip-link, .ml-drawer, nav, footer {
+		display: none;
 	}
 }

@@ -15,7 +15,7 @@ html, body {
 
 @keyframes typing-single {
 	from, to { width: 0; }
-	40%, 90% { width: 100%; }
+	27%, 93% { width: 100%; }
 }
 
 @keyframes typing-robin {
@@ -28,21 +28,24 @@ html, body {
 	to { color: var(--color-levity); }
 }
 h1 {
-	--count: 5;
 	padding: 0;
 	display: flex;
+	height: 40px;
 }
 
 h1 span {
 	animation: typing-robin calc(4s * var(--count)) linear(1, 1 calc(100% / var(--count)), 0 calc(100% / var(--count)), 0) infinite, typing-single 4s infinite;
 	word-break: break-all;
 	overflow: hidden;
-	height: 56px;
 	width: 0;
 }
 
 h1 > :first-child {
 	width: 100%;
+}
+
+#top > form:focus-within > img {
+	display: none;
 }
 
 h1 span::after {
@@ -187,15 +190,10 @@ body {
 <main class="ml-article">
 <section style="position:relative;padding:1em" id="top-wrapper">
 	<div id="top">
-	<img src="/img/cloak.png" alt="Matling" style="height:12rem;border-radius:50%;opacity:0.9;box-shadow:0.5rem 0.5rem 1rem var(--color-indication);margin-bottom:1em" />
-		<h1>
-			<span style="animation-delay:-16s">Matling</span>
-			<span style="animation-delay:-12s" lang=ar><bdi>متلينغ</bdi></span>
-			<span style="animation-delay:-8s" lang=chr>ᎹᏟᏂ</span>
-			<span style="animation-delay:-4s" lang=uk>Матлін</span>
-			<span lang=zh>物灵</span>
-		</h1>
-		<p style="font-size:1.375rem">Remould,<br>to Heart’s Desire</p>
+	<form>
+		<img src="/img/cloak.png" alt="Matling" style="height:12rem;border-radius:50%;opacity:0.9;box-shadow:0.5rem 0.5rem 1rem var(--color-indication)" />
+		<textarea name=q placeholder="&#10;&#10;Write anything" style="background:none;border-width:0;border-bottom-width:1px;padding:0.5rem 4px;font:inherit;font-size:1.125rem;width:100%;margin-top:1em;resize:none" rows=3></textarea>
+	</form>
 	</div>	
 	<footer class=ml-chokolate style="padding:0;align-items:center;inset:auto 0 0;position:absolute">
 		<p class=ml-smaller><a href="https://icp.gov.moe/?keyword=20243727" target="_blank">萌ICP备20243727号</a></p>
@@ -203,11 +201,17 @@ body {
 	</footer>
 </section>
 <section class=card-block>
-	<a class=ml-card-anchor style="grid-column: span 4" id=contrib 
-	href="https://github.com/0xis-cn" rel="me" target=_blank>
-		<h2>Contribution</h2>
-		<p>Software, AI, design</p>
-	</a>
+	<div class=ml-card-anchor>
+		<p style="margin:0.9em 0 0.1em;font-size:1.25em">Hi~ I am</p>
+		<h1 style="--count:5">
+			<span style="animation-delay:-16s">Matling</span>
+			<span style="animation-delay:-12s" lang=ar><bdi>متلينغ</bdi></span>
+			<span style="animation-delay:-8s" lang=chr>ᎹᏟᏂ</span>
+			<span style="animation-delay:-4s" lang=uk>Матлін</span>
+			<span lang=zh>物灵</span>
+		</h1>
+		<p class=btm lang=la>In patria peregrinor</p>
+	</div>
 	{% set blog_section = get_section(path="blog/_index.md") -%}
 	<a class=ml-card-anchor href="/blog">
 		<h2>Blog</h2>
@@ -232,16 +236,21 @@ body {
 			{% endfor -%}
 		</div>
 	</div>
+	<a class=ml-card-anchor style="grid-column: span 4" id=contrib 
+	href="https://github.com/0xis-cn" rel="me" target=_blank>
+		<h2>Contribution</h2>
+		<p>Software, AI, design</p>
+	</a>
 	<a class=ml-card-anchor href="https://lex.matling.fit">
 		<h2>Lexicon Matlinae</h2>
 		<p>Digital garden & secret lab</p>
 	</a>
-	<a class=ml-card-anchor id=hometown href="https://ma.pona.la">
-		<div class=btm><h2>Glang–Wys</h2><p>Where I spawned</p></div>
-	</a>
 	<div style="grid-row: span 4" class=ml-card-anchor>
 		<h2>Clarion</h2>
 	</div>
+	<a class=ml-card-anchor id=hometown href="https://ma.pona.la">
+		<div class=btm><h2>Glang–Wys</h2><p>Where I spawned</p></div>
+	</a>
 </section>
 </main>
 <script>

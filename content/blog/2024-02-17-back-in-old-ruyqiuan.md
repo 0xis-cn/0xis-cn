@@ -1,27 +1,25 @@
 ---
 extra:
-  legacy_lang: cmn
-  ciemmwue: 于山西
-title: 重返某源
-category: laconic
+  ciemmwue: in Shanxi
+title: Back in old Ruyqiuan
+taxonomies:
+  tags: ['laconic']
 ---
 
-年前去某源看了一眼。那是小时候总去的辅导机构，但是醉翁之意不在酒，实际目的是和同学玩。同学们有个世界观，于是类似语Ｃ，连去往机构路上都能讲一路。
+Earlier this year, I stopped by Ruyqiuan Tutoring Centre. It was the place I frequented as a kid, though my real motive was not the lessons but hanging out with classmates. We had chat perpetually, pretending to live in a fictional world (which is our co-creation), even on our way there.
 
-有一位老师在机构教奥数，也做杂事。比如运营公众号（老师至少有些写作天份，当年我就课时还在 QQ 发些诗和小说，但兴致已半），还弄些四大名著之类的公开讲座招徕顾客，但我们只想与之玩魔方或三国杀。老师在机构办公室贴起一张纸「要做令人闻风丧胆的职业精英」，风字用形似 “@” 的简笔画代替。我们去时总是不懂尊重直呼其名，因为另一位老师姓氏相同。
+One teacher taught math but also handled odd jobs. WeChat official account, for example (the teacher had at least some writing talent, publishing poems and stories back then, though the enthusiasm had waned). The teacher also organised public lectures on the Four Great Classical Novels to attract customers, while we only wanted to play Rubik’s Cubes. In the office the teacher usually led us in, a note reads ‘We must become elite professionals who strike fear into the hearts of others’. One character was replaced with a simple sketch resembling an ‘@’ symbol. We showed no respect by calling him by name, since another teacher shares his surname.
 
 <!--more-->
 
-后来我以为某源已经停摆。其实没有，只是我此前去错了时间，如果看上去没人我进去就不心安理得。那里一直是我想象的样子，只是招贴旧了，门外还留着场所码，陈设也不整洁，冬日的地板不致泥泞但踏得尘土涣散。靠门写着 ‹Reception Room›（没有中文，惟一标有中文的房间是 ‹媒体部›）的透明隔间都臭烘烘的。
+When I have grown to study in another block, I assumed Ruyqiuan had shut down. It had not — I just visited at the wrong hours. If it seemed empty, I felt uneasy entering. It remained exactly as I remembered, though posters were faded, an anti-epidemic tracing QR code lingered by the door, and the furnishings were untidy. The winter floor cannot be muddy, but dust swirled with each step. The transport partition by the door, labeled ‹Reception Room› (in English — only ‹Media Department› was marked in Chinese), reeked. 
 
-这天晚８点，整栋三层小楼皆是等孩子的中年人。他们蓬头垢面，穿着仿佛已被冻脆的黯淡大衣，有的旁若无人外放抖音。两位女士放肆地谈论邻家的婚礼和孩子的年龄。
+At 8 PM this day, the entire three-story building was filled with parents waiting for their children. Disheveled, clad in dumb coats stiffened by the cold, some played TikTok videos loudly. Two women chattered freely about a neighbor’s wedding and ages of children.
 
-小时候没注意许多教室是用钢板分隔的。这也容许人们轻易变换布局，「职业精英」办公室没了，当年讲四大名著的大会议室也隔作几间教室，我适譍了许久。墙报不再是老掉牙的脑筋急转弯，而是张冠李戴的 SMART 原则（我不知道 SMART 原则何以指导课程规划）。陈设不新也不旧，不上课的教室黑板没擦，有落下的打印资料。
+I had not noticed before that classrooms were partitioned by steel panels. This enabled easy reconfiguration — The office for ‘professional elites’, along with the large conference room for the Four Great Classical Novels talks, were divided into normal classrooms. I had to locate for a while. The wall posters no longer featured corny brain teasers but instead displayed SMART principles (how SMART principles can guide curriculum planning?). The furnishings were neither new nor old. In unused classrooms blackboard remained un-erased, strewn with discarded printouts.
 
-下课时间全凭默契（过去有个浮夸的铃声）。两个男孩先冲出教室，念叨着争谁先出门。另一间教室老师挡在门口让学生依次背 “I you she he…”，背一个放行一个。两只垃圾桶很快填满各色零食包装，有个叫「活该」的（话梅？）最显眼，感觉实在胜在起了个吸引小孩的名字。有个女孩央着其父买墨囊，父亲对以「不是刚买了么」。
+Classes ended by unspoken norm (there used to be a hyperbolic bell). Two boys dashed out first, bickering over who got to leave first. In another classroom, the teacher stood in the doorway, making students recite ‘I, you, she, he…’ one by one, letting each pass after their turn. Two trash bins quickly filled with gaudy snack wrappers, the most conspicuous being one labeled ‹Serves You Right› (plum candies?). It felt like the name alone won kids over. A girl begged her father for an ink sac; her father replied, ‘Didn’t we just buy one?’
 
-楼梯间从墙突出的断瓦从脚边水平一字排开，人沿楼梯走下，线则升到头顶。小时候每次看见都这样想，这点倒是回忆起来了。
+Broken tiles in the stairwall protruding from the wall formed a horizontal line spreading from foot level. As people descended the stairs, the line rose overhead. Every time I thought exactly that as a child — a memory that has now surfaced.
 
-过去没有记忆那样美好，这里也不是属于我的。机构里人来人往，人事已非。老师当然找不见了，我现在至少明白，虽然大概没成为职业精英，这种闲职也不可能干十年。
-
-<p class="ml-smaller">本文属 laconic 分类，一般是不需预先知戠的嶄峭短文。</p>
+The past is not as beautiful as memory makes it, and the place never belonged to me. The Centre bustles with people coming and going, with all the circumstances changed. Of course, the teacher is nowhere to be found. At least I understand now: even if he did not become an elite, he could not have stuck with the menial jobs for ten years anyway.

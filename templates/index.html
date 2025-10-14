@@ -44,8 +44,14 @@ h1 > :first-child {
 	width: 100%;
 }
 
-#top > form:focus-within > img {
-	display: none;
+#top > form > object {
+	opacity: 0.6;
+	margin-inline: auto;
+	display: block;
+}
+
+#top > form:focus-within > object {
+	opacity: 0.9;
 }
 
 h1 span::after {
@@ -65,6 +71,7 @@ h1 span::after {
 
 #top-wrapper {
 	width: 21em;
+	max-height: 47rem;
 }
 
 @media screen and (max-width: 540px) {
@@ -191,11 +198,11 @@ body {
 <section style="position:relative;padding:1em" id="top-wrapper">
 	<div id="top">
 	<form>
-		<img src="/img/cloak.png" alt="Matling" style="height:12rem;border-radius:50%;opacity:0.9;box-shadow:0.5rem 0.5rem 1rem var(--color-indication)" />
-		<textarea name=q placeholder="&#10;&#10;Write anything" style="background:none;border-width:0;border-bottom-width:1px;padding:0.5rem 4px;font:inherit;font-size:1.125rem;width:100%;margin-top:1em;resize:none" rows=3></textarea>
+		<object data="/img/latek.svg" title="Matling" type="image/svg+xml" height=192></object>
+		<textarea name=q placeholder="Ask anything" style="background:none;border-width:0;border-bottom-width:1px;padding:0.5rem 4px;font:inherit;font-size:1.125rem;width:100%;resize:none"></textarea>
 	</form>
 	</div>	
-	<footer class=ml-chokolate style="padding:0;align-items:center;inset:auto 0 0;position:absolute">
+	<footer class=ml-chokolate style="align-items:center;inset:auto 0 0;position:absolute">
 		<p class=ml-smaller><a href="https://icp.gov.moe/?keyword=20243727" target="_blank">萌ICP备20243727号</a></p>
 		<i id=advanced class=dropdown-wrapper></i>
 	</footer>

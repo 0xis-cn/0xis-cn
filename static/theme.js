@@ -135,3 +135,21 @@ const preferences = [
 	if (!document.querySelector('body').classList.contains('advanced-vertical'))
 		calculateShadow(shadowBox)
 })()
+
+function debounce(func, delay = 682, immediate = true) {
+	let timer = null;
+	let result;
+
+	return function(...args) {
+		if (timer)
+				clearTimeout(timer)
+		if (immediate && !timer)
+			result = func.apply(this, args)
+		timer = setTimeout(() => {
+			if (!immediate)
+				result = func.apply(this, args)
+			timer = null
+		}, delay)
+		return result
+	}
+}

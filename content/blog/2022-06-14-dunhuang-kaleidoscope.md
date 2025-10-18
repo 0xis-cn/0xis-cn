@@ -3,7 +3,7 @@ extra:
   legacy_lang: cmn-Arab
   ciemmwue: قاًشࣲ خَ
   custom_head: >-
-  <style>
+   <style>
     canvas {
       width: 100%;
     }
@@ -19,10 +19,13 @@ extra:
         height: 3em;
         margin-right: 1em;
     }
-  </style>
+   </style>
 title: دࣱخُاْ ۋاًخُوَاتࣨ 
 ---
-<p>ۋَ زَى دࣱخُاْ ڤࣱخُا ىُوِ ىِشۇ قِْکوَ جاًش، باَ iPad داَ ج خوتوْ. ۋَ  شٍکِ لِ، HTML خا موَ دِىُو. کِش زوْس خُۇَاباً دَى <strong>ىُوًبَو زدࣨقِ</strong>. نًکً س  نًکً، ىٍوِ ۋَ خۇلُوً ش  دِ. بۇجً لِ، لوْش شَه: نِمۇ بوخوِ بۇجً، مًدِخٍ.</p><!--more-->
+ۋَ زَى دࣱخُاْ ڤࣱخُا ىُوِ ىِشۇ قِْکوَ جاًش، باَ iPad داَ ج خوتوْ. ۋَ  شٍکِ لِ، HTML خا موَ دِىُو. کِش زوْس خُۇَاباً دَى <strong>ىُوًبَو زدࣨقِ</strong>. نًکً س  نًکً، ىٍوِ ۋَ خۇلُوً ش  دِ. بۇجً لِ، لوْش شَه: نِمۇ بوخوِ بۇجً، مًدِخٍ.
+
+<!--more-->
+
 <canvas id="canvas" width="40" height="20"></canvas>
 <script>
 var 纸 = document.getElementById('canvas')

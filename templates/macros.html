@@ -7,6 +7,11 @@
 {% if page.extra.legacy_lang %}{{ page.extra.legacy_lang }}{% else %}{{ page.lang | default(value="en") }}{% endif -%}
 {% endmacro %}
 
+{% macro lang_rtl(lang) %}
+{% set langs = "ar cmn-Arab" | split(pat=" ") -%}
+{% if langs is containing(lang) %}dir=rtl{% endif -%}
+{% endmacro %}
+
 {% macro ciemmwue(page) %}
 <p class="ml-smaller">
 	<time datetime="{{ page.date }}" pubdate>

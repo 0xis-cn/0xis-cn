@@ -1,6 +1,6 @@
 {% import "macros.html" as macros -%}
 {% if page %}{% set lang = macros::lang(page=page) %}{% else %}{% set lang = "en" %}{% endif -%}
-<!DOCTYPE html><html lang="{{ lang }}"><head>
+<!DOCTYPE html><html lang="{{ lang }}"{{ macros::lang_rtl(lang=lang) }}><head>
 {%- block head %}
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">

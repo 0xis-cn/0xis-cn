@@ -1,13 +1,14 @@
-const verticalEnabledLanguages = ['cmn', 'lzh', 'wuu', 'ko', 'ja', 'art-x-danayo']
+const verticalEnabledLanguages = ['cmn', 'lzh', 'wuu', 'ko', 'ja', 'art-001']
 
 function pcs(x) {
 	return `(prefers-color-scheme: ${x})`
 }
 
-const darkThemes = [...document.styleSheets]
+const styleSheets = [...document.styleSheets].filter(x => x.href && x.href.startsWith(location.origin))
+const darkThemes = styleSheets
 	.flatMap(stylesheet => [...stylesheet.cssRules]
 	.filter(x => x.conditionText && x.conditionText == pcs("dark")))
-const lightThemes = [...document.styleSheets]
+const lightThemes = styleSheets
 	.flatMap(stylesheet => [...stylesheet.cssRules]
 	.filter(x => x.conditionText && x.conditionText == pcs("light")))
 
@@ -131,9 +132,6 @@ const preferences = [
 		if (menuBtn && e.target === e.currentTarget)
 			menuBtn.click()
 	})
-
-	if (!document.querySelector('body').classList.contains('advanced-vertical'))
-		calculateShadow(shadowBox)
 })()
 
 function debounce(func, delay = 682, immediate = true) {

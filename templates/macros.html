@@ -45,11 +45,11 @@
 	<summary class=ml-menu-button>≡</summary>
 	<div class=ml-drawer-inside>
 	<a href=/ class=ml-author-image><img src=/img/cloak.png alt="'m Matling~"></a>
-	<ul class=ml-bookmark role=navigation>
+	<nav class=ml-bookmark>
         {%- for link in config.extra.t2038.drawer_links -%}
         <a href="{{ link.url }}">{{ link.name[lang] }}</a>
         {%- endfor -%}
-    </ul>
+    </nav>
     {% if page.toc -%}
     <details open>
         <summary>{{ trans(key="toc", lang=lang) }}</summary>

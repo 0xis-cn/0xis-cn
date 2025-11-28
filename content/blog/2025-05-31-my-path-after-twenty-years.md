@@ -1,7 +1,8 @@
 ---
 title: ‘My Path’ after twenty years
 category: society
-tags: ["gaokao"]
+taxonomies:
+  tags: ["gaokao"]
 extra:
   ciemmwue: in Beijing
   iiia: 3

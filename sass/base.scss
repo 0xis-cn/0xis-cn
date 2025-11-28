@@ -17,6 +17,11 @@ body {
 		--color-atlarge:		#999;
 		color-scheme: light;
 	}
+
+	pre > code {
+		color: black;
+		filter: brightness(0.7);
+	}
 }
 
 @media (prefers-color-scheme: dark) {

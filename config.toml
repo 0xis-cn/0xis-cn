@@ -10,8 +10,9 @@ taxonomies = [
 ]
 
 [markdown]
-highlight_theme = "boron"
+highlight_theme = "boron-modified"
 highlight_code = true
+extra_syntaxes_and_themes = ["boron-modified.tmTheme"]
 
 [translations]
 language_name = "English"

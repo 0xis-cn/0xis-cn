@@ -7,11 +7,11 @@ ciemmwue = "译自 Hannes Hauswedell"
 iiia = 0
 legacy_lang = "cmn"
 custom_head = '''<style>
-.ml-author-image img { border-radius: 50%; border: 0.5em solid #57cc8a; padding: 0; }
+.ml-author-image img { border-radius: 50%; border: 0.375em solid #57cc8a; padding: 0; opacity: unset }
 .ml-article a, .ml-smaller a { --color-heavy: light-dark(#005d58, #57cc8a); border: none; }
 .ml-article { background-color: light-dark(white, #353b43);  }
 body { --color-normal: light-dark(#242424, #afbac4); --color-background: light-dark(#f6f8fa, black); }
-.ml-bookmark a { --color-normal: light-dark(#005d58, #57cc8a); --color-indication: transparent; }
+.ml-drawer { --color-normal: light-dark(#005d58, #57cc8a); --color-indication: transparent; }
 </style>'''
 +++
 

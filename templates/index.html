@@ -175,8 +175,23 @@ body {
 }
 
 .btm {
-	 bottom: 1em;
-	 position: absolute;
+	bottom: 1em;
+	position: absolute;
+}
+
+#ligi::after, #ligi::before {
+	display: block;
+	content: '';
+}
+#ligi::after {
+	background: repeating-linear-gradient(transparent, transparent 27px, var(--nr) 27px, var(--nr) 28px);
+	height: 50%;
+}
+#ligi::before {
+	content: 'No. Date';
+	padding: 0.75em 50% 3px;
+	border-bottom: 1px solid var(--nr);
+	color: var(--nr);
 }
  </style>
 {% else %}
@@ -252,9 +267,11 @@ body {
 		<h2>Lexicon Matlinae</h2>
 		<p>Digital garden & secret lab</p>
 	</a>
-	<a style="grid-row: span 4" class=ml-card-anchor href="/about/ligi">
-		<h2>Ligi Studio</h2>
-		<p>My selected works</p>
+	<a style="grid-row: span 4; --nr: indianred;" class=ml-card-anchor href="/about/ligi" id=ligi>
+		<p style="text-align: center; margin-top: 0.75em">
+		<span style="font-size: 1.25em">Selected works</span><br><i>of</i><br>
+		<span style="font-variant: small-caps; font-size: 2em; line-height: 1">Ligi Studio</span>
+		</p>
 	</a>
 	<a class=ml-card-anchor id=hometown href="https://ma.pona.la">
 		<div class=btm><h2>Glang–Wys</h2><p>Where I spawned</p></div>

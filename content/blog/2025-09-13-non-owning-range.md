@@ -9,8 +9,9 @@ legacy_lang = "cmn"
 custom_head = '''<style>
 .ml-author-image img { border-radius: 50%; border: 0.375em solid #57cc8a; padding: 0; opacity: unset }
 .ml-article a, .ml-smaller a { --color-heavy: light-dark(#005d58, #57cc8a); border: none; }
-.ml-article { background-color: light-dark(white, #353b43);  }
-body { --color-normal: light-dark(#242424, #afbac4); --color-background: light-dark(#f6f8fa, black); }
+.ml-article, h1 { background-color: light-dark(white, #353b43);  }
+.skip-link { display: none; }
+body { --color-normal: light-dark(#242424, #afbac4); --color-levity: var(--color-normal); --color-background: light-dark(#f6f8fa, black); }
 .ml-drawer { --color-normal: light-dark(#005d58, #57cc8a); --color-indication: transparent; }
 </style>'''
 +++
@@ -293,3 +294,5 @@ auto rad1 = std::move(vec) | radr::take(2);
 我已尽力将这个复杂话题分解阐述，但我希望已经说明：「视图」难以解释正是问题所在。radr 库提供十分类似 `std::views` 的功能，同时试图规避部分复杂性。
 
 <p class=ml-smaller><sup>ꖻ</sup>：表示在下篇博文详叙。</p>
+
+<p class=ml-smaller>译者：浅色模式配色是我假想的，起初不相信为此写过<a href="https://hannes.hauswedell.net/post/2023/12/10/darkmode/">一篇 ‘random-nerdiness’</a> 的作者没有侳浅色模式……</p>

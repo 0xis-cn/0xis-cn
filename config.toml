@@ -23,6 +23,18 @@ lower = "Next"
 skip_link = "Skip to Content"
 other_languages = "Translations"
 
+[languages.cmn]
+title = "物灵"
+
+[languages.cmn-Arab]
+title = "物灵"
+
+[languages.tok]
+title = "𐙞[⊕＞ń]"
+
+[languages.ja]
+title = "物霊"
+
 [languages.cmn.translations]
 language_name = "华语"
 toc = "目次"
@@ -68,6 +80,15 @@ lower = "後"
 skip_link = "文章之開始于"
 other_languages = "外文"
 
+[languages.ja.translations]
+language_name = "日本語"
+toc = "目次"
+btn_read = "全文 (LEN 字)"
+higher = "前"
+lower = "後"
+skip_link = "本文にスキップ"
+other_languages = "外文"
+
 [extra]
 
 [[extra.t2038.drawer_links]]
@@ -83,6 +104,7 @@ url = "/blog"
   art-002 = "Note"
   art-001 = "文"
   cmn-Arab = "ڤٌ"
+  ja = "ブログ"
 
 [[extra.t2038.drawer_links]]
 url = "https://lex.matling.fit"
@@ -97,6 +119,7 @@ url = "https://lex.matling.fit"
   art-002 = "Buku-name"
   art-001 = "含章字典"
   cmn-Arab = "خًجًنْ كتاب"
+  ja = "含章字典"
 
 [[extra.t2038.drawer_links]]
 url = "/about/site"
@@ -111,6 +134,7 @@ url = "/about/site"
   art-002 = "Ego"
   art-001 = "自己紹介"
   cmn-Arab = "أنا"
+  ja = "アバウト"
 
 [[extra.t2038.drawer_links]]
 url = "/about/friends"
@@ -125,3 +149,4 @@ url = "/about/friends"
   art-002 = "Amigo"
   art-001 = "外部"
   cmn-Arab = "خوَباً"
+  ja = "トナリ"

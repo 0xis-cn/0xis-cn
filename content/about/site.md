@@ -1,7 +1,8 @@
 ---
 title: About
-aliases: ["blog/about"]
 ---
+
+A mechanic psychic, a maudlin clarion, and an [Oreki丶](https://baike.baidu.com/item/Oreki%E4%B8%B6) fanboy.
 
 ## About my name
 

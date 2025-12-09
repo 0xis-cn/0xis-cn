@@ -1,8 +1,14 @@
+& { // body
+	--base-font: apple-system, "Noto Sans", "Noto Sans CJK SC", system-ui, sans-serif;
+	--serif-font: "Noto Serif CJK SC", serif;
+}
+
 center {
 	box-sizing: border-box;
 	overflow: auto;
 	writing-mode: vertical-rl;
 	line-height: 2;
+	height: calc(100% - 1em);
 }
 
 .skip-link {
@@ -10,7 +16,7 @@ center {
 }
 
 center, .ml-drawer[open] + center {
-	padding: 1em;
+	padding-top: 1em;
 	padding-left: 15rem;
 }
 
@@ -40,7 +46,7 @@ article > p, .ml-article > p {
 
 footer {
 	position: fixed;
-	bottom: -3em;
+	bottom: -3.5em;
 	left: 0;
 	right: 0;
 }
@@ -70,4 +76,8 @@ blockquote {
 
 .ml-footer > .ml-smaller {
 	margin-top: 1rem;
+}
+
+tcy {
+	text-combine-upright: all;
 }

@@ -1,4 +1,5 @@
 const verticalEnabledLanguages = ['cmn', 'lzh', 'wuu', 'ko', 'ja', 'art-001']
+let verticalFirst = true
 
 function pcs(x) {
 	return `(prefers-color-scheme: ${x})`
@@ -85,6 +86,25 @@ function rh(xs, colors) {
 				x.media.deleteMedium(color)
 }
 
+function pn(node) {
+	const skipElements = ['SCRIPT', 'STYLE', 'NOSCRIPT', 'PRE', 'CODE', 'CITE', 'I']
+	if (node.nodeType == Node.TEXT_NODE) {
+		const reg = /(?<!\.)\s*\b(\w{1,2})\b\s*(?!\.)/g
+		const newHtml = node.textContent.replace(reg, function (match) {
+			return `<tcy>${match.trim()}</tcy>`
+		})
+		if (reg != newHtml) {
+			const newNode = document.createElement("span")
+			newNode.innerHTML = newHtml
+			while (newNode.firstChild)
+				node.parentNode.insertBefore(newNode.firstChild, node)
+			node.parentNode.removeChild(node)
+		}
+	} else if (node.nodeType === Node.ELEMENT_NODE && !skipElements.includes(node.tagName) && !node.textContent.includes("`")) {
+        Array.from(node.childNodes).forEach(pn)
+    }
+}
+
 const preferences = [
 	new Preference('lukinWalo', 1, [
 		{ text: '\u23fe', title: 'Lights off', action: () => { rh(darkThemes), y3(darkThemes), rh(lightThemes), y3(lightThemes, "not all"); calculateColor(true) }},
@@ -99,9 +119,13 @@ const preferences = [
 		{ text: '\u2b82', title: 'Horizontal', action: () => { document.querySelector('body').classList.remove('advanced-vertical') } },
 		{ text: '\u2b87', title: 'Vertical',
 			disabled: !verticalEnabledLanguages.includes(document.documentElement.lang), 
-			action: () => {
+			action: function () {
 				document.querySelector('body').classList.add('advanced-vertical') 
 				document.querySelector('h1').scrollIntoView()
+				if (verticalFirst) {
+					verticalFirst = false
+					pn(document.querySelector("article"))
+				}
 			} 
 		},
 	]),

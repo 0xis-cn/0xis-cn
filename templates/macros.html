@@ -1,0 +1,73 @@
+{% macro dm(date) -%}
+{% set timestamp = date | date(format='%s') | int -%}
+{{ (timestamp - 1304092800) / 86400 | round }}
+{% endmacro dm -%}
+
+{% macro lang(page) -%}
+{% if page.extra.legacy_lang %}{{ page.extra.legacy_lang }}{% else %}{{ page.lang | default(value="en") }}{% endif -%}
+{% endmacro %}
+
+{% macro lang_rtl(lang) %}
+{% set langs = "ar cmn-Arab" | split(pat=" ") -%}
+{% if langs is containing(lang) %}dir=rtl{% endif -%}
+{% endmacro %}
+
+{% macro ciemmwue(page) %}
+<p class="ml-smaller">
+	<time datetime="{{ page.date }}" pubdate>
+		{{ macros::dm(date=page.date) }} DM
+	</time> ({{ page.date | date(format='%-d %b %Y') }})
+	{{ page.extra.ciemmwue | default(value='civitate terrena') }}
+	{% if page.taxonomies['tags'] -%}
+		{% for tag in page.taxonomies['tags'] -%}
+		{% set url = get_taxonomy_url(kind="tags", name=tag) -%}
+		#<a href="{{ url }}">{{ tag }}</a>
+		{% endfor -%}
+	{% endif -%}
+</p>
+{% endmacro %}
+
+{% macro _ultoc(obj, level=2) %}
+    {% for h in obj -%}
+    <li class="ml-toc-{{ level }}">
+        <a href="{{ h.permalink | safe }}">{{ h.title }}</a>
+        {% if h.children -%}
+        <ul class=ml-toc-sub>
+            {{ self::_ultoc(obj=h.children, level=level + 1) }}
+        </ul>
+        {%- endif %}
+    </li>
+    {% endfor -%}
+{% endmacro %}
+
+{% macro drawer(lang) %}
+<details class=ml-drawer>
+	<summary class=ml-menu-button>≡</summary>
+	<div class=ml-drawer-inside>
+	<a href=/ class=ml-author-image><img src=/img/cloak.png alt="'m Matling~"></a>
+	<nav class=ml-bookmark>
+        {%- for link in config.extra.t2038.drawer_links -%}
+        <a href="{{ link.url }}">{{ link.name[lang] }}</a>
+        {%- endfor -%}
+    </nav>
+    {% if page.toc -%}
+    <details open>
+        <summary>{{ trans(key="toc", lang=lang) }}</summary>
+        <ul class=ml-toc>{{ self::_ultoc(obj=page.toc) }}</ul>
+    </details>
+    {% endif -%}
+    {% set length_hack = page.translations | default(value="") | length %}
+    {% if length_hack > 1 -%}
+    <details open>
+        <summary>{{ trans(key="other_languages", lang=lang) }}</summary>
+        <ul class=ml-toc>
+            {% for i in page.translations -%}
+                {% if i.lang != page.lang %}
+                    <li lang="{{ i.lang }}"><a href="{{ i.permalink }}">{{ i.title }}</a></li>
+                {% endif %}
+            {% endfor -%}
+        </ul>
+    </details>
+    {% endif -%}
+</div></details>
+{% endmacro %}

@@ -1,0 +1,67 @@
+body {
+	background: var(--color-background);
+	color: var(--color-normal);
+	font: 300 1em / 1.5 var(--base-font); 
+	scroll-behavior: smooth;
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		--color-background:		#F6F5F0;
+		--color-base:			black;
+		--color-card:			white;
+		--color-indication:		#E6E5E0;
+		--color-normal:			#59453f;
+		--color-levity:			#79655f;
+		--color-heavy:			#161413;
+		--color-atlarge:		#999;
+		color-scheme: light;
+	}
+
+	pre > code {
+		color: black;
+		filter: brightness(0.7);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		--color-background:		black;
+		--color-base:			white;
+		--color-card:			#161413;
+		--color-indication:		#2a2523;
+		--color-normal:			#c4bebc;
+		--color-levity:			#998683;
+		--color-heavy:			#E6E6DC;
+		--color-atlarge:		#666;
+		color-scheme: dark;
+	}
+	.ml-wordmark {
+		filter: invert(1) hue-rotate(180deg);
+	}
+}
+
+body {
+	--base-font: Bahnschrift, apple-system, "Noto Sans", "Noto Sans CJK SC", system-ui, sans-serif;
+	--serif-font: "DejaVu Serif", Georgia, "Noto Serif CJK SC", serif;
+}
+
+body.serif {
+	font-variant-numeric: lining-nums;
+	font-family: var(--serif-font);
+}
+
+@import './_reset.scss';
+@import './_typo.scss';
+@import './_old.scss';
+@import './_drawer.scss';
+@import './_resize.scss';
+
+body.advanced-vertical {
+	@import './_vertical.scss';
+}
+
+@font-face {
+	font-family: Matding;
+	src: url(/static/matding.ttf);
+}

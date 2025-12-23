@@ -1,0 +1,83 @@
+& { // body
+	--base-font: apple-system, "Noto Sans", "Noto Sans CJK SC", system-ui, sans-serif;
+	--serif-font: "Noto Serif CJK SC", serif;
+}
+
+center {
+	box-sizing: border-box;
+	overflow: auto;
+	writing-mode: vertical-rl;
+	line-height: 2;
+	height: calc(100% - 1em);
+}
+
+.skip-link {
+	margin-bottom: -2em;
+}
+
+center, .ml-drawer[open] + center {
+	padding-top: 1em;
+	padding-left: 15rem;
+}
+
+.ml-article {
+	max-width: unset;
+}
+
+.ml-drawer {
+	writing-mode: horizontal-tb;
+	width: unset;
+}
+
+.ml-article a {
+	border-right: 1px solid var(--color-levity);
+	border-bottom: none;
+	padding-right: 2px;
+}
+
+p, table {
+	margin: 0;
+	max-width: unset;
+}
+
+article > p, .ml-article > p {
+	text-indent: 2em;
+}
+
+footer {
+	position: fixed;
+	bottom: -3.5em;
+	left: 0;
+	right: 0;
+}
+
+footer>img {
+	display: none;
+}
+
+h1, blockquote {
+	margin: 0;
+}
+
+blockquote {
+	border-left: 0; 
+	padding-left: 0;
+	padding-top: 2em;
+}
+
+.ml-article h2, .ml-article h3, .ml-article h4 {
+	margin-top: 0;
+	line-height: 2rem;
+}
+
+.ml-article h2 {
+	margin-right: 2rem;
+}
+
+.ml-footer > .ml-smaller {
+	margin-top: 1rem;
+}
+
+tcy {
+	text-combine-upright: all;
+}

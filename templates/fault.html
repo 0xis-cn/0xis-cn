@@ -1,0 +1,20 @@
+{% import "macros.html" as macros -%}
+{% if page %}{% set lang = macros::lang(page=page) %}{% else %}{% set lang = "en" %}{% endif -%}
+<!DOCTYPE html><html lang="{{ lang }}"{{ macros::lang_rtl(lang=lang) }}><head>
+{%- block head %}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	{%- block headTitle %}
+	<title>{%- if page.title -%}{{ page.title }} « {% endif %}{{ config.title }}</title>
+	{%- endblock headTitle -%}
+	<link rel="stylesheet" href="/base.css">
+	<meta name="theme-color" content="#c09a97">
+	<script defer src="/theme.js"></script>
+	<script data-goatcounter="https://0xis.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+	{% if page.extra.formula -%}
+	<script defer src="https://cdn.jsdelivr.net/gh/asciimath/asciimathml@latest/ASCIIMathML.js"></script>
+	{%- endif -%}
+	{% if page.extra.custom_head -%}{{ page.extra.custom_head | safe }}{%- endif -%}
+{% endblock head -%}
+</head><body>
+{% block body %}{% endblock body %}

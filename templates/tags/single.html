@@ -1,0 +1,48 @@
+{% extends "blog-section.html" %}
+{% import "macros.html" as macros %}
+{% block headTitle %}
+<title>#{{ term.name }} {% if paginator.previous %}(Page {{ paginator.current_index }}/{{ paginator.number_pagers }}){% endif %} « {{ config.title }}</title>
+{% endblock headTitle %}
+{% block title %}
+<h1>#{{ term.name }}</h1>
+{% endblock title %}
+{% block content %}
+{% if term.slug == "toki-pona" -%}
+<section lang=tok>
+<p>jan Malin li jan mije suwi li pali e ilo sona.
+<p>sina lukin e linja ni la, sina sona e toki pona. pona wawa a!
+<p>jan mute pi toki pona li olin e toki sin mute e sona toki. mi kin a.
+lipu linluwi ni la mi sitelen e toki sin.
+<p>mi la, <strong>toki pona li toki musi</strong>. tenpo ni la jan ali li pali mute.
+sina wile lape lon poka pi seli lili la, o musi lon tenpo lili.
+toki pona li musi. jan pi toki pona li musi. kin la tenpo lili li pona tawa toki pona.
+<p>sina lukin e sitelen lawa anu seme? ona li jan Late (Là̤ Ték).
+mi pali e sitelen pi jan (OC) mute lon ma tomo powe mi (<a href="https://lex.matling.fit/divpolis.html">Divpolis</a>). mi o toki pona e ona.
+mi pilin ike tan ni: suwi pi jan Late li mute tawa suwi mi a!
+</section>
+<div id="sike-pona" style="width: 100%; height: 3rem;">
+  <link rel="stylesheet" href="https://sike.pona.la/embed.css"/>
+  <span id="left">
+    <a href="https://sike.pona.la/jan/jan Malin/prev.html" id=prev class=ml-temp-btn>← prev</a>
+    </span>
+  <span id="mid"><a href="https://sike.pona.la" class=ml-temp-btn>
+    <img class="tokipona" src="https://sike.pona.la/assets/tokipona.svg" loading="lazy">
+    sike pona
+    <img class="tokipona" src="https://sike.pona.la/assets/tokipona.svg" loading="lazy">
+  </a></span>
+  <span id="right">
+  <a href="https://sike.pona.la/jan/jan Malin/next.html" id=next class=ml-temp-btn>next →</a>
+  </span>
+</div>
+{% elif term.slug == "arrogant-notes" -%}
+<section lang=cmn>
+<p>永远阳光炽烈的午后，风扇慵懒地发出锈蚀的吱呀。朴树的歌声渐响，多年前的我在蒲团后抬起头，恍如洁白的工艺粘土流经全身。
+<p>我匆匆起身，跑向不远处的教室。世界第一次在我体感中这么小，仿佛轻松几步就越过整片街区。多年后，可是，世界又变得那么大，致命的重浊填塞原始森林般繁密的城市，令我行迈靡靡。为什么会这样？两个我都不住地问。
+<p>算了，收声了。
+<p>十年后，在故纸堆看着曾经自己时间「浪费」在何处，百感交集。当然课内知识总也不算浪费时间。《一周精选》看得出是个周记项目，那是我刚升入高中时（第一期在军训后发出）制订了三个月学完高中的详尽计划。作为「自我源代码」写在一个 DOCX 文件，命名《第一底层运行文件》，郑重地函于Ｕ盘。
+<p>真正浪费的不是时间而是激情。这个宏大计划因几场与学校矛盾胎死腹中。我的移相器被调到谨小慎微勉强维持的档位，之后，「入役」、退役、冱夏、鸣冬，进而是失去的五年，我的激情一去不回。后来才知道父母在我高中到本科一直明知我状态不佳，但只是奌到为止，觉得既然我不想努力就听之任之，他们无疑认为人教人学不会，事教人一次会。
+<p>更「浪费」的是，我竟然写过这类分享或周记的东西。「传世文献」中《一周精选》最象早期公众号的定期推送。笔记结尾也总是「来玩呀」或「一起加油」，不用说，没有同学贲临寒舍。他们的冷澹实在是保护我。初三我作过早于《一周精选》的另一个周记，在教室传遍帋条求取意见，期待认真答复，那帋只被画满横线，写上「没用」「不关心」等语。
+<p>这些帖文不只是见证成长的文物，恐亦是戒骄戒躁的警器吧。真正具有成功自媒体的同代人多数没想过会做自媒体。我胸无点墨，却开口「总结」埋口「精选」，二者云泥，岂是皆因「按脸分配」？
+</section>
+{% endif -%}
+{% endblock content %}

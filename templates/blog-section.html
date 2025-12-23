@@ -1,0 +1,31 @@
+{% extends "fault.html" %}
+{% import "macros.html" as macros %}
+{% block body %}
+<a class=skip-link href=#ml><span>{{ trans(key="skip_link", lang=lang) }}</span></a>
+{{ macros::drawer(lang=lang) }}
+<center>{% block title %}{% endblock title %}
+<main class="ml-article">
+{% block content %}{% endblock content %}
+{% for post in paginator.pages %}
+<section lang="{{ macros::lang(page=post) }}"{{ macros::lang_rtl(lang=macros::lang(page=post)) }}>
+    {% if section.content %}<article>{{ section.content | safe }}</article>{% endif -%}
+    <h3><a href="{{ post.path }}">{{ post.title }}</a></h3>
+    {{ post.summary | safe }}
+    {{ macros::ciemmwue(page=post) }}
+    <a title="{{ post.title }}" class="ml-temp-btn" href="{{ post.path }}#continue-reading">
+        {%- set len = post.word_count | as_str -%}
+        {{ trans(key="btn_read", lang=macros::lang(page=post)) | replace(from='LEN', to=len) }} ⋙
+    </a>
+</section>
+{% endfor %}
+{%- if paginator and paginator.number_pagers > 1 -%}
+<nav class="ml-pager ml-bookmark">
+{%- if paginator.current_index > 2 %}<a href="{{ paginator.first }}">1</a>{%- endif -%}
+{%- if paginator.current_index > 3 %}&#8943;{%- endif -%}
+{%- if paginator.previous -%}<a rel=prev href="{{ paginator.previous }}">{{ paginator.current_index - 1 }}</a>{%- endif -%}
+<div aria-current=page>Page {{ paginator.current_index }} of {{ paginator.number_pagers }}</div>
+{%- if paginator.next -%}<a rel=next href="{{ paginator.next }}">{{ paginator.current_index + 1 }}</a>{%- endif -%}
+{%- if paginator.current_index < paginator.number_pagers - 2 %}&#8943;{%- endif -%}
+{%- if paginator.current_index < paginator.number_pagers - 1 %}<a href="{{ paginator.last }}">{{ paginator.number_pagers }}</a>{%- endif -%}
+</nav>{% endif %}</main></center>{% include "p/footer.html" %}
+{% endblock body %}

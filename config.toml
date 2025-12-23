@@ -1,0 +1,152 @@
+base_url = "https://matling.fit"
+title = "物灵"
+
+compile_sass = true
+
+build_search_index = false
+
+taxonomies = [
+    {name = "tags", feed = true, paginate_by = 10},
+]
+
+[markdown]
+highlight_theme = "boron-modified"
+highlight_code = true
+extra_syntaxes_and_themes = ["boron-modified.tmTheme"]
+
+[translations]
+language_name = "English"
+toc = "Contents"
+btn_read = "Read more (LEN words)"
+higher = "Previous"
+lower = "Next"
+skip_link = "Skip to Content"
+other_languages = "Translations"
+
+[languages.cmn]
+title = "物灵"
+
+[languages.cmn-Arab]
+title = "物灵"
+
+[languages.tok]
+title = "𐙞[⊕＞ń]"
+
+[languages.ja]
+title = "物霊"
+
+[languages.cmn.translations]
+language_name = "华语"
+toc = "目次"
+btn_read = "续读 (LEN 字)"
+higher = "歬"
+lower = "后"
+skip_link = "跳至正文"
+other_languages = "外文"
+
+[languages.cmn-Arab.translations]
+language_name = "جࣨىُوً خُوَ"
+toc = "مُلُ"
+btn_read = "کْ ىُو LEN ز"
+higher = "چِىً"
+lower = "خوْ"
+skip_link = "تِىَوْ کَىْش"
+other_languages = "وَىلُ هُوَ"
+
+[languages.tok.translations]
+language_name = "toki pona"
+toc = "jo"
+btn_read = "lipu ni (nimi LEN)"
+higher = "pini"
+lower = "kama"
+skip_link = "tawa open lipu"
+other_languages = "ante toki"
+
+[languages.art-002.translations]
+language_name = "Mini"
+toc = "Peso"
+btn_read = "Leje e mui (LEN name)"
+higher = "ante"
+lower = "afa"
+skip_link = "go note-kapo"
+other_languages = "Ota linga"
+
+[languages.art-001.translations]
+language_name = "単亜語"
+toc = "目次"
+btn_read = "全文 (LEN個 字)"
+higher = "前"
+lower = "後"
+skip_link = "文章之開始于"
+other_languages = "外文"
+
+[languages.ja.translations]
+language_name = "日本語"
+toc = "目次"
+btn_read = "全文 (LEN 字)"
+higher = "前"
+lower = "後"
+skip_link = "本文にスキップ"
+other_languages = "外文"
+
+[extra]
+
+[[extra.t2038.drawer_links]]
+url = "/blog"
+
+  [extra.t2038.drawer_links.name]
+  cmn = "博文"
+  lzh = "吟草"
+  wuu = "步录"
+  en = "Blog"
+  tok = "lipu"
+  dng = "Зуəвын"
+  art-002 = "Note"
+  art-001 = "文"
+  cmn-Arab = "ڤٌ"
+  ja = "ブログ"
+
+[[extra.t2038.drawer_links]]
+url = "https://lex.matling.fit"
+
+  [extra.t2038.drawer_links.name]
+  cmn = "含章字典"
+  lzh = "含章字典"
+  wuu = "含章字典"
+  en = "Lexicon"
+  tok = "nimi Malin"
+  dng = "Ханҗон хуадян"
+  art-002 = "Buku-name"
+  art-001 = "含章字典"
+  cmn-Arab = "خًجًنْ كتاب"
+  ja = "含章字典"
+
+[[extra.t2038.drawer_links]]
+url = "/about/site"
+
+  [extra.t2038.drawer_links.name]
+  cmn = "关于"
+  lzh = "自敘"
+  wuu = "关于"
+  en = "About"
+  tok = "mi seme"
+  dng = "Сыйҗяди"
+  art-002 = "Ego"
+  art-001 = "自己紹介"
+  cmn-Arab = "أنا"
+  ja = "アバウト"
+
+[[extra.t2038.drawer_links]]
+url = "/about/friends"
+
+  [extra.t2038.drawer_links.name]
+  cmn = "他山"
+  lzh = "訪舊"
+  wuu = "朋友"
+  en = "Friends"
+  tok = "jan pona"
+  dng = "Тамыр"
+  art-002 = "Amigo"
+  art-001 = "外部"
+  cmn-Arab = "خوَباً"
+  ja = "トナリ"

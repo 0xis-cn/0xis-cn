@@ -1,0 +1,26 @@
+{% extends "fault.html" %}
+{% import "macros.html" as macros %}
+{% block body %}
+<a class=skip-link href=#ml><span>{{ trans(key="skip_link", lang=lang) }}</span></a>
+{{ macros::drawer(lang=lang) }}
+<center>
+<h1>404</h1>
+<main class=ml-article id=ml>
+<blockquote><p>
+I know I have been forgotten<br>
+This voyage wanders on and on<br>
+But call me when the time comes<br>
+When the East sees another dawn</p><p>
+I know I have been forgotten<br>
+Our departure is long past<br>
+But call me when the time comes<br>
+When men see blue skies at last</p><p>
+I know I have been forgotten<br>
+Our solar story is over now<br>
+But call me when the time comes<br>  
+When blossoms hang from every bough</p><p>
+— <cite>The Wandering Earth</cite></p>
+</blockquote>
+</main></center>
+{% include "p/footer.html" %}
+{% endblock body %}

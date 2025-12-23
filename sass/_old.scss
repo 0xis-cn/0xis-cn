@@ -1,0 +1,269 @@
+/* PLEASE MOVE ALL THESE STUFFS ELSEWHERE */
+
+$line-color: var(--color-levity);
+$link-change-time: .3s !default;
+
+h1, h2, h3, h4, h5, h6, strong, .ml-footer-desc {
+	color: var(--color-heavy);
+}
+
+.ml-bookmark a, .ml-social-list .svg-icon {
+	color: var(--color-levity);
+
+	&:hover {
+		color: var(--color-heavy);
+	}
+}
+
+.ml-bookmark a {
+	color: var(--color-normal);
+}
+
+blockquote {
+	border-left: .25em solid var(--color-indication);
+}
+
+table {
+	border: 1px solid var(--color-heavy);
+	border-width: 1px 0;
+}
+
+thead {
+	border-bottom: 1px solid var(--color-atlarge);
+}
+
+mark {
+	border: 1px dashed var(--color-heavy);
+	background: none
+}
+
+.ml-article a, .ml-smaller a {
+	border-bottom: 1px solid $line-color;
+	color: var(--color-heavy);
+	&:hover {
+		color: var(--color-normal);
+		border-bottom-color: var(--color-atlarge);
+	}
+}
+
+u {
+	border-bottom: 1.2px dashed $line-color;
+}
+
+em:after {
+	color: $line-color;
+}
+
+figcaption {
+	color: var(--color-levity);
+}
+
+strong, b, mark {
+	color: var(--color-heavy);
+	font-weight: bolder;
+}
+
+body, .ml-drawer-inside {
+	&::-webkit-scrollbar-thumb {
+		background: var(--color-atlarge);
+	}
+	&::-webkit-scrollbar-thumb:hover {
+		background: var(--color-levity);
+	}
+	&::-webkit-scrollbar-track-piece {
+		background: transparent;
+	}
+	&::-webkit-scrollbar-track-piece:hover {
+		background: var(--color-indication);
+	}
+}
+
+
+
+@mixin draw-bottom {
+	padding-bottom: .4em;
+	font-style: normal;
+	background-repeat: repeat-x;
+	background-size: 1em 1.4em;
+}
+
+/*
+TODO: make it another way
+em {
+	&:lang(*-Hans), &:lang(*-Hant) {
+		@include draw-bottom;
+		background-image: $em-image;
+	}
+
+	&:lang(cmn-Hans), &:lang(cmn-Hant),
+	&:lang(wuu-Hans), &:lang(wuu-Hant),
+	&:lang(czh-Hans), &:lang(czh-Hant),
+	&:lang(hak-Hans), &:lang(hak-Hant),
+	&:lang(yue-Hans), &:lang(yue-Hant),
+	&:lang(nan-Hans), &:lang(nan-Hant),
+	&:lang(cpx-Hans), &:lang(cpx-Hant),
+	&:lang(cdo-Hans), &:lang(cdo-Hant),
+	&:lang(mnp-Hans), &:lang(mnp-Hant),
+	&:lang(zco-Hans), &:lang(zco-Hant),
+	&:lang(gan-Hans), &:lang(gan-Hant),
+	&:lang(hsn-Hans), &:lang(hsn-Hant),
+	&:lang(cjy-Hans), &:lang(cjy-Hant),
+	&:lang(lzh-Hans), &:lang(lzh-Hant) {
+		@include draw-bottom;
+		background-image: $em-image;
+	}
+}
+
+cite {
+	&:lang(*-Hans), &:lang(*-Hant) {
+		@include draw-bottom;
+		background-image: $cite-image;
+	}
+
+	&:lang(cmn-Hans), &:lang(cmn-Hant),
+	&:lang(wuu-Hans), &:lang(wuu-Hant),
+	&:lang(czh-Hans), &:lang(czh-Hant),
+	&:lang(hak-Hans), &:lang(hak-Hant),
+	&:lang(yue-Hans), &:lang(yue-Hant),
+	&:lang(nan-Hans), &:lang(nan-Hant),
+	&:lang(cpx-Hans), &:lang(cpx-Hant),
+	&:lang(cdo-Hans), &:lang(cdo-Hant),
+	&:lang(mnp-Hans), &:lang(mnp-Hant),
+	&:lang(zco-Hans), &:lang(zco-Hant),
+	&:lang(gan-Hans), &:lang(gan-Hant),
+	&:lang(hsn-Hans), &:lang(hsn-Hant),
+	&:lang(cjy-Hans), &:lang(cjy-Hant),
+	&:lang(lzh-Hans), &:lang(lzh-Hant) {
+		@include draw-bottom;
+		background-image: $cite-image;
+	}
+}
+
+*/
+
+.ml-card-anchor {
+	background-color: var(--color-card);
+	color: var(--color-levity);
+
+	&:hover {
+		background-color: var(--color-indication);
+		// XXX: Fade-out removed, seemingly for images inside
+		color: var(--color-heavy);
+	}
+}
+
+// A timeline with circle (O--O---O-)
+.ml-card-list {
+	border-left: 2px solid var(--color-normal);
+	margin-left: 0.5em;
+	padding-left: 0.5em;
+}
+
+.ml-card-list dt {
+	position: relative;
+	left: -1em
+}
+
+// The circle for items
+.ml-card-list dt::before {
+	border: 2px solid var(--color-normal);
+	background: var(--color-background);
+	border-radius: 1em;
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin: 0 7px 0 -3px;
+	content: ''
+}
+
+.ml-chokolate > :last-child {
+       text-align: end;	
+}
+
+// XXX: here goes everything on two sides
+.ml-chokolate, .ml-footer {
+	display: flex;
+	justify-content: space-between;
+	gap: 1em;
+}
+
+.ml-footer {
+	flex-wrap: nowrap;
+}
+
+.ml-pager {
+	display: flex;
+	justify-content: center;
+	gap: 0.75em;
+	text-align: center;
+	line-height: 2.5em;
+}
+
+.ml-pager > a {
+	max-width: 2.25em;
+	border-bottom: none;
+}
+
+// To be moved
+footer {
+	.ml-menu-button {
+		color: inherit;
+		background: inherit;
+		font-size: 2em;
+	}
+}
+
+.dropdown-wrapper {
+	position: relative;
+	& > div {
+		position: absolute;
+		display: none;
+		background: var(--color-background);
+	}
+
+}
+
+.dropdown-wrapper .open {
+	padding: 4px;
+	display: inline-block;
+	inset-inline-end: 0;
+	bottom: 4em;
+	min-width: 12em;
+	// border-radius: 8px;
+	border: 1px solid var(--color-levity);
+	
+	div {
+		display: flex;
+	}
+	button {
+		font-size: 18px;
+		font-family: Matding, var(--serif-font);
+		flex-grow: 1;
+		padding: 4px;
+	}
+}
+
+button[disabled]:hover {
+	background: unset;
+}
+
+.skip-link {
+	color: var(--color-atlarge);
+	width: 0.75em;
+	height: 0.75em;
+	display: block;
+	:root & {
+		padding: 0;
+		margin-bottom: 2em;
+	}
+	span {
+		color: transparent;
+		font-size: 0;
+	}
+}
+
+@media print {
+	.skip-link, .ml-drawer, nav, footer {
+		display: none;
+	}
+}

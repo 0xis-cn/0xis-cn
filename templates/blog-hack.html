@@ -1,0 +1,7 @@
+{% extends "blog-section.html" %}
+{% import "macros.html" as macros %}
+{% block headTitle %}
+<title>Blog {% if paginator.previous %}(Page {{ paginator.current_index }}/{{ paginator.number_pagers }}){% endif %} « 物灵</title>
+{% endblock headTitle %}
+{% block content %}
+{% endblock content %}

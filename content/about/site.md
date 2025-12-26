@@ -32,7 +32,7 @@ a Jekyll theme by my own, is a reference to — not that you already know —
 a song by Yi An Musical released in 2018.
 It is a song that whispered the possibility of a future of oblivion
 and the demise of their musician dreams.
-Alas, the song, according to some, [turned out to be a crystal ball]({% post_url 2025-06-17-ianjunghak-siuhu-2038nen %}).
+Alas, the song, according to some, [turned out to be a crystal ball](@/blog/2025-06-17-ianjunghak-siuhu-2038nen.md).
 
 Traits for design include
 

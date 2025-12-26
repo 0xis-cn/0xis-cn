@@ -22,6 +22,7 @@ higher = "Previous"
 lower = "Next"
 skip_link = "Skip to Content"
 other_languages = "Translations"
+backlinks = "Backlinks"
 
 [languages.cmn]
 title = "物灵"
@@ -43,6 +44,7 @@ higher = "歬"
 lower = "后"
 skip_link = "跳至正文"
 other_languages = "外文"
+backlinks = "链入"
 
 [languages.cmn-Arab.translations]
 language_name = "جࣨىُوً خُوَ"
@@ -52,6 +54,7 @@ higher = "چِىً"
 lower = "خوْ"
 skip_link = "تِىَوْ کَىْش"
 other_languages = "وَىلُ هُوَ"
+backlinks = "زٍلَيْدِ"
 
 [languages.tok.translations]
 language_name = "toki pona"
@@ -61,6 +64,7 @@ higher = "pini"
 lower = "kama"
 skip_link = "tawa open lipu"
 other_languages = "ante toki"
+backlinks = "linja kama"
 
 [languages.art-002.translations]
 language_name = "Mini"
@@ -70,6 +74,7 @@ higher = "ante"
 lower = "afa"
 skip_link = "go note-kapo"
 other_languages = "Ota linga"
+backlinks = "baka-liga"
 
 [languages.art-001.translations]
 language_name = "単亜語"
@@ -79,6 +84,7 @@ higher = "前"
 lower = "後"
 skip_link = "文章之開始于"
 other_languages = "外文"
+backlinks = "連入"
 
 [languages.ja.translations]
 language_name = "日本語"
@@ -88,6 +94,7 @@ higher = "前"
 lower = "後"
 skip_link = "本文にスキップ"
 other_languages = "外文"
+backlinks = "被リンク"
 
 [extra]
 

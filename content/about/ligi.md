@@ -29,7 +29,7 @@ Still praying for one.
 
 ## Fiction prose and poetry
 
-* [*Szihaegdzip*](https://sigmoid.social/@matling/114646118570064093), a rather crude anthology written from high school to undergraduate years.
+* *Szihaegdzip*, a rather crude anthology written from high school to undergraduate years ([Scribd](https://www.scribd.com/document/932670350/Szihaegdzip))
 
 ## Softwares
 

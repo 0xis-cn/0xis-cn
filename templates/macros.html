@@ -1,3 +1,5 @@
+
+
 {% macro dm(date) -%}
 {% set timestamp = date | date(format='%s') | int -%}
 {{ (timestamp - 1304092800) / 86400 | round }}
@@ -65,6 +67,17 @@
                 {% if i.lang != page.lang %}
                     <li lang="{{ i.lang }}"><a href="{{ i.permalink }}">{{ i.title }}</a></li>
                 {% endif %}
+            {% endfor -%}
+        </ul>
+    </details>
+    {% endif -%}
+    {% set backlinks_link = page.backlinks | default(value="") | length %}
+    {% if backlinks_link > 0 -%}
+    <details>
+        <summary>{{ trans(key="backlinks", lang=lang) }}</summary>
+        <ul class=ml-toc {% if page.lang %}lang={{ page.lang }}{% endif %}>
+            {% for i in page.backlinks -%}
+                <li><a href="{{ i.permalink }}">{{ i.title }}</a></li>
             {% endfor -%}
         </ul>
     </details>

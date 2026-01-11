@@ -49,7 +49,7 @@ backlinks = "链入"
 [languages.cmn-Arab.translations]
 language_name = "جࣨىُوً خُوَ"
 toc = "مُلُ"
-btn_read = "کْ ىُو LEN ز"
+btn_read = "چَاْخاَدِ (کْ ىُو LEN ز)"
 higher = "چِىً"
 lower = "خوْ"
 skip_link = "تِىَوْ کَىْش"

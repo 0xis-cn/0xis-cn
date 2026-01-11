@@ -33,31 +33,18 @@ Still praying for one.
 
 ## Softwares
 
-### Infrastructure
-
-tbc
-
-### System
-
-tbc
-
-### Curiousity
-
 tbc
 
 ## Art
 
-### Visual art
+- [Divpolis](https://lex.matling.fit/divpolis.html), my long-standing worldbuilding project
 
-tbc
+<details open><summary>Someday/maybe</summary>
 
-### Music
+- [Hueikiuh ba, zioqlieq jiizh dzoctien](https://www.gongzicp.com/novel-1962152.html), or *A Romance of Yesterday*
+- *Hero for a Day*, an album
 
-tbc
-
-### Worldbuilding
-
-tbc
+</details>
 
 ## Essays
 

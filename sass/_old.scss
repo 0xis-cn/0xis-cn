@@ -204,15 +204,6 @@ cite {
 	border-bottom: none;
 }
 
-// To be moved
-footer {
-	.ml-menu-button {
-		color: inherit;
-		background: inherit;
-		font-size: 2em;
-	}
-}
-
 .dropdown-wrapper {
 	position: relative;
 	& > div {
@@ -227,7 +218,7 @@ footer {
 	padding: 4px;
 	display: inline-block;
 	inset-inline-end: 0;
-	bottom: 4em;
+	bottom: 3.5em;
 	min-width: 12em;
 	// border-radius: 8px;
 	border: 1px solid var(--color-levity);

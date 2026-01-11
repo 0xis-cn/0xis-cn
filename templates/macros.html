@@ -15,16 +15,17 @@
 {% endmacro %}
 
 {% macro ciemmwue(page) %}
-<p class="ml-smaller">
+<p class="ml-smaller cmt-stallable">
 	<time datetime="{{ page.date }}" pubdate>
 		{{ macros::dm(date=page.date) }} DM
-	</time> ({{ page.date | date(format='%-d %b %Y') }})
-	{{ page.extra.ciemmwue | default(value='civitate terrena') }}
+	</time>
 	{% if page.taxonomies['tags'] -%}
+    <span class=sep>
 		{% for tag in page.taxonomies['tags'] -%}
 		{% set url = get_taxonomy_url(kind="tags", name=tag) -%}
-		#<a href="{{ url }}">{{ tag }}</a>
+		<a href="{{ url }}">{{ tag }}</a>
 		{% endfor -%}
+    </span>
 	{% endif -%}
 </p>
 {% endmacro %}
@@ -82,5 +83,6 @@
         </ul>
     </details>
     {% endif -%}
+    <i class=dropdown-wrapper id=advanced></i>
 </div></details>
 {% endmacro %}

@@ -18,8 +18,6 @@ body { --color-normal: light-dark(#242424, #afbac4); --color-levity: var(--color
 
 这是讨论 C++ range 及其 range adaptor 等底层性质系列文章之第一篇。同时，我介绍了意在解决本文所述一些问题的实验性库之设计。
 
-<p class="ml-smaller">译自 <a href="https://hannes.hauswedell.net/">Hannes Hauswedell</a>，<a href="https://hannes.hauswedell.net/post/2025/05/17/non-owning-range/">查看原文</a>。授权方式：<br>© unless otherwise noted: text cc-by-sa, code cc0, photos gplv3。</p>
-
 <!-- more -->
 
 ## 前言
@@ -295,4 +293,4 @@ auto rad1 = std::move(vec) | radr::take(2);
 
 <p class=ml-smaller><sup>ꖻ</sup>：表示在下篇博文详叙。</p>
 
-<p class=ml-smaller>译者：浅色模式配色是我假想的，起初不相信为此写过<a href="https://hannes.hauswedell.net/post/2023/12/10/darkmode/">一篇 ‘random-nerdiness’</a> 的作者没有侳浅色模式……</p>
+<p class="ml-smaller">译自 <a href="https://hannes.hauswedell.net/">Hannes Hauswedell</a>，<a href="https://hannes.hauswedell.net/post/2025/05/17/non-owning-range/">查看原文</a>。授权方式：<br>© unless otherwise noted: text cc-by-sa, code cc0, photos gplv3。</p>

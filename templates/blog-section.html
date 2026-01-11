@@ -7,16 +7,16 @@
 <main class="ml-article">
 {% block content %}{% endblock content %}
 {% for post in paginator.pages %}
-<section lang="{{ macros::lang(page=post) }}"{{ macros::lang_rtl(lang=macros::lang(page=post)) }}>
+<blog-entry lang="{{ macros::lang(page=post) }}"{{ macros::lang_rtl(lang=macros::lang(page=post)) }}>
     {% if section.content %}<article>{{ section.content | safe }}</article>{% endif -%}
     <h3><a href="{{ post.path }}">{{ post.title }}</a></h3>
     {{ post.summary | safe }}
     {{ macros::ciemmwue(page=post) }}
-    <a title="{{ post.title }}" class="ml-temp-btn" href="{{ post.path }}#continue-reading">
+    <div><a title="{{ post.title }}" class="ml-temp-btn" href="{{ post.path }}#continue-reading">
         {%- set len = post.word_count | as_str -%}
-        {{ trans(key="btn_read", lang=macros::lang(page=post)) | replace(from='LEN', to=len) }} ⋙
-    </a>
-</section>
+        {{ trans(key="btn_read", lang=macros::lang(page=post)) | replace(from='LEN', to=len) }}
+    </a></div>
+</blog-entry>
 {% endfor %}
 {%- if paginator and paginator.number_pagers > 1 -%}
 <nav class="ml-pager ml-bookmark">

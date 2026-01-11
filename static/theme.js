@@ -22,7 +22,7 @@ function calculateColor(suno) {
 	if (suno)
 		document.querySelector('meta[name="theme-color"]').content = "#520819"
 	const nasa = (performance?.memory?.usedJSHeapSize || new Date().getMilliseconds()) % 360
-	document.querySelector("body").style.setProperty("--color-atlarge", `hsl(${nasa} 9% ${suno ? 11 : 89}%)`)
+	document.body.style.setProperty("--color-atlarge", `hsl(${nasa} 9% ${suno ? 11 : 89}%)`)
 }
 
 function calculateShadow(shadowBox) {
@@ -105,6 +105,12 @@ function pn(node) {
     }
 }
 
+function cmtToggle() {
+	if (document.body.classList.contains('advanced-vertical'))
+		return alert("This stuff needs redesign under vertical mode.")
+	document.body.classList.toggle('cmt')
+}
+
 const preferences = [
 	new Preference('lukinWalo', 1, [
 		{ text: '\u23fe', title: 'Lights off', action: () => { rh(darkThemes), y3(darkThemes), rh(lightThemes), y3(lightThemes, "not all"); calculateColor(true) }},
@@ -112,15 +118,16 @@ const preferences = [
 		{ text: '\u23fd', title: 'Lights on', action: () => { rh(lightThemes), y3(lightThemes), rh(darkThemes), y3(darkThemes, "not all"); calculateColor(false) }},
 	]),
 	new Preference('lukinLinja', 1, [
-		{ text: 'Serif', action: () => { document.querySelector('body').classList.add('serif') } },
-		{ text: 'Sans',  action: () => { document.querySelector('body').classList.remove('serif') } },
+		{ text: 'Serif', action: () => { document.body.classList.add('serif') } },
+		{ text: 'Sans',  action: () => { document.body.classList.remove('serif') } },
 	]),
 	new Preference('lukinSupaSinpin', 0, [
-		{ text: '\u2b82', title: 'Horizontal', action: () => { document.querySelector('body').classList.remove('advanced-vertical') } },
+		{ text: '\u2b82', title: 'Horizontal', action: () => { document.body.classList.remove('advanced-vertical') } },
 		{ text: '\u2b87', title: 'Vertical',
 			disabled: !verticalEnabledLanguages.includes(document.documentElement.lang), 
 			action: function () {
-				document.querySelector('body').classList.add('advanced-vertical') 
+				document.body.classList.remove('cmt')
+				document.body.classList.add('advanced-vertical') 
 				document.querySelector('h1').scrollIntoView()
 				if (verticalFirst) {
 					verticalFirst = false
@@ -141,6 +148,14 @@ const preferences = [
 	}
 
 	const base = document.getElementById('advanced')
+
+	const cmtBtn = document.createElement('button')
+	cmtBtn.type = 'button'
+	cmtBtn.classList.add('ml-menu-button')
+	cmtBtn.innerText = '\u0eaf'
+	base.appendChild(cmtBtn)
+	cmtBtn.addEventListener('click', cmtToggle)
+
 	const btn = document.createElement('button')
 	btn.type = 'button'
 	btn.classList.add('ml-menu-button')
@@ -151,6 +166,12 @@ const preferences = [
 		menu.appendChild(i.line())
 	btn.addEventListener('click', () => menu.classList.toggle('open'))
 	base.appendChild(menu)
+
+	const nealBtn = document.createElement('button')
+	nealBtn.classList.add('ml-menu-button')
+	nealBtn.innerText = "Click me"
+	nealBtn.style.font = "1.125em 300 var(--base-font)"
+	base.appendChild(nealBtn)
 
 	document.querySelector(".ml-drawer")?.addEventListener('click', (e) => {
 		if (menuBtn && e.target === e.currentTarget)

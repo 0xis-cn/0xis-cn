@@ -10,6 +10,10 @@
 {%- if page.title %}<h1>{{ page.title }}</h1>{% endif -%}
 <main class=ml-article id=ml>
 <article>{{ page.content | safe }}</article>{# use safe to display HTML #}
+{% if page.ancestors %}
+{%- set section = get_section(path=(page.ancestors | last)) -%}
+{%- endif -%}
+<a href="{{ section.permalink | default(value='/') }}" id=endmark class="ml-wordmark"></a>
 {% if not "about" in page.components %}
 {{ macros::ciemmwue(page=page) }}
 <nav class=ml-chokolate>

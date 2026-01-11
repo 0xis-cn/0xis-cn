@@ -102,6 +102,10 @@ a.ml-card-anchor, a.ml-block-anchor {
 	}
 }
 
+h3 a:only-child {
+	border-bottom: none;
+}
+
 ul.ml-page-list {
 	padding: 0;
 }

@@ -9,6 +9,8 @@ center {
 	writing-mode: vertical-rl;
 	line-height: 2;
 	height: calc(100% - 1em);
+	max-width: unset;
+	margin-top: 2em;
 }
 
 .skip-link {
@@ -18,10 +20,6 @@ center {
 center, .ml-drawer[open] + center {
 	padding-top: 1em;
 	padding-left: 15rem;
-}
-
-.ml-article {
-	max-width: unset;
 }
 
 .ml-drawer {
@@ -60,9 +58,10 @@ h1, blockquote {
 }
 
 blockquote {
-	border-left: 0; 
+	border-top: 0; 
 	padding-left: 0;
 	padding-top: 2em;
+	font-family: 'KaiTi','KaiTiGB2312','STKaiti',var(--base-font);
 }
 
 .ml-article h2, .ml-article h3, .ml-article h4 {

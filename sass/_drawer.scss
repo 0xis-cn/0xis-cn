@@ -1,9 +1,28 @@
 $mobile-width: 24em	!default;
 $mobile-opacity: .7	!default;
+$middle-width: 960px !default;
+
+body {
+	--middle-width: #{$middle-width};
+}
+
+body[data-width="infinite"] {
+	--middle-width: 100%;
+}
+
+body[data-width="narrow"] {
+	--middle-width: 42em;
+}
+
+center {
+	max-width: var(--middle-width); // see drawer.scss
+	margin: 0 auto;
+	padding: 1rem;
+}
 
 .ml-drawer-inside {
 	padding: 1em;
-	margin: 2em auto;
+	margin: 3em auto;
 	border-radius: 1em;
 	overflow: auto;
 	max-width: calc(min(224px, 100%));
@@ -17,6 +36,7 @@ $mobile-opacity: .7	!default;
 	top: 0;
 	height: 3rem;
 	background-color: color-mix(in lch, var(--color-background), transparent);
+	z-index: 1;
 
 	&[open] {
 		height: 100%;
@@ -39,7 +59,6 @@ $mobile-opacity: .7	!default;
 		line-height: 2rem;
 		font-size: 2rem;
 		list-style: none;
-		z-index: 100;
 	}
 
 	a {
@@ -60,7 +79,7 @@ $drawer-offset: $drawer-width + 16px;
 	z-index: 10;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: $middle-width) {
 	.ml-drawer[open] {
 		width: $drawer-width;
 	}
@@ -74,6 +93,7 @@ $drawer-offset: $drawer-width + 16px;
 	}
 
 	body.cmt .footnote-definition, body.cmt .cmt-stallable {
+		display: flex;
 		direction: ltr;
 		left: 100%;
 		top: anchor(--blog-entry start);
@@ -94,17 +114,22 @@ $drawer-offset: $drawer-width + 16px;
 	margin-inline: 4px;
 }
 
-$drawer-makeup: (960px + $drawer-offset);
+$drawer-makeup: ($middle-width + $drawer-offset);
 @media screen and (min-width: $drawer-makeup) {
 	.ml-drawer {
-		inset-inline-start: calc(50% - ($drawer-makeup / 2));
+		inset-inline-start: calc(50% - (($drawer-offset + var(--middle-width)) / 2));
 	}
 	body.cmt .ml-drawer {
-		inset-inline-start: calc(50% - (($drawer-makeup + $drawer-offset) / 2));
+		inset-inline-start: calc(50% - ((2 * $drawer-offset + var(--middle-width)) / 2));
 	}
 	body.advanced-vertical .ml-drawer {
 		left: 2em;
 	}
+}
+
+body[data-width="infinite"] .ml-drawer {
+	inset-inline-start: 0;
+	top: 0;
 }
 
 blog-entry {

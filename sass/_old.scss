@@ -19,10 +19,6 @@ h1, h2, h3, h4, h5, h6, strong, .ml-footer-desc {
 	color: var(--color-normal);
 }
 
-blockquote {
-	border-left: .25em solid var(--color-indication);
-}
-
 table {
 	border: 1px solid var(--color-heavy);
 	border-width: 1px 0;
@@ -205,20 +201,29 @@ cite {
 }
 
 .dropdown-wrapper {
-	position: relative;
-	& > div {
-		position: absolute;
-		display: none;
-		background: var(--color-background);
-	}
+	position: fixed;
+	right: 1.25em;
+	top: 73vh;
+	width: 2.5em;
+	background: var(--color-background);
+}
 
+.dropdown-wrapper > div {
+	position: absolute;
+	display: none;
+	background: inherit;
+}
+
+.dropdown-wrapper > * {
+	width: 100%;
 }
 
 .dropdown-wrapper .open {
 	padding: 4px;
 	display: inline-block;
-	inset-inline-end: 0;
-	bottom: 3.5em;
+	writing-mode: horizontal-tb;
+	inset-inline-end: 100%;
+	bottom: 1.5em;
 	min-width: 12em;
 	// border-radius: 8px;
 	border: 1px solid var(--color-levity);
@@ -228,7 +233,7 @@ cite {
 	}
 	button {
 		font-size: 18px;
-		font-family: Matding, var(--serif-font);
+		font-family: inherit;
 		flex-grow: 1;
 		padding: 4px;
 	}

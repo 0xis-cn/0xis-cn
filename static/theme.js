@@ -57,16 +57,22 @@ class Preference {
 				e.target.parentNode.children, e.target)
 			localStorage.setItem(outerThis.localStorageKey, idx)
 		})
-		for (const { text, action, title = null, disabled = null } of this.options) {
+		for (const { text, action, title, disabled, style, klass } of this.options) {
 			const btn = document.createElement('button')
 			btn.type = 'button'
 			btn.classList.add('ml-menu-button')
-			btn.innerText = text
+			if (text)
+				btn.innerText = text
 			if (title)
 				btn.title = title
 			if (disabled)
 				btn.disabled = disabled
-			btn.addEventListener('click', action)
+			if (style)
+				btn.style = style
+			if (klass)
+				btn.classList.add(klass)
+			if (action)
+				btn.addEventListener('click', action)
 			result.appendChild(btn)
 		}
 		return result
@@ -113,13 +119,13 @@ function cmtToggle() {
 
 const preferences = [
 	new Preference('lukinWalo', 1, [
-		{ text: '\u23fe', title: 'Lights off', action: () => { rh(darkThemes), y3(darkThemes), rh(lightThemes), y3(lightThemes, "not all"); calculateColor(true) }},
+		{ text: '\u23fe', title: "Lights off", klass: "ml-icon-switch-off", action: () => { rh(darkThemes), y3(darkThemes), rh(lightThemes), y3(lightThemes, "not all"); calculateColor(true) }},
 		{ text: '\u2b59', title: 'System', action: () => { y3(lightThemes, pcs("light")), rh(lightThemes, pcs("dark")), y3(darkThemes, pcs("dark")), rh(darkThemes, pcs("light")); calculateColor() }},
-		{ text: '\u23fd', title: 'Lights on', action: () => { rh(lightThemes), y3(lightThemes), rh(darkThemes), y3(darkThemes, "not all"); calculateColor(false) }},
+		{ text: '\u23fd', title: "Lights on", klass: "ml-icon-switch-on", action: () => { rh(lightThemes), y3(lightThemes), rh(darkThemes), y3(darkThemes, "not all"); calculateColor(false) }},
 	]),
 	new Preference('lukinLinja', 1, [
-		{ text: 'Serif', action: () => { document.body.classList.add('serif') } },
-		{ text: 'Sans',  action: () => { document.body.classList.remove('serif') } },
+		{ text: 'Serif', action: () => { document.body.classList.add('serif') }, style: "font-family: var(--serif-font)" },
+		{ text: 'Sans',  action: () => { document.body.classList.remove('serif') }, style: "font-family: var(--base-font)" },
 	]),
 	new Preference('lukinSupaSinpin', 0, [
 		{ text: '\u2b82', title: 'Horizontal', action: () => { document.body.classList.remove('advanced-vertical') } },
@@ -136,6 +142,11 @@ const preferences = [
 			} 
 		},
 	]),
+	new Preference('width', 1, [
+		{ title: "width-infinite", text: "\u221e", action: () => document.body.setAttribute('data-width', "infinite") },
+		{ title: "width-wide", text: "\u2589", klass: "ml-icon-width-wide", action: () => document.body.removeAttribute('data-width') },
+		{ title: "width-narrow", text: "\u258b", klass: "ml-icon-width-narrow", action: () => document.body.setAttribute('data-width', "narrow") },
+	])
 ];
 
 (() => {
@@ -166,12 +177,6 @@ const preferences = [
 		menu.appendChild(i.line())
 	btn.addEventListener('click', () => menu.classList.toggle('open'))
 	base.appendChild(menu)
-
-	const nealBtn = document.createElement('button')
-	nealBtn.classList.add('ml-menu-button')
-	nealBtn.innerText = "Click me"
-	nealBtn.style.font = "1.125em 300 var(--base-font)"
-	base.appendChild(nealBtn)
 
 	document.querySelector(".ml-drawer")?.addEventListener('click', (e) => {
 		if (menuBtn && e.target === e.currentTarget)

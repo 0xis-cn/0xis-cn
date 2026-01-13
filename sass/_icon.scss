@@ -1,0 +1,58 @@
+:root [class*=ml-icon-], .dropdown-wrapper .open [class*=ml-icon-] {
+    color: transparent;
+    position: relative;
+    width: 1em;
+    margin-inline: auto;
+}
+
+[class*=ml-icon-]:after, [class*=ml-icon-]:before {
+    color: var(--color-base);
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.ml-icon-switch-on::after, .ml-icon-switch-off::after {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    border: 1px solid;
+    transform: translate(-8px, -2px);
+}
+
+.ml-icon-switch-on::before, .ml-icon-switch-off::before {
+    border-top: 1px solid;
+    width: 18px;
+    display: block;
+    transform: translate(-3px);
+}
+
+.ml-icon-switch-off::before {
+    transform: translate(-4px, -5px) rotate(-30deg);
+}
+
+.ml-icon-width-wide::before, .ml-icon-width-narrow::before {
+    border-inline: 1px solid;
+    width: 18px;
+    height: 14px;
+    transform: translate(-10px, -7px);
+}
+
+.ml-icon-width-narrow::before {
+    width: 14px;
+    transform: translate(-8px, -7px);
+}
+
+.ml-icon-width-wide::after, .ml-icon-width-narrow::after {
+    box-shadow: 0 5px, 0 -5px;
+    border-top: 1px solid;
+    transform: translateX(-7px);
+    width: 14px;
+}
+
+.ml-icon-width-narrow::after {
+    width: 10px;
+    transform: translateX(-5px);
+}

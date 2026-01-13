@@ -34,9 +34,9 @@ pre.highlight {
 }
 
 blockquote {
-	margin: 0;
-	margin-left: 1em;
-	padding-left: .75em;
+	border-inline-start: .25em solid var(--color-indication);
+	margin-inline-start: 1em;
+	padding-inline-start: .75em;
 }
 
 pre, code, samp, kbd {

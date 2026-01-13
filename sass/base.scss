@@ -56,12 +56,8 @@ body.serif {
 @import './_old.scss';
 @import './_drawer.scss';
 @import './_resize.scss';
+@import "./_icon.scss";
 
 body.advanced-vertical {
 	@import './_vertical.scss';
-}
-
-@font-face {
-	font-family: Matding;
-	src: url(/static/matding.ttf);
 }

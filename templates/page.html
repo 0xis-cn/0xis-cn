@@ -10,12 +10,13 @@
 {%- if page.title %}<h1>{{ page.title }}</h1>{% endif -%}
 <main class=ml-article id=ml>
 <article>{{ page.content | safe }}</article>{# use safe to display HTML #}
+{% if not "about" in page.components %}{{ macros::ciemmwue(page=page) }}{% endif %}
+<i class=dropdown-wrapper id=advanced></i>
 {% if page.ancestors %}
 {%- set section = get_section(path=(page.ancestors | last)) -%}
 {%- endif -%}
 <a href="{{ section.permalink | default(value='/') }}" id=endmark class="ml-wordmark"></a>
 {% if not "about" in page.components %}
-{{ macros::ciemmwue(page=page) }}
 <nav class=ml-chokolate>
 <div><p class=ml-smaller>{{ trans(key="lower", lang=lang) }}</p>
 	{%- if page.lower -%}<a class="ml-temp-btn" href="{{ page.lower.path }}" lang="{{ page.lower.lang }}">{{ page.lower.title }}</a>

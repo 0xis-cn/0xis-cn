@@ -117,10 +117,10 @@ $drawer-offset: $drawer-width + 16px;
 $drawer-makeup: ($middle-width + $drawer-offset);
 @media screen and (min-width: $drawer-makeup) {
 	.ml-drawer {
-		inset-inline-start: calc(50% - (($drawer-offset + var(--middle-width)) / 2));
+		inset-inline-start: calc(50% - (($drawer-offset + var(--middle-width)) / 2) - 1em);
 	}
 	body.cmt .ml-drawer {
-		inset-inline-start: calc(50% - ((2 * $drawer-offset + var(--middle-width)) / 2));
+		inset-inline-start: calc(50% - ((2 * $drawer-offset + var(--middle-width)) / 2) - 1em);
 	}
 	body.advanced-vertical .ml-drawer {
 		left: 2em;

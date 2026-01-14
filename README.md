@@ -1,16 +1,4 @@
-![](./static/img/wordmark.svg)
-
-## Salute, io es Matling.
-
-My blog <https://matling.fit> — Those applied to `fit()` is not certainly a model.
-
-* 🕍 Adoring C/C++ modular programming
-* 🏭 Golang while cramming MVC tactics
-* 🤖 Hosting for long but still cannot recite usage of `lsof`
-* 🖥️ Struggling to accept that they call algorithms
-* 🍱 Vue.js for UI & Native
-* 🎨 Relying on stroke prediction to paint
-* 📜 May write excessively about sociology for tech nerds
+[![Hello, I am Matling](./static/img/wordmark.svg)](https://matling.fit)
 
 [![GitHub status](https://github-readme-stats.vercel.app/api?username=0xis-cn&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 

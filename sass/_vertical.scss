@@ -10,7 +10,7 @@ center {
 	line-height: 2;
 	height: calc(100% - 1em);
 	max-width: unset;
-	margin-top: 2em;
+	margin: 1em 0 -4em;
 }
 
 .skip-link {
@@ -61,7 +61,7 @@ blockquote {
 	border-top: 0; 
 	padding-left: 0;
 	padding-top: 2em;
-	font-family: 'KaiTi','KaiTiGB2312','STKaiti',var(--base-font);
+	font-family: "DejaVu Serif","Georgia",'KaiTi','KaiTiGB2312','STKaiti',var(--base-font);
 }
 
 .ml-article h2, .ml-article h3, .ml-article h4 {

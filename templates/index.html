@@ -31,6 +31,7 @@ h1 {
 	padding: 0;
 	display: flex;
 	height: 40px;
+	margin: 0;
 }
 
 h1 span {
@@ -83,11 +84,14 @@ h1 span::after {
 	}
 }
 
-a.bigger {
-	font-size: 1.125em;
-	height: 2rem;
+#wudada a {
 	border-bottom: none;
 	align-items: center;
+}
+
+#wudada {
+	line-height: 1.625;
+	margin-top: -8px;
 }
 
 @media screen and (max-height: 800px) {
@@ -101,9 +105,16 @@ a.bigger {
 	.card-block h2 {
 		margin-top: 0.625em;
 	}
-	a.bigger {
-		font-size: unset;
-		height: 1.625rem;
+	#wudada {
+		line-height: 1.5;
+		margin-top: -12px;
+		width: 16.75em;
+	}
+	short-hidden {
+		display: none;
+	}
+	#contrib div {
+		grid: auto-flow 12px / repeat(9, 12px);
 	}
 }
 
@@ -150,10 +161,10 @@ a.ml-card-anchor {
 
 #contrib div {
 	display: grid;
-	grid: repeat(7, 12px) / auto-flow 12px;
+	grid: auto-flow 12px / repeat(9, 12px);
 	gap: 6px;
-	right: 0.5rem;
-	bottom: 0.75rem;
+	right: 10px;
+	bottom: 10px;
 	position: absolute;
 }
 
@@ -175,6 +186,7 @@ body {
 #hometown {
 	--color-card: light-dark(#777, #555);
 	background-image: url(/hp-temp/hp-qingo.jpg);
+	background-size: cover;
 }
 
 #hometown:not(:hover) p, #hometown:not(:hover) h2 { color: #e6e6dc; }
@@ -190,19 +202,26 @@ body {
 	position: absolute;
 }
 
-#ligi::after, #ligi::before {
-	display: block;
-	content: '';
+#ligi {
+	display: flex;
+	gap: 2px;
+	justify-content: center;
+	flex-direction: column;
 }
-#ligi::after {
-	background: repeating-linear-gradient(transparent, transparent 27px, var(--nr) 27px, var(--nr) 28px);
-	height: 50%;
-}
+
 #ligi::before {
+	display: block;
 	content: 'No. Date';
-	padding: 0.75em 50% 3px;
-	border-bottom: 1px solid var(--nr);
+	padding: 6px 50% 1px;
 	color: var(--nr);
+}
+
+#ligi p, #ligi::before {
+	border-bottom: 1px solid var(--nr);
+}
+
+.dropdown-wrapper {
+	position: unset;
 }
  </style>
 {% else %}
@@ -228,14 +247,14 @@ body {
 		<textarea name=q placeholder="Ask anything" style="background:none;border-width:0;border-bottom-width:1px;padding:0.5rem 4px;font:inherit;font-size:1.125rem;width:100%;resize:none"></textarea>
 	</form>
 	</div>	
-	<footer class=ml-chokolate style="align-items:center;inset:auto 0 0;position:absolute">
+	<footer class=ml-chokolate style="align-items:flex-end;inset:auto 1em 1em;position:absolute">
 		<p class=ml-smaller><a href="https://icp.gov.moe/?keyword=20243727" target="_blank">萌ICP备20243727号</a></p>
 		<i id=advanced class=dropdown-wrapper></i>
 	</footer>
 </section>
 <section class=card-block>
 	<div class=ml-card-anchor>
-		<p style="margin:0.9em 0 0.1em;font-size:1.25em">Hi~ I am</p>
+		<p style="padding-top:12px;font-size:1.25em">Hi~ I am</p>
 		<h1 style="--count:5">
 			<span style="animation-delay:-16s">Matling</span>
 			<span style="animation-delay:-12s" lang=ar><bdi>متلينغ</bdi></span>
@@ -258,33 +277,33 @@ body {
 			<h2>{{ newest_post.title }}</h2>
 			{{ newest_post.summary | striptags | truncate(length=308) }}
 		</a>
-		{% set other_posts = blog_section.pages | slice(start=1, end=3) %}
-		<div style="grid-row: span 1; min-width: 0">
+		{% set other_posts = blog_section.pages | slice(start=1, end=4) %}
+		<div id=wudada>
 			{% for b in other_posts -%}
-			<a class="ml-chokolate bigger" href="{{ b.path }}" lang="{{ macros::lang(page=b) }}">
+			<a class=ml-chokolate href="{{ b.path }}" lang="{{ macros::lang(page=b) }}">
 				<p style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{ b.title }}</p>
 				<time datetime="{{ b.date }}" class=ml-smaller>{{ macros::dm(date=b.date) }}</time>
 			</a>
 			{% endfor -%}
 		</div>
 	</div>
-	<a class=ml-card-anchor style="grid-column: span 4" id=contrib 
-	href="https://github.com/0xis-cn" rel="me" target=_blank>
-		<h2>Contribution</h2>
-		<p>Software, AI, design</p>
+	<a style="--nr: indianred;" class=ml-card-anchor href="/about/ligi" id=ligi>
+		<p style="text-align: center">
+		<short-hidden><span style="font-size: 1.25em">Selected works</span><br><i>of</i><br></short-hidden>
+		<span style="font-variant: small-caps; font-size: 2em; line-height: 1">Ligi Studio</span>
+		</p>
+	</a>
+	<a class=ml-card-anchor id=hometown href="https://ma.pona.la" style="grid-column: span 4">
+		<div class=btm><h2>Glang–Wys</h2><p>Where I spawned</p></div>
 	</a>
 	<a class=ml-card-anchor href="https://lex.matling.fit">
 		<h2>Lexicon Matlinae</h2>
 		<p>Digital garden & secret lab</p>
 	</a>
-	<a style="grid-row: span 4; --nr: indianred;" class=ml-card-anchor href="/about/ligi" id=ligi>
-		<p style="text-align: center; margin-top: 0.75em">
-		<span style="font-size: 1.25em">Selected works</span><br><i>of</i><br>
-		<span style="font-variant: small-caps; font-size: 2em; line-height: 1">Ligi Studio</span>
-		</p>
-	</a>
-	<a class=ml-card-anchor id=hometown href="https://ma.pona.la">
-		<div class=btm><h2>Glang–Wys</h2><p>Where I spawned</p></div>
+	<a class=ml-card-anchor style="grid-row: span 4" id=contrib 
+	href="https://github.com/0xis-cn" rel="me" target=_blank>
+		<h2>Tosses</h2>
+		<p>Software, AI,<br>design</p>
 	</a>
 	<!--TODO: https://fedi.fsfans.club/-->
 </section>

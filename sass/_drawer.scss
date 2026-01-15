@@ -94,8 +94,7 @@ $drawer-offset: $drawer-width + 16px;
 
 	body.cmt .footnote-definition, body.cmt .cmt-stallable {
 		display: flex;
-		direction: ltr;
-		left: 100%;
+		inset-inline-start: 100%;
 		top: anchor(--blog-entry start);
 		position: absolute;
 		width: $drawer-width;

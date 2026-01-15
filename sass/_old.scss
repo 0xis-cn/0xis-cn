@@ -83,60 +83,6 @@ body, .ml-drawer-inside {
 	background-size: 1em 1.4em;
 }
 
-/*
-TODO: make it another way
-em {
-	&:lang(*-Hans), &:lang(*-Hant) {
-		@include draw-bottom;
-		background-image: $em-image;
-	}
-
-	&:lang(cmn-Hans), &:lang(cmn-Hant),
-	&:lang(wuu-Hans), &:lang(wuu-Hant),
-	&:lang(czh-Hans), &:lang(czh-Hant),
-	&:lang(hak-Hans), &:lang(hak-Hant),
-	&:lang(yue-Hans), &:lang(yue-Hant),
-	&:lang(nan-Hans), &:lang(nan-Hant),
-	&:lang(cpx-Hans), &:lang(cpx-Hant),
-	&:lang(cdo-Hans), &:lang(cdo-Hant),
-	&:lang(mnp-Hans), &:lang(mnp-Hant),
-	&:lang(zco-Hans), &:lang(zco-Hant),
-	&:lang(gan-Hans), &:lang(gan-Hant),
-	&:lang(hsn-Hans), &:lang(hsn-Hant),
-	&:lang(cjy-Hans), &:lang(cjy-Hant),
-	&:lang(lzh-Hans), &:lang(lzh-Hant) {
-		@include draw-bottom;
-		background-image: $em-image;
-	}
-}
-
-cite {
-	&:lang(*-Hans), &:lang(*-Hant) {
-		@include draw-bottom;
-		background-image: $cite-image;
-	}
-
-	&:lang(cmn-Hans), &:lang(cmn-Hant),
-	&:lang(wuu-Hans), &:lang(wuu-Hant),
-	&:lang(czh-Hans), &:lang(czh-Hant),
-	&:lang(hak-Hans), &:lang(hak-Hant),
-	&:lang(yue-Hans), &:lang(yue-Hant),
-	&:lang(nan-Hans), &:lang(nan-Hant),
-	&:lang(cpx-Hans), &:lang(cpx-Hant),
-	&:lang(cdo-Hans), &:lang(cdo-Hant),
-	&:lang(mnp-Hans), &:lang(mnp-Hant),
-	&:lang(zco-Hans), &:lang(zco-Hant),
-	&:lang(gan-Hans), &:lang(gan-Hant),
-	&:lang(hsn-Hans), &:lang(hsn-Hant),
-	&:lang(cjy-Hans), &:lang(cjy-Hant),
-	&:lang(lzh-Hans), &:lang(lzh-Hant) {
-		@include draw-bottom;
-		background-image: $cite-image;
-	}
-}
-
-*/
-
 .ml-card-anchor {
 	background-color: var(--color-card);
 	color: var(--color-levity);

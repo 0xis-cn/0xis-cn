@@ -36,9 +36,11 @@ Considering the maintainability, the list will be superceded by my comments in L
 
 [Panta Rhei](https://www.andrewsun.net/panta-rhei) by Weixiang Sun may be too personal to list here, but I admire Sun’s maturity as far back as enrollment in graduate school, a must-have quality to give progressive advice to college students. A researcher of material science, Sun also recalls the history and mathematical foundation of rheology or general chemistry.
 
+I disapprove of nearly everything [Stephen Leng](https://stephenleng.com/) says, but I will defend to the death their right to say.
+
 [Stephen Wolfram](https://writings.stephenwolfram.com/)’s writings and books are harbingers of proper computer science.
 
-[Tales of Time Forgotten](https://talesoftimesforgotten.com/) by Spencer McDaniel is an active blog on classical studies, partly listed for second-degree links there.
+Check the second-degree links from [Leftfold](https://www.leftfold.tech/pages/blogroll/) and [Tales of Time Forgotten](https://talesoftimesforgotten.com/)!
 
 ### <code>\[friends\]</code>
 

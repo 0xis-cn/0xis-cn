@@ -148,7 +148,7 @@ body, .ml-drawer-inside {
 
 .dropdown-wrapper {
 	position: fixed;
-	right: 1.25em;
+	right: 0;
 	top: 73vh;
 	width: 2.5em;
 	background: var(--color-background);
@@ -168,7 +168,7 @@ body, .ml-drawer-inside {
 	padding: 4px;
 	display: inline-block;
 	writing-mode: horizontal-tb;
-	inset-inline-end: 40px;
+	right: 40px;
 	bottom: 1.5em;
 	width: 12em;
 	// border-radius: 8px;

@@ -65,8 +65,7 @@ where I remembered were crammed with ‘not apocalypse but cherishing year!’.
 <dd>A blog with Hexo, with a ‘futuristic’ collection of practice questions on physics,
 was first time deployed online with CODING.
 It has been 2018 but I was still centering a div with <code>translate(-50%, -50%)</code>.
-After the service adjustment I moved to Gitee.
-Writing elsewhere on algorithm at the same time; I may or may not include them later.
+Writing elsewhere on algorithm at the same time; some have been lost, and I choose not to include the rest.
 
 <dt>2020
 <dd>Revived my blog after gāokǎo. Migrated to Jekyll.

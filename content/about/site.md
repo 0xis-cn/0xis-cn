@@ -109,14 +109,14 @@ Muqliong Gang was approximately formed. For more details, refer to [Lexicon Matl
 
 ### AI usage
 
-[^ce]: [This](@/blog/2025-05-31-my-path-after-twenty-years.md) and [this](@/blog/2025-05-02-a-slice-of-bash-programmable-completion.md).
+Except for [older](@/blog/2025-05-31-my-path-after-twenty-years.md) [posts](@/blog/2025-05-02-a-slice-of-bash-programmable-completion.md) or quotes, original content in matling.fit does not include output from generative AI models. Signs will be given for contents on AI per se or AI-involved projects.
 
-Except for older posts[^ce] or quotes, original content in matling.fit does not include output from generative AI models.
-
-This holds for the original version of multilingual posts. Translations are typically made with LLMs and thoroughly proofread primarily to keep the nuances and style; I do not publish unproofread translations.
+This holds for the original version of multilingual posts (which is English except otherwise mentioned). Translations are typically made with local LLMs and thoroughly proofread primarily to keep the nuances and style; I do not publish unproofread translations.
 
 ### Privacy policy
 
-Matling.fit is hosted on GitHub Pages. You may read [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+[^rwns]: Time, request line, outgoing IP, status, referrer, and user agent. Did I miss anything?
+
+Matling.fit is hosted on GitHub Pages. You may read [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service). Matling.fit includes separately hosted multimedia content, for which only the information typically found in server logs[^rwns] is collected.
 
 Matling.fit uses unmodified GoatCounter as web analytics. GoatCounter does not track users, nor collects data viable for identification. You may read the [privacy policy](https://www.goatcounter.com/help/privacy) of GoatCounter. The administrator cannot obtain personally identifiable information as per design of matling.fit.

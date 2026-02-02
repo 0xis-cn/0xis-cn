@@ -27,6 +27,7 @@ center {
 	overflow: auto;
 	max-width: calc(min(224px, 100%));
 	backdrop-filter: blur(6px);
+	background-color: color-mix(in lch, var(--color-background), transparent);
 }
 
 .ml-drawer {
@@ -35,7 +36,6 @@ center {
 	inset-inline-start: 0;
 	top: 0;
 	height: 3rem;
-	background-color: color-mix(in lch, var(--color-background), transparent);
 	z-index: 1;
 
 	&[open] {

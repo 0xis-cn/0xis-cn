@@ -10,7 +10,6 @@ extra:
    article { font-family: Mulish, "Noto Sans CJK JP", system-ui; text-align: justify; }
    </style>
 ---
-<em lang="en">This post is written in <a href="https://linguifex.com/wiki/単亜語">Dan’a’yo</a>, a zonal auxiliary language.</em>
 
 2018年初, 出入 애니메컨벤션之 学生群 発表 楽曲 ‹2038›, 質問 20年後 其人之音楽夢 幾可 毀滅, 想像 其人与 観衆 賃金労働者如 1節之 地下鉄於 川流.
 
@@ -33,13 +32,3 @@ extra:
 黄氏 太康失国 会社於. 或 以為 易安中学之前 異 極盛企画之 締造者, 又或 以為 惟小技有. 何乎? 実然 **成功 非独 知性之企画 需求**. 何様可言 企画 是 知惠, 調度 (可小 会社住所都市之 学籍制度如) 与 成員管理 非? 苟 其事 不可 一人於 集中, 所謂天才 (乃至 無 時機 — 黄氏 本 聞風興起, 其事 開始於 書) 何様当 言? 今年於 黄氏 乃 ｢復国｣, 携帯 余剰 与 異人, 倒落様 開始 中学之 次頁.
 
 2038年, 無 携帯電話 想像如 崩解. 今日 携帯電話 捨棄 快速様, 無人 予備 携帯電話 具 整数漫流故障 2038年如遠于. 惟様 久遠 被忘者, 現在或 過去之 歌手如 名物, 扑滅 燈光, 囲傍 自己之 幻影, 翻動 偏差之 黙示.
-
----
-
-<section lang=en>
-
-Ten years ago, polyglot Aquatiki (possibly) [published](https://youtu.be/MK0xI9JxTzc) the idea of a CJKV auxiliary language named Dan’a’yo. This post was written as a test. Mini, though ill-constrained (and perceived as Eurocentric), is available for casual writing or its translation. It is my belief that the casual genre is an effective demonstration of the usability of a language for unthinking sentence constructions. These are prevalent in all existing languages and even deemed to be modern. This post does not include parallel transcription or ruby, which are compulsory for Dan’a’yo texts, since the phrasing requires further refinement.
-
-My reflection is that Dan’a’yo with published information is not natural enough, no closer than English for me. The typological discordance of <a href="https://linguifex.com/wiki/Talk:単亜語">SVO and postpositions</a>, evidently a purposeful design, is not so helpful for being international. However this may be not significant; I felt harshed probably because conjunctions and postpositions need clarification.
-
-</section>

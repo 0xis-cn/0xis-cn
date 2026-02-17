@@ -28,11 +28,6 @@ thead {
 	border-bottom: 1px solid var(--color-atlarge);
 }
 
-mark {
-	border: 1px dashed var(--color-heavy);
-	background: none
-}
-
 .ml-article a, .ml-smaller a {
 	border-bottom: 1px solid $line-color;
 	color: var(--color-heavy);

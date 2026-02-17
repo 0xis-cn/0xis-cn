@@ -15,11 +15,11 @@ Call me **Matling**, <bdi lang="uk">Матлін</bdi>, <bdi>متلينغ</bdi>,
 <blockquote>The verdant is unsentimental, fading into nothing now and then. Humans are animals, but the paragon of them.<br>草木无情，有时飘零。人为动物，惟物之灵。</blockquote>
 <p>Surface analysis influenced by Sky Darmos’ <cite>The German Language in Chinese Script</cite>. The quackery is adequate for <a href="https://lex.matling.fit/divpolis.html">a foundation of recreational art</a>.
 <p>In non-natural languages:
-<table><thead><tr><th>Language</th><th>Name</th><th>Transcription</th></tr></thead><tbody><tr><td>Dan’a’yo</td><td>묻링</td><td>Mutling</td></tr><tr><td>Esperanto</td><td>Matlino</td><td> </td></tr><tr><td>Lojban</td><td>la mytlin</td><td> </td></tr><tr><td>Shidinn</td><td>gwƨ viƨ</td><td>Geuénnýn</td></tr><tr><td>Shōnago language</td><td><img class="ml-wordmark" src="https://s21.ax1x.com/2024/03/20/pFWOT8f.png" height="35"></td><td>Māute-nòhlì</td></tr><tr><td>Toki Pona</td><td style="font-family:'linja sike','linja pona';max-width:6em">jan[_ma_li_ń]</td><td>jan Malin</td></tr></tbody></table>
+<table><thead><tr><th>Language</th><th>Name</th><th>Transcription</th></tr></thead><tbody><tr><td>Dan’a’yo</td><td>묻링</td><td>Mutling</td></tr><tr><td>Esperanto</td><td>Matlino</td><td> </td></tr><tr><td>Lojban</td><td>la mytlin</td><td> </td></tr><tr><td>Shidinn</td><td>gwƨ viƨ</td><td>Geuénnýn</td></tr><tr><td>Shōnago language</td><td><img class="ml-wordmark" src="https://s21.ax1x.com/2024/03/20/pFWOT8f.png" height="35"></td><td>Māute-nòhlì</td></tr><tr><td>Toki Pona</td><td style="font-family:'linja sike','linja pona';max-width:6em">☆[_ma_li_ń]</td><td>kokosila Malin</td></tr></tbody></table>
 <p>Latinized names tend to follow ‘foous barus myvarus’ pattern, where I have no interest. I call for a Chinese Sign Language nickname that may start with <span lang="csl" title="SignWriting text">𝠀𝪟𝪨𝠀𝪟𝤅𝣅𝪟</span>.
 </details>
 
-Pronouns are [any except ambiguous](https://en.pronouns.page/any). Other than ‘I/me’, I exceedingly [call myself](https://mzh.moegirl.org.cn/特殊第一人称) ‘Liengtz’ (always in Wú: lin˨ tsz̩) these days, influenced by a Wǔhàn-based beauty influencer with motivational experiences.
+Pronouns are [any except ambiguous](https://en.pronouns.page/any).
 
 [^legal-name]: The only reason to have a pseudonym was, as a teenager supported by family, I fear my family be involved because of my name. Years later, they say when I disclosed the reason, ‘that’s unreasonable. You are independent in whatever economic status.’
 
@@ -93,8 +93,13 @@ The traits Gwern and I shared were developed independently. Though Gwern’s inn
 
 ## Languages
 
+> If you cannot explain it in a different language, you do not know it.   
+> — my version of that quote
+
 The reason for pages to be not translated or available only in obscure languages because it depends on language-specific background knowledge or is intended to stress test that language, which will be less frequent in the future as this blog aims to provide worldwide perspectives.
 Or because it was written at a young age and only archived.
+
+This blog is written in Dan’a’yo (単亜語), Mini, [Standard Chinese](/cmn/blog) (华语), Central Plains Mandarin (<bdi>جࣨىُوً خُوَ</bdi>), English, Japanese (日本語), and [Toki Pona](/tags/toki-pona). Like [Tân Kiàn-tiong](https://kiantiong.com/), some contents are multilingual; you can switch the language in sidebar.
 
 [^pinyin]: An alternative I have considered is subscript-marked Pīnyīn similar to [Zhihong](https://www.zhihu.com/people/zhihong627) (e.g. zhéᵗmùᵏ for *jetmuc*). It is more ISO-compliant by including full Pīnyīn but, well, kay(f)bop(t)-y. Though myself being a Shidinnist, Shidinn is under consideration since it drifts further from ‘average Chinese’.
 

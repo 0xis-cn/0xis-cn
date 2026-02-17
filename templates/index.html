@@ -30,15 +30,16 @@ html, body {
 h1 {
 	padding: 0;
 	display: flex;
-	height: 40px;
 	margin: 0;
+	line-height: 1.375;
+	text-wrap: nowrap;
 }
 
 h1 span {
-	animation: typing-robin calc(4s * var(--count)) linear(1, 1 calc(100% / var(--count)), 0 calc(100% / var(--count)), 0) infinite, typing-single 4s infinite;
 	word-break: break-all;
 	overflow: hidden;
 	width: 0;
+	animation: typing-robin calc(4s * var(--count)) linear(1, 1 calc(100% / var(--count)), 0 calc(100% / var(--count)), 0) infinite, typing-single 4s infinite;
 }
 
 h1 > :first-child {
@@ -290,17 +291,23 @@ body {
 	</footer>
 </section>
 <section class=card-block>
-	<div class=ml-card-anchor>
+	<a class=ml-card-anchor href="/about/site">
 		<p style="padding-top:12px;font-size:1.25em">Hi~ I am</p>
-		<h1 style="--count:5">
-			<span style="animation-delay:-16s">Matling</span>
-			<span style="animation-delay:-12s" lang=ar><bdi>متلينغ</bdi></span>
-			<span style="animation-delay:-8s" lang=chr>ᎹᏟᏂ</span>
-			<span style="animation-delay:-4s" lang=uk>Матлін</span>
+		<h1 style="--count:11">
+			<span style="animation-delay:-40s">Matling</span>
+			<span style="animation-delay:-36s">Gwƨviƨ</span>
+			<span style="animation-delay:-32s">물령</span>
+			<span style="animation-delay:-28s;margin-top:-2px">ᦙᧆᦟᦲᧂ</span>
+			<span style="animation-delay:-24s"><bdi>ߡߋ߬ߕߟߌ߮ߒ</bdi></span>
+			<span style="animation-delay:-20s"><bdi>متلينغ</bdi></span>
+			<span style="animation-delay:-16s">ᒪᑦᓕᓐ</span>
+			<span style="animation-delay:-12s">ᎹᏟᏂ</span>
+			<span style="animation-delay:-8s">Матлін</span>
+			<span style="animation-delay:-4s" title="kokosila Malin">☆[⊕›ń]</span>
 			<span lang=zh>物灵</span>
 		</h1>
 		<p class=btm lang=la>In patria peregrinor</p>
-	</div>
+	</a>
 	{% set blog_section = get_section(path="blog/_index.md") -%}
 	<a class=ml-card-anchor href="/blog">
 		<h2>Blog</h2>

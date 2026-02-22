@@ -25,22 +25,27 @@ icon = "https://avatars.githubusercontent.com/u/42795424"
 avatar = "https://matling.fit/img/cloak.png"
 ```
 
-Feel free to email me and [be my friend](m&#97;ilto:hi&#64;matling.fit)!
+Feel free to email me and [be my friend](m&#97;ilto:hi&#64;matling.fit)! I will pad one if you do not have a motto, primarily from your own words; mottos will not be localized even this page will.
 
-### <code>\[good-read\]</code>
+### <code>\[blogroll\]</code>
 
 By ‘read’ I mean the ‘calm reading in a library’ genre, which may be an anachronistic demand for modern Web.
-Considering the maintainability, the list will be superceded by my comments in Lexicon Matlini.
-
-[Justin B Rye](http://jbr.me.uk) is my ideal kind of guy who talks about science fiction in a tavern all afternoon regardless of who is sitting opposite.
-
-[Panta Rhei](https://www.andrewsun.net/panta-rhei) by Weixiang Sun may be too personal to list here, but I admire Sun’s maturity as far back as enrollment in graduate school, a must-have quality to give progressive advice to college students. A researcher of material science, Sun also recalls the history and mathematical foundation of rheology or general chemistry.
 
 I disapprove of nearly everything [Stephen Leng](https://stephenleng.com/) says, but I will defend to the death their right to say.
 
+In Edinburgh you may see [Justin B Rye](http://jbr.me.uk) talking about science fiction in a tavern all afternoon regardless of who is sitting opposite.
+
+[*Panta Rhei*](http://www.andrewsun.net/panta_rhei/) by [Wèixiáng Sūn](https://www.andrewsun.net/) may be too personal to list here, but I admire Sūn’s maturity even back in graduate school, a must-have quality to give progressive advice or opinion. A researcher of material science, Sūn also recalls the history of rheology or general chemistry.
+
 [Stephen Wolfram](https://writings.stephenwolfram.com/)’s writings and books are harbingers of proper computer science.
 
-Check the second-degree links from [Leftfold](https://www.leftfold.tech/pages/blogroll/) and [Tales of Time Forgotten](https://talesoftimesforgotten.com/)!
+### <code>\[blogrollroll\]</code>
+
+Wiwi Kuan the ‹[pianist using Linux](https://wiwi.blog/blog/pianist-using-linux/)› has a [long blogroll](https://wiwi.blog/blogroll/) chiefly for Chinese blogs.
+
+*Leftfold* lists [blogs the author enjoys](https://www.leftfold.tech/pages/blogroll/).
+
+Without *Tales of Time Forgotten* by Spencer McDaniel I would not know [so many people write on classics](https://talesoftimesforgotten.com/other-great-blogs-to-follow/).
 
 ### <code>\[friends\]</code>
 
@@ -58,15 +63,15 @@ The list is sort by Tungdzih fang'onn, the General Chinese. --></dt>
 	<h2>Greenlcat</h2>
   	<span>Begin from copying…</span>
   </a>
+  <a class="ml-card-anchor" href="https://www.050821.xyz">
+	<img src="https://drum.matling.fit/sd/z3jmrvSo/goodspeed-avatar.jpg" />
+	<h2>William Goodspeed</h2>
+  	<span>A free software advocator and ham radio operator</span>
+  </a>
   <a class="ml-card-anchor" href="https://holgerbest.top">
 	<img src="/img/friends/holger.png" />
 	<h2>Holger</h2>
 	<span lang="en">Never late to learn.</span>
-  </a>
-  <a class="ml-card-anchor" href="https://idealclover.top/">
-	<img src="https://image.idealclover.cn/blog/assets/icon.png" />
-	<h2>idealclover</h2>
-    <span>May all the beauty be blessed</span>
   </a>
   <a class="ml-card-anchor" href="https://www.kai-wang.com">
 	<img src="https://avatars.githubusercontent.com/u/109669163" />

@@ -1,10 +1,10 @@
----
-extra:
-  legacy_lang: cmn
-  ciemmwue: 于甘肃，原发佈于 LOFTER
-title: 最后一天
-category: story
----
++++
+title = "最后一天"
+[extra]
+legacy_lang = "cmn"
+[taxonomies]
+tags = ["story"]
++++
 
 当郑若奎掀开帷帐时，并非如自己无数次想象一般怒不可遏。相反，他带着体力透支时的僵硬与清爽，自己都近乎不察觉手的颤动。绝对的自然法则一旦逼近，薛西斯也只能俯首称臣，放下恋恋不舍的权杖。
 

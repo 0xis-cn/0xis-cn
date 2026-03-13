@@ -6,24 +6,23 @@ A mechanic psychic, a maudlin clarion, and an [Oreki丶](https://baike.baidu.com
 
 ## Name
 
-Call me **Matling**, <bdi lang="uk">Матлін</bdi>, <bdi>متلينغ</bdi>, ᎹᏟᏂ, ᒪᑦᓕᖕ, 物灵, or 𑂧𑂞𑂪𑂱𑂑.
-
-<details>
-<summary><b>Etymology&emsp;</b>From <i>mat</i> as in <i>material</i> and <i>-ling</i>, suffix for a follower.</summary>
-<p>Ahem.
-<p>For though pedantic enough, I attribute the name to <cite>Tsieushaeng Fuh</cite> by Euyang Sieu.</p>
-<blockquote>The verdant is unsentimental, fading into nothing now and then. Humans are animals, but the paragon of them.<br>草木无情，有时飘零。人为动物，惟物之灵。</blockquote>
-<p>Surface analysis influenced by Sky Darmos’ <cite>The German Language in Chinese Script</cite>. The quackery is adequate for <a href="https://lex.matling.fit/divpolis.html">a foundation of recreational art</a>.
-<p>In non-natural languages:
-<table><thead><tr><th>Language</th><th>Name</th><th>Transcription</th></tr></thead><tbody><tr><td>Dan’a’yo</td><td>묻링</td><td>Mutling</td></tr><tr><td>Esperanto</td><td>Matlino</td><td> </td></tr><tr><td>Lojban</td><td>la mytlin</td><td> </td></tr><tr><td>Shidinn</td><td>gwƨ viƨ</td><td>Geuénnýn</td></tr><tr><td>Shōnago language</td><td><img class="ml-wordmark" src="https://s21.ax1x.com/2024/03/20/pFWOT8f.png" height="35"></td><td>Māute-nòhlì</td></tr><tr><td>Toki Pona</td><td style="font-family:'linja sike','linja pona';max-width:6em">☆[_ma_li_ń]</td><td>kokosila Malin</td></tr></tbody></table>
-<p>Latinized names tend to follow ‘foous barus myvarus’ pattern, where I have no interest. I call for a Chinese Sign Language nickname that may start with <span lang="csl" title="SignWriting text">𝠀𝪟𝪨𝠀𝪟𝤅𝣅𝪟</span>.
-</details>
-
+Call me **Matling**, <bdi lang="uk">Матлін</bdi>, <bdi>متلينغ</bdi>, ᎹᏟᏂ, 物灵, <span title="kokosila Malin">☆[⊕›ń]</span>, or anything I forgot to copy.
 Pronouns are [any except ambiguous](https://en.pronouns.page/any).
 
 [^legal-name]: The only reason to have a pseudonym was, as a teenager supported by family, I fear my family be involved because of my name. Years later, they say when I disclosed the reason, ‘that’s unreasonable. You are independent in whatever economic status.’
 
 I do not mind being addressed by legal name.[^legal-name] It is not included here for historical reason.
+
+<details>
+<summary><b>Etymology&emsp;</b>From <i>mat</i>, clipping of <i>material</i>, and <i>-ling</i>, suffix for a follower.</summary>
+<p>Ahem.
+<p>For though pedantic enough, I attribute the name to <cite>Tsieushaeng Fuh</cite> by Euyang Sieu.</p>
+<blockquote>The verdant is unsentimental, fading into nothing now and then. Humans are animals, but the paragon of them.<br>草木无情，有时飘零。人为动物，惟物之灵。</blockquote>
+<p>Surface analysis from Sky Darmos’ <cite>The German Language in Chinese Script</cite>, or <i>siaudzih</i> — quackery, but adequate for <a href="https://lex.matling.fit/divpolis.html">a foundation of recreational art</a>.
+<p>In non-natural languages:
+<table><thead><tr><th>Language</th><th>Name</th><th>Transcription</th></tr></thead><tbody><tr><td>Dan’a’yo</td><td>묻링</td><td>Mutling</td></tr><tr><td>Esperanto</td><td>Matlino</td><td> </td></tr><tr><td>Lojban</td><td>la mytlin</td><td> </td></tr><tr><td>Shidinn</td><td>gwƨ viƨ</td><td>Geuénnýn</td></tr><tr><td>Shōnago language</td><td><img class="ml-wordmark" src="https://s21.ax1x.com/2024/03/20/pFWOT8f.png" height="35"></td><td>Māute-nòhlì</td></tr><tr><td>Toki Pona</td><td style="font-family:'linja sike','linja pona';max-width:6em">☆[_ma_li_ń]</td><td>kokosila Malin</td></tr></tbody></table>
+<p>Latinized names tend to follow ‘foous barus myvarus’ pattern, where I have no interest. I call for a Chinese Sign Language nickname that may start with <span lang="csl" title="SignWriting text">𝠀𝪟𝪨𝠀𝪟𝤅𝣅𝪟</span>.
+</details>
 
 ## Designing matling.fit
 
@@ -71,18 +70,11 @@ Writing elsewhere on algorithm at the same time; some have been lost, and I choo
 <dd>Revived my blog after gāokǎo. Migrated to Jekyll.
 
 <dt>21 May 2021
-<dd>Registered the domain name later changed (for spelling reezon) to matling.fit.
+<dd>Registered the domain name that later changed to matling.fit.
 Theme switched to 2038 designed in a fortnight.
-
-<dt>Mar 2024
-<dd>‘Many blogs are prone to desolation for lack management’ (<a href="https://vistudium.top/">hulenkius</a>). Well, some sort.
-Rearranged the repository.
 
 <dt>10 Sep 2025
 <dd>Migrated to Zola.
-
-<dt>15 Jan 2025
-<dd>Minor design revamp.
 </dl>
 
 ### Might stop now
@@ -96,7 +88,7 @@ The traits Gwern and I shared were developed independently. Though Gwern’s inn
 > If you cannot explain it in a different language, you do not know it.   
 > — my version of that quote
 
-The reason for pages to be not translated or available only in obscure languages because it depends on language-specific background knowledge or is intended to stress test that language, which will be less frequent in the future as this blog aims to provide worldwide perspectives.
+I care about translatability of my discourse. Some pages are available only in obscure languages because it depends on language-specific background knowledge or is intended to stress test that language, which will be less frequent in the future as this blog aims to provide worldwide perspectives.
 Or because it was written at a young age and only archived.
 
 This blog is written in Dan’a’yo (単亜語), Mini, [Standard Chinese](/cmn/blog) (华语), Central Plains Mandarin (<bdi>جࣨىُوً خُوَ</bdi>), English, Japanese (日本語), and [Toki Pona](/tags/toki-pona). Like [Tân Kiàn-tiong](https://kiantiong.com/), some contents are multilingual; you can switch the language in sidebar.
@@ -114,7 +106,7 @@ Muqliong Gang was approximately formed. For more details, refer to [Lexicon Matl
 
 ### AI usage
 
-Except for [older](@/blog/2025-05-31-my-path-after-twenty-years.md) [posts](@/blog/2025-05-02-a-slice-of-bash-programmable-completion.md) or quotes, original content in matling.fit does not include output from generative AI models. Signs will be given for contents on AI per se or AI-involved projects.
+Except for [older](@/blog/2025-05-31-my-path-after-twenty-years.md) [posts](@/blog/2025-05-02-a-slice-of-bash-programmable-completion.md) or quotes, original content in matling.fit does not include output from generative AI models.
 
 This holds for the original version of multilingual posts (which is English except otherwise mentioned). Translations are typically made with local LLMs and thoroughly proofread primarily to keep the nuances and style; I do not publish unproofread translations.
 

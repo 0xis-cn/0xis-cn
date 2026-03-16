@@ -203,3 +203,8 @@ button[disabled]:hover {
 		display: none;
 	}
 }
+
+.sep a {
+	border-block: none;
+	padding-inline-end: 4px;
+}

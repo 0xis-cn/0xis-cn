@@ -27,5 +27,5 @@
 {%- if paginator.next -%}<a rel=next href="{{ paginator.next }}">{{ paginator.current_index + 1 }}</a>{%- endif -%}
 {%- if paginator.current_index < paginator.number_pagers - 2 %}&#8943;{%- endif -%}
 {%- if paginator.current_index < paginator.number_pagers - 1 %}<a href="{{ paginator.last }}">{{ paginator.number_pagers }}</a>{%- endif -%}
-</nav>{% endif %}</main></center>{% include "p/footer.html" %}
+</nav>{% endif %}</main></center><i class=dropdown-wrapper id=advanced></i>{% include "p/footer.html" %}
 {% endblock body %}

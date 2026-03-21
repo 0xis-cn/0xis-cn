@@ -87,25 +87,6 @@ $drawer-offset: $drawer-width + 16px;
 	.ml-drawer[open] + center {
 		padding-inline-start: $drawer-width;
 	}
-
-	body.cmt center {
-		padding-inline-end: $drawer-width;
-	}
-
-	body.cmt .footnote-definition, body.cmt .cmt-stallable {
-		display: flex;
-		inset-inline-start: 100%;
-		top: anchor(--blog-entry start);
-		position: absolute;
-		width: $drawer-width;
-	}
-	
-	body.cmt .cmt-stallable .sep {
-		display: block;
-		&::before {
-			content: none;
-		}
-	}
 }
 
 .cmt-stallable .sep::before {
@@ -117,9 +98,6 @@ $drawer-makeup: ($middle-width + $drawer-offset);
 @media screen and (min-width: $drawer-makeup) {
 	.ml-drawer {
 		inset-inline-start: calc(50% - (($drawer-offset + var(--middle-width)) / 2) - 1em);
-	}
-	body.cmt .ml-drawer {
-		inset-inline-start: calc(50% - ((2 * $drawer-offset + var(--middle-width)) / 2) - 1em);
 	}
 	body.advanced-vertical .ml-drawer {
 		left: 2em;

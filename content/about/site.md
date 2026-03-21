@@ -114,6 +114,8 @@ This holds for the original version of multilingual posts (which is English exce
 
 [^rwns]: Time, request line, outgoing IP, status, referrer, and user agent. Did I miss anything?
 
-Matling.fit is hosted on GitHub Pages. You may read [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service). Matling.fit includes separately hosted multimedia content, for which only the information typically found in server logs[^rwns] is collected.
+Matling.fit is hosted on GitHub Pages. You may read [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service). Matling.fit connects to separately hosted object storage and API, for which only the information typically found in server logs[^rwns] is collected.
 
-Matling.fit uses unmodified GoatCounter as web analytics. GoatCounter does not track users, nor collects data viable for identification. You may read the [privacy policy](https://www.goatcounter.com/help/privacy) of GoatCounter. The administrator cannot obtain personally identifiable information as per design of matling.fit.
+Matling.fit uses unmodified GoatCounter as web analytics. GoatCounter does not track users, nor collects data viable for identification. You may read the [privacy policy](https://www.goatcounter.com/help/privacy) of GoatCounter. The administrator cannot and do not intend to obtain personally identifiable information as per design of matling.fit.
+
+As a personal website with no branch offices, agents, or stable userbase, Matling.fit might be exempt from GDPR or similar regulations, but this is unlikely supported by precedents. However I will exert reasonable efforts to protect users’ privacy. When I link to plausible marketing information, you may communicate with outbounding third party service out of my control. To have personal information removed from this site, leave me an email.

@@ -111,12 +111,6 @@ function pn(node) {
     }
 }
 
-function cmtToggle() {
-	if (document.body.classList.contains('advanced-vertical'))
-		return alert("This stuff needs redesign under vertical mode.")
-	document.body.classList.toggle('cmt')
-}
-
 const preferences = [
 	new Preference('lukinWalo', 1, [
 		{ text: '\u23fe', title: "Lights off", klass: "ml-icon-switch-off", action: () => { rh(darkThemes), y3(darkThemes), rh(lightThemes), y3(lightThemes, "not all"); calculateColor(true) }},
@@ -127,12 +121,11 @@ const preferences = [
 		{ text: 'Serif', action: () => { document.body.classList.add('serif') }, style: "font-family: var(--serif-font)" },
 		{ text: 'Sans',  action: () => { document.body.classList.remove('serif') }, style: "font-family: var(--base-font)" },
 	]),
-	new Preference('lukinSupaSinpin', 0, [
+	new Preference('lukinSupaSinpin', 1, [
 		{ text: '\u2b82', title: 'Horizontal', action: () => { document.body.classList.remove('advanced-vertical') } },
 		{ text: '\u2b87', title: 'Vertical',
-			disabled: !verticalEnabledLanguages.includes(document.documentElement.lang), 
+			disabled: !document.querySelector(".ml-drawer") || !verticalEnabledLanguages.includes(document.documentElement.lang), 
 			action: function () {
-				document.body.classList.remove('cmt')
 				document.body.classList.add('advanced-vertical') 
 				document.querySelector('h1').scrollIntoView()
 				if (verticalFirst) {
@@ -159,13 +152,6 @@ const preferences = [
 	}
 
 	const base = document.getElementById('advanced')
-
-	const cmtBtn = document.createElement('button')
-	cmtBtn.type = 'button'
-	cmtBtn.classList.add('ml-menu-button')
-	cmtBtn.innerText = '\u0eaf'
-	base.appendChild(cmtBtn)
-	cmtBtn.addEventListener('click', cmtToggle)
 
 	const btn = document.createElement('button')
 	btn.type = 'button'

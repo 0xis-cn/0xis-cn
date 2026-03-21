@@ -2,7 +2,7 @@ base_url = "https://matling.fit"
 title = "物灵"
 
 compile_sass = true
-
+generate_feeds = true
 build_search_index = false
 
 taxonomies = [

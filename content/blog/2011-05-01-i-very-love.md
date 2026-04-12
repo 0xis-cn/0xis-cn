@@ -1,15 +1,13 @@
 ---
-extra:
-  ciemmwue: by Xi Han
 title: I very love Zhityoq Vendyaec
 ---
-
-My fuzzy letter to editors, supplemented with early history of this blog.<!--more-->
-
-<section lang=cpi markdown=1>
 All <cite>Zhityoq Vendyaec</cite> editor:
 
 Hello everyone!
+
+<!--more-->
+
+<section lang=cpi>
 
 I am a school boy. I have a wonderful name: Xi Han.
 
@@ -33,4 +31,4 @@ I made an excuse to include these posts, that they were originally published on 
 
 In 2022, Lu Changhai discussed the [Rare Homepage Hypothesis](https://www.changhai.org/articles/technology/misc/RarePage.php) analogous to the Rare Earth Hypothesis. He argued that personal websites like his, handcrafted, self-programmed, hosting extensive writings, and enduring, are scarce on the internet. What you are reading is too late as a contestant. However I know well that the worth of my writing depends on the worth of my life. Hereby I authorize all internet service providers to disregard user aggrements and delete my information when that moment arrives. I may have generated terabytes of data, but never contributed a single bit of value for humanity.
 
-A brief explanation of this letter, absurd even to me: This magazine (not a ‘book’) likely witnessed many childhoods. I only recall that many words were looked up in a yellowed old dictionary (one I never saw again). I cannot explain the typos.
+A brief explanation of this letter, absurd even to me: This magazine (not a ‘book’) likely witnessed many childhoods. I only recall that many words were looked up in a crispy old dictionary (one I never saw again). I cannot explain the typos — I guess I have known that *very love* is incorrect!

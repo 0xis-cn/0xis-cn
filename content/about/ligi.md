@@ -11,6 +11,10 @@ custom_head = "<style>h1 { display: none }</style>"
 <span style="font-variant: small-caps; font-size: 2.5em">Ligi Studio</span>
 </p>
 
+<code>&lt;!--
+TODO: this page needs a <a href="https://blog.giveanornot.com/you-should-check-out-the-indie-web/">GeoCities-style version</a>
+--&gt;</code>
+
 Traditionally, numerous Sinosphere writers adopt a pseudonym ([*hào*, *gō*, *ho*, or *tên hiệu*](https://en.wikipedia.org/wiki/Art_name), GCR spelling *haw*) according to their residence or workplace. Liáng Qǐchāo (Liang Keetyau), as a random example, named himself that redundantly translated to ‘the host of ice-drinker’s studio’.
 
 In [Muqliong Gang](@/blog/2022-05-14-childhood.md), the spiritual homeland of my childhood, I created Ligi Studio affiliated to the Gang. It, along with Mocsieng Workshop, was institutionalised in late Muqliong as an outreach for education, research, and… well pure make-believe. It is somewhat evidential to date the establishment to around 877 DM.
@@ -33,31 +37,18 @@ Still praying for one.
 
 ## Softwares
 
-### Infrastructure
-
-tbc
-
-### System
-
-tbc
-
-### Curiousity
-
 tbc
 
 ## Art
 
-### Visual art
+- [Divpolis](https://lex.matling.fit/divpolis.html), my long-standing worldbuilding project
 
-tbc
+<details open><summary>Someday/maybe</summary>
 
-### Music
+- [Hueikiuh ba, zioqlieq jiizh dzoctien](https://www.gongzicp.com/novel-1962152.html), or *A Romance of Yesterday*
+- *Hero for a Day*, an album
 
-tbc
-
-### Worldbuilding
-
-tbc
+</details>
 
 ## Essays
 

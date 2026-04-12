@@ -1,13 +1,33 @@
 $mobile-width: 24em	!default;
 $mobile-opacity: .7	!default;
+$middle-width: 960px !default;
+
+body {
+	--middle-width: #{$middle-width};
+}
+
+body[data-width="infinite"] {
+	--middle-width: 100%;
+}
+
+body[data-width="narrow"] {
+	--middle-width: 42em;
+}
+
+center {
+	max-width: var(--middle-width); // see drawer.scss
+	margin: 0 auto;
+	padding: 1rem;
+}
 
 .ml-drawer-inside {
 	padding: 1em;
-	margin: 2em auto;
+	margin: 3em auto;
 	border-radius: 1em;
 	overflow: auto;
 	max-width: calc(min(224px, 100%));
 	backdrop-filter: blur(6px);
+	background-color: color-mix(in lch, var(--color-background), transparent);
 }
 
 .ml-drawer {
@@ -16,18 +36,18 @@ $mobile-opacity: .7	!default;
 	inset-inline-start: 0;
 	top: 0;
 	height: 3rem;
-	background-color: color-mix(in lch, var(--color-background), transparent);
+	z-index: 1;
 
 	&[open] {
 		height: 100%;
 		overflow: auto;
 	}
 
-	&[open] .ml-menu-button {
+	&[open] > summary {
 		transform: rotate(-90deg);
 	}
 
-	.ml-menu-button {
+	& > summary {
 		background: var(--color-background);
 		position: fixed;
 		top: 10px;
@@ -39,11 +59,15 @@ $mobile-opacity: .7	!default;
 		line-height: 2rem;
 		font-size: 2rem;
 		list-style: none;
-		z-index: 100;
 	}
 
 	a {
 		text-decoration: none;
+	}
+
+	#advanced {
+		display: flex;
+		justify-content: space-evenly;
 	}
 }
 
@@ -55,7 +79,7 @@ $drawer-offset: $drawer-width + 16px;
 	z-index: 10;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: $middle-width) {
 	.ml-drawer[open] {
 		width: $drawer-width;
 	}
@@ -65,14 +89,29 @@ $drawer-offset: $drawer-width + 16px;
 	}
 }
 
-$drawer-makeup: (960px + $drawer-offset);
+.cmt-stallable .sep::before {
+	content: '/';
+	margin-inline: 4px;
+}
+
+$drawer-makeup: ($middle-width + $drawer-offset);
 @media screen and (min-width: $drawer-makeup) {
 	.ml-drawer {
-		inset-inline-start: calc(50% - ($drawer-makeup / 2));
+		inset-inline-start: calc(50% - (($drawer-offset + var(--middle-width)) / 2) - 1em);
 	}
 	body.advanced-vertical .ml-drawer {
 		left: 2em;
 	}
+}
+
+body[data-width="infinite"] .ml-drawer {
+	inset-inline-start: 0;
+	top: 0;
+}
+
+blog-entry {
+	anchor-name: --blog-entry;
+	anchor-scope: --blog-entry;
 }
 
 .ml-toc, .ml-toc-sub, .ml-bookmark {
@@ -120,15 +159,14 @@ $drawer-makeup: (960px + $drawer-offset);
 	display: flex;
 	justify-content: space-around;
 
-	img {
-		display: block;
-		border: 1px solid var(--color-normal);
-		padding: 2px;
-		max-width: 128px;
-		opacity: 0.6;
-
-		&:hover {
-			opacity: 1;
-		}
+	img:hover {
+		opacity: 0.8;
 	}
+}
+
+.ml-menu-button {
+	color: inherit;
+	background: inherit;
+	font-size: 2em;
+	padding-inline: 4px;
 }

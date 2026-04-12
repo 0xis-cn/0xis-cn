@@ -30,28 +30,30 @@ html, body {
 h1 {
 	padding: 0;
 	display: flex;
-	height: 40px;
+	margin: 0;
+	line-height: 1.375;
+	text-wrap: nowrap;
 }
 
 h1 span {
-	animation: typing-robin calc(4s * var(--count)) linear(1, 1 calc(100% / var(--count)), 0 calc(100% / var(--count)), 0) infinite, typing-single 4s infinite;
 	word-break: break-all;
 	overflow: hidden;
 	width: 0;
+	animation: typing-robin calc(4s * var(--count)) linear(1, 1 calc(100% / var(--count)), 0 calc(100% / var(--count)), 0) infinite, typing-single 4s infinite;
 }
 
 h1 > :first-child {
 	width: 100%;
 }
 
-#top > form > object {
-	opacity: 0.6;
-	margin-inline: auto;
+#top > form > img {
+	margin: 24px auto 0;
 	display: block;
+	height: 160px;
 }
 
-#top > form:focus-within > object {
-	opacity: 0.9;
+#top > form:focus-within > img {
+	opacity: 0.75;
 }
 
 h1 span::after {
@@ -83,11 +85,14 @@ h1 span::after {
 	}
 }
 
-a.bigger {
-	font-size: 1.125em;
-	height: 2rem;
+#wudada a {
 	border-bottom: none;
 	align-items: center;
+}
+
+#wudada {
+	line-height: 1.625;
+	margin-top: -8px;
 }
 
 @media screen and (max-height: 800px) {
@@ -101,9 +106,16 @@ a.bigger {
 	.card-block h2 {
 		margin-top: 0.625em;
 	}
-	a.bigger {
-		font-size: unset;
-		height: 1.625rem;
+	#wudada {
+		line-height: 1.5;
+		margin-top: -12px;
+		width: 16.75em;
+	}
+	short-hidden {
+		display: none;
+	}
+	:root #contrib tile {
+		grid-template-columns: repeat(7, 12px);
 	}
 }
 
@@ -148,13 +160,50 @@ a.ml-card-anchor {
 	margin: 0;
 }
 
-#contrib div {
-	display: grid;
-	grid: repeat(7, 12px) / auto-flow 12px;
+#contrib tile {
+	display: flex;
 	gap: 6px;
-	right: 0.5rem;
-	bottom: 0.75rem;
+	flex-wrap: wrap;
+}
+tile > span {
+	width: 12px;
+	height: 12px;
+}
+#contrib .btm {
+	inset: auto 10px 12px;
+}
+#contrib .circle big {
+	font-size: 2em;
+}
+#contrib .circle big:first-of-type {
+	font-size: 3em;
+}
+#contrib .circle {
+	position: relative;
+	width: 7.5em;
+	height: 7.5em;
+	margin: 0 auto 1em;
+}
+#contrib .circle::before, #contrib .circle p {
+	content: '';
 	position: absolute;
+	inset: 0;
+	border-radius: 50%;
+	background: conic-gradient(var(--cs), var(--ce), var(--cs) var(--progress, 0%), var(--cp) var(--progress, 0%));
+	--cs: light-dark(var(--cl3), var(--cl2));
+	--ce: light-dark(var(--cl4), var(--cl1));
+	--cp: light-dark(var(--cl0), var(--cl5));
+}
+#contrib .circle p {
+	inset: 0.25em;
+	background: var(--color-card);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#contrib:hover .circle p {
+	background: var(--color-indication);
 }
 
 #contrib span[data-l="0"] { background: light-dark(var(--cl0), var(--cl5)); }
@@ -174,7 +223,8 @@ body {
 
 #hometown {
 	--color-card: light-dark(#777, #555);
-	background-image: url(/hp-temp/hp-qingo.jpg);
+	background-image: url(https://drum.matling.fit/sd/universe/hp-qingo.jpg);
+	background-size: cover;
 }
 
 #hometown:not(:hover) p, #hometown:not(:hover) h2 { color: #e6e6dc; }
@@ -190,19 +240,26 @@ body {
 	position: absolute;
 }
 
-#ligi::after, #ligi::before {
-	display: block;
-	content: '';
+#ligi {
+	display: flex;
+	gap: 2px;
+	justify-content: center;
+	flex-direction: column;
 }
-#ligi::after {
-	background: repeating-linear-gradient(transparent, transparent 27px, var(--nr) 27px, var(--nr) 28px);
-	height: 50%;
-}
+
 #ligi::before {
+	display: block;
 	content: 'No. Date';
-	padding: 0.75em 50% 3px;
-	border-bottom: 1px solid var(--nr);
+	padding: 6px 50% 1px;
 	color: var(--nr);
+}
+
+#ligi p, #ligi::before {
+	border-bottom: 1px solid var(--nr);
+}
+
+.dropdown-wrapper {
+	position: unset;
 }
  </style>
 {% else %}
@@ -224,27 +281,36 @@ body {
 <section style="position:relative;padding:1em" id="top-wrapper">
 	<div id="top">
 	<form>
-		<object data="/img/latek.svg" title="Matling" type="image/svg+xml" height=192></object>
+		<img src="//drum.matling.fit/sd/universe/cloak.png" alt="Ready when you are" class=ml-wordmark>
 		<textarea name=q placeholder="Ask anything" style="background:none;border-width:0;border-bottom-width:1px;padding:0.5rem 4px;font:inherit;font-size:1.125rem;width:100%;resize:none"></textarea>
 	</form>
 	</div>	
-	<footer class=ml-chokolate style="align-items:center;inset:auto 0 0;position:absolute">
-		<p class=ml-smaller><a href="https://icp.gov.moe/?keyword=20243727" target="_blank">萌ICP备20243727号</a></p>
+	<footer class=ml-chokolate style="align-items:flex-end;inset:auto 1em 1em;position:absolute">
+		<p class=ml-smaller>
+			<a rel="alternate" type="application/rss+xml" href="/atom.xml">Feed</a><br>
+			<a href="https://icp.gov.moe/?keyword=20243727" target="_blank">萌ICP备20243727号</a>
+		</p>
 		<i id=advanced class=dropdown-wrapper></i>
 	</footer>
 </section>
 <section class=card-block>
-	<div class=ml-card-anchor>
-		<p style="margin:0.9em 0 0.1em;font-size:1.25em">Hi~ I am</p>
-		<h1 style="--count:5">
-			<span style="animation-delay:-16s">Matling</span>
-			<span style="animation-delay:-12s" lang=ar><bdi>متلينغ</bdi></span>
-			<span style="animation-delay:-8s" lang=chr>ᎹᏟᏂ</span>
-			<span style="animation-delay:-4s" lang=uk>Матлін</span>
+	<a class=ml-card-anchor href="/about/site">
+		<p style="padding-top:12px;font-size:1.25em">Hi~ I am</p>
+		<h1 style="--count:11">
+			<span style="animation-delay:-40s">Matling</span>
+			<span style="animation-delay:-36s">Gwƨviƨ</span>
+			<span style="animation-delay:-32s">물령</span>
+			<span style="animation-delay:-28s;margin-top:-2px">ᦙᧆᦟᦲᧂ</span>
+			<span style="animation-delay:-24s"><bdi>ߡߋ߬ߕߟߌ߮ߒ</bdi></span>
+			<span style="animation-delay:-20s"><bdi>متلينغ</bdi></span>
+			<span style="animation-delay:-16s">ᒪᑦᓕᓐ</span>
+			<span style="animation-delay:-12s">ᎹᏟᏂ</span>
+			<span style="animation-delay:-8s">Матлін</span>
+			<span style="animation-delay:-4s" title="kokosila Malin">☆[⊕›ń]</span>
 			<span lang=zh>物灵</span>
 		</h1>
 		<p class=btm lang=la>In patria peregrinor</p>
-	</div>
+	</a>
 	{% set blog_section = get_section(path="blog/_index.md") -%}
 	<a class=ml-card-anchor href="/blog">
 		<h2>Blog</h2>
@@ -258,54 +324,59 @@ body {
 			<h2>{{ newest_post.title }}</h2>
 			{{ newest_post.summary | striptags | truncate(length=308) }}
 		</a>
-		{% set other_posts = blog_section.pages | slice(start=1, end=3) %}
-		<div style="grid-row: span 1; min-width: 0">
+		{% set other_posts = blog_section.pages | slice(start=1, end=4) %}
+		<div id=wudada>
 			{% for b in other_posts -%}
-			<a class="ml-chokolate bigger" href="{{ b.path }}" lang="{{ macros::lang(page=b) }}">
+			<a class=ml-chokolate href="{{ b.path }}" lang="{{ macros::lang(page=b) }}">
 				<p style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{ b.title }}</p>
 				<time datetime="{{ b.date }}" class=ml-smaller>{{ macros::dm(date=b.date) }}</time>
 			</a>
 			{% endfor -%}
 		</div>
 	</div>
-	<a class=ml-card-anchor style="grid-column: span 4" id=contrib 
-	href="https://github.com/0xis-cn" rel="me" target=_blank>
-		<h2>Contribution</h2>
-		<p>Software, AI, design</p>
+	<a style="--nr: indianred;" class=ml-card-anchor href="/about/ligi" id=ligi>
+		<p style="text-align: center">
+		<short-hidden><span style="font-size: 1.25em">Selected works</span><br><i>of</i><br></short-hidden>
+		<span style="font-variant: small-caps; font-size: 2em; line-height: 1">Ligi Studio</span>
+		</p>
+	</a>
+	<a class=ml-card-anchor id=hometown href="https://ma.pona.la" style="grid-column: span 4">
+		<div class=btm><h2>Glang–Wys</h2><p>Where I spawned</p></div>
 	</a>
 	<a class=ml-card-anchor href="https://lex.matling.fit">
 		<h2>Lexicon Matlinae</h2>
 		<p>Digital garden & secret lab</p>
 	</a>
-	<a style="grid-row: span 4; --nr: indianred;" class=ml-card-anchor href="/about/ligi" id=ligi>
-		<p style="text-align: center; margin-top: 0.75em">
-		<span style="font-size: 1.25em">Selected works</span><br><i>of</i><br>
-		<span style="font-variant: small-caps; font-size: 2em; line-height: 1">Ligi Studio</span>
-		</p>
+	<a class=ml-card-anchor style="grid-row: span 4" id=contrib 
+	href="https://github.com/0xis-cn" rel="me" target=_blank>
+		<h2>Tosses</h2>
+		<short-hidden>Software, AI,<br>design</short-hidden>
+		<div class=btm><div class=circle role=progressbar></div></div>
 	</a>
-	<a class=ml-card-anchor id=hometown href="https://ma.pona.la">
-		<div class=btm><h2>Glang–Wys</h2><p>Where I spawned</p></div>
-	</a>
+	<!--TODO: https://fedi.fsfans.club/-->
 </section>
 </main>
 <script>
 (() => {
-	const contribDays = 50 + new Date().getDay();
-	const url = "https://wakatime.com/share/@b24b10b3-9f1c-4323-9f99-e0b3888b3a6a/ae2b847c-d654-4f58-ab53-03bd64a7eda6.json";
-	const contrib = document.getElementById("contrib");
-	if (contrib)
+	const url = "https://wakatime.com/share/@b24b10b3-9f1c-4323-9f99-e0b3888b3a6a/c2778a73-3b1d-4de6-aaad-5d7d555ff805.json";
+	const btm = document.querySelector("#contrib .btm");
+	if (btm)
 		fetch(url).then(resp => resp.json()).then(data => {
-			console.log(data);
-			const days = data.days.slice(-contribDays);
-			const result = document.createElement("div");
-			contrib.append(result);
+			const days = data.data;
+			const result = document.createElement('tile');
+			btm.append(result);
 			for (let x of days) {
-				const level = [1, 3, 4, 8, 10].findIndex(y => y > x.total / 3600);
+				const level = [1, 3, 4, 8, 10].findIndex(y => y > x.grand_total.decimal);
 				const res = document.createElement("span");
 				res.setAttribute("data-l", level);
 				result.append(res);
 			}
-		});
+			const bar = btm.firstElementChild;
+			const today = days[days.length - 1].grand_total;
+			const todayDate = (x => `${x[0]} ${x[2]}`)(days[days.length - 1].range.text.split(" "));
+			bar.innerHTML = `<p><span><big>${today.hours}</big>h <big>${today.minutes}</big>m</span><small>${todayDate}</small></p>`;
+			bar.style.setProperty('--progress', Math.round(100 * today.decimal / 12) + '%');
+		}).catch(e => console.log(e));
 })()
 </script>
 {% endif %}{% endblock body %}

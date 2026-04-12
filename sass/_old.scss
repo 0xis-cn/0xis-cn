@@ -19,10 +19,6 @@ h1, h2, h3, h4, h5, h6, strong, .ml-footer-desc {
 	color: var(--color-normal);
 }
 
-blockquote {
-	border-left: .25em solid var(--color-indication);
-}
-
 table {
 	border: 1px solid var(--color-heavy);
 	border-width: 1px 0;
@@ -30,11 +26,6 @@ table {
 
 thead {
 	border-bottom: 1px solid var(--color-atlarge);
-}
-
-mark {
-	border: 1px dashed var(--color-heavy);
-	background: none
 }
 
 .ml-article a, .ml-smaller a {
@@ -87,60 +78,6 @@ body, .ml-drawer-inside {
 	background-size: 1em 1.4em;
 }
 
-/*
-TODO: make it another way
-em {
-	&:lang(*-Hans), &:lang(*-Hant) {
-		@include draw-bottom;
-		background-image: $em-image;
-	}
-
-	&:lang(cmn-Hans), &:lang(cmn-Hant),
-	&:lang(wuu-Hans), &:lang(wuu-Hant),
-	&:lang(czh-Hans), &:lang(czh-Hant),
-	&:lang(hak-Hans), &:lang(hak-Hant),
-	&:lang(yue-Hans), &:lang(yue-Hant),
-	&:lang(nan-Hans), &:lang(nan-Hant),
-	&:lang(cpx-Hans), &:lang(cpx-Hant),
-	&:lang(cdo-Hans), &:lang(cdo-Hant),
-	&:lang(mnp-Hans), &:lang(mnp-Hant),
-	&:lang(zco-Hans), &:lang(zco-Hant),
-	&:lang(gan-Hans), &:lang(gan-Hant),
-	&:lang(hsn-Hans), &:lang(hsn-Hant),
-	&:lang(cjy-Hans), &:lang(cjy-Hant),
-	&:lang(lzh-Hans), &:lang(lzh-Hant) {
-		@include draw-bottom;
-		background-image: $em-image;
-	}
-}
-
-cite {
-	&:lang(*-Hans), &:lang(*-Hant) {
-		@include draw-bottom;
-		background-image: $cite-image;
-	}
-
-	&:lang(cmn-Hans), &:lang(cmn-Hant),
-	&:lang(wuu-Hans), &:lang(wuu-Hant),
-	&:lang(czh-Hans), &:lang(czh-Hant),
-	&:lang(hak-Hans), &:lang(hak-Hant),
-	&:lang(yue-Hans), &:lang(yue-Hant),
-	&:lang(nan-Hans), &:lang(nan-Hant),
-	&:lang(cpx-Hans), &:lang(cpx-Hant),
-	&:lang(cdo-Hans), &:lang(cdo-Hant),
-	&:lang(mnp-Hans), &:lang(mnp-Hant),
-	&:lang(zco-Hans), &:lang(zco-Hant),
-	&:lang(gan-Hans), &:lang(gan-Hant),
-	&:lang(hsn-Hans), &:lang(hsn-Hant),
-	&:lang(cjy-Hans), &:lang(cjy-Hant),
-	&:lang(lzh-Hans), &:lang(lzh-Hant) {
-		@include draw-bottom;
-		background-image: $cite-image;
-	}
-}
-
-*/
-
 .ml-card-anchor {
 	background-color: var(--color-card);
 	color: var(--color-levity);
@@ -161,11 +98,14 @@ cite {
 
 .ml-card-list dt {
 	position: relative;
-	left: -1em
+	left: -1em;
+	margin: 0.375em 0;
+	color: var(--color-heavy);
 }
 
 // The circle for items
 .ml-card-list dt::before {
+	vertical-align: sub;
 	border: 2px solid var(--color-normal);
 	background: var(--color-background);
 	border-radius: 1em;
@@ -204,31 +144,31 @@ cite {
 	border-bottom: none;
 }
 
-// To be moved
-footer {
-	.ml-menu-button {
-		color: inherit;
-		background: inherit;
-		font-size: 2em;
-	}
+.dropdown-wrapper {
+	position: fixed;
+	right: 0;
+	top: 73vh;
+	width: 2.5em;
+	background: var(--color-background);
 }
 
-.dropdown-wrapper {
-	position: relative;
-	& > div {
-		position: absolute;
-		display: none;
-		background: var(--color-background);
-	}
+.dropdown-wrapper > div {
+	position: absolute;
+	display: none;
+	background: inherit;
+}
 
+.dropdown-wrapper > * {
+	width: 100%;
 }
 
 .dropdown-wrapper .open {
 	padding: 4px;
 	display: inline-block;
-	inset-inline-end: 0;
-	bottom: 4em;
-	min-width: 12em;
+	writing-mode: horizontal-tb;
+	right: 40px;
+	bottom: 1.5em;
+	width: 12em;
 	// border-radius: 8px;
 	border: 1px solid var(--color-levity);
 	
@@ -237,7 +177,7 @@ footer {
 	}
 	button {
 		font-size: 18px;
-		font-family: Matding, var(--serif-font);
+		font-family: inherit;
 		flex-grow: 1;
 		padding: 4px;
 	}
@@ -265,4 +205,9 @@ button[disabled]:hover {
 	.skip-link, .ml-drawer, nav, footer {
 		display: none;
 	}
+}
+
+.sep a {
+	border-block: none;
+	padding-inline-end: 4px;
 }

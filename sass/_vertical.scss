@@ -1,14 +1,20 @@
 & { // body
-	--base-font: apple-system, "Noto Sans", "Noto Sans CJK SC", system-ui, sans-serif;
-	--serif-font: "Noto Serif CJK SC", serif;
+	// --base-font: apple-system, "Noto Sans", "Noto Sans CJK SC", system-ui, sans-serif;
+	// --serif-font: "Noto Serif CJK SC", serif;
+	writing-mode: vertical-rl;
 }
 
 center {
 	box-sizing: border-box;
 	overflow: auto;
-	writing-mode: vertical-rl;
 	line-height: 2;
 	height: calc(100% - 1em);
+	max-width: unset;
+	margin: auto 0;
+}
+
+.dropdown-wrapper, .skip-link, .ml-drawer {
+	writing-mode: horizontal-tb;
 }
 
 .skip-link {
@@ -20,13 +26,8 @@ center, .ml-drawer[open] + center {
 	padding-left: 15rem;
 }
 
-.ml-article {
-	max-width: unset;
-}
-
 .ml-drawer {
-	writing-mode: horizontal-tb;
-	width: unset;
+	max-width: 13.5rem;
 }
 
 .ml-article a {
@@ -44,13 +45,6 @@ article > p, .ml-article > p {
 	text-indent: 2em;
 }
 
-footer {
-	position: fixed;
-	bottom: -3.5em;
-	left: 0;
-	right: 0;
-}
-
 footer>img {
 	display: none;
 }
@@ -60,9 +54,10 @@ h1, blockquote {
 }
 
 blockquote {
-	border-left: 0; 
+	border-top: 0; 
 	padding-left: 0;
 	padding-top: 2em;
+	font-family: "DejaVu Serif","Georgia",'KaiTi','KaiTiGB2312','STKaiti',var(--base-font);
 }
 
 .ml-article h2, .ml-article h3, .ml-article h4 {
@@ -80,4 +75,8 @@ blockquote {
 
 tcy {
 	text-combine-upright: all;
+}
+
+&[data-width="narrow"] center {
+	max-height: var(--middle-width);
 }

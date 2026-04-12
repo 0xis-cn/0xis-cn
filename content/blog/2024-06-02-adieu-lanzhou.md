@@ -14,7 +14,7 @@ mi pana e lipu mi la, tenpo suno luka luka tu tu li tawa. tenpo pini ni la, mi a
 
 <!--more-->
 <figure>
-<img src="https://s21.ax1x.com/2024/07/04/pk2g6VP.md.jpg" />
+<img src="//drum.matling.fit/sd/universe/posts/adieu-lanzhou/pk2g6vp.jpg" />
 <figcaption>lipu mi</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ mi ken ala. tenpo li tawa monsi ala.
 ako!
 
 <figure>
-<img src="https://s21.ax1x.com/2024/07/04/pk2veyR.md.jpg" />
+<img src="//drum.matling.fit/sd/universe/posts/adieu-lanzhou/pk2veyr.jpg" />
 <figcaption>ma pi tomo mi la, sewi li awen laso</figcaption>
 </figure>
 

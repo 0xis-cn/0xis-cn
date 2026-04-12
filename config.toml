@@ -2,7 +2,7 @@ base_url = "https://matling.fit"
 title = "物灵"
 
 compile_sass = true
-
+generate_feeds = true
 build_search_index = false
 
 taxonomies = [
@@ -27,7 +27,7 @@ backlinks = "Backlinks"
 [languages.cmn]
 title = "物灵"
 
-[languages.cmn-Arab]
+[languages.cmn-arab]
 title = "物灵"
 
 [languages.tok]
@@ -36,25 +36,38 @@ title = "𐙞[⊕＞ń]"
 [languages.ja]
 title = "物霊"
 
+[languages.ko]
+title = "물령"
+
 [languages.cmn.translations]
 language_name = "华语"
 toc = "目次"
 btn_read = "续读 (LEN 字)"
-higher = "歬"
-lower = "后"
+higher = "旧"
+lower = "新"
 skip_link = "跳至正文"
 other_languages = "外文"
 backlinks = "链入"
 
-[languages.cmn-Arab.translations]
+[languages.cmn-arab.translations]
 language_name = "جࣨىُوً خُوَ"
 toc = "مُلُ"
-btn_read = "کْ ىُو LEN ز"
-higher = "چِىً"
-lower = "خوْ"
+btn_read = "چَاْخاَدِ (کْ ىُو LEN زْ)"
+higher = "لَوْ"
+lower = "سٍ"
 skip_link = "تِىَوْ کَىْش"
 other_languages = "وَىلُ هُوَ"
 backlinks = "زٍلَيْدِ"
+
+[languages.ko.translations]
+language_name = "한국어"
+toc = "목차"
+btn_read = "계속 읽기 (LEN 단어)"
+higher = "옛"
+lower = "새"
+skip_link = "내용으로 건너뛰기"
+other_languages = "외문"
+backlinks = "역링크"
 
 [languages.tok.translations]
 language_name = "toki pona"
@@ -105,12 +118,13 @@ url = "/blog"
   cmn = "博文"
   lzh = "吟草"
   wuu = "步录"
+  ko = "블로그"
   en = "Blog"
   tok = "lipu"
   dng = "Зуəвын"
   art-002 = "Note"
   art-001 = "文"
-  cmn-Arab = "ڤٌ"
+  cmn-arab = "ڤٌ"
   ja = "ブログ"
 
 [[extra.t2038.drawer_links]]
@@ -120,12 +134,13 @@ url = "https://lex.matling.fit"
   cmn = "含章字典"
   lzh = "含章字典"
   wuu = "含章字典"
+  ko = "함장자전"
   en = "Lexicon"
   tok = "nimi Malin"
   dng = "Ханҗон хуадян"
   art-002 = "Buku-name"
   art-001 = "含章字典"
-  cmn-Arab = "خًجًنْ كتاب"
+  cmn-arab = "خًجًنْ كتاب"
   ja = "含章字典"
 
 [[extra.t2038.drawer_links]]
@@ -135,25 +150,27 @@ url = "/about/site"
   cmn = "关于"
   lzh = "自敘"
   wuu = "关于"
+  ko = "나에게"
   en = "About"
   tok = "mi seme"
   dng = "Сыйҗяди"
   art-002 = "Ego"
   art-001 = "自己紹介"
-  cmn-Arab = "أنا"
-  ja = "アバウト"
+  cmn-arab = "أنا"
+  ja = "につき"
 
 [[extra.t2038.drawer_links]]
 url = "/about/friends"
 
   [extra.t2038.drawer_links.name]
-  cmn = "他山"
-  lzh = "訪舊"
-  wuu = "朋友"
-  en = "Friends"
+  cmn = "地铁"
+  lzh = "通軌"
+  wuu = "地铁"
+  ko = "전철"
+  en = "Metro"
   tok = "jan pona"
   dng = "Тамыр"
-  art-002 = "Amigo"
-  art-001 = "外部"
-  cmn-Arab = "خوَباً"
-  ja = "トナリ"
+  art-002 = "Unda-rela"
+  art-001 = "電車"
+  cmn-arab = "خوَباً"
+  ja = "となり"

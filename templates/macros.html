@@ -10,21 +10,22 @@
 {% endmacro %}
 
 {% macro lang_rtl(lang) %}
-{% set langs = "ar cmn-Arab" | split(pat=" ") -%}
+{% set langs = "ar he cmn-arab" | split(pat=" ") -%}
 {% if langs is containing(lang) %}dir=rtl{% endif -%}
 {% endmacro %}
 
 {% macro ciemmwue(page) %}
-<p class="ml-smaller">
+<p class="ml-smaller cmt-stallable">
 	<time datetime="{{ page.date }}" pubdate>
 		{{ macros::dm(date=page.date) }} DM
-	</time> ({{ page.date | date(format='%-d %b %Y') }})
-	{{ page.extra.ciemmwue | default(value='civitate terrena') }}
+	</time>
 	{% if page.taxonomies['tags'] -%}
+    <span class=sep>
 		{% for tag in page.taxonomies['tags'] -%}
 		{% set url = get_taxonomy_url(kind="tags", name=tag) -%}
-		#<a href="{{ url }}">{{ tag }}</a>
+		<a href="{{ url }}">{{ tag }}</a>
 		{% endfor -%}
+    </span>
 	{% endif -%}
 </p>
 {% endmacro %}
@@ -46,7 +47,7 @@
 <details class=ml-drawer>
 	<summary class=ml-menu-button>≡</summary>
 	<div class=ml-drawer-inside>
-	<a href=/ class=ml-author-image><img src=/img/cloak.png alt="'m Matling~"></a>
+	<a href=/ class=ml-author-image><img src="//drum.matling.fit/sd/universe/cloak.png" class=ml-wordmark alt="'m Matling~" height=128></a>
 	<nav class=ml-bookmark>
         {%- for link in config.extra.t2038.drawer_links -%}
         <a href="{{ link.url }}">{{ link.name[lang] }}</a>

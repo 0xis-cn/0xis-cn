@@ -20,9 +20,11 @@ Twenty-two years ago, a college fresher penned an essay titled *My Path*. She be
 
 <!--more-->
 
+(Note: Part of this text was originally from ChatGPT and rewritten by human, [that would be ditched](@/about/site.md) in newer posts.)
+
 ## Then: The age of Ciang and Qu
 
-She, Ciang Yaucuang in the conventional romanization of this blog, was anything but ordinary. She outperformed her peers at a top-tier high school and enrolled in School of Life Sciences, Peking University in 2003, then a holy grail for the academically gifted. In retrospect of the tragic land, the people suffered from pounding and isolation, and the skeptics of knowledge treking the wild, Ciang can not be deduced to a blessed girl or a persistant figure from Confucian fable. She was admired not only for her achievements, but for the way she presented: humble, sincere, infused with a humble love for learning itself. ‘Accept knowledge with a heartfelt and humble love,’ she wrote, ‘and try to understand its beauty.’ It might be appropriate to quote a full paragraph:[^path]
+She, Ciang Yaucuang in the conventional romanization of this blog, was anything but ordinary. She outperformed her peers at high achieving school and enrolled in School of Life Sciences, Peking University in 2003, then a holy grail for the academically gifted. In retrospect of the tragic land, the people suffered from pounding and isolation, and skeptics of knowledge treking the wild, Ciang can not be deduced to a blessed girl or a persistant figure from Confucian fable. She was admired not only for her achievements, but for the way she presented: humble, sincere, infused with a humble love for learning itself. ‹Accept knowledge with a heartfelt and humble love,› she wrote, ‹and try to understand its beauty.› She continued with words adequately glorious for an adolescent:[^path]
 
 > Mathematics and physics have concise definitions, rigorous proofs, ingenious reasoning, and countless perfect rules and truths. To carve a regular hexagonal cross-section into a cube is, for me, a sheer delight for no reason — it is symmetrical, thus perfect. Deriving the same solution respectively through the theorem of momentum and the conservation of mechanical energy is also a pleasure for no reason — they outline truth from aspect to aspect, allowing me to discern the contours. Chemistry and biology are filled with strange phenomena, wondrous legends, mysterious substances, and countless reflections on life. When you hold the sky-blue crystals of copper sulphate in your palm, would you not handle them with the utmost care? As if admiring a delicate, fragile work of art. When you trace the shadow of a paramecium under the microscope, would you not feel elated? As if encountering one of the Creator’s miracles.
 
@@ -39,23 +41,23 @@ Insufficient historical review has convinced me that it was the commence — the
 
 <span style="font-variant: small-caps">It has been another decade</span> when I came across Qu’s book.
 
-When *Qoo Iaw Dang Heocbah*, a student-run screen time manager and forum whose name translates to ‘I want to be a top student’ launched in 2013, my primary school classmates and I dismissed the ‘proactive phone lock’ as a rather tedious joke. By secondary school, the platform had become a socialing paradise. There were timers, productivity logs, and taglines lifted straight from Qu’s chapters. It was there that I met my peers, earnest, funny, anxious, half-hoping to become another Ciang.
+When *Qoo Iaw Dang Heocbah*, a student-run screen time manager and forum whose name translates to ‘I want to be a top student’ launched in 2013, my primary school classmates and I dismissed the ‘proactive phone lock’ as a rather tedious joke. By secondary school, the platform had become a socialing paradise. There were timers, productivity logs, and taglines lifted straight from Qu’s chapters. It was there that I met my peers, earnest, adorable, anxious, betting Pascal’s wager to become another Ciang.
 
-Technically speaking, screen timing is truly tedious, and BBS forums have fallen behind the times. Yet looking back in history, *Heocbah* still held a revolutionary edge: for the first time, individual striving gained a collective template. We buried our heads in screens, feigning deafness to the buzzing local accents behind us, labouring in a utopia where effort guaranteed reward — never considering the mechanisation inherent in it all. In his sequel, *The Radish Project*, Qu went further, declaring that [*gyakushū*](https://en.wiktionary.org/wiki/%E9%80%86%E8%A5%B2), ‘to turn defeat into victory’ (a Japanese-transformed teen slang), requires no willpower.
+Phone locking is tedious, and [BBS forums have fallen behind the times](https://wiwi.blog/blog/hsnu-bbs). Yet historically, *Heocbah* held or at least witnessed a revolutionary edge: for the first time, individual striving gained a collective template. We buried our heads in screens, feigning deafness to the buzzing local accents behind us, labouring in a utopia where effort guaranteed reward — never considering the mechanisation inherent in it all. Qu went further in his sequel, *The Radish Project*, declaring that [*gyakushū*](https://en.wiktionary.org/wiki/%E9%80%86%E8%A5%B2), ‘to turn defeat into victory’ (a teen slang from Japanese), requires no willpower.
 
-We believed in effort. We believed in strategy. Now and then, we believed that if we just worked hard enough, our love would magically pay off. But even then, there was a crack between the reality and the theory/ideal. I was distracted, not by video games or romantic novels frequently accused by Qu, *Heocbah*, and anonymous parents. I was distracted by my own mind — by books that were not taught, by thoughts that did not fit into the upcoming exam. I was seen as learning excessively, a beautiful misunderstanding. Without asking why, I mimicked Ciang and Qu, unconsciously treating textbooks as my very game, drawing five-star generals on practice problems, and tracking study hours, simply because forum friends across the Southern Mountain did the same.
+We believed in effort. We believed in strategy. Now and then, we believed that if we just worked hard enough, our love would magically pay off. But even then, there was a crack between the reality and the theory/ideal. I was distracted, not by video games or romantic novels frequently accused by Qu, *Heocbah*, and anonymous parents. I was distracted by my own mind — by books that were not taught, by thoughts that did not fit into the upcoming exam. I was seen as learning excessively, a beautiful misunderstanding. Without asking why, I mimicked Ciang and Qu, unconsciously treating textbooks as my very game, drawing five-star generals on practice problems, and tracking performance in trinity testpapers, simply because forum friends across the Southern Mountain did the same.
 
 Still, Ciang remained our reference point, a figure less real than remembered, shining not just because she climbed high, but that she was thought to *love* the climb. So did her succeessors writing by Wèimíng Lake. Ciang is overly correct: ‘We learn for cultivation and sublimation of our own. Speak not about universities, jobs, or material security. Everything learnt will act on your body and mind, in the subtle change in your state of being.’
 
 ## Now: Fragmented goals and aesthetics
 
-Ciang was the stoic heroine of the early 2000s. Her path was strait, her goals were, at least believed, legible. Students were persuing success in percentages and placement, drilled into the beauty in truth, even at personal cost. There are many stories that could be told here, but the party parted, the midnight passing.
+Ciang was the stoic heroine of the early 2000s. Her path was strait, her goals legible. Students were persuing success in percentages and placement, drilled into the beauty in truth, even at personal cost. Many stories could be told here, but the party parted, the midnight passing.
 
-<span style="font-variant: small-caps">In another decade</span>, modern Ciang-ites, still stoic figures though, embraced the same struggle dressed in softer fabrics and bathed in better lighting.
+<span style="font-variant: small-caps">In another decade</span>, modern Ciang-ites, still stoic figures though, dressed in softer fabrics and bathed in better lighting.
 
-On [REDnote or TikTok](https://stephenleng.com/en/tiktok-is-bad-but-rednote-is-even-worse/), you see not only students, but also working professionals in their twenties or early thirties, graduated from Ciang’s legacy. Having ‘succeeded’ as in the verbal tradition — accepted to top universities, hired into stable jobs, often in competitive cities or industries — they continue to post slices from ‘commute-study-journal-sleep’ routines, intercut with moments of skincare, hiking, or ukulele. It is not touting ‘multifaceted life’, but rather the life per se, and seemingly that should be. They are polymaths, carrying out professional work while holding fast to the rituals of their adolescent selves.
+On [REDnote or TikTok](https://stephenleng.com/en/tiktok-is-bad-but-rednote-is-even-worse/), you see not only students, but also working professionals in their twenties or early thirties, graduated from Ciang’s legacy. ‘Succeeded’ as in the verbal tradition — top universities, envied jobs, often in competitive cities or industries — they continue to post slices from ‘commute-study-journal-sleep’ routines, intercut with moments of skincare, hiking, or ukulele. Not ‘multifaceted life’ cliché, but intrinsicality, and seemingly that should be. They are polymaths, carrying out professional work while holding fast to the rituals of their adolescent selves.
 
-They no longer mouth a love of biology or literature as in *My Path*. They speak of self-discipline, resilience, or simply ‘because it’s there’. Excellence remains, only decentralized. No longer measured in rankings or test scores, but in aesthetics, posture, glow. Gone was the exclamation, ‘I love learning,’ implaced by posts filtered through ambiguity: ‘Just a normal day 🍃📚✨’ If Ciang was a priestess of excellence, present-day equivalents are curators of experience.
+They mouthed a love of biology or literature in teenage years. Now they speak of self-discipline, resilience, or simply ‘because it’s there.’ They decentralized excellence, installing aesthetics and glow as new schoolmasters. The old social media account exclaimed ‘I love learning’ was sedimented a light amber strata: ‘Just a normal day 🍃📚✨’ If Ciang was a priestess of excellence, present-day equivalents are curators of experience.
 
 Change from campus to workplace does not explain all. Most of these influencers never claim to be influencers. They insist on being normal, emphasizing their jobs, their exhaustion, their profession. But they still frame their lives through petty tricks. An unexpected perfect portrait, a sunlight-shed balcony, a dim corner in a recent concert.
 
@@ -71,15 +73,19 @@ The rituals have survived: early rising, colour-coded schedules, even the meticu
 
 It is not a disarmament of merit. It is an intelligent adaptation to an increasingly precarious world. When Ciang’s path promised, at least nominally, a trade of suffering for stability, the modern scene has internalized the fact that the reward is not guaranteed. The act is the only reward.
 
-When I was idling at high school for some reason and read *My Path* with my father, I already held this modern view. That a cube has a regular hexagonal cross-section, that the theorem of momentum and the conservation of mechanical energy are equivalent expressions — is this not the most trifle fact imaginable? I would rather spend my time pondering how to derive the Poisson spot.
+When I was idling at high school and read *My Path* with my father, I already held the modern view. That a cube has a regular hexagonal cross-section, that the theorem of momentum and the conservation of mechanical energy are equivalent expressions — isn’t this the most trifle fact imaginable? I would rather spend my time pondering how to derive the Poisson spot.
 
-Yet there is one thing lost. Coherence. The efforts of Ciang-ites have been captured by marginalism, not to mention the ever-declining [spiral of silence](https://en.wikipedia.org/wiki/Spiral_of_silence) outside the reach of social media spotlight. Teenage Ciang disbelieved the rumours that education was futile, nor did she subscribe to the complimental notion that ‘higher qualifications = brighter future’. Setting aside the distracting social issues that impacted her academic performance, this naïve-sounding reasoning marks the mindset of a top scholar. Now, the generation believe just enough to keep going, but not enough to change. Ciang’s alumni sitting by Wèimíng Lake, instead of composing another *My Path*, are moaning their ephemeral careers like anyone else.
+Yet there is one thing lost. Coherence. The efforts of Ciang-ites have been captured by marginalism, not to mention the ever-declining [spiral of silence](https://en.wikipedia.org/wiki/Spiral_of_silence) outside the reach of social media spotlight. Teenage Ciang disbelieved the cynicism that education was futile, nor did she subscribe to the complimental notion that ‘higher qualifications = brighter future’. The mindset of *My Path*, though naïve, does belong to a young top student. Now, the generation believe just enough to keep going, but not enough to change. Ciang’s alumni sitting by Wèimíng Lake, instead of composing another *My Path*, are moaning their ephemeral careers like anyone else.
 
-For an individual, there is no such thing like changing course. An individual experiences only a fragment of history, yet for them it is the entirety. Individually it can be only spoken that, the very cultural mechanism that once facilitated intellectual progress is now perpetuating self-doubt and fragmented ambition. There is no true self-cultivation in a system-overwhelming world. Students who dreamt to become Ciang now find themselves staying on the path, but without a destination. They persist in the rituals without any kind of conviction.
+There is no such thing like changing course for an individual. They experiences only a fragment of history, yet for them it is the entirety. It can be only spoken that, the very cultural mechanism that once facilitated intellectual progress is now perpetuating self-doubt and fragmented ambition. There is no true self-cultivation in a system-overwhelming world. Students who dreamt to become Ciang now find themselves staying on the path, but without a destination. They persist in the rituals without conviction.
 
-Even the mythic heroes, like Ciang herself or her avatar, are struggling with social awareness.  Her rumoured (but untrue) move away from biology to consultancy suggested a broad but dangerous drift: the dream of integrity, a centurial dream of philosophers attracting students to keep up, has been replaced by adaptability, rhetorics, and social intelligence. The learning subculture, though unbreakable, has mutated from a meritocratic ladder to a mosaic of survival strategies. Some still aim at excellence. Others aim at visibility. Most aim, tacitly, at dignity.
+Social awareness did not stay away from mythic heroes, even for Ciang herself. Her rumoured but untrue move from biology to consultancy reflected a delicate drift, that adaptability and vibe begin to weigh more than intellectual integrity for the working aged generation. We are informed to be [speedrunners](https://gwern.net/speedrunning), not inquisitive medieval scholars. In an credited extracurricular event, an environmental science professor whom I met for only this time raised a small heavy book and said,
 
-The path is no longer important. We only need stories we can still convince ourselves of.
+> This is the textbook for the course I sitted in America, and that I was constantly hoping to set up. With all the background knowledge, you could have attended the most challenging courses just before you leave, but I know, you will bury yourselves in examinations and job interviews!
+
+The learning subculture has mutated from a meritocratic ladder to a mosaic of survival strategies. Some still aim at excellence. Others aim at visibility. Most aim, tacitly, at dignity.
+
+The path is no longer important. We care more about stories we can still convince ourselves of.
 
 That story has become quieter. More reflexive. Less triumphant. But it still exists. In every person who wakes up to an alarm they set the night before. In every carefully annotated Kindle passage. In every mundane step taken not out of clarity, but hoping that clarity might someday return.
 
@@ -103,7 +109,7 @@ Now she throws them for the sound they make.
 
 ## Interlude II: A boy on the rooftop
 
-He was never good at exams. Not bad, just... not good.
+He was never good at exams. Not bad, just… not good.
 
 While others colour-coded their notebooks, he drew maps of imaginary cities in the margins. He preferred long walks to past-paper drills, and often fell asleep in the library with a book that had nothing to do with the curriculum. He never hated school, instead, only not found the urgency that others seemed to carry like oxygen tanks.
 
@@ -131,16 +137,15 @@ But maybe, that is appropriate.
 
 We skillfully load the stones and bow our bodies, which does not have to be a story of failure, but of cultural memory. We are doing something we do not fully understand. A form of survival, a sit-in protest, or even the herald of another era.
 
-So this is not a eulogy for Ciang, or for the age of textbooks and flashcards. It is an acknowledgment that the path never really existed the way we thought. In the end of the day, across the scattered stones and mismatched stories, something still tries to walk.
+So this is not a eulogy for Ciang-ites, nor for the age of textbooks and flashcards. It is an acknowledgment that the path never really existed the way we thought. In the end of the day, across the scattered stones and mismatched stories, something still tries to walk.
 
 ## The end
 
 <details markdown=1>
 <summary>Above is the full text. Click to unfold further discussions.</summary>
 
-It is a long overdue idea ultimately written prior to the Higher Education Entrance Examination in 2025. The original version entails AI, especially two interludes. For [avoidance of AI](https://grisebouille.net/no-ai/), I rewrote the post other than the interludes. I trust this has supplemented the points that were confined by the AI draft.
-
-I do feel the style of writing expulsively internetty... But I can do nothing. I just go through some opinions for the rest of the page.
+It is a long overdue idea ultimately written prior to the Higher Education Entrance Examination in 2025.
+I do feel the style of writing expulsively internetty, but I can do nothing. I just go through some opinions for the rest of the page.
 
 **‘Don’t you know all the traumata?’**
 

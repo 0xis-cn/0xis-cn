@@ -1,6 +1,6 @@
 ---
 extra:
-  legacy_lang: cmn-Arab
+  legacy_lang: cmn-arab
   ciemmwue: قاًشࣲ خَ
   custom_head: >-
    <style>

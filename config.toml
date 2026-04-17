@@ -24,7 +24,7 @@ skip_link = "Skip to Content"
 other_languages = "Translations"
 backlinks = "Backlinks"
 
-[languages.cmn]
+[languages.zh]
 title = "物灵"
 
 [languages.cmn-arab]
@@ -39,7 +39,7 @@ title = "物霊"
 [languages.ko]
 title = "물령"
 
-[languages.cmn.translations]
+[languages.zh.translations]
 language_name = "华语"
 toc = "目次"
 btn_read = "续读 (LEN 字)"
@@ -115,7 +115,7 @@ backlinks = "被リンク"
 url = "/blog"
 
   [extra.t2038.drawer_links.name]
-  cmn = "博文"
+  zh = "博文"
   lzh = "吟草"
   wuu = "步录"
   ko = "블로그"
@@ -131,7 +131,7 @@ url = "/blog"
 url = "https://lex.matling.fit"
 
   [extra.t2038.drawer_links.name]
-  cmn = "含章字典"
+  zh = "含章字典"
   lzh = "含章字典"
   wuu = "含章字典"
   ko = "함장자전"
@@ -147,7 +147,7 @@ url = "https://lex.matling.fit"
 url = "/about/site"
 
   [extra.t2038.drawer_links.name]
-  cmn = "关于"
+  zh = "关于"
   lzh = "自敘"
   wuu = "关于"
   ko = "나에게"
@@ -163,7 +163,7 @@ url = "/about/site"
 url = "/about/friends"
 
   [extra.t2038.drawer_links.name]
-  cmn = "地铁"
+  zh = "地铁"
   lzh = "通軌"
   wuu = "地铁"
   ko = "전철"

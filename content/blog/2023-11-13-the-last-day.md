@@ -1,7 +1,7 @@
 +++
 title = "最后一天"
 [extra]
-legacy_lang = "cmn"
+legacy_lang = "zh"
 [taxonomies]
 tags = ["story"]
 +++

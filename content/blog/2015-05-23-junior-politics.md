@@ -1,6 +1,6 @@
 ---
 extra:
-  legacy_lang: cmn
+  legacy_lang: zh
   ciemmwue: 于杏园堡
 title: 初中政治答题方法
 taxonomies:

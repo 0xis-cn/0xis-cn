@@ -1,7 +1,7 @@
 ---
 title: 从容斥到反演
 extra:
-  legacy_lang: cmn
+  legacy_lang: zh
   ciemmwue: 于山西
   formula: true
 ---

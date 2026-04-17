@@ -5,7 +5,7 @@ title = "领有和非领有的 C++ range"
 [extra]
 ciemmwue = "译自 Hannes Hauswedell"
 iiia = 0
-legacy_lang = "cmn"
+legacy_lang = "zh"
 custom_head = '''<style>
 .ml-author-image img { border-radius: 50%; border: 0.375em solid #57cc8a; padding: 0; opacity: unset }
 .ml-article a, .ml-smaller a { --color-heavy: light-dark(#005d58, #57cc8a); border: none; }

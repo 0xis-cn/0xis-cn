@@ -15,15 +15,15 @@ extra:
     #stamps { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5em; }
     #stamps a { border-bottom: none; } #stamps img { width: 88px; height: 31px; }
     h3 img { vertical-align: sub; margin-right: 0.5em; }
+    #exit8 img{width:100%;}@media (min-width: 540px) { #exit8 img { height: 170px; }#exit8{ width: 256px; float: inline-end }}
    </style>
 ---
 
 <marquee>The train bound for ＿＿＿ is arriving. Please keep away from the screen door.</marquee>
 
-### <img src="//drum.matling.fit/sd/universe/88x31.gif">88x31
-
 <section id=stamps>
-<img src="//drum.matling.fit/sd/universe/88x31/adobe_authorware.gif">
+<img src="//drum.matling.fit/sd/universe/88x31.gif" alt="matling">
+<a href="/blog/childhood"><img src="//drum.matling.fit/sd/universe/88x31/adobe_authorware.gif" alt="Authorware-powered!"></a>
 <a href="//leehenry.top/"><img src="//drum.matling.fit/sd/universe/88x31/fvucliec.gif" alt="Fvucliec"></a>
 <a href="https://www.geedea.pro" target="_blank"><img src="https://www.geedea.pro/88x31.png" alt="geedea.pro" /></a>
 <a href="//brennan.day/"><img src="//drum.matling.fit/sd/universe/88x31/brennan-day-alt.gif" alt="brennan.day"></a>
@@ -39,17 +39,16 @@ extra:
 
 </details>
 
+<figure id=exit8><img src="//drum.matling.fit/sd/universe/exit8-small.png" aria-labelledby=exit8c>
+<figcaption id=exit8c>The exit you have seen? (Image: <cite>The New Yorker</cite>)</figcaption></figure>
+
 ### Transfer
 
-Wiwi Kuan the ‹[pianist using Linux](https://wiwi.blog/blog/pianist-using-linux/)› has a [long blogroll](https://wiwi.blog/blogroll/) chiefly for sinophonic blogs.
-
-*Leftfold* lists [blogs the author enjoys](https://www.leftfold.tech/pages/blogroll/).
-
-Without *Tales of Time Forgotten* by Spencer McDaniel I would not know [so many people write on classics](https://talesoftimesforgotten.com/other-great-blogs-to-follow/).
-
-Sorry for the poor planning, but follow the [loooong transfer track](/tags/toki-pona) to *toki pona* line!
-
-In case you think this page is [not subway enough](https://gusbus.space/smallweb-subway/)…
+- Wiwi Kuan the ‹[pianist using Linux](https://wiwi.blog/blog/pianist-using-linux/)› has a [long blogroll](https://wiwi.blog/blogroll/) chiefly for sinophonic blogs.
+- *Leftfold* lists [blogs the author enjoys](https://www.leftfold.tech/pages/blogroll/).
+- Without *Tales of Time Forgotten* by Spencer McDaniel I would not know [so many people write on classics](https://talesoftimesforgotten.com/other-great-blogs-to-follow/).
+- Sorry for the poor planning, but follow the [looong transfer track](/tags/toki-pona) to *toki pona* line!
+- In case you think this page is [not subway enough](https://gusbus.space/smallweb-subway/)…
 
 ### Exit guidance
 
@@ -71,11 +70,6 @@ In case you think this page is [not subway enough](https://gusbus.space/smallweb
 	<h2>William Goodspeed</h2>
   	<span>A free software advocator and ham radio operator</span>
   </a>
-  <a class="ml-card-anchor" href="https://www.kai-wang.com">
-	<img src="https://avatars.githubusercontent.com/u/109669163" loading=lazy>
-	<h2>Kai</h2>
-    <span lang="la">Pelliculae seminis (cum clāmōre): L denariī</span>
-  </a>
   <a class="ml-card-anchor" href="https://ksmeow.moe/">
 	<img src="https://avatars.githubusercontent.com/u/5047602?v=4" loading=lazy>
 	<h2>KSkun</h2>
@@ -90,11 +84,6 @@ In case you think this page is [not subway enough](https://gusbus.space/smallweb
   	<h2>SignKirigami</h2>
 	<span lang="cmn">寻找世界的伊甸园</span>
   </a>
-  <a class="ml-card-anchor" href="https://blog.xinshijiededa.men">
-	<img src="https://avatars.githubusercontent.com/u/20166026?v=4" loading=lazy>
-	<h2 lang=cmn>新世界的大门</h2>
-    <span>So fancy is the world, who knows, maybe they sing</span>
-  </a>
   <a class="ml-card-anchor" href="https://honoka55.github.io/">
 	<img src="https://avatars.githubusercontent.com/u/71088406?v=4" loading=lazy>
 	<h2>焰华Honoka55</h2>
@@ -102,6 +91,24 @@ In case you think this page is [not subway enough](https://gusbus.space/smallweb
   </a>
 </dd>
 <dt>Exit B
+<dd>
+  <a class="ml-card-anchor" href="https://www.kai-wang.com">
+	<img src="https://avatars.githubusercontent.com/u/109669163" loading=lazy>
+	<h2>Kai</h2>
+    <span lang="la">Pelliculae seminis (cum clāmōre): L denariī</span>
+  </a>
+  <a class="ml-card-anchor" href="https://blog.xinshijiededa.men">
+	<img src="https://avatars.githubusercontent.com/u/20166026?v=4" loading=lazy>
+	<h2 lang=mnc>ᡥᠠᡳᡤᡳᠶᠠ ᡥᠠᠯᠠ·ᠨᡝᡴᠣ</h2>
+    <span>So fancy is the world, who knows, maybe they sing</span>
+  </a>
+  <a class="ml-card-anchor" href="https://honoka55.github.io/">
+	<img src="https://drum.matling.fit/sd/universe/friends-avatar/giveanornot.png" loading=lazy>
+	<h2>JN</h2>
+    <span lang=cmn>資工系畢業，但其實沒有很會寫程式</span>
+  </a>
+</dd>
+<dt>Exit C
 <dd>
   <a class="ml-card-anchor" href="https://stephenleng.com/">
 	<img src="https://drum.matling.fit/sd/universe/friends-avatar/stephen-leng.jpg" loading=lazy>
@@ -128,7 +135,7 @@ In case you think this page is [not subway enough](https://gusbus.space/smallweb
 	<span>Harbinger of a new computer science</span>
   </a>
 </dd>
-<dt>Exit C
+<dt>Exit D
 <dd>
   <a class=ml-card-anchor href="//libcom.org">
 	<img src="https://drum.matling.fit/sd/universe/friends-avatar/libcom.png" loading=lazy>

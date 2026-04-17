@@ -1,4 +1,4 @@
-const verticalEnabledLanguages = ['cmn', 'lzh', 'wuu', 'ko', 'ja', 'art-001']
+const verticalEnabledLanguages = ['zh', 'lzh', 'wuu', 'ko', 'ja', 'art-001']
 let verticalFirst = true
 
 function pcs(x) {

@@ -1,7 +1,7 @@
 ---
 title: 离散傅里叶变换
 extra:
-  legacy_lang: cmn
+  legacy_lang: zh
   ciemmwue: 于山西
   formula: true
 ---

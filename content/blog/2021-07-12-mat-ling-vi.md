@@ -1,6 +1,6 @@
 ---
 extra:
-  legacy_lang: cmn
+  legacy_lang: zh
   ciemmwue: 于甘肃
 title: 个人视觉识别系统（辛丑）
 tag: ["design"]

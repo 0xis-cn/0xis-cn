@@ -1,7 +1,7 @@
 ---
 title: ((报告 书) = (书 (报告 书))
 extra:
-  legacy_lang: cmn
+  legacy_lang: zh
   ciemmwue: 于山西
   formula: true
 ---

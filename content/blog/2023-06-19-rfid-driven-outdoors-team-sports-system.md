@@ -1,9 +1,9 @@
 +++
 title = "基于 RFID 及智能终端的户外团队运动系统"
 [extra]
-legacy_lang = "cmn"
+legacy_lang = "zh"
 [taxonomies]
-tags = ["IoT", "unimplemented"]
+tags = ["IoT"]
 +++
 
 本系统是一种户外运动管理系统，计划布设在固定地形，如场馆和步道。布设时根据地形及原有场景布置固定终端，可供参与者交互，且参与者以移动终端相连接，能捕捉并共享位置、运动轨迹、生理参数等信息。

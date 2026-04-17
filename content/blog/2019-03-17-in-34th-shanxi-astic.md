@@ -1,6 +1,6 @@
 ---
 extra:
-  legacy_lang: cmn
+  legacy_lang: zh
   ciemmwue: 于山西
 title: 第 34 届山西科创记
 ---

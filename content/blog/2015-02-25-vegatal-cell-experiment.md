@@ -1,6 +1,6 @@
 ---
 extra:
-  legacy_lang: cmn
+  legacy_lang: zh
   ciemmwue: 于杏园堡
 title: 植物细胞的作用
 ---

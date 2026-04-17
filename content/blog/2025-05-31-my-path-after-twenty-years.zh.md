@@ -1,6 +1,7 @@
----
-title: 《我的路》廿年记
----
++++
+title = "《我的路》廿年记"
+aliases = ["cmn/blog/my-path-after-twenty-years"]
++++
 
 > 歌利亚年年六月被一千万块石子砸中，一定很痛吧。  
 > — 我在别处评论

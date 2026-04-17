@@ -1,6 +1,6 @@
 ---
 extra:
-  legacy_lang: cmn
+  legacy_lang: zh
   ciemmwue: 于杏园堡
 title: 初中语文阅读理解总结
 taxonomies:

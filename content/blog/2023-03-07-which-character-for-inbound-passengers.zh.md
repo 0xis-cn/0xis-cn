@@ -1,5 +1,6 @@
 ---
 title: 贵处来返人员代表字是什么？
+aliases: ["cmn/blog/which-character-for-inbound-passengers"]
 extra:
   ciemmwue: in Gansu
   custom_head: >-

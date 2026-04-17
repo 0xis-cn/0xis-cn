@@ -3,7 +3,7 @@ title: 「一周精选」残稿
 taxonomies:
   tags: ["arrogant notes"]
 extra:
-  legacy_lang: cmn
+  legacy_lang: zh
   ciemmwue: 于杏园堡
   formula: true
 ---

@@ -83,10 +83,6 @@ This will never become another [Gwern](https://gwern.net/design)-like self-revea
 
 The traits Gwern and I shared were developed independently. Though Gwern’s innovative UI is elegant and flawless, I have found myself accustomed to it, for example, leaving the cursor on hyperlinks as short as possible to avoid loading a pop-up. The active work-around clearly denotes an antipattern.
 
-## Languages
-
-Moved to [/glossary](@/about/glossary.md).
-
 ## Site info
 
 ### Publication date

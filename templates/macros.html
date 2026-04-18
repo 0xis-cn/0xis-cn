@@ -14,7 +14,7 @@
 {% if langs is containing(lang) %}dir=rtl{% endif -%}
 {% endmacro %}
 
-{% macro ciemmwue(page) %}
+{% macro ciemmwue(page, showLang=false) %}
 <p class="ml-smaller cmt-stallable">
 	<time datetime="{{ page.date }}" pubdate>
 		{{ macros::dm(date=page.date) }} DM
@@ -27,6 +27,16 @@
 		{% endfor -%}
     </span>
 	{% endif -%}
+    {% set length_hack = page.translations | default(value="") | length -%}
+    {% if length_hack > 1 and showLang -%}
+    <span class=sep>
+        {% for i in page.translations -%}
+        {% if i.lang != page.lang -%}
+        <a href="{{ i.permalink }}" lang="{{ i.lang }}">{{ trans(key='language_name', lang=i.lang) }}</a>
+        {% endif -%}
+        {% endfor -%}
+    </span>
+    {% endif -%}
 </p>
 {% endmacro %}
 

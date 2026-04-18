@@ -212,6 +212,10 @@ button[disabled]:hover {
 	padding-inline-end: 4px;
 }
 
+.sep a:last-of-type {
+	padding-inline-end: 0;
+}
+
 .footnote-reference a {
 	border-bottom: none;
 }

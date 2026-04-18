@@ -4,7 +4,7 @@ extra:
   custom_head: >-
    <style>
     .ml-card-list { border-radius: 10px; }
-    dd { display: grid; grid-template-columns: repeat(2, 4.125em 1fr); grid-template-columns: repeat(if(media(width < 540px): 1; media(width < 720px) or style(--middle-width: 42em): 2; else: 3), 4.125em 1fr); }
+    dd { display: grid; grid-template-columns: 4.125em 1fr; grid-template-columns: repeat(if(media(width < 540px): 1; media(width < 720px) or style(--middle-width: 42em): 2; else: 3), 4.125em 1fr); }
     a.ml-card-anchor {
       border-bottom: none; padding: 0.625em; line-height: 1; grid-column: span 2; grid-template-columns: subgrid;
       display: grid; grid-template-columns: subgrid; }
@@ -58,7 +58,7 @@ extra:
   <a class="ml-card-anchor" href="https://www.cnblogs.com/Capella/">
 	<img src="https://drum.matling.fit/sd/universe/friends-avatar/capella.png" loading=lazy>
 	<h2>Capella</h2>
-	<span lang="cjy">星将永恒</span>
+	<span>Capability Ambition Persistence Efficiency Luck Light Achievement</span>
   </a>
   <a class="ml-card-anchor" href="https://www.cnblogs.com/lfyzoi/">
 	<img src="https://drum.matling.fit/sd/universe/friends-avatar/greenlcat.png" loading=lazy>
@@ -92,6 +92,11 @@ extra:
 </dd>
 <dt>Exit B
 <dd>
+  <a class="ml-card-anchor" href="https://honoka55.github.io/">
+	<img src="https://drum.matling.fit/sd/universe/friends-avatar/giveanornot.png" loading=lazy>
+	<h2>JN</h2>
+    <span lang=cmn>資工系畢業，但其實沒有很會寫程式</span>
+  </a>
   <a class="ml-card-anchor" href="https://www.kai-wang.com">
 	<img src="https://avatars.githubusercontent.com/u/109669163" loading=lazy>
 	<h2>Kai</h2>
@@ -99,13 +104,8 @@ extra:
   </a>
   <a class="ml-card-anchor" href="https://blog.xinshijiededa.men">
 	<img src="https://avatars.githubusercontent.com/u/20166026?v=4" loading=lazy>
-	<h2 lang=mnc>ᡥᠠᡳᡤᡳᠶᠠ ᡥᠠᠯᠠ·ᠨᡝᡴᠣ</h2>
+	<h2>新世界的大门</h2>
     <span>So fancy is the world, who knows, maybe they sing</span>
-  </a>
-  <a class="ml-card-anchor" href="https://honoka55.github.io/">
-	<img src="https://drum.matling.fit/sd/universe/friends-avatar/giveanornot.png" loading=lazy>
-	<h2>JN</h2>
-    <span lang=cmn>資工系畢業，但其實沒有很會寫程式</span>
   </a>
 </dd>
 <dt>Exit C
@@ -118,18 +118,18 @@ extra:
   <a class="ml-card-anchor" href="http://jbr.me.uk/">
 	<img src="https://drum.matling.fit/sd/universe/friends-avatar/jbr.webp" loading=lazy>
 	<h2>Justin B Rye</h2>
-	<span>Talking about sci-fi all afternoon in a bar</span>
+	<span>Years spent debating down the pub</span>
   </a>
   <a class="ml-card-anchor" href="http://www.andrewsun.net/panta_rhei/">
 	<h2>Wèixiáng Sūn</h2>
 	<span>When they were a premature PhD student</span>
   </a>
-  <a class="ml-card-anchor" href="http://jbr.me.uk/">
+  <a class="ml-card-anchor" href="//ycwang-world.com//">
 	<img src="https://drum.matling.fit/sd/universe/friends-avatar/ycwang.png" loading=lazy>
 	<h2>王溢嘉</h2>
-	<span>Whose column on classical novels got me</span>
+	<span lang=cjy>生于民国三十九年（1950年—），台中市人</span>
   </a>
-  <a class="ml-card-anchor" href="http://jbr.me.uk/">
+  <a class="ml-card-anchor" href="//writings.stephenwolfram.com">
 	<img src="https://drum.matling.fit/sd/universe/friends-avatar/stephen-wolfram.svg" loading=lazy>
 	<h2>Stephen Wolfram</h2>
 	<span>Harbinger of a new computer science</span>
@@ -144,8 +144,8 @@ extra:
   </a>
   <a class=ml-card-anchor href="//xdi8.top">
 	<img src="https://drum.matling.fit/sd/universe/friends-avatar/xdi8-by-lenda-sarieh.jpg" loading=lazy>
-  <h2>Xdiƨ aho</h2>
-  <span>Conlang to which I dedicated my years</span>
+  <h2>Xdiƨ Aho</h2>
+  <span lang=jbo>lu uenai di’a lamdu ija mi po’o gusni</span>
   </a>
 </dd>
 </dl>

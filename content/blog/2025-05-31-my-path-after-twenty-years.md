@@ -1,11 +1,14 @@
 ---
 title: ‘My Path’ after twenty years
-category: society
 taxonomies:
   tags: ["gaokao"]
 extra:
-  ciemmwue: in Beijing
-  iiia: 3
+  custom_head: >-
+   <style>
+    @media (min-width: 42em) {
+     #interludes div { width: 50% }
+     #interludes { display: flex; overflow-x: auto; gap: 1em }}
+   </style>
 ---
 
 > Goliath was pelted with ten million stones every June. It must be painful.  
@@ -89,6 +92,8 @@ The path is no longer important. We care more about stories we can still convinc
 
 That story has become quieter. More reflexive. Less triumphant. But it still exists. In every person who wakes up to an alarm they set the night before. In every carefully annotated Kindle passage. In every mundane step taken not out of clarity, but hoping that clarity might someday return.
 
+<section id=interludes><div>
+
 ## Interlude: A girl with flashcards
 
 ’tis 11:47 pm, and she is reviewing English flashcards at the kitchen table.
@@ -107,6 +112,8 @@ Once, she believed that hard work led somewhere. That if you threw enough stones
 
 Now she throws them for the sound they make.
 
+</div><div>
+
 ## Interlude II: A boy on the rooftop
 
 He was never good at exams. Not bad, just… not good.
@@ -122,6 +129,8 @@ But some nights, when he finishes late, he climbs onto the roof of a client’s 
 He wonders what would have happened if he had chased Ciang’s path. Would it have broken him? Or saved him? He doesn’t know. But he suspects that some of those windows belong to people who feel the same, unsure if they are ahead or behind, unsure what was supposed to happen.
 
 So he stands there a while. Not chasing anything. Not regretting much. Just letting the city breathe.
+
+</div></section>
 
 ## A path, or a reason to proceed
 

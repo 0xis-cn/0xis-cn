@@ -23,6 +23,7 @@ extra:
 
 <section id=stamps>
 <img src="//drum.matling.fit/sd/universe/88x31.gif" alt="matling">
+<a href="//servo.org/"><img src="//drum.matling.fit/sd/universe/88x31/best-servo.gif" alt="Best viewed with Servo"></a>
 <a href="/blog/childhood"><img src="//drum.matling.fit/sd/universe/88x31/adobe_authorware.gif" alt="Authorware-powered!"></a>
 <a href="//leehenry.top/"><img src="//drum.matling.fit/sd/universe/88x31/fvucliec.gif" alt="Fvucliec"></a>
 <a href="https://www.geedea.pro" target="_blank"><img src="https://www.geedea.pro/88x31.png" alt="geedea.pro" /></a>

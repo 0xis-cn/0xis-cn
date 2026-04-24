@@ -1,7 +1,14 @@
 +++
 title = "20年後の『私の道』"
 [extra]
-custom_head = "<style>rt{font-size:revert}</style>"
+  custom_head = """
+   <style>
+    rt{font-size:revert}
+    @media (min-width: 42em) {
+     #interludes div { width: 50% }
+     #interludes { display: flex; overflow-x: auto; gap: 1em }}
+   </style>
+  """
 +++
 
 > ゴリアテは毎年6月に1000万個の石で投げつけられた。それは痛いだろう。  
@@ -80,7 +87,11 @@ custom_head = "<style>rt{font-size:revert}</style>"
 
 その物語は静かになった。より沈思的になった。勝利に満ちないようになった。しかし、それはまだ存在している。毎日、前夜に設定したアラームに目覚める誰かの心に。慎重に注釈されたKindleの文章のそれぞれに。意味を求めるのではなく、その意味がいつか戻ってくることを願って歩む平凡な一歩に。
 
-## 休憩：フラッシュカードを持つ少女
+## 休憩
+
+<section id=interludes><div>
+
+### フラッシュカードを持つ少女
 
 23時47分、彼女はキッチンテーブルでフラッシュカードを復習している。
 
@@ -98,7 +109,9 @@ custom_head = "<style>rt{font-size:revert}</style>"
 
 今では、音を鳴らすために石を投げている。
 
-## 休憩Ⅱ：屋上に立つ少年
+</div><div>
+
+### 屋上に立つ少年
 
 彼は試験にあまりうまくなかった。悪くはない、ただ⸺うまくはなかった。
 
@@ -113,6 +126,8 @@ custom_head = "<style>rt{font-size:revert}</style>"
 彼は、もし彼が姜氏の道を追いかけたらどうだったかと考える。それは彼を壊したか？それとも救ったか？彼は分からない、ただ疑う。その窓のいくつかは、同じように不安に感じている人たちのものかもしれない。彼らは前か後か、何が起こるべきか分からない。
 
 だから彼はそこをしばらく立っている。追いかけない。悔いない。ただ、街が息するのを待っている。
+
+</div></section>
 
 ## 道、あるいは進む理由
 

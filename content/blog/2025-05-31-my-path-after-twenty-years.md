@@ -92,9 +92,11 @@ The path is no longer important. We care more about stories we can still convinc
 
 That story has become quieter. More reflexive. Less triumphant. But it still exists. In every person who wakes up to an alarm they set the night before. In every carefully annotated Kindle passage. In every mundane step taken not out of clarity, but hoping that clarity might someday return.
 
+# Interlude
+
 <section id=interludes><div>
 
-## Interlude: A girl with flashcards
+### A girl with flashcards
 
 ’tis 11:47 pm, and she is reviewing English flashcards at the kitchen table.
 
@@ -114,7 +116,7 @@ Now she throws them for the sound they make.
 
 </div><div>
 
-## Interlude II: A boy on the rooftop
+### A boy on the rooftop
 
 He was never good at exams. Not bad, just… not good.
 

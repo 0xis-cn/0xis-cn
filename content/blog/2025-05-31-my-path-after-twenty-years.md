@@ -23,8 +23,6 @@ Twenty-two years ago, a college fresher penned an essay titled *My Path*. She be
 
 <!--more-->
 
-(Note: Part of this text was originally from ChatGPT and rewritten by human, [that would be ditched](@/about/site.md) in newer posts.)
-
 ## Then: The age of Ciang and Qu
 
 She, Ciang Yaucuang in the conventional romanization of this blog, was anything but ordinary. She outperformed her peers at high achieving school and enrolled in School of Life Sciences, Peking University in 2003, then a holy grail for the academically gifted. In retrospect of the tragic land, the people suffered from pounding and isolation, and skeptics of knowledge treking the wild, Ciang can not be deduced to a blessed girl or a persistant figure from Confucian fable. She was admired not only for her achievements, but for the way she presented: humble, sincere, infused with a humble love for learning itself. ‹Accept knowledge with a heartfelt and humble love,› she wrote, ‹and try to understand its beauty.› She continued with words adequately glorious for an adolescent:[^path]
@@ -156,6 +154,7 @@ So this is not a eulogy for Ciang-ites, nor for the age of textbooks and flashca
 <summary>Above is the full text. Click to unfold further discussions.</summary>
 
 It is a long overdue idea ultimately written prior to the Higher Education Entrance Examination in 2025.
+Part of this text was originally from ChatGPT and rewritten by human, that would be ditched in later posts.
 I do feel the style of writing expulsively internetty, but I can do nothing. I just go through some opinions for the rest of the page.
 
 **‘Don’t you know all the traumata?’**

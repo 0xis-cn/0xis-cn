@@ -143,6 +143,11 @@ extra:
   <h2>libcom.org</h2>
   <span>For everyone fighting to improve their lives</span>
   </a>
+  <a class=ml-card-anchor href="//www.kowloonpublishing.com">
+	<img src="https://drum.matling.fit/sd/universe/friends-avatar/kowloon.png" loading=lazy>
+  <h2>Manent books</h2>
+  <span lang=it>Verba volant scripta manent</span>
+  </a>
   <a class=ml-card-anchor href="//xdi8.top">
 	<img src="https://drum.matling.fit/sd/universe/friends-avatar/xdi8-by-lenda-sarieh.jpg" loading=lazy>
   <h2>Xdiƨ Aho</h2>

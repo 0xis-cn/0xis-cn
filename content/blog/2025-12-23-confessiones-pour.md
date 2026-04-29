@@ -2,6 +2,8 @@
 title = "وِسَ ڠ دَاِقࣨ؟"
 [extra]
 legacy_lang = "cmn-arab"
+[taxonomies]
+tags = ["reflective"]
 +++
 
 [^mi]: [دࣱخُاْ ۋاًخُوَاتࣨ](@/blog/2022-06-14-dunhuang-kaleidoscope.md) سِىَ چَاْ ‘ۋَ’ لا.

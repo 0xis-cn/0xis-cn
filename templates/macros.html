@@ -14,7 +14,7 @@
 {% if langs is containing(lang) %}dir=rtl{% endif -%}
 {% endmacro %}
 
-{% macro ciemmwue(page, showLang=false) %}
+{% macro ciemmwue(page, inSection=false) %}
 <p class="ml-smaller cmt-stallable">
 	<time datetime="{{ page.date }}" pubdate>
 		{{ macros::dm(date=page.date) }} DM
@@ -28,7 +28,7 @@
     </span>
 	{% endif -%}
     {% set length_hack = page.translations | default(value="") | length -%}
-    {% if length_hack > 1 and showLang -%}
+    {% if length_hack > 1 and inSection -%}
     <span class=sep>
         {% for i in page.translations -%}
         {% if i.lang != page.lang -%}
@@ -37,6 +37,13 @@
         {% endfor -%}
     </span>
     {% endif -%}
+    <span class=sep>
+        {% set prefix = "https://jun.matling.fit/ml/note/" -%}
+        {% set page_type = page.relative_path | split(pat="/") | first -%}
+        <a href="{{ prefix }}{% if page_type != 'blog' %}{{ page_type }}-{% endif %}{{ page.slug }}"
+        {%- if not inSection %}rel=alternate type="application/activity+json"{% endif -%}
+        >{{- trans(key="alt_ap", lang=macros::lang(page=page)) -}}</a>
+    </span>
 </p>
 {% endmacro %}
 

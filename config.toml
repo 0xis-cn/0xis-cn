@@ -23,7 +23,7 @@ lower = "Next"
 skip_link = "Skip to Content"
 other_languages = "Translations"
 backlinks = "Backlinks"
-alt_ap = "Interact with ActivityPub"
+alt_ap = "Interact via ActivityPub"
 
 [languages.zh]
 title = "物灵"
@@ -104,7 +104,7 @@ lower = "後"
 skip_link = "文章之開始于"
 other_languages = "外文"
 backlinks = "連入"
-alt_ap = "ActivityPub于 応対"
+alt_ap = "ActivityPub以 応対"
 
 [languages.ja.translations]
 language_name = "日本語"

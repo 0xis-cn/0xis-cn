@@ -24,6 +24,7 @@ skip_link = "Skip to Content"
 other_languages = "Translations"
 backlinks = "Backlinks"
 alt_ap = "Interact via ActivityPub"
+author_sign = "◎"
 
 [languages.zh]
 title = "物灵"
@@ -32,7 +33,7 @@ title = "物灵"
 title = "物灵"
 
 [languages.tok]
-title = "𐙞[⊕＞ń]"
+title = "☆[⊕›ń]"
 
 [languages.ja]
 title = "物霊"
@@ -50,6 +51,7 @@ skip_link = "跳至正文"
 other_languages = "外文"
 backlinks = "链入"
 alt_ap = "ActivityPub 回譍"
+author_sign = "◎"
 
 [languages.cmn-arab.translations]
 language_name = "جࣨىُوً خُوَ"
@@ -61,6 +63,7 @@ skip_link = "تِىَوْ کَىْش"
 other_languages = "وَىلُ هُوَ"
 backlinks = "زٍلَيْدِ"
 alt_ap = "ActivityPub خَاْ دِمُوَ"
+author_sign = "◎"
 
 [languages.ko.translations]
 language_name = "한국어"
@@ -72,6 +75,7 @@ skip_link = "내용으로 건너뛰기"
 other_languages = "외문"
 backlinks = "역링크"
 alt_ap = "ActivityPub을 통해 응답"
+author_sign = "◎"
 
 [languages.tok.translations]
 language_name = "toki pona"
@@ -83,6 +87,7 @@ skip_link = "tawa open lipu"
 other_languages = "ante toki"
 backlinks = "linja kama"
 alt_ap = "toki lili kepeken ActivityPub"
+author_sign = "⟲"
 
 [languages.art-002.translations]
 language_name = "Mini"
@@ -94,6 +99,7 @@ skip_link = "go note-kapo"
 other_languages = "Ota linga"
 backlinks = "baka-liga"
 alt_ap = "Reaki via ActivityPub"
+author_sign = "◎"
 
 [languages.art-001.translations]
 language_name = "単亜語"
@@ -105,6 +111,7 @@ skip_link = "文章之開始于"
 other_languages = "外文"
 backlinks = "連入"
 alt_ap = "ActivityPub以 応対"
+author_sign = "◎"
 
 [languages.ja.translations]
 language_name = "日本語"
@@ -116,6 +123,7 @@ skip_link = "本文にスキップ"
 other_languages = "外文"
 backlinks = "被リンク"
 alt_ap = "ActivityPubで返信"
+author_sign = "◎"
 
 [extra]
 
@@ -152,7 +160,7 @@ url = "https://lex.matling.fit"
   ja = "含章字典"
 
 [[extra.t2038.drawer_links]]
-url = "/about/site"
+url = "/about/here"
 
   [extra.t2038.drawer_links.name]
   zh = "关于"
@@ -168,7 +176,7 @@ url = "/about/site"
   ja = "につき"
 
 [[extra.t2038.drawer_links]]
-url = "/about/friends"
+url = "/about/metro"
 
   [extra.t2038.drawer_links.name]
   zh = "地铁"
@@ -176,9 +184,9 @@ url = "/about/friends"
   wuu = "地铁"
   ko = "전철"
   en = "Metro"
-  tok = "jan pona"
+  tok = "nasin anpa"
   dng = "Тамыр"
   art-002 = "Unda-rela"
   art-001 = "電車"
   cmn-arab = "خوَباً"
-  ja = "となり"
+  ja = "ちかてつ"

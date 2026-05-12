@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	{%- block headTitle %}
-	<title>{%- if page.title -%}{{ page.title }} « {% endif %}{{ config.title }}</title>
+	<title>{%- if page.title -%}{{ page.title }} {{ trans(key='author_sign', lang=lang) }}{% endif %}{{ config.title }}</title>
 	{%- endblock headTitle -%}
 	<link rel="stylesheet" href="/base.css">
 	<meta name="theme-color" content="#c09a97">

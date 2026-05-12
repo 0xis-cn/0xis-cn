@@ -11,15 +11,16 @@ extra:
     .ml-card-anchor img { width: 3em; grid-column: 1; grid-row: span 2 }
     .ml-card-anchor * { grid-column: 2 }
     .ml-card-anchor h2 { margin: 2px 0 6px; font-size: 1.375em }
-    .ml-card-anchor span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+    .ml-card-anchor span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-block: -0.25em; line-height: 1.5; }
     #stamps { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5em; }
     #stamps a { border-bottom: none; } #stamps img { width: 88px; height: 31px; }
     h3 img { vertical-align: sub; margin-right: 0.5em; }
     #exit8 img{width:100%;}@media (min-width: 540px) { #exit8 img { height: 170px; }#exit8{ width: 256px; float: inline-end }}
    </style>
+aliases: ['about/friends']
 ---
 
-<marquee>The train bound for ＿＿＿ is arriving. Please keep away from the screen door.</marquee>
+<marquee>The train bound for <span style="filter:blur(2px)">⚿⚿⚿</span> is arriving. Please keep away from the screen door.</marquee>
 
 <section id=stamps>
 <img src="//drum.matling.fit/sd/universe/88x31.gif" alt="matling">
@@ -85,11 +86,6 @@ extra:
   	<h2>SignKirigami</h2>
 	<span lang="cmn">寻找世界的伊甸园</span>
   </a>
-  <a class="ml-card-anchor" href="https://honoka55.github.io/">
-	<img src="https://avatars.githubusercontent.com/u/71088406?v=4" loading=lazy>
-	<h2>焰华Honoka55</h2>
-    <span lang="cmn">焰色升空，华樱落尘</span>
-  </a>
 </dd>
 <dt>Exit B
 <dd>
@@ -101,20 +97,35 @@ extra:
   <a class="ml-card-anchor" href="https://www.kai-wang.com">
 	<img src="https://avatars.githubusercontent.com/u/109669163" loading=lazy>
 	<h2>Kai</h2>
-    <span lang="la">Pelliculae seminis (cum clāmōre): L denariī</span>
+    <span lang=la>Pelliculae seminis (cum clāmōre): L denariī</span>
   </a>
   <a class="ml-card-anchor" href="https://blog.xinshijiededa.men">
 	<img src="https://avatars.githubusercontent.com/u/20166026?v=4" loading=lazy>
 	<h2>新世界的大门</h2>
     <span>So fancy is the world, who knows, maybe they sing</span>
   </a>
+  <a class="ml-card-anchor" href="//sadale.net">
+	<img src="//drum.matling.fit/sd/universe/friends-avatar/sadale.ico" loading=lazy>
+	<h2>Sadale</h2>
+    <span lang=tok>mi jo e mani la mi jo e tenpo, mi o pali e ali pi wile mi</span>
+  </a>
+  <a class="ml-card-anchor" href="https://honoka55.github.io/">
+	<img src="https://avatars.githubusercontent.com/u/71088406?v=4" loading=lazy>
+	<h2>焰华Honoka55</h2>
+    <span lang=cmn>焰色升空，华樱落尘</span>
+  </a>
 </dd>
 <dt>Exit C
 <dd>
+  <a class="ml-card-anchor" href="http://jbr.me.uk/">
+	<img src="https://secure.gravatar.com/avatar/14b4ce64668c9adc85db8f47f35459d1db7a026790e11122cba1f1fcd305829a?s=48&d=mm&r=g" loading=lazy>
+	<h2>钱争予</h2>
+	<span lang=ja>また、一職人である。</span>
+  </a>
   <a class="ml-card-anchor" href="https://stephenleng.com/">
 	<img src="https://drum.matling.fit/sd/universe/friends-avatar/stephen-leng.jpg" loading=lazy>
 	<h2>Stephen Leng</h2>
-	<span>I defend to the death their right to say</span>
+	<span>Intellectual History, Philosophy of History, and Theory of Human Nature</span>
   </a>
   <a class="ml-card-anchor" href="http://jbr.me.uk/">
 	<img src="https://drum.matling.fit/sd/universe/friends-avatar/jbr.webp" loading=lazy>
@@ -122,15 +133,15 @@ extra:
 	<span>Years spent debating down the pub</span>
   </a>
   <a class="ml-card-anchor" href="http://www.andrewsun.net/panta_rhei/">
-	<h2>Wèixiáng Sūn</h2>
-	<span>When they were a premature PhD student</span>
+	<h2>孙尉翔</h2>
+	<span>複杂流体实验研究</span>
   </a>
-  <a class="ml-card-anchor" href="//ycwang-world.com//">
+  <a class="ml-card-anchor" href="//ycwang-world.com/">
 	<img src="https://drum.matling.fit/sd/universe/friends-avatar/ycwang.png" loading=lazy>
 	<h2>王溢嘉</h2>
 	<span lang=cjy>生于民国三十九年（1950年—），台中市人</span>
   </a>
-  <a class="ml-card-anchor" href="//writings.stephenwolfram.com">
+  <a class="ml-card-anchor" href="//stephenwolfram.com">
 	<img src="https://drum.matling.fit/sd/universe/friends-avatar/stephen-wolfram.svg" loading=lazy>
 	<h2>Stephen Wolfram</h2>
 	<span>Harbinger of a new computer science</span>
@@ -170,7 +181,8 @@ avatar = "https://matling.fit/img/cloak.png"
 
 [^shanxi]: The Rubaiyat line has a weird intertextuality with a sarcastic quote from my chemistry teacher in middle school, „pollution for Shānxī, development for elsewhere!“
 
-By the word *friend* we may not have had deep talks, but I expect I have a vague image of you, which may be accomplished with your published words.
-Please do transcribe/translate my name and slogan conforming other contents/links. Write <span lang=fa>از خاک برآمدیم و بر باد شدیم</span> if your site is in Farsi![^shanxi]
+I expect I have a vague image of you for the bare minimum of the word *friend*, which can be accomplished by me reading your published words.
+Please do transcribe/translate my name and slogan conforming your content/design.
+For example, write متلينگ and <span lang=fa>از خاک برآمدیم و بر باد شدیم</span> if you have a wonderful site in Farsi.[^shanxi]
 
 Feel free to email me and [be my friend](m&#97;ilto:hi&#64;matling.fit)!

@@ -33,7 +33,11 @@ center, .ml-drawer[open] + center {
 .ml-article a {
 	border-right: 1px solid var(--color-levity);
 	border-bottom: none;
-	padding-right: 2px;
+	padding-right: 4px;
+}
+
+.footnote-reference a {
+	border-right: none;
 }
 
 p, table {
@@ -79,4 +83,9 @@ tcy {
 
 &[data-width="narrow"] center {
 	max-height: var(--middle-width);
+}
+
+u {
+	border-bottom: none;
+	border-right: 1.2px dashed $line-color;
 }

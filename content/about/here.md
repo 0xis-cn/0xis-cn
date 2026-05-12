@@ -1,6 +1,7 @@
----
-title: About
----
++++
+title = "About"
+aliases = ['about/site']
++++
 
 A mechanic psychic, a maudlin clarion, and an [Oreki丶](https://baike.baidu.com/item/Oreki%E4%B8%B6) fanboy.
 
@@ -51,20 +52,20 @@ Traits for design include
 <dt>2011
 <dd>The birth of a website of Muqliong Gang in Microsoft FrontPage,
 with ‘eye-protecting’ orchid-coloured table layout,
-reading ‘it is our eternal pursuit to help more people realise their dreams’.
+reading ‘it is our eternal pursuit to help more people realise their dreams.’
 Not knowing how to publish it online, I requested fellows of the Gang to
 manually create the same directory.
 
 <dt>2012
-<dd>Some earliest posts are published in Facebook-influenced websites, including
-zww.cn, xxt.cn (<a href="http://blog.xxt.cn/459358784">weathered blog</a>), and QQ,
-where I remembered were crammed with ‘not apocalypse but cherishing year!’.
+<dd>My best experience of internet. Some earliest posts here are originally published in
+<a href="/blog/published-in-zww-cn">zww.cn</a>, <a href="http://blog.xxt.cn/459358784">xxt.cn</a>, and QQ,
+where I remembered were crammed with ‘<a href="//rationalwiki.org/wiki/2012">not apocalypse but cherishing year!</a>’.
 
 <dt>2018
 <dd>A blog with Hexo, with a ‘futuristic’ collection of practice questions on physics,
 was first time deployed online with CODING.
-It has been 2018 but I was still centering a div with <code>translate(-50%, -50%)</code>.
-Writing elsewhere on algorithm at the same time; some have been lost, and I choose not to include the rest.
+It has been 2018 but I was still centring a div with <code>translate(-50%,-50%)</code>.
+Writing elsewhere on algorithm; some was lost, and I choose not to include <a href="https://blog.csdn.net/qq_19982679">the rest</a>.
 
 <dt>2020
 <dd>Revived my blog after gāokǎo. Migrated to Jekyll.

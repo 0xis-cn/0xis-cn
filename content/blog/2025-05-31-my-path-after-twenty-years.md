@@ -69,9 +69,7 @@ A generation who entered the examination hall together now bid of identity maint
 
 ## Remaining ritual and changing course
 
-<span style="font-variant: small-caps">Across the divide of twenty years</span> a dedicate tension lies between the continuity of form and the erosion of substance.
-
-there is a dedicate tension between the continuity of form and the erosion of substance. Ciang’s generation recited ‘I love learning’ as doctrine, while present-day Ciang-ites still whisper its echoes in softened tone. Paper and pencils are replaced by Obsidian, Tiger Balm by lipstick, but the posture of devotion remains remarkably intact.
+<span style="font-variant: small-caps">Across the divide of twenty years</span> a dedicate tension lies between the continuity of form and the erosion of substance. Ciang’s generation recited ‘I love learning’ as doctrine, while present-day Ciang-ites still whisper its echoes in softened tone. Paper and pencils are replaced by Obsidian, Tiger Balm by lipstick, but the posture of devotion remains remarkably intact.
 
 But does that make it the same thing?
 
@@ -85,7 +83,7 @@ Yet there is one thing lost. Coherence. The efforts of Ciang-ites have been capt
 
 There is no such thing like changing course for an individual. They experiences only a fragment of history, yet for them it is the entirety. It can be only spoken that, the very cultural mechanism that once facilitated intellectual progress is now perpetuating self-doubt and fragmented ambition. There is no true self-cultivation in a system-overwhelming world. Students who dreamt to become Ciang now find themselves staying on the path, but without a destination. They persist in the rituals without conviction.
 
-Social awareness did not stay away from mythic heroes, even for Ciang herself. Her rumoured but untrue move from biology to consultancy reflected a delicate drift, that adaptability and vibe begin to weigh more than intellectual integrity for the working aged generation. We are informed to be [speedrunners](https://gwern.net/speedrunning), not inquisitive medieval scholars. In an credited extracurricular event, an environmental science professor whom I met for only this time raised a small heavy book and said,
+Social awareness did not stay away from mythic heroes, even for Ciang herself. Her rumoured but untrue move from biology to consultancy reflected a delicate drift, that adaptability and vibe begin to weigh more than intellectual integrity for the working aged generation. We are informed to be [speedrunners](https://gwern.net/speedrunning). In an credited extracurricular event, an environmental science professor whom I met for only this time raised a small heavy book and said,
 
 > This is the textbook for the course I sitted in America, and that I was constantly hoping to set up. With all the background knowledge, you could have attended the most challenging courses just before you leave, but I know, you will bury yourselves in examinations and job interviews!
 

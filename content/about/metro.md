@@ -30,6 +30,7 @@ aliases: ['about/friends']
 <a href="https://www.geedea.pro" target="_blank"><img src="https://www.geedea.pro/88x31.png" alt="geedea.pro" /></a>
 <a href="//brennan.day/"><img src="//drum.matling.fit/sd/universe/88x31/brennan-day-alt.gif" alt="brennan.day"></a>
 <a href="//estela.moe:3/"><img src="//drum.matling.fit/sd/universe/88x31/estela.png" alt="estela.moe"></a>
+<a href="//giveanornot.com"><img src="https://blog.giveanornot.com/logo.webp" alt="資工小廢物 - JN 的露狗"></a>
 </section>
 
 <details>
@@ -89,11 +90,6 @@ aliases: ['about/friends']
 </dd>
 <dt>Exit B
 <dd>
-  <a class="ml-card-anchor" href="https://honoka55.github.io/">
-	<img src="https://drum.matling.fit/sd/universe/friends-avatar/giveanornot.png" loading=lazy>
-	<h2>JN</h2>
-    <span lang=cmn>資工系畢業，但其實沒有很會寫程式</span>
-  </a>
   <a class="ml-card-anchor" href="https://www.kai-wang.com">
 	<img src="https://avatars.githubusercontent.com/u/109669163" loading=lazy>
 	<h2>Kai</h2>

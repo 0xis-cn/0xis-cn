@@ -2,7 +2,7 @@
 title = "The spreadsheet-makers"
 +++
 
-In a note, [Shemol](shemol.tech) breezily asked whether there was ever a time when people are paid to <span style="font-variant: small-caps">create Excel and PowerPoint</span>, reached a positive conclusion with Claude, and compared supposed decline of these employees to the current AI hype threatening developers. This is a good question catering my bouquiniste soul. I left a letter in response, which inspired the post you are reading.
+In a note, Shemol breezily asked whether there was ever a time when people are paid to <span style="font-variant: small-caps">create Excel and PowerPoint</span>, reached a positive conclusion with Claude, and compared supposed decline of these employees to the current AI hype threatening developers. This is a good question catering my bouquiniste soul. I left a letter in response, which inspired the post you are reading.
 
 I did not experience the time of spreadsheet-makers. I was, at that time, a fake geek boy lingering about office suites and online services. I habitually help [Muqliongists and teachers](@/about/ligi.md) with paperwork, with no idea of work or even college entrance. I swaggered through the provincial capital, staring at my first smartphone, replacing lorem ipsum in Calibri with ‘observation’ notes I was told to take, and feeling the ‘generousity’ and device switch promoted by cloud services. I almost forgot the carefree age, when I also picked up *You Gotta Play with Excel Like This*, a book published in 2011 by Quu Hao.
 

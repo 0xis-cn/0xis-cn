@@ -3,7 +3,6 @@ title: Matlina Station
 extra:
   custom_head: >-
    <style>
-    .ml-card-list { border-radius: 10px; }
     dd { display: grid; grid-template-columns: 4.125em 1fr; grid-template-columns: repeat(if(media(width < 540px): 1; media(width < 720px) or style(--middle-width: 42em): 2; else: 3), 4.125em 1fr); }
     a.ml-card-anchor {
       border-bottom: none; padding: 0.625em; line-height: 1; grid-column: span 2; grid-template-columns: subgrid;
@@ -90,6 +89,11 @@ aliases: ['about/friends']
 </dd>
 <dt>Exit B
 <dd>
+  <a class="ml-card-anchor" href="https://dgck81lnn.github.io">
+	<img src="https://drum.matling.fit/sd/universe/friends-avatar/dgck81lnn.png" loading=lazy>
+	<h2>DGCK81LNN</h2>
+  	<span><q>用心搭建</q></span>
+  </a>
   <a class="ml-card-anchor" href="https://www.kai-wang.com">
 	<img src="https://avatars.githubusercontent.com/u/109669163" loading=lazy>
 	<h2>Kai</h2>
@@ -122,11 +126,6 @@ aliases: ['about/friends']
 	<img src="https://drum.matling.fit/sd/universe/friends-avatar/stephen-leng.jpg" loading=lazy>
 	<h2>Stephen Leng</h2>
 	<span>Intellectual History, Philosophy of History, and Theory of Human Nature</span>
-  </a>
-  <a class="ml-card-anchor" href="http://jbr.me.uk/">
-	<img src="https://drum.matling.fit/sd/universe/friends-avatar/jbr.webp" loading=lazy>
-	<h2>Justin B Rye</h2>
-	<span>Years spent debating down the pub</span>
   </a>
   <a class="ml-card-anchor" href="http://www.andrewsun.net/panta_rhei/">
 	<h2>孙尉翔</h2>

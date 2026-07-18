@@ -68,7 +68,7 @@ It has been 2018 but I was still centring a div with <code>translate(-50%,-50%)<
 Writing elsewhere on algorithm; some was lost, and I choose not to include <a href="https://blog.csdn.net/qq_19982679">the rest</a>.
 
 <dt>2020
-<dd>Revived my blog after gāokǎo. Migrated to Jekyll.
+<dd>Migrated to Jekyll.
 
 <dt>21 May 2021
 <dd>Registered the domain name that later changed to matling.fit.
@@ -78,20 +78,14 @@ Theme switched to 2038 designed in a fortnight.
 <dd>Migrated to Zola.
 </dl>
 
-### Might stop now
-
-This will never become another [Gwern](https://gwern.net/design)-like self-reveal. Nevertheless, 2038 stemmed when I believed I had been more design-minded.
-
-The traits Gwern and I shared were developed independently. Though Gwern’s innovative UI is elegant and flawless, I have found myself accustomed to it, for example, leaving the cursor on hyperlinks as short as possible to avoid loading a pop-up. The active work-around clearly denotes an antipattern.
-
-## Site info
+## Misc
 
 ### Publication date
 
 DM (in the days of Muqliong) denote days starting from 1 May 2011, when
-Muqliong Gang was approximately formed. For more details, refer to [Lexicon Matlini](https://lex.matling.fit/days-of-muqliong.html).
+Muqliong Gang was approximately formed. See the [Lexicon Matlini entry](https://lex.matling.fit/days-of-muqliong.html).
 
-### ‘AI usage’
+### „AI usage“
 
 Except for [older](@/blog/2025-05-31-my-path-after-twenty-years.md) [posts](@/blog/2025-05-02-a-slice-of-bash-programmable-completion.md) or quotes, original content in matling.fit does not include output from generative language or visual models.
 
@@ -101,8 +95,8 @@ This holds for the original version of multilingual posts (which is English exce
 
 [^rwns]: Time, request line, outgoing IP, status, referrer, and user agent. Did I miss anything?
 
-Matling.fit is hosted on GitHub Pages. You may read [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service). Matling.fit connects to separately hosted object storage and API, for which only the information typically found in server logs[^rwns] is collected.
+Matling.fit is hosted on GitHub Pages. You may read [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service). Matling.fit connects to separately hosted object storages and APIs, where only information typically found in server logs[^rwns] is collected. Only posted data will be stored upon replying with ActivityPub until receiving a corresponding redo action.
 
 Matling.fit uses unmodified GoatCounter as web analytics. GoatCounter does not track users, nor collects data viable for identification. You may read the [privacy policy](https://www.goatcounter.com/help/privacy) of GoatCounter. The administrator cannot and do not intend to obtain personally identifiable information as per design of matling.fit.
 
-As a personal website with no branch offices, agents, or stable userbase, Matling.fit might be exempt from GDPR or similar regulations, but this is unlikely supported by precedents. However I will exert reasonable efforts to protect users’ privacy. When I link to plausible marketing information, you may communicate with outbounding third party service out of my control. To have personal information removed from this site, leave me an email.
+As a personal website with no branch offices, agents, or stable userbase, Matling.fit might be exempt from GDPR or similar regulations. This is unlikely supported by precedents, however I will exert reasonable efforts to protect user privacy. When I link to plausible marketing information, you may communicate with outbounding third party service out of my control. To have personal information removed from this site, leave me an email.

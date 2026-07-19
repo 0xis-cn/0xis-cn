@@ -98,7 +98,6 @@ h1 span::after {
 @media screen and (max-height: 800px) {
 	:root .card-block {
 		--grid-size: 4rem;
-		gap: 0.75rem;
 	}
 	:root .ml-card-anchor {
 		padding-inline: 0.75rem;
@@ -116,6 +115,9 @@ h1 span::after {
 	}
 	:root #contrib tile {
 		grid-template-columns: repeat(7, 12px);
+	}
+	:root #x {
+		margin-bottom: 0;
 	}
 }
 
@@ -154,7 +156,7 @@ a.ml-card-anchor {
 }
 
 .card-block h2 {
-	margin: 1rem 0 0.25em;
+	margin: 1rem 0 0.25rem;
 }
 .card-block p {
 	margin: 0;
@@ -250,16 +252,27 @@ body {
 #ligi::before {
 	display: block;
 	content: 'No. Date';
-	padding: 6px 50% 1px;
+	padding: 6px 50%;
 	color: var(--nr);
 }
 
 #ligi p, #ligi::before {
+	padding-bottom: 1px;
 	border-bottom: 1px solid var(--nr);
 }
 
 .dropdown-wrapper {
 	position: unset;
+}
+
+#x {
+	grid-row: span 3;
+	overflow-y: hidden;
+	font-size: 1rem;
+	color: var(--color-normal);
+	border-bottom: none;
+	margin-bottom: 7px;
+	h2 { margin-bottom: 0.5rem; }
 }
  </style>
 {% else %}
@@ -294,7 +307,7 @@ body {
 	</footer>
 </section>
 <section class=card-block>
-	<a class=ml-card-anchor href="/about/site">
+	<a class=ml-card-anchor href="/about/here">
 		<p style="padding-top:12px;font-size:1.25em">Io es</p>
 		<h1 style="--count:11">
 			<span style="animation-delay:-40s">Matling</span>
@@ -318,11 +331,10 @@ body {
 	</a>
 	<div class=ml-card-anchor style="grid-area: span 4/span 4; display: grid; grid-template-rows: subgrid; line-height: 1.25">
 		{% set newest_post = blog_section.pages | first %}
-		<a style="grid-row: span 3; overflow-y: hidden; font-size: 1rem; color: inherit; border-bottom: none"
-		href="{{ newest_post.path }}" lang="{{ macros::lang(page=newest_post) }}" {{ macros::lang_rtl(lang=macros::lang(page=newest_post)) }}>
+		<a id=x href="{{ newest_post.path }}" lang="{{ macros::lang(page=newest_post) }}" {{ macros::lang_rtl(lang=macros::lang(page=newest_post)) }}>
 			<div class=main-section lang=en>Updated on <time datetime="{{ newest_post.date }}">{{ macros::dm(date=newest_post.date) }} DM</time></div>
 			<h2>{{ newest_post.title }}</h2>
-			{{ newest_post.summary | striptags | truncate(length=308) }}
+			{{ newest_post.summary | striptags | truncate(length=1378) }}
 		</a>
 		{% set other_posts = blog_section.pages | slice(start=1, end=4) %}
 		<div id=wudada>
@@ -336,7 +348,7 @@ body {
 	</div>
 	<a style="--nr: indianred;" class=ml-card-anchor href="/about/ligi" id=ligi>
 		<p style="text-align: center">
-		<short-hidden><span style="font-size: 1.25em">Selected works</span><br><i>of</i><br></short-hidden>
+		<short-hidden><span style="font-size: 1.25em; white-space: nowrap; overflow-x: hidden; display: block">Selected works</span><i>of</i><br></short-hidden>
 		<span style="font-variant: small-caps; font-size: 2em; line-height: 1">Ligi Studio</span>
 		</p>
 	</a>

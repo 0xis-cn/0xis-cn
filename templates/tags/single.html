@@ -1,7 +1,7 @@
 {% extends "blog-section.html" %}
 {% import "macros.html" as macros %}
 {% block headTitle %}
-<title>#{{ term.name }} {% if paginator.previous %}(Page {{ paginator.current_index }}/{{ paginator.number_pagers }}){% endif %} {{ trans(key='author_sign') }}{{ config.title }}</title>
+<title>#{{ term.name }} {% if paginator.previous %}(Page {{ paginator.current_index }}/{{ paginator.number_pagers }}){% endif %} {{ trans(key='author_sign') }} {{ config.title }}</title>
 {% endblock headTitle %}
 {% block title %}
 <h1>#{{ term.name }}</h1>

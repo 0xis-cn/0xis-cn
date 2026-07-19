@@ -114,7 +114,8 @@ function pn(node) {
   } else if (
     node.nodeType === Node.ELEMENT_NODE &&
     !skipElements.includes(node.tagName) &&
-    !node.textContent.includes("`")
+    !node.textContent.includes("`") &&
+    (!node.lang || verticalEnabledLanguages.includes(node.lang))
   ) {
     Array.from(node.childNodes).forEach(pn);
   }

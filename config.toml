@@ -29,6 +29,9 @@ author_sign = "◎"
 [languages.zh]
 title = "物灵"
 
+[languages.ltc]
+title = "物灵"
+
 [languages.cmn-arab]
 title = "物灵"
 
@@ -43,6 +46,19 @@ title = "물령"
 
 [languages.zh.translations]
 language_name = "华语"
+toc = "目次"
+btn_read = "续读 (LEN 字)"
+higher = "旧"
+lower = "新"
+skip_link = "跳至正文"
+other_languages = "外文"
+backlinks = "链入"
+alt_ap = "ActivityPub 回譍"
+author_sign = "◎"
+
+
+[languages.ltc.translations]
+language_name = "dummy 语言"
 toc = "目次"
 btn_read = "续读 (LEN 字)"
 higher = "旧"
@@ -132,6 +148,7 @@ url = "/blog"
 
   [extra.t2038.drawer_links.name]
   zh = "博文"
+  ltc = "博文"
   lzh = "吟草"
   wuu = "步录"
   ko = "블로그"
@@ -148,6 +165,7 @@ url = "https://lex.matling.fit"
 
   [extra.t2038.drawer_links.name]
   zh = "含章字典"
+  ltc = "含章字典"
   lzh = "含章字典"
   wuu = "含章字典"
   ko = "함장자전"
@@ -164,6 +182,7 @@ url = "/about/here"
 
   [extra.t2038.drawer_links.name]
   zh = "关于"
+  ltc = "关于"
   lzh = "自敘"
   wuu = "关于"
   ko = "나에게"
@@ -180,6 +199,7 @@ url = "/about/metro"
 
   [extra.t2038.drawer_links.name]
   zh = "地铁"
+  ltc = "地铁"
   lzh = "通軌"
   wuu = "地铁"
   ko = "전철"

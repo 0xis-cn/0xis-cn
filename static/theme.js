@@ -158,7 +158,7 @@ const preferences = [
       },
     },
   ]),
-  new Preference("lukinLinja", 0, [
+  new Preference("lukinLinja", 1, [
     {
       text: "Serif",
       action: () => {

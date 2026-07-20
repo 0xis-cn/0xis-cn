@@ -223,12 +223,8 @@ const preferences = [
 (() => {
   const shadowBox = document.querySelector(".skip-link");
   const menuBtn = document.querySelector(".ml-menu-button");
-  if (menuBtn) {
-    if (1279 < window.innerWidth) menuBtn.click();
-    menuBtn.addEventListener("click", () =>
-      shadowBox.classList.toggle("mxilxi"),
-    );
-  }
+  if (menuBtn && 1279 < window.innerWidth)
+    menuBtn.click()
 
   const base = document.getElementById("advanced");
 

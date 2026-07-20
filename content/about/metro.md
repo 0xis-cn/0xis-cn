@@ -145,12 +145,12 @@ aliases: ['about/friends']
 <dt>Exit D
 <dd>
   <a class=ml-card-anchor href="//libcom.org">
-	<img src="https://drum.matling.fit/sd/universe/friends-avatar/libcom.png" loading=lazy>
+	<img src="https://drum.matling.fit/sd/universe/friends-avatar/libcom.png" class=ml-wordmark loading=lazy>
   <h2>libcom.org</h2>
   <span>For everyone fighting to improve their lives</span>
   </a>
   <a class=ml-card-anchor href="//www.kowloonpublishing.com">
-	<img src="https://drum.matling.fit/sd/universe/friends-avatar/kowloon.png" loading=lazy>
+	<img src="https://drum.matling.fit/sd/universe/friends-avatar/kowloon.png" class=ml-wordmark loading=lazy>
   <h2>Manent books</h2>
   <span lang=it>Verba volant scripta manent</span>
   </a>

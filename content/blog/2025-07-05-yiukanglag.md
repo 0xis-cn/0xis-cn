@@ -2,7 +2,7 @@
 title = "ཡིའུ་ཀང་ལག་"
 [extra]
 legacy_lang = "ltc"
-custom_head = "<style>dt { font-size: 2em } ml-s { background-color: light-dark(#e0cccb, #603b39) } ins { background-color: light-dark(#cccbe0, #3b3960) }</style>"
+custom_head = "<style>dt { font-size: 2em } ml-s { background-color: light-dark(#e0cccb, #603b39) } ins { background-color: light-dark(#cccbe0, #3b3960); padding-inline: 2px } ins::before { content: '(' } ins::after { content: ')' } ins::before, ins::after { color: var(--color-levity) } </style>"
 [taxonomies]
 tags = ["dunhuang", "gretchen"]
 +++
@@ -23,14 +23,14 @@ tags = ["dunhuang", "gretchen"]
 <dt>ཧ་ཤི་ཁོ་ཁྭད་ཨིག་ཡང་ཆུན།
 <dd>何时恍惚忆扬<ml-s>春</ml-s><ins>州</ins>
 <dt>ནམ་ཅི་ལི་ཤེང་སེན་ཛའུ་ཁེའུ།
-<dd>南至<ml-s>柳</ml-s>城先<ins>新</ins>造口
+<dd>南至柳城先<ins>新</ins>造口
 <dt>པུག་ཅི་ལན་ལིང་ཏོ་ཡིག་ལའུ།
 <dd>北至<ins>对</ins>兰陵都<ins>孤</ins>驿楼
 <dd>—
 <dt>ཡེའུ་བོའུ་ཏུང་སེ་སི་ཧུ་ཤུ།
 <dd>犹<ins>回</ins>望东西四<ins>二</ins>湖水
 <dt>ཧུར་ཅན་ཇོང་ཀང་འྭན་ལུ་ལེའུ།
-<dd><ins>复见</ins>长江万<ml-s>里</ml-s>流
+<dd><ins>复见</ins>长江万里流
 <dt>པེག་ལུ་ཤོང་པྱི་ཆུད་ཆུད་ཀེང་ཧག།
 <dd>白鹭双飞出<ml-s>溪</ml-s>壑
 <dt>བུ་ཤུ་ཀང་ཨེའུ་ཤུ་ཤང་ཨེའུ།

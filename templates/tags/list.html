@@ -1,2 +1,28 @@
 {% extends "fault.html" %}
 {% import "macros.html" as macros %}
+{%- block head %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>Tags {{ trans(key='author_sign') }} {{ config.title }}</title>
+<link rel="stylesheet" href="/base.css">
+<meta name="theme-color" content="#c09a97">
+<script defer src="/theme.js"></script>
+<script data-goatcounter="https://0xis.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<style>
+#tags { column-width: 10em; }
+#tags>a { display: block; border-bottom: none; }
+#tags>a::after { content: attr(data-count); color: var(--color-levity); margin-inline-start: 0.5em; }
+</style>
+{% endblock head -%}
+{% block body %}
+<a class=skip-link href=#ml><span>{{ trans(key="skip_link", lang=lang) }}</span></a>
+{{ macros::drawer(lang=lang) }}
+<center><h1>Tags</h1>
+<main class="ml-article">
+<section id=tags>
+{% for term in terms -%}
+<a href="{{ term.path }}" data-count="{{ term.page_count }}">{{ term.name }}</a>
+{% endfor %}
+</section>
+</main></center><i class=dropdown-wrapper id=advanced></i>
+{% endblock body %}

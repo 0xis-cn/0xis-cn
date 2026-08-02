@@ -1,9 +1,7 @@
 ---
-extra:
-  ciemmwue: in Shanxi
 title: Back in old Ruyqiuan
 taxonomies:
-  tags: ['laconic']
+  tags: ['Ruinebewohner']
 ---
 
 Earlier this year, I stopped by Ruyqiuan Tutoring Centre. It was the place I frequented as a kid, though for not the lessons but hanging out with classmates. We had chat perpetually, pretending to live in a fictional world (which is our co-creation), even on our way there.

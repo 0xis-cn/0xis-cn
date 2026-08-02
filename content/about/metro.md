@@ -12,24 +12,31 @@ extra:
     .ml-card-anchor h2 { margin: 2px 0 6px; font-size: 1.375em }
     .ml-card-anchor span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-block: -0.25em; line-height: 1.5; }
     #stamps { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5em; }
-    #stamps a { border-bottom: none; } #stamps img { width: 88px; height: 31px; }
+    #stamps a { border-bottom: none; } #stamps>* { width: 88px; height: 31px; }
     h3 img { vertical-align: sub; margin-right: 0.5em; }
     #exit8 img{width:100%;}@media (min-width: 540px) { #exit8 img { height: 170px; }#exit8{ width: 256px; float: inline-end }}
    </style>
-aliases: ['about/friends']
 ---
 
 <marquee>The train bound for <span style="filter:blur(2px)">⚿⚿⚿</span> is arriving. Please keep away from the screen door.</marquee>
 
 <section id=stamps>
 <img src="//drum.matling.fit/sd/universe/88x31.gif" alt="matling">
+<img src="//drum.matling.fit/sd/universe/88x31/SunsetStrip_Pit_4116_images_skatenow.jpg" alt="skate now">
+<img src="//drum.matling.fit/sd/universe/88x31/SunsetStrip_Palladium_4902_r1.gif" alt="interference">
+<a href="//microsoft.cn"><img src="//drum.matling.fit/sd/universe/88x31/vuiruaan.gif" alt="微软中国"></a>
+<a href="//www.freebsd.org/"><img src="//drum.matling.fit/sd/universe/88x31/freebsdchina-logo.gif" alt="FreeBSD"></a>
+<img src="//drum.matling.fit/sd/universe/88x31/rosemary10.gif" alt="艾妃橙屋">
+<img src="//drum.matling.fit/sd/universe/88x31/keepnew.gif" alt="keepnew">
 <a href="//servo.org/"><img src="//drum.matling.fit/sd/universe/88x31/best-servo.gif" alt="Best viewed with Servo"></a>
 <a href="/blog/childhood"><img src="//drum.matling.fit/sd/universe/88x31/adobe_authorware.gif" alt="Authorware-powered!"></a>
-<a href="//leehenry.top/"><img src="//drum.matling.fit/sd/universe/88x31/fvucliec.gif" alt="Fvucliec"></a>
+<a href="//leehenry.top/"><img src="//drum.matling.fit/sd/universe/88x31/fvucliec.gif" alt="伏枥"></a>
 <a href="https://www.geedea.pro" target="_blank"><img src="https://www.geedea.pro/88x31.png" alt="geedea.pro" /></a>
 <a href="//brennan.day/"><img src="//drum.matling.fit/sd/universe/88x31/brennan-day-alt.gif" alt="brennan.day"></a>
 <a href="//estela.moe:3/"><img src="//drum.matling.fit/sd/universe/88x31/estela.png" alt="estela.moe"></a>
 <a href="//giveanornot.com"><img src="https://blog.giveanornot.com/logo.webp" alt="資工小廢物 - JN 的露狗"></a>
+<a href="//nightfall.city"><img src="//drum.matling.fit/sd/universe/88x31/nightfall-button-bw.png" alt="nightfall.city (the logo might be created by jurakubook.store, CC BY-NC-SA 4.0)"></a>
+<a href="//fabled.day"><img src="//drum.matling.fit/sd/universe/88x31/fabled.gif" alt="fabled.day"></a>
 </section>
 
 <details>
@@ -167,17 +174,15 @@ aliases: ['about/friends']
 ```toml
 name = "物灵"
 url = "https://matling.fit"
-description = "From the dust, become the wind"
+description = "از خاک برآمدیم و بر باد شدیم"
 icon = "https://avatars.githubusercontent.com/u/42795424"
 avatar = "https://matling.fit/img/cloak.png"
 ```
 
-### Add an address
-
-[^shanxi]: The Rubaiyat line has a weird intertextuality with a sarcastic quote from my chemistry teacher in middle school, „pollution for Shānxī, development for elsewhere!“
-
-I expect I have a vague image of you for the bare minimum of the word *friend*, which can be accomplished by me reading your published words.
+This page is for websites I wish readers to know.
+In lieu of the concept of *friend*, I prefer that of people I know adequately to understand, maybe with published works alone.
 Please do transcribe/translate my name and slogan conforming your content/design.
-For example, write متلينگ and <span lang=fa>از خاک برآمدیم و بر باد شدیم</span> if you have a wonderful site in Farsi.[^shanxi]
+Write <span lang=fa>متلينگ</span> if you have a wonderful site in Farsi!
+Or write *from the dust, to the wind* if that language sounds malodorous to you.
 
 Feel free to email me and [be my friend](m&#97;ilto:hi&#64;matling.fit)!

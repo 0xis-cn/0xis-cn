@@ -22,10 +22,10 @@ extra:
 
 <section id=stamps>
 <img src="//drum.matling.fit/sd/universe/88x31.gif" alt="matling">
+<a href="//www.freebsd.org/"><img src="//drum.matling.fit/sd/universe/88x31/freebsdchina-logo.gif" alt="FreeBSD"></a>
+<a href="//microsoft.cn"><img src="//drum.matling.fit/sd/universe/88x31/vuiruaan.gif" alt="微软中国"></a>
 <img src="//drum.matling.fit/sd/universe/88x31/SunsetStrip_Pit_4116_images_skatenow.jpg" alt="skate now">
 <img src="//drum.matling.fit/sd/universe/88x31/SunsetStrip_Palladium_4902_r1.gif" alt="interference">
-<a href="//microsoft.cn"><img src="//drum.matling.fit/sd/universe/88x31/vuiruaan.gif" alt="微软中国"></a>
-<a href="//www.freebsd.org/"><img src="//drum.matling.fit/sd/universe/88x31/freebsdchina-logo.gif" alt="FreeBSD"></a>
 <img src="//drum.matling.fit/sd/universe/88x31/rosemary10.gif" alt="艾妃橙屋">
 <img src="//drum.matling.fit/sd/universe/88x31/keepnew.gif" alt="keepnew">
 <a href="//servo.org/"><img src="//drum.matling.fit/sd/universe/88x31/best-servo.gif" alt="Best viewed with Servo"></a>
@@ -51,12 +51,25 @@ extra:
 <figure id=exit8><img src="//drum.matling.fit/sd/universe/exit8-small.png" aria-labelledby=exit8c>
 <figcaption id=exit8c>The exit you have seen? (Image: <cite>The New Yorker</cite>)</figcaption></figure>
 
+<div style="text-align: center; font-family: monospace">
+<a href="https://wordywebring.neocities.org?action=previous">←</a>
+<a href="https://wordywebring.neocities.org">wordy webring</a>
+(<a href="https://wordywebring.neocities.org?action=random">random</a>)
+<a href="https://wordywebring.neocities.org?action=next">→</a>
+</div>
+<div style="text-align: center; font-family: Cinzel, serif">
+<a href="https://circulus.matling.fit?action=previous">←</a>
+<a href="https://circulus.matling.fit">Circulus telaE</a>
+<a href="https://circulus.matling.fit?action=random">&#10227;</a>
+<a href="https://circulus.matling.fit?action=next">→</a>
+</div>
+
 ### Transfer
 
 - Wiwi Kuan the ‹[pianist using Linux](https://wiwi.blog/blog/pianist-using-linux/)› has a [long blogroll](https://wiwi.blog/blogroll/) chiefly for sinophonic blogs.
 - *Leftfold* lists [blogs the author enjoys](https://www.leftfold.tech/pages/blogroll/).
 - Without *Tales of Time Forgotten* by Spencer McDaniel I would not know [so many people write on classics](https://talesoftimesforgotten.com/other-great-blogs-to-follow/).
-- Sorry for the poor planning, but follow the [looong transfer track](/tags/toki-pona) to *toki pona* line!
+- Sorry for the poor planning, but follow the [looong transfer track](/tags/toki-pona) to *sike pona*!
 - In case you think this page is [not subway enough](https://gusbus.space/smallweb-subway/)…
 
 ### Exit guidance
@@ -183,6 +196,6 @@ This page is for websites I wish readers to know.
 In lieu of the concept of *friend*, I prefer that of people I know adequately to understand, maybe with published works alone.
 Please do transcribe/translate my name and slogan conforming your content/design.
 Write <span lang=fa>متلينگ</span> if you have a wonderful site in Farsi!
-Or write *from the dust, to the wind* if that language sounds malodorous to you.
+Or write *from the dust, to the wind* if that language sounds strange.
 
 Feel free to email me and [be my friend](m&#97;ilto:hi&#64;matling.fit)!

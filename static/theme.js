@@ -220,8 +220,7 @@ const preferences = [
   ]),
 ];
 
-
-document.addEventListener('DOMContentLoaded', () => {
+function kasi() {
   const shadowBox = document.querySelector(".skip-link");
   const menuBtn = document.querySelector(".ml-menu-button");
   const base = document.getElementById("advanced");
@@ -232,20 +231,27 @@ document.addEventListener('DOMContentLoaded', () => {
       menuBtn.click();
   }
 
-  const btn = document.createElement("button");
-  btn.type = "button";
-  btn.classList.add("ml-menu-button");
-  btn.innerText = "\u2383";
-  base.appendChild(btn);
-  const menu = document.createElement("div");
-  for (const i of preferences) menu.appendChild(i.line());
-  btn.addEventListener("click", () => menu.classList.toggle("open"));
-  base.appendChild(menu);
+  setTimeout(() => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.classList.add("ml-menu-button");
+    btn.innerText = "\u2383";
+    base.appendChild(btn);
+    const menu = document.createElement("div");
+    for (const i of preferences) menu.appendChild(i.line());
+    btn.addEventListener("click", () => menu.classList.toggle("open"));
+    base.appendChild(menu);
+  });
 
   document.querySelector(".ml-drawer")?.addEventListener("click", (e) => {
     if (menuBtn && e.target === e.currentTarget) menuBtn.click();
   });
-});
+}
+
+if (document.readyState === "loading")
+  document.addEventListener('DOMContentLoaded', kasi);
+else
+  setTimeout(kasi);
 
 function debounce(func, delay = 682, immediate = true) {
   let timer = null;

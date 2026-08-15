@@ -11,7 +11,7 @@ extra:
     .ml-card-anchor * { grid-column: 2 }
     .ml-card-anchor h2 { margin: 2px 0 6px; font-size: 1.375em }
     .ml-card-anchor span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-block: -0.25em; line-height: 1.5; }
-    #stamps { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5em; }
+    #stamps { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px }
     #stamps a { border-bottom: none; } #stamps>* { width: 88px; height: 31px; }
     h3 img { vertical-align: sub; margin-right: 0.5em; }
     #exit8 img{width:100%;}@media (min-width: 540px) { #exit8 img { height: 170px; }#exit8{ width: 256px; float: inline-end }}
@@ -20,7 +20,23 @@ extra:
 
 <marquee>The train bound for <span style="filter:blur(2px)">⚿⚿⚿</span> is arriving. Please keep away from the screen door.</marquee>
 
-<section id=stamps>
+<figure id=exit8><img src="//drum.matling.fit/sd/universe/exit8-small.png" aria-labelledby=exit8c>
+<figcaption id=exit8c>The exit you have seen? (Image: <cite>The New Yorker</cite>)</figcaption></figure>
+
+<div style="text-align: center; font-family: monospace">
+<a href="https://wordywebring.neocities.org?action=previous">←</a>
+<a href="https://wordywebring.neocities.org">wordy webring</a>
+(<a href="https://wordywebring.neocities.org?action=random">random</a>)
+<a href="https://wordywebring.neocities.org?action=next">→</a>
+</div>
+<div style="text-align: center; font-family: Cinzel, serif">
+<a href="https://circulus.matling.fit?action=previous">←</a>
+<a href="https://circulus.matling.fit">Circulus Telae</a>
+<a href="https://circulus.matling.fit?action=random">&#10227;</a>
+<a href="https://circulus.matling.fit?action=next">→</a>
+</div>
+
+<p id=stamps>
 <img src="//drum.matling.fit/sd/universe/88x31.gif" alt="matling">
 <a href="//www.freebsd.org/"><img src="//drum.matling.fit/sd/universe/88x31/freebsdchina-logo.gif" alt="FreeBSD"></a>
 <a href="//microsoft.cn"><img src="//drum.matling.fit/sd/universe/88x31/vuiruaan.gif" alt="微软中国"></a>
@@ -37,7 +53,7 @@ extra:
 <a href="//giveanornot.com"><img src="https://blog.giveanornot.com/logo.webp" alt="資工小廢物 - JN 的露狗"></a>
 <a href="//nightfall.city"><img src="//drum.matling.fit/sd/universe/88x31/nightfall-button-bw.png" alt="nightfall.city (the logo might be created by jurakubook.store, CC BY-NC-SA 4.0)"></a>
 <a href="//fabled.day"><img src="//drum.matling.fit/sd/universe/88x31/fabled.gif" alt="fabled.day"></a>
-</section>
+</p>
 
 <details>
 <p>Add my button to your 88x31 collection!
@@ -47,22 +63,6 @@ extra:
 ```
 
 </details>
-
-<figure id=exit8><img src="//drum.matling.fit/sd/universe/exit8-small.png" aria-labelledby=exit8c>
-<figcaption id=exit8c>The exit you have seen? (Image: <cite>The New Yorker</cite>)</figcaption></figure>
-
-<div style="text-align: center; font-family: monospace">
-<a href="https://wordywebring.neocities.org?action=previous">←</a>
-<a href="https://wordywebring.neocities.org">wordy webring</a>
-(<a href="https://wordywebring.neocities.org?action=random">random</a>)
-<a href="https://wordywebring.neocities.org?action=next">→</a>
-</div>
-<div style="text-align: center; font-family: Cinzel, serif">
-<a href="https://circulus.matling.fit?action=previous">←</a>
-<a href="https://circulus.matling.fit">Circulus telaE</a>
-<a href="https://circulus.matling.fit?action=random">&#10227;</a>
-<a href="https://circulus.matling.fit?action=next">→</a>
-</div>
 
 ### Transfer
 

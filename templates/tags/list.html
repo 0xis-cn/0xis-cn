@@ -21,7 +21,7 @@
 <main class="ml-article">
 <section id=tags>
 {% for term in terms -%}
-<a href="{{ term.path }}" data-count="{{ term.page_count }}">{{ term.name }}</a>
+<a href="{{ term.path | safe }}" data-count="{{ term.page_count }}">{{ term.name }}</a>
 {% endfor %}
 </section>
 </main></center><i class=dropdown-wrapper id=advanced></i>

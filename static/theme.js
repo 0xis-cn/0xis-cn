@@ -220,13 +220,17 @@ const preferences = [
   ]),
 ];
 
-(() => {
+
+document.addEventListener('DOMContentLoaded', () => {
   const shadowBox = document.querySelector(".skip-link");
   const menuBtn = document.querySelector(".ml-menu-button");
-  if (menuBtn && 1279 < window.innerWidth)
-    menuBtn.click()
-
   const base = document.getElementById("advanced");
+
+  if (localStorage) {
+    menuBtn.addEventListener('click', () => localStorage.setItem('jiyi', +menuBtn.parentNode.open));
+    if (menuBtn && 1279 < window.innerWidth && (!localStorage || !+localStorage.getItem('jiyi')))
+      menuBtn.click();
+  }
 
   const btn = document.createElement("button");
   btn.type = "button";
@@ -241,7 +245,7 @@ const preferences = [
   document.querySelector(".ml-drawer")?.addEventListener("click", (e) => {
     if (menuBtn && e.target === e.currentTarget) menuBtn.click();
   });
-})();
+});
 
 function debounce(func, delay = 682, immediate = true) {
   let timer = null;

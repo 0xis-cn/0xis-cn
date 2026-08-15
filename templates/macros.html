@@ -2,14 +2,14 @@
 
 {% macro dm(date) -%}
 {% set timestamp = date | date(format='%s') | int -%}
-{{ (timestamp - 1304092800) / 86400 | round }}
+{{ (timestamp - 1304092800) / 86400 | round -}}
 {% endmacro dm -%}
 
 {% macro lang(page) -%}
 {% if page.extra.legacy_lang %}{{ page.extra.legacy_lang }}{% else %}{{ page.lang | default(value="en") }}{% endif -%}
 {% endmacro %}
 
-{% macro lang_rtl(lang) %}
+{% macro lang_rtl(lang) -%}
 {% set langs = "ar he cmn-arab" | split(pat=" ") -%}
 {% if langs is containing(lang) %}dir=rtl{% endif -%}
 {% endmacro %}
@@ -23,7 +23,7 @@
     <span class=sep>
 		{% for tag in page.taxonomies['tags'] -%}
 		{% set url = get_taxonomy_url(kind="tags", name=tag) -%}
-		<a href="{{ url }}">{{ tag }}</a>
+		<a href="{{ url | safe }}">{{ tag }}</a>
 		{% endfor -%}
     </span>
 	{% endif -%}
@@ -32,7 +32,7 @@
     <span class=sep>
         {% for i in page.translations -%}
         {% if i.lang != page.lang -%}
-        <a href="{{ i.permalink }}" lang="{{ i.lang }}">{{ trans(key='language_name', lang=i.lang) }}</a>
+        <a href="{{ i.permalink | safe }}" lang="{{ i.lang }}">{{ trans(key='language_name', lang=i.lang) }}</a>
         {% endif -%}
         {% endfor -%}
     </span>
@@ -40,7 +40,7 @@
     <span class=sep>
         {% set prefix = "https://jun.matling.fit/ml/note/" -%}
         {% set page_type = page.relative_path | split(pat="/") | first -%}
-        <a href="{{ prefix }}{% if page_type != 'blog' %}{{ page_type }}-{% endif %}{{ page.slug }}"
+        <a href="{{ prefix | safe }}{% if page_type != 'blog' %}{{ page_type }}-{% endif %}{{ page.slug }}"
         {%- if not inSection %}rel=alternate type="application/activity+json"{% endif -%}
         >{{- trans(key="alt_ap", lang=macros::lang(page=page)) -}}</a>
     </span>
@@ -67,7 +67,7 @@
 	<a href=/ class=ml-author-image><img src="https://mastodon-avatar.netlify.app/?username=@matling@toki.social" class=ml-wordmark alt="'m Matling~" height=128></a>
 	<nav class=ml-bookmark>
         {%- for link in config.extra.t2038.drawer_links -%}
-        <a href="{{ link.url }}">{{ link.name[lang] }}</a>
+        <a href="{{ link.url | safe }}">{{ link.name[lang] }}</a>
         {%- endfor -%}
     </nav>
     {% if page.toc -%}
@@ -83,7 +83,7 @@
         <ul class=ml-toc>
             {% for i in page.translations -%}
                 {% if i.lang != page.lang %}
-                    <li lang="{{ i.lang }}"><a href="{{ i.permalink }}">{{ i.title }}</a></li>
+                    <li lang="{{ i.lang }}"><a href="{{ i.permalink | safe }}">{{ i.title }}</a></li>
                 {% endif %}
             {% endfor -%}
         </ul>
@@ -95,7 +95,7 @@
         <summary>{{ trans(key="backlinks", lang=lang) }}</summary>
         <ul class=ml-toc {% if page.lang %}lang={{ page.lang }}{% endif %}>
             {% for i in page.backlinks -%}
-                <li><a href="{{ i.permalink }}">{{ i.title }}</a></li>
+                <li><a href="{{ i.permalink | safe }}">{{ i.title }}</a></li>
             {% endfor -%}
         </ul>
     </details>

@@ -56,7 +56,7 @@ extra:
 </p>
 
 <details>
-<p>Add my button to your 88x31 collection!
+<p>Add my button to your 88x31 collection! No permission needed.
 
 ```html
 <a href="//matling.fit"><img src="//drum.matling.fit/sd/universe/88x31.gif" alt="matling.fit"></a>
@@ -66,11 +66,11 @@ extra:
 
 ### Transfer
 
-- Wiwi Kuan the ‹[pianist using Linux](https://wiwi.blog/blog/pianist-using-linux/)› has a [long blogroll](https://wiwi.blog/blogroll/) chiefly for sinophonic blogs.
+- Wiwi Kuan the ‹[pianist using Linux]((https://wiwi.blog/blog/pianist-using-linux/))› was honoured as the pioneer of [Wiwiverse](https://blog.giveanornot.com/center-of-the-universe/) by [sinophonic blogs](https://wiwi.blog/blogroll/). 
 - *Leftfold* lists [blogs the author enjoys](https://www.leftfold.tech/pages/blogroll/).
-- Without *Tales of Time Forgotten* by Spencer McDaniel I would not know [so many people write on classics](https://talesoftimesforgotten.com/other-great-blogs-to-follow/).
+- Without [*Tales of Time Forgotten*](https://talesoftimesforgotten.com/) by Spencer McDaniel I would not know [so many people write on classics](https://talesoftimesforgotten.com/other-great-blogs-to-follow/).
 - Sorry for the poor planning, but follow the [looong transfer track](/tags/toki-pona) to *sike pona*!
-- In case you think this page is [not subway enough](https://gusbus.space/smallweb-subway/)…
+- No, the entire page was [not subway enough](https://gusbus.space/smallweb-subway/)…
 
 ### Exit guidance
 

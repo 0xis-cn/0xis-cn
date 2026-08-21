@@ -195,6 +195,8 @@ const preferences = [
         if (verticalFirst) {
           verticalFirst = false;
           pn(document.querySelector("article"));
+          const kasi = document.querySelector('center');
+          kasi.style.paddingBottom = (kasi.offsetHeight % 16) + 'px';
         }
       },
     },

@@ -47,20 +47,21 @@ p, table {
 
 article > p, .ml-article > p, blockquote > p {
 	text-indent: 2em;
+	text-align: justify;
 }
 
 footer>img {
 	display: none;
 }
 
-h1, blockquote {
-	margin: 0;
+h1 {
+	margin: 0 1em;
 }
 
 blockquote {
 	border-top: 0; 
-	padding-left: 0;
-	padding-top: 2em;
+	padding: 0;
+	margin: 1em;
 	font-family: "DejaVu Serif","Georgia",'KaiTi','KaiTiGB2312','STKaiti',var(--base-font);
 }
 

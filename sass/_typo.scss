@@ -114,8 +114,10 @@ ul.ml-page-list {
 // measured from some old-school books
 $occupied-line: 1.5rem;
 
-h2, h3, h4 {
+h1, h2, h3, h4 {
 	line-height: $occupied-line;
+	margin-block-end: 0.1em;
+	font-weight: 300;
 }
 
 h1 {
@@ -125,20 +127,16 @@ h1 {
 
 .ml-article h2 {
 	font-size: 1.5em;
-	margin-top: $occupied-line; 
+	margin-block-start: $occupied-line; 
 }
 
 .ml-article h3 {
 	font-size: 1.25em;
-	margin-top: $occupied-line; 
+	margin-block-start: $occupied-line; 
 }
 
 .ml-article h4 {
 	font-size: 1.125em;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 300;
 }
 
 .ml-article ul {

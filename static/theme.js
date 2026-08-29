@@ -196,7 +196,7 @@ const preferences = [
           verticalFirst = false;
           pn(document.querySelector("article"));
           const kasi = document.querySelector('center');
-          kasi.style.paddingBottom = (kasi.offsetHeight % 16) + 'px';
+          kasi.style.paddingBottom = (kasi.clientHeight % 16) + 'px';
         }
       },
     },

@@ -7,12 +7,14 @@ title = "离线朋克宣言"
 * [English version](https://blog.ayom.media/ideiasdechirico/offpunk-manifesto)
 * [Version française](https://ploum.net/2026-08-03-offpunk_manifesto.html)
 * [Versão em português](https://blog.ayom.media/ideiasdechirico/offpunk-manifesto)
+* [Versión en español](https://write.as/hamedtoledo/manifiesto-offpunk)
+* [Versione italiana](https://blogz.zaclys.com/nilocram/manifesto-offpunk)
 
 <!--more-->
 
-虽然过连接似乎是未来不可避免的症候，一项胆怯的运动似乎正在加速：自愿而有意的离线。非智能机的使用正在增加。数码相机褈获流行，还有[磁带](https://www.nytimes.com/2024/10/03/arts/music/cassette-revival-tape-decks.html)和打字机。[一项运动旨在恢复报纸](https://slate.com/human-interest/2023/09/media-literacy-print-newspapers-tiktok-influencer-kelsey-russell.html)。[甚至因 MP3 播放器被遗忘的 MD 碟（迷你碟）都从灰烬中重生](https://www.theverge.com/2024/10/7/24264266/still-have-a-minidisc-player-around)。
+虽然过连接似乎是未来不可避免的症候，一项胆怯的运动似乎正在加速：自愿而有意的离线。非智能机的使用正在增加。数码相机緟获流行，还有[磁带](https://www.nytimes.com/2024/10/03/arts/music/cassette-revival-tape-decks.html)和打字机。[一项运动旨在恢复报纸](https://slate.com/human-interest/2023/09/media-literacy-print-newspapers-tiktok-influencer-kelsey-russell.html)。[甚至因 MP3 播放器被遗忘的 MD 碟（迷你碟）都从灰烬中重生](https://www.theverge.com/2024/10/7/24264266/still-have-a-minidisc-player-around)。
 
-世纪之交，互联网曾是麦克卢汉「地球村」愿景的最后一步。物以稀为贵（因此有时被共享）的计算机是另一片天地的门户。政府斥巨资悫保即使即使最贫困的人也被「包涵」在数字世界。
+世纪之交，互联网曾是麦克卢汉「地球村」愿景的最后一步。物以稀为贵（因此有时被共享）的计算机是另一片天地之门户。政府斥巨资悫保即使最贫困的人也被「包涵」在数字世界。
 
 这办到了。根据思科视觉网络对 2020 年代的预测，我们即将突破[人均三台在线设备](https://www.cisco.com/c/dam/m/en_us/solutions/service-provider/vni-forecast-highlights/pdf/Global_2020_Forecast_Highlights.pdf)的里程碑。
 
@@ -35,7 +37,7 @@ title = "离线朋克宣言"
 
 2025 年末，[国际刑事法院的法国法官 Nicolas Guillou 失去多种美国在线服务的访问权](https://www.lemonde.fr/international/article/2025/11/19/nicolas-guillou-juge-francais-de-la-cpi-sanctionne-par-les-etats-unis-face-aux-attaques-les-magistrats-de-la-cour-tiendront_6654016_3210.html)，包括爱彼迎、亚马逊、PayPal 等美国企业提供的膳宿、网购、银行业务等。美国采取该制裁的理由是 Guillou 签署对以色列总理 Benjamin Netanyahu 及其国防部仧 Yoav Gallant 的逮捕令，因以色列对巴勒斯坦领土策动种族灭绝性攻击。美国是支持以色列在中东行动的主要国家。
 
-离线朋克理念源于简明却令人不安的观察：数字世界岌岌可危。然而一切社交生活均被强行融入数字环境。因此这一理念虑及人们不应完全仰赖虚拟服务，以免某项服务被制裁或不可用。依赖这种脆弱基础设施已有甚多成例：[2024 年中期微輭服务器中断波及全球银行业务](https://www.financialexpress.com/life/technology-microsoft-outage-disrupts-banks-airlines-and-stock-exchange-full-list-of-services-impacted-3558631/)，[2024 年末巴西政府对推特／X 制裁](https://www.gazetadigital.com.br/editorias/brasil/x-continua-bloqueado-no-brasil-apesar-de-ter-suas-dividas-quitadas-entenda/783707)，[2025 年末亚马逊和 Cloudfare 全球瘫痪使多数网站无法访问](https://lifehacker.com/tech/cloudflare-amazon-web-sites-and-services-down)。
+离线朋克理念源于简明却令人不安的观察：数字世界岌岌可危。然而一切社交生活均已被强行融入数字环境。因此这一理念虑及人们不应完全仰赖虚拟服务，以免某项服务被制裁或不可用。甚多成例已证实依赖这种脆弱基础的后果：[2024 年中期微輭服务器中断波及全球银行业务](https://www.financialexpress.com/life/technology-microsoft-outage-disrupts-banks-airlines-and-stock-exchange-full-list-of-services-impacted-3558631/)，[2024 年末巴西政府对推特／X 制裁](https://www.gazetadigital.com.br/editorias/brasil/x-continua-bloqueado-no-brasil-apesar-de-ter-suas-dividas-quitadas-entenda/783707)，[2025 年末亚马逊和 Cloudfare 全球瘫痪使多数网站无法访问](https://lifehacker.com/tech/cloudflare-amazon-web-sites-and-services-down)。
 
 系统故障时，无论是因为政治制裁、服务瘫痪、抑或战争，整个虚拟宇宙就会消失。如果数字是惟一选择，你将束手无策。
 
@@ -53,9 +55,9 @@ title = "离线朋克宣言"
 
 Trine Syvertsen 在《数字排毒：离线之政治》中说明数字极简主义如何促成一种新自由主义议程，将解决结构性弊病（曾是集体机构的职责）的责任转嫁个人（溥通的智能设备用户）。作者指出驱动数字极简主义的原因，三个 P 打头的词⸺存在感、生产力、隐私⸺都是个人动因。
 
-换言之，因手机错过社交活动，因消息提醒无法高效工作或投入个人项目，如果讨厌被科技巨头监视与物化，都怪用户不够自律，未能减少其吸引力，而非归咎于商业模式建基于注意力经济、大规模监控、与成瘾设计的软件。
+换言之，因手机错过社交活动，因消息提醒无法高效工作或投入个人项目，如果讨厌被科技巨头监视与物化，都怪用户不够自律，未能设法减少其吸引力，而非归咎于商业模式建基于注意力经济、大规模监控、与成瘾设计的软件。
 
-这一推卸知情责任的做法与德国韩裔知识份子韩炳哲在其著作《爱欲的痛苦》中对当代社会的分析一致。书中指出：
+这一推卸知情责任的做法与德国韩裔知识份子韩炳哲在其著作《爱欲之死》中对当代社会的分析一致。书中指出：
 
 > 自我剥削远比被他人剥削有效，因其与自由感相伴生。
 
@@ -63,11 +65,11 @@ Trine Syvertsen 在《数字排毒：离线之政治》中说明数字极简主�
 
 相反，离线朋克虽然源于高数字素养，但捍卫简单而不矫揉造作的离线，不会屈居社会活动或公民权利行使的边沿。
 
-数字极简主义将数字排毒视为提升生产力的工具，而非朋克则视断联为反消费主义态度。
+数字极简主义将数字排毒视为提升生产力的工具，而离线朋克则视断联为反消费主义态度。
 
 ### 定义
 
-离线朋克不是生活方式，而是对待数字化的立场，是探索数字排毒之集体化可能，探索离线的政治社会影响。离线朋克旨在寻求不经数字中介的休闲、公民身份、与沟通。不为互联网的终结而战，而是为无需不间断连接的潜在生活而战。
+离线朋克不是生活方式，而是对待数字化的立场，是探索数字排毒之集体化可能，探索离线之政治社会影响。离线朋克旨在寻求不经数字中介的休闲、公民身份、与沟通。不为互联网的终结而战，而是为无需不间断连接的生活方式而战。
 
 作为立场，离线朋克接近一种世俗策略，类似冥想与斿击战。
 
@@ -87,7 +89,7 @@ Trine Syvertsen 在《数字排毒：离线之政治》中说明数字极简主�
 
 ### 离线朋克美学
 
-离线朋克尚无面目，但有一些线索可以让我们一窥他未来的样子。其首倡之功可能来自 Ploum 近来对其互联网行为的定义：「技术朋克」，一个反体制的技术爱好者。
+离线朋克尚无面目，但有一些线索可以让我们一窥其未来的样子。其首倡之功可能来自 Ploum 近来对其互联网行为的定义：「技术朋克」，一个反体制的技术爱好者。
 
 如上所述，离线朋克是对待当代科技的立场，而非（反）乌托邦，或赛博朋克与 solarpunk 那样的文化视觉美学。
 
@@ -95,19 +97,19 @@ Trine Syvertsen 在《数字排毒：离线之政治》中说明数字极简主�
 
 1. 计算机领域，[Offpunk 浏览器](https://ploum.net/2026-02-09-offpunk3.html)（该宣言名偁来源）以及 Gemini 协议。
 2. 设计领域，「永久计算机」或 Mudita Kompakt 手机之㮣念。
-3. 社会方面，如纽约反科技俱乐部
+3. 社会方面，如纽约反技术俱乐部
 4. 文化方面，小说《单车朋克》（2024）或电影《一战再战》（2025）
 
 > 《一战再战》中，淘汰与降级是自由的策略。角色回到旧的定制设备以创建並行通信网络。新技术如智能设备的出现，目旳是置生命于危险，压制並阻挠计划实现。  
 > — [Eduardo Fernandes](https://blog.ayom.media/ideiasdechirico/offpunk-manifesto) (Texto Sobre Tela)
 
-德日合拍电影《完美的日子》（2023）中，我们可以看到东京公共厕所清洁工平山的田园生活。其在业余时间用胶片拍照、听录音带、骑自行车、览卷而眠，享受生活的每一刻，与世隔绝。
+德日合拍电影《完美的日子》（2023）中，我们可以看到东京公共厕所清洁工平山的田园生活。其在业余时间用胶片拍照、听录音带、骑自行车、合卷而眠，享受生活的每一刻，与世隔绝。
 
-日本，这个一直追求现代与传统平衡的国家，仍提供现金支付终端、用于大部分商务通信的固定电话线，大型企业仍使用传真机或软盘等复古计算技术。印度拥有世界上最优秀电话网络之一，一名公民平均每天拨打 90 通电话。
+日本，这个一直追求现代与传统平衡的国家，仍提供现金支付终端、用于多数商务通信的固定电话线，大型企业仍使用传真机或软盘等复古计算技术。印度拥有世界上最优秀电话网络之一，一名公民平均每天拨打 90 通电话。
 
-### 非朋克运动的优先事项
+### 离线朋克运动的优先事项
 
-离校朋克是更广泛社会斗争的一部分，包括：
+离线朋克是更广泛社会斗争的一部分，包括：
 
 1. 反对生产过剩的斗争
 2. 反对计划报废的斗争
@@ -127,8 +129,8 @@ Trine Syvertsen 在《数字排毒：离线之政治》中说明数字极简主�
 1. 现金支付。便捷，无需电力或互联网，个人数据不会被存储；
 2. 模拟媒介。作为实体物件，悫保无互联网通信，数据属于你而不会被转借。如唱片、MP3/MP4、报纸、广播；
 3. 独立去中心化的数字媒介。电子邮件、「野兽派」低成本网站、数码相机、功能机；
-4. 数据存储与传输媒介。独立控制的硬盘、U 盘、存储卡或自托輨在线服务，使数据不因服务中断而消泯；
-5. 去中心化通信协议。通过蓝牙（Bitchat）、Gemini 协议、加密邮件、Tor、XMPP 等进行消息传递。
+4. 数据存储与传输媒介。独立控制的硬盘、U 盘、存储卡或自架在线服务，使数据不因服务中断而消泯；
+5. 去中心化通信协议。通过蓝牙（Bitchat）、Gemini 协议、加密邮件、Tor、XMPP 等收发消息。
 
 ### 挑战
 
@@ -138,6 +140,8 @@ Trine Syvertsen 在《数字排毒：离线之政治》中说明数字极简主�
 
 我们捍卫非数字世界的不可妥协权利。不经算法与人分享的权利，不经中心化平台的社交组织权，不被要求永久在线的权利。
 
-只要少数公司垄断技术，只要大规模监控与国家同谋存在，且对这些数据的实施手段和使用毫无透明，只要注意力经济能用我们的空闲时间换取广告，只要基础设施破坏发展中国家主权，只要尚存在强制数字化而互联网接入不被视为基本权利：革命就不是数字化。
+只要少数公司垄断技术，只要大规模监控与国家同谋存在，且对这些数据的实施手段和使用毫无透明，只要注意力经济能用我们的空闲时间换取广告，只要基础设施破坏发展中国家主权，只要尚存在强制数字化而互联网接入不被视为基本权利：
 
-<p class=ml-smaller>本文最初由 Arlon de Serra Grande 以葡萄牙语撰写，Lionel Dricot（Ploum）联署<br>（物按：我核对了三种语言版本，Ploum 的法语发布版个别文句略有不同，主要是示例与琐碎用词差异，对此我任取其一。作为宣言，译文有时使用通行词（如「国家」）而非我一般使用的词。以 CC BY-SA 4.0 发布。）</p>
+革命就不是数字化!
+
+<p class=ml-smaller>本文最初由 Arlon de Serra Grande 以葡萄牙语撰写，Lionel Dricot（Ploum）联署<br>（物按：我只核对了葡英法三种语言。Ploum 的法语发布版个别文句略有不同，主要是示例与琐碎用词差异，对此我任取其一。作为宣言，译文有时使用通行词（如「国家」）而非我一般使用的词。以 CC BY-SA 4.0 发布。）</p>

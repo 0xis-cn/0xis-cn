@@ -1,6 +1,6 @@
 ---
 extra:
-  legacy_lang: cmn
+  legacy_lang: zh
   ciemmwue: 于杏园堡
 title: 小学四年级语文单元测试卷
 ---

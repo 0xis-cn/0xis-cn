@@ -1,9 +1,8 @@
----
-title: Enhypen Alphabet
-extra:
-  ciemmwue: from Pȣkkeq
-  iiia: 0
----
++++
+title = "Enhypen Alphabet"
+[taxonomies]
+tags = ["gretchen"]
++++
 
 Enhypen Alphabet (‘**e**mpirical **n**ominal **hype**rlingual **n**otation’) is a language-neutral spelling system for Chinese characters, specifically for Chinese-derived proper names. It bears less prejudice from Mandarin, as compared to Yuen Ren Chao’s [General Chinese](https://en.wikipedia.org/wiki/General_Chinese) and Professor [Gu Qian](https://chin.nju.edu.cn/English/Faculty/AppliedLinguistics/20230516/i246356.html)’s *Common Sound Systems of Chinese Dialects*, where the bias is more or less dedicated.
 

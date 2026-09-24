@@ -1,30 +1,50 @@
+
+
 {% macro dm(date) -%}
 {% set timestamp = date | date(format='%s') | int -%}
-{{ (timestamp - 1304092800) / 86400 | round }}
+{{ (timestamp - 1304092800) / 86400 | round -}}
 {% endmacro dm -%}
 
 {% macro lang(page) -%}
 {% if page.extra.legacy_lang %}{{ page.extra.legacy_lang }}{% else %}{{ page.lang | default(value="en") }}{% endif -%}
 {% endmacro %}
 
-{% macro lang_rtl(lang) %}
-{% set langs = "ar cmn-Arab" | split(pat=" ") -%}
+{% macro lang_rtl(lang) -%}
+{% set langs = "ar he cmn-arab" | split(pat=" ") -%}
 {% if langs is containing(lang) %}dir=rtl{% endif -%}
 {% endmacro %}
 
-{% macro ciemmwue(page) %}
-<p class="ml-smaller">
+{% macro ciemmwue(page, inSection=false) %}
+<ciemmwue class=ml-smaller>
 	<time datetime="{{ page.date }}" pubdate>
 		{{ macros::dm(date=page.date) }} DM
-	</time> ({{ page.date | date(format='%-d %b %Y') }})
-	{{ page.extra.ciemmwue | default(value='civitate terrena') }}
+	</time>
 	{% if page.taxonomies['tags'] -%}
+    <span class=sep>
 		{% for tag in page.taxonomies['tags'] -%}
 		{% set url = get_taxonomy_url(kind="tags", name=tag) -%}
-		#<a href="{{ url }}">{{ tag }}</a>
+		<a href="{{ url | safe }}">{{ tag }}</a>
 		{% endfor -%}
+    </span>
 	{% endif -%}
-</p>
+    {% set length_hack = page.translations | default(value="") | length -%}
+    {% if length_hack > 1 and inSection -%}
+    <span class=sep>
+        {% for i in page.translations -%}
+        {% if i.lang != page.lang -%}
+        <a href="{{ i.permalink | safe }}" lang="{{ i.lang }}">{{ trans(key='language_name', lang=i.lang) }}</a>
+        {% endif -%}
+        {% endfor -%}
+    </span>
+    {% endif -%}
+    <span class=sep>
+        {% set prefix = "https://jun.matling.fit/ml/note/" -%}
+        {% set page_type = page.relative_path | split(pat="/") | first -%}
+        <a href="{{ prefix | safe }}{% if page_type != 'blog' %}{{ page_type }}-{% endif %}{{ page.slug }}"
+        {%- if not inSection %}rel=alternate type="application/activity+json"{% endif -%}
+        >{{- trans(key="alt_ap", lang=macros::lang(page=page)) -}}</a>
+    </span>
+</ciemmwue>
 {% endmacro %}
 
 {% macro _ultoc(obj, level=2) %}
@@ -44,10 +64,10 @@
 <details class=ml-drawer>
 	<summary class=ml-menu-button>≡</summary>
 	<div class=ml-drawer-inside>
-	<a href=/ class=ml-author-image><img src=/img/cloak.png alt="'m Matling~"></a>
+	<a href=/ class=ml-author-image><img src="https://mastodon-avatar.netlify.app/?username=@matling@toki.social" class=ml-wordmark alt="'m Matling~" height=128></a>
 	<nav class=ml-bookmark>
         {%- for link in config.extra.t2038.drawer_links -%}
-        <a href="{{ link.url }}">{{ link.name[lang] }}</a>
+        <a href="{{ link.url | safe }}">{{ link.name[lang] }}</a>
         {%- endfor -%}
     </nav>
     {% if page.toc -%}
@@ -63,8 +83,19 @@
         <ul class=ml-toc>
             {% for i in page.translations -%}
                 {% if i.lang != page.lang %}
-                    <li lang="{{ i.lang }}"><a href="{{ i.permalink }}">{{ i.title }}</a></li>
+                    <li lang="{{ i.lang }}"><a href="{{ i.permalink | safe }}">{{ i.title }}</a></li>
                 {% endif %}
+            {% endfor -%}
+        </ul>
+    </details>
+    {% endif -%}
+    {% set backlinks_link = page.backlinks | default(value="") | length %}
+    {% if backlinks_link > 0 -%}
+    <details>
+        <summary>{{ trans(key="backlinks", lang=lang) }}</summary>
+        <ul class=ml-toc {% if page.lang %}lang={{ page.lang }}{% endif %}>
+            {% for i in page.backlinks -%}
+                <li><a href="{{ i.permalink | safe }}">{{ i.title }}</a></li>
             {% endfor -%}
         </ul>
     </details>

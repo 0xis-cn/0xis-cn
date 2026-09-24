@@ -1,14 +1,20 @@
 & { // body
-	--base-font: apple-system, "Noto Sans", "Noto Sans CJK SC", system-ui, sans-serif;
-	--serif-font: "Noto Serif CJK SC", serif;
+	// --base-font: apple-system, "Noto Sans", "Noto Sans CJK SC", system-ui, sans-serif;
+	// --serif-font: "Noto Serif CJK SC", serif;
+	writing-mode: vertical-rl;
 }
 
 center {
 	box-sizing: border-box;
 	overflow: auto;
-	writing-mode: vertical-rl;
-	line-height: 2;
+	line-height: 1.75;
 	height: calc(100% - 1em);
+	max-width: unset;
+	margin: auto 0;
+}
+
+.dropdown-wrapper, .skip-link, .ml-drawer {
+	writing-mode: horizontal-tb;
 }
 
 .skip-link {
@@ -20,19 +26,18 @@ center, .ml-drawer[open] + center {
 	padding-left: 15rem;
 }
 
-.ml-article {
-	max-width: unset;
-}
-
 .ml-drawer {
-	writing-mode: horizontal-tb;
-	width: unset;
+	max-width: 13.5rem;
 }
 
 .ml-article a {
 	border-right: 1px solid var(--color-levity);
 	border-bottom: none;
-	padding-right: 2px;
+	padding-right: 3px;
+}
+
+.footnote-reference a {
+	border-right: none;
 }
 
 p, table {
@@ -40,29 +45,24 @@ p, table {
 	max-width: unset;
 }
 
-article > p, .ml-article > p {
+article > p, .ml-article > p, blockquote > p {
 	text-indent: 2em;
-}
-
-footer {
-	position: fixed;
-	bottom: -3.5em;
-	left: 0;
-	right: 0;
+	text-align: justify;
 }
 
 footer>img {
 	display: none;
 }
 
-h1, blockquote {
-	margin: 0;
+h1 {
+	margin: 0 1em;
 }
 
 blockquote {
-	border-left: 0; 
-	padding-left: 0;
-	padding-top: 2em;
+	border-top: 0;
+	padding: 0;
+	margin: 1em;
+	font-family: "DejaVu Serif","Georgia",'KaiTi','KaiTiGB2312','STKaiti',var(--base-font);
 }
 
 .ml-article h2, .ml-article h3, .ml-article h4 {
@@ -80,4 +80,13 @@ blockquote {
 
 tcy {
 	text-combine-upright: all;
+}
+
+&[data-width="narrow"] center {
+	max-height: var(--middle-width);
+}
+
+u {
+	border-bottom: none;
+	border-right: 1.2px dashed $line-color;
 }

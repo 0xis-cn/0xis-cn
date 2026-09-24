@@ -1,7 +1,7 @@
 ---
 title: Lucas 定理补记
 extra:
-  legacy_lang: cmn
+  legacy_lang: zh
   ciemmwue: 于北京
   formula: true
 ---

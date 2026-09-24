@@ -4,7 +4,7 @@ extra:
   ciemmwue: mend
 ---
 
-I wrote a program running on my roommate’s laptop for a day.
+I wrote a program running on my roommate’s laptop for a day, before failed attempts on my VPS. The result is 10,440,540,672,944. However, I saw a different result somewhere, hence unconfident in my program.
 
 <!--more-->
 

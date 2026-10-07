@@ -22,6 +22,13 @@ I am willing to adopt a non-natural language name when the language is morpholog
 </details>
 </section>
 
+### Point of view
+
+Wikipedia is known with its neutral point of view (NPoV); RationalWiki has a special point of view ([SPoV](https://rationalwiki.org/wiki/RationalWiki:POV); that is, *scientific* and *snarky* point of view); we have a generic point of view (GPoV). This means
+
+- Gracious point of view — Hospitable, not playful, indifferent, or precipate.
+- Global point of view — Universal, not culture-specific, circumstantial, or [gibberingly personalized](https://news.ycombinator.com/item?id=46460557).
+
 ### Domain name
 
 One invoking `fit()` is not certainly a `Model`.
@@ -30,13 +37,6 @@ One invoking `fit()` is not certainly a `Model`.
 
 DM (in the days of Muqliong) denote days starting from 1 May 2011, when
 Muqliong Gang was approximately formed. See the [Lexicon Matlini entry](https://lex.matling.fit/days-of-muqliong.html).
-
-### Point of view
-
-Should a special point of view (GPoV, after [SPoV](https://rationalwiki.org/wiki/RationalWiki:POV)) exist here, it means two things.
-
-- Gracious point of view — Hospitable, not playful, snarky, indifferent, or hasty.
-- Global point of view — Universal, not culture-specific, circumstantial, or gibberingly personalized.
 
 ### Theme
 

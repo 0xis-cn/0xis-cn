@@ -1,8 +1,5 @@
 ---
 title: Do not get gentle into your CS major
-extra:
-  ciemmwue: in Shanxi and Beijing
-  iiia: 2
 ---
 
 I used to believe I was the one on the planet who loved this field the most. Now I suspect I care the least. I cannot see the future, sprinting toward a horizon that keeps receding into darkness. Part of this text was written one year ago, originally meant to be the script for a video. I found it too clumsy and in constant need of revision, so I reformed it into an essay.
@@ -35,14 +32,10 @@ Time is the first and final resource determining what you can actually build. Th
 
 For concrete advice on how to create, see [ByVoid’s slides](https://byvoid.github.io/slides/experiences-2014/index.html).
 
-Work or any act of creation derives its value from what it offers others, not from private whim. Your pet project may be a beautiful hack or a mere trinket, but Spring Cloud instances from all over the world are still emitting steaming ProtoBuf packages.
-
 ## A dream
 
 When all roads are closed, dream one more dream. While procrastinating on my bachelor’s thesis, I once stumbled upon a blog post by Stephen Wolfram on the centennial evolution of combinators (I failed to find it now), and in a flash I realized: *this* is the theory I had been yearning for. Sometimes I wish a few more Wolframs would appear to rouse the field, and I even allow myself to imagine that one of them might be reading this now. Alas, reality is not a heroic novel. Only a handful proudly declare themselves future Turing laureates, and they are precisely the ones who would not have opened this essay. Wolfram, after all, came from physics.
 
-I have avoided mentioning social system. Neither a rebel nor a sharp critic, I am still undeniably its casualty. I possess no lifeline — nothing brighter than background radiation. I mean: a friend whose grasp of mathematics goes beyond rote memorization of analysis and linear algebra, a circle of contest hunters, a NAS filled with books where there are no disproportionate computer scientist-to-philosopher ratio, or simply the innate gift of dancing under sunlight. Background radiation *is* the system. Make better choices than me.
+I have avoided mentioning social system. Neither a rebel nor a sharp critic, I am still undeniably its casualty. I possess no lifeline — nothing brighter than background radiation. I mean: a friend whose grasp of mathematics goes beyond rote memorization of analysis and linear algebra, a circle of contest hunters, or simply the innate gift of dancing under sunlight. Background radiation *is* the system. Make better choices than me.
 
 I know I have failed this discipline. Love does not outlast the erosion of years. At my level, the real thing never comes within reach. I hope that when you discover how dearly transcendence costs, you will not abandon the pursuit. This is not the platitude of purists, but a plea that, on this bleak road, you keep searching for an answer once thought unimaginable.
-
-<p class=ml-smaller>The text was originally in Mandarin, which is written without LLMs. But the current version <em>is</em> malodorous. I will be more cautious in drafting and translation.</p>

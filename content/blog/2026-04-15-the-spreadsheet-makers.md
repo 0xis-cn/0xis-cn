@@ -12,8 +12,6 @@ I did not experience the time of spreadsheet-makers. I was, at that time, a fake
 
 Few was Quu Hao remembered outside the book, despite the brazen boasting in the preface.
 
-[^n]: *n* is an aged slang meaning an indetermined large number.
-
 > I only ranked 10ⁿ-or-so-th in the Excel arena, yet I easily manage *n*[^n] types of reports from various industries. I use spreadsheets for department management, standardized operating procedures, production control, and risk anticipation. Classic templates made by my hand still serve the companies and clients I once worked for. I complete the work that would take others a week in a minute, or summon *n* reports in much the same time.
 
 The oblivion contrasts to later productivity missionaries, or Quu simply disappeared like thousands of StackExchange counterparts where people constantly asked ‘how to do x in Excel.’ Fortunately, Quu rescuedly recorded the life of spreadsheet-makers, in ‘modern society’ under their words. One can probably believe from Quu’s vivid narration that such a group of people really existed.
@@ -44,16 +42,14 @@ The table gang was replaced, if we can say, *by* <abbr title="ERP stands for Ent
 
 [^srwhatever]: My point is, Salesforce indeed cannot be vibe coded in a day, but it is sold to large centralized bunisesses. And yes, coding counterparts to Hollywood do exist, [suggested in many comments here](https://x.com/cpaik/status/1796633683908005988); if only I could see them in a shrine with specific offerings.
 
-LLMs are hardly a *knowing* deus ex machina, or a supplement to the world’s deterministic traditions. If LLMs genuinely supports nomadic businesses, more than fabricated *The Economist* headlines, if gig economy is an inevitable trap, we will drift from Salesforce and Jira (hence its creation[^srwhatever]) to what photography or performance have experienced. Few will be employed by large organizations and mummify the 2010s workflow. Most of us will make ourselves influencers, jumbling our work with seemingly ubiquitous AIr, to serve the next ambitious careerist.
+LLMs are hardly a *knowing* deus ex machina, or a supplement to the world’s deterministic traditions. If LLMs genuinely supports nomadic businesses, more than fabricated *The Economist* headlines, if gig economy is an inevitable trap, we will drift from Salesforce and Jira (hence its creation[^srwhatever]) to what photography or performance have experienced. Few will be employed by large organizations and mummify the 2010s workflow. Most of us will make ourselves influencers, jumbling our work with the Ubiquitous, to serve the next ambitious careerist.
 
 ### From fake geek to pessimist
 
 My young self lingered around every experimental feature in Facebook and QQ. I did not notice that someone was conducting thousands of A/B tests [from years ago until now](https://alexhsu.com/en/delete-facebook), hoping for the retention rate to bump up. The only difference is, the experimental feature was then hits like Facebook timeline, and now tedious disguised advertisement.
 
-Spreadsheet creation, programming, and [even tricks that now sound like child’s play](https://skywt.cn/blog/advx-2025-in-my-pov), may all be the same thing for my younger self. Perhaps what I loved was never computer science, but rather a certain sense of discovery through a winding path, a path ultimately artificial. I fear (or perhaps it is) that what I enjoyed was merely puzzles or fun, a superficial veneer of professionalism. Spending days coding in my own little world is inherently different from being a cog in the machine in the real world. I felt [my already illusory *passion* dissipate](@/blog/2024-06-02-adieu-lanzhou.md), and it took me a long time to understand what this shift truly meant.
+Spreadsheet creation, programming, and [tricks that now sound like child’s play](https://skywt.cn/blog/advx-2025-in-my-pov), may all be the same thing for my younger self. Perhaps what I loved was never computer science, but rather a sense of discovery through a winding path, a path ultimately artificial. What I enjoyed was merely puzzles or fun, a superficial veneer of professionalism. Spending days coding in my own little world is inherently different from being a cog in the machine in the real world. I felt [my already illusory *passion* dissipate](@/blog/2024-06-02-adieu-lanzhou.md), and it took me even longer to understand what this shift truly meant.
 
-My best hypothesis is that my younger self pictured the technology industry as Skywalker Ranch-style impresarios, and wasted years to unravel the truth. I still feel overwhelmed when approaching Leviathans for a job, whose début was necessary given the negligible marginal cost of software/service products. I can convince myself several start-ups are truly Skywalker Ranchs, but add that I was never qualified to join them.
-
-I told myself that this rupture did not stem from AI hype, nor some cowards; the rupture was reality.
+My best hypothesis is that my younger self pictured the technology industry as Skywalker Ranch-style impresarios. I can convince myself several start-ups are truly Skywalker Ranchs, but add that I was never qualified to join them. I still feel overwhelmed looking down my own applications. Social sectors have grown into the façade not because they are not cool. They are driven by the negligible marginal cost of software products made us here.
 
 Vanish did the spreadsheet-makers into the air, leaving only Quu’s out-of-print book. Or they did not, counting startups cramming all the procedures in their holy trinity. Sprinting figures will be someday like the estranged, almost incomprehensible past when reports and slides were typed by hand. But there is no page in history that was solely destruction.

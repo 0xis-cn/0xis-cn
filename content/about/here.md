@@ -41,7 +41,7 @@ Muqliong Gang was approximately formed. See the [Lexicon Matlini entry](https://
 ### Theme
 
 The [theme 2038](https://github.com/0xis-cn/2038) is named after — not that you already know —
-[a 2018 song by Yì Ān Musical](@/blog/2025-06-17-ianjunghak-siuhu-2038nen.md).
+a 2018 song by Yì Ān Musical.
 It whispered the possibility of a future of oblivion
 and the demise of their musician dreams.
 

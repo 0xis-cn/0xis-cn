@@ -2,7 +2,7 @@
 
 {% macro dm(date) -%}
 {% set timestamp = date | date(format='%s') | int -%}
-{{ (timestamp - 1304092800) / 86400 | round -}}
+{{ timestamp / 86400 - 8643 | round -}}
 {% endmacro dm -%}
 
 {% macro lang(page) -%}
@@ -16,9 +16,8 @@
 
 {% macro ciemmwue(page, inSection=false) %}
 <ciemmwue class=ml-smaller>
-	<time datetime="{{ page.date }}" pubdate>
-		{{ macros::dm(date=page.date) }} DM
-	</time>
+	<time datetime="{{ page.date }}"
+	{%- if not inSection -%} pubdate {%- endif %}>{{ macros::dm(date=page.date) }}</time>
 	{% if page.taxonomies['tags'] -%}
     <span class=sep>
 		{% for tag in page.taxonomies['tags'] -%}

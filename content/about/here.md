@@ -2,16 +2,27 @@
 title = "About"
 +++
 
-Matling.fit is now officially a collective work by [Ligi Studio](@/about/ligi.md).
+<p style="font-style:italic;margin-left:2em">A mechanic psychic, a maudlin clarion, and an <a href="https://baike.baidu.com/item/Oreki%E4%B8%B6">Oreki&#8288;&#20022;</a> fanboy.</p>
 
-### h-card
+Matling.fit is now officially a collective work by [Ligi Studio](@/about/ligi.md), open to submission. The mascot is Gān Ciĕp.
 
-<section class=h-card>
+## Point of view
 
-<i class=p-note>A mechanic psychic, a maudlin clarion, and an [Oreki丶](https://baike.baidu.com/item/Oreki%E4%B8%B6) fanboy.</i>
+Wikipedia is known with its neutral point of view (NPoV); RationalWiki has a special point of view ([SPoV](https://rationalwiki.org/wiki/RationalWiki:POV); that is, *scientific* and *snarky* point of view); we have a generic point of view (GPoV). This means
+
+- Gracious point of view — Hospitable, not playful, indifferent, or precipate.
+- Global point of view — Universal, not culture-specific, circumstantial, or [gibberingly personalized](https://news.ycombinator.com/item?id=46460557).
+
+## Nomenclast
+
+### Publication date
+
+Publication date is written in eternal september date. It was formerly described in [days of Muqliong](https://lex.matling.fit/days-of-muqliong.html), the approximated day when Muqliong Gang was formed.
+
+### Etymology of „Mat&#8209;lìng“
 
 <details>
-<summary><b>Etymology&emsp;</b>From <i>mat</i>, clipping of <i>material</i>, and <i>-ling</i>, suffix for a follower.</summary>
+<summary>From <i>mat</i>, clipping of <i>material</i>, and <i>-ling</i>, suffix for a follower.</summary>
 <p>Ahem.
 <p>I attribute the name to <cite>Tsieushaeng Fuh</cite> by Euyang Sieu, though the compound was to <a href="https://en.wikipedia.org/wiki/Mei_Ze">Muei <cite>Tayzhey</cite></a>.
 <p>Surface analysis from Sky Darmos’ <cite>The German Language in Chinese Script</cite>, or <i>siaudzih</i> — quackery, but adequate for <a href="https://lex.matling.fit/divpolis.html">a foundation of recreational art</a>.
@@ -20,23 +31,8 @@ or whatever.
 I am willing to adopt a non-natural language name when the language is morphologically special. This is not the same as patriarchial latination.
 <table><thead><tr><th>Language</th><th>Name</th><th>Transcription</th></tr></thead><tbody><tr><td>Dan’a’yo</td><td>묻링</td><td>Mutling</td></tr><tr><td>Esperanto</td><td>Matlino</td><td> </td></tr><tr><td>Lojban</td><td>la mytlin</td><td> </td></tr><tr><td>Shidinn</td><td>gwƨ viƨ</td><td>Geuénnýn</td></tr><tr><td>Shōnago language</td><td><img class="ml-wordmark" src="https://s21.ax1x.com/2024/03/20/pFWOT8f.png" height="35"></td><td>Māute-nòhlì</td></tr><tr><td>Toki Pona</td><td style="font-family:'linja sike','linja pona';max-width:6em">☆[_ma_li_ń]</td><td>kokosila Malin</td></tr></tbody></table>
 </details>
-</section>
 
-### Point of view
-
-Wikipedia is known with its neutral point of view (NPoV); RationalWiki has a special point of view ([SPoV](https://rationalwiki.org/wiki/RationalWiki:POV); that is, *scientific* and *snarky* point of view); we have a generic point of view (GPoV). This means
-
-- Gracious point of view — Hospitable, not playful, indifferent, or precipate.
-- Global point of view — Universal, not culture-specific, circumstantial, or [gibberingly personalized](https://news.ycombinator.com/item?id=46460557).
-
-### Domain name
-
-One invoking `fit()` is not certainly a `Model`.
-
-### Publication date
-
-DM (in the days of Muqliong) denote days starting from 1 May 2011, when
-Muqliong Gang was approximately formed. See the [Lexicon Matlini entry](https://lex.matling.fit/days-of-muqliong.html).
+## Design
 
 ### Theme
 
@@ -83,6 +79,8 @@ Theme switched to 2038 designed in a fortnight.
 <dt>10 Sep 2025
 <dd>Migrated to Zola.
 </dl>
+
+## Legal notice
 
 ### „AI usage“
 

@@ -134,6 +134,11 @@ extra:
 	<h2>焰华Honoka55</h2>
     <span lang=cmn>焰色升空，华樱落尘</span>
   </a>
+  <a class="ml-card-anchor" href="https://vistudium.top">
+	<img src="https://vistudium.top/images/vistudium.svg" loading=lazy>
+	<h2>遠見齋</h2>
+    <span lang=cmn>悟言一室之内</span>
+  </a>
 </dd>
 <dt>Exit C
 <dd>

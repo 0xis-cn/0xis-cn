@@ -69,7 +69,8 @@ h1 span::after {
 		padding: 0;
 	}
 	#top-wrapper {
-		width: calc(100vw - 4em);
+		width: calc(100vw - 8em);
+		margin: 0 -5em 0 1em;
 	}
 }
 #wudada a {
@@ -80,7 +81,7 @@ h1 span::after {
 	line-height: 1.625;
 	margin-top: -8px;
 }
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 47.5em) {
 	:root .card-block {
 		--grid-size: 4rem;
 	}
@@ -263,7 +264,7 @@ body {
 	<div id="top">
 	<form>
 		<img src="https://mastodon-avatar.netlify.app/?username=@matling@toki.social" alt="" class=ml-wordmark>
-		<textarea name=q placeholder="Ask anything" style="background:none;border-width:0;border-bottom-width:1px;padding:0.5rem 4px;font:inherit;font-size:1.125rem;width:100%;resize:none"></textarea>
+		<textarea name=q placeholder="Ask anything" style="background:none;border-width:0;border-bottom-width:1px;padding:0.5rem 4px;font:inherit;width:100%;resize:none"></textarea>
 	</form>
 	</div>
 	<footer class=ml-chokolate style="align-items:flex-end;inset:auto 1em 1em;position:absolute">
@@ -300,7 +301,7 @@ body {
 	<div class=ml-card-anchor style="grid-area: span 4/span 4; display: grid; grid-template-rows: subgrid; line-height: 1.25">
 		{% set newest_post = blog_section.pages | first %}
 		<a id=x href="{{ newest_post.path }}" lang="{{ macros::lang(page=newest_post) }}" {{ macros::lang_rtl(lang=macros::lang(page=newest_post)) }}>
-			<div class=main-section lang=en>Updated on <time datetime="{{ newest_post.date }}">{{ macros::dm(date=newest_post.date) }} DM</time></div>
+			<div class=main-section lang=en>Updated on <time datetime="{{ newest_post.date }}">{{ macros::dm(date=newest_post.date) }}</time></div>
 			<h2>{{ newest_post.title }}</h2>
 			{{ newest_post.summary | striptags | truncate(length=1378) }}
 		</a>

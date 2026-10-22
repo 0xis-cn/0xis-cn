@@ -23,7 +23,7 @@ lower = "Next"
 skip_link = "Skip to Content"
 other_languages = "Translations"
 backlinks = "Backlinks"
-alt_ap = "Interact via ActivityPub"
+alt_ap = "Reply"
 author_sign = "◎"
 
 [languages.zh]
@@ -53,7 +53,7 @@ lower = "新"
 skip_link = "跳至正文"
 other_languages = "外文"
 backlinks = "链入"
-alt_ap = "ActivityPub 回譍"
+alt_ap = "回譍"
 author_sign = "◎"
 
 
@@ -66,7 +66,7 @@ lower = "新"
 skip_link = "跳至正文"
 other_languages = "外文"
 backlinks = "链入"
-alt_ap = "ActivityPub 回譍"
+alt_ap = "回譍"
 author_sign = "◎"
 
 [languages.cmn-arab.translations]
@@ -78,7 +78,7 @@ lower = "سٍ"
 skip_link = "تِىَوْ کَىْش"
 other_languages = "وَىلُ هُوَ"
 backlinks = "زٍلَيْدِ"
-alt_ap = "ActivityPub خَاْ دِمُوَ"
+alt_ap = "خَاْ دِمُوَ"
 author_sign = "◎"
 
 [languages.ko.translations]
@@ -90,7 +90,7 @@ lower = "새"
 skip_link = "내용으로 건너뛰기"
 other_languages = "외문"
 backlinks = "역링크"
-alt_ap = "ActivityPub을 통해 응답"
+alt_ap = "응답"
 author_sign = "◎"
 
 [languages.tok.translations]
@@ -102,7 +102,7 @@ lower = "kama"
 skip_link = "tawa open lipu"
 other_languages = "ante toki"
 backlinks = "linja kama"
-alt_ap = "toki lili kepeken ActivityPub"
+alt_ap = "toki lili"
 author_sign = "⟲"
 
 [languages.art-002.translations]
@@ -114,7 +114,7 @@ lower = "afa"
 skip_link = "go note-kapo"
 other_languages = "Ota linga"
 backlinks = "baka-liga"
-alt_ap = "Reaki via ActivityPub"
+alt_ap = "Reaki"
 author_sign = "◎"
 
 [languages.art-001.translations]
@@ -126,7 +126,7 @@ lower = "後"
 skip_link = "文章之開始于"
 other_languages = "外文"
 backlinks = "連入"
-alt_ap = "ActivityPub以 応対"
+alt_ap = "応対"
 author_sign = "◎"
 
 [languages.ja.translations]
@@ -138,7 +138,7 @@ lower = "後"
 skip_link = "本文にスキップ"
 other_languages = "外文"
 backlinks = "被リンク"
-alt_ap = "ActivityPubで返信"
+alt_ap = "返信"
 author_sign = "◎"
 
 [extra]

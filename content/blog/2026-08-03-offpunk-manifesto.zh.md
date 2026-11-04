@@ -2,11 +2,11 @@
 title = "离线朋克宣言"
 +++
 
-革命永远不会数字化。
+这场革命永远不会数字化。
 
 * [English version](https://blog.ayom.media/ideiasdechirico/offpunk-manifesto)
 * [Version française](https://ploum.net/2026-08-03-offpunk_manifesto.html)
-* [Versão em português](https://blog.ayom.media/ideiasdechirico/offpunk-manifesto)
+* [Versão em português](https://blog.ayom.media/ideiasdechirico/manifesto-offpunk)
 * [Versión en español](https://write.as/hamedtoledo/manifiesto-offpunk)
 * [Versione italiana](https://blogz.zaclys.com/nilocram/manifesto-offpunk)
 * [Deutsche Fassung](https://netzfueralle.blog.rosalux.de/2026/09/15/offpunk-manifest/)
@@ -68,7 +68,7 @@ Trine Syvertsen 于《数字排毒：离线之政治》（*Digital Detox: The Po
 
 相反，离线朋克虽然源于高数字素养，但捍卫简单而不矫揉造作的离线，不会屈居社会活动或公民权利行使的边沿。
 
-数字极简主义将数字排毒视为提升生产力的工具，而离线朋克则视断联为反消费主义态度。
+数字极简主义视数字排毒为提升生产力的工具，离线朋克则视断联为反消费主义态度。
 
 ### 定义
 
@@ -98,7 +98,7 @@ Trine Syvertsen 于《数字排毒：离线之政治》（*Digital Detox: The Po
 
 兹举㡬例：
 
-1. 计算机领域，[Offpunk 浏览器](https://ploum.net/2026-02-09-offpunk3.html)（该宣言名偁来源）以及 Gemini 协议。
+1. 计算机领域，[Offpunk 浏览器](https://ploum.net/2026-02-09-offpunk3.html)（该宣言名偁来源）及 Gemini 协议。
 2. 设计领域，「[永久计算机](https://ploum.net/the-computer-built-to-last-50-years/index.html)」或 Mudita Kompakt 手机之㮣念。
 3. 社会方面，如纽约反技术俱乐部
 4. 文化方面，小说《单车朋克》（*Bikepunk — les chroniques du flash*, 2025）或电影《一战再战》（*One Battle After Another*, 2025）
@@ -108,7 +108,9 @@ Trine Syvertsen 于《数字排毒：离线之政治》（*Digital Detox: The Po
 
 德日合拍电影《完美的日子》（*Perfect Days*, 2023）中，我们可以看到东京公共厕所清洁工平山的田园生活。其在业余时间用胶片拍照、听录音带、骑自行车、合卷而眠，享受生活的每一刻，与世隔绝。
 
-日本，这个一直追求现代与传统平衡的国家，仍提供现金支付终端、用于多数商务通信的固定电话线，大型企业仍使用传真机或软盘等复古计算技术。印度拥有世界上最优秀电话网络之一，一名公民平均每天拨打 90 通电话。
+[^telecom-india]: 译注：来源不详。我找到最接近的统计是 2025 年用户平均每月电话分钟数是 1026 分钟。结合该年印度电话用户数 12.0167 亿人及总人口 14.639 亿人，可得一名印度公民平均每日电话时长是 28.07 分钟。通过对通话时长分布（CDD）建模仍可能估计电话次数，但此种建模往往视语音信箱等情况为噪声。
+
+日本，这个一直追求现代与传统平衡的国家，仍提供现金支付终端、用于多数商务通信的固定电话线，大型企业仍使用传真机或软盘等复古计算技术。印度拥有世界上最优秀电话网络之一，一名公民平均每天拨打 90 通电话。[^telecom-india]
 
 ### 离线朋克运动的优先事项
 
@@ -118,7 +120,7 @@ Trine Syvertsen 于《数字排毒：离线之政治》（*Digital Detox: The Po
 2. 反对计划报废的斗争
 3. 反对「物联网」的斗争，打破互联设备的恶意合围，其浪费人们的时间並榨取数据
 4. 反对注意力经济的斗争
-5. 减少工作时间，反对工作时间日渐虚拟化
+5. 减少工作时间，反对工作时间虚拟化
 6. 无需数字设备的休闲、公民权、工作权
 7. 对弱势与年仧羣体包容性的迫切需要，其不㝻视乎电子设备访问，亦视乎自主使用与维护电子设备，减少外界依赖的数字素养
 
@@ -143,8 +145,8 @@ Trine Syvertsen 于《数字排毒：离线之政治》（*Digital Detox: The Po
 
 我们捍卫非数字世界的不可妥协权利。不经算法与人分享的权利，不经中心化平台的社交组织权，不被要求永久在线的权利。
 
-只要少数公司垄断技术，只要大规模监控与国家同谋存在，且对这些数据的实施手段和使用毫无透明，只要注意力经济能用我们的空闲时间换取广告，只要基础设施破坏发展中国家主权，只要尚存在强制数字化而互联网接入不被视为基本权利：
+只要少数公司垄断技术，只要大规模监控与国家同谋存在，且对这些数据的实施手段和使用毫无透明，只要注意力经济能用我们的空闲时间换取广告，只要基础设施破坏发展中国家主权，只要尚存在强制数字化，而互联网接入不被视为基本权利：
 
-革命就不会数字化!
+革命就不会数字化！
 
-<p class=ml-smaller>本文最初由 Arlon de Serra Grande 以葡萄牙语撰写，Lionel Dricot（Ploum）联署<br>（物按：我只核对了葡英法三种语言。Ploum 的法语发布版个别文句略有不同，主要是示例与琐碎用词差异，对此我任取其一。作为宣言，译文有时使用通行词（如「国家」）而非我一般使用的词。以 CC BY-SA 4.0 发布。）</p>
+<p class=ml-smaller>本文最初由 Arlon de Serra Grande 以葡萄牙语撰写，Lionel Dricot（Ploum）联署<br>（物按：我只核对了葡英法三版。Ploum 的法语发布版个别文句略有不同，主要是示例与琐碎用词差异，对此我任取其一。作为宣言，译文有时使用通行词（如「国家」）而非我一般使用的词。以 CC BY-SA 4.0 发布。）</p>

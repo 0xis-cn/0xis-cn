@@ -84,7 +84,7 @@ Theme switched to 2038 designed in a fortnight.
 
 ### „AI usage“
 
-Except for [older](@/blog/2025-05-31-my-path-after-twenty-years.md) [posts](@/blog/2025-05-02-a-slice-of-bash-programmable-completion.md) or quotes, original content in matling.fit does not include output from generative models.
+Original content in matling.fit does not include output from generative language or visual models.
 
 This holds for the original version of multilingual posts (which is English except otherwise mentioned). Translations are typically made with local LLMs and thoroughly proofread primarily to keep the nuances and style; I do not publish unproofread translations.
 
